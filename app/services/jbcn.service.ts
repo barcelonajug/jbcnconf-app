@@ -10,11 +10,13 @@ export class JbcnService {
     http: Http;
     json: string;
     schedule;
+    tags;
 
 
 
     constructor(http: Http) {
         this.http = http;
+        this.tags = [];
     }
     
     getFavorites() {
@@ -53,8 +55,10 @@ export class JbcnService {
         }
         return favorites;
     }
+    
 
     processJson(json) {
+        console.debug("Processing json");
         let data:any = {}
         data.speakers=[];
         data.speakersRef={};
@@ -62,10 +66,12 @@ export class JbcnService {
         data.schedule=[];
         let processed = {};
         let day1 = {
-            "date": Date.parse("2017-06-16"),
+            "date": Date.parse("2016-06-16"),
             "meetings":[]
         };
         
+        let tagArray = [];
+        this.tags = [];
         for(var i=0; i<json.speakers.length; i++) {
             let speaker = json.speakers[i];
             let item = {};
@@ -93,16 +99,24 @@ export class JbcnService {
                     meeting['speakers'].push(speaker.cospeakerref);
                 }
                 meeting['tags']=talk.tags;
+                
+                for(let iTag=0; iTag<talk.tags.length; iTag++) {
+                    let tag = talk.tags[iTag];
+                    if(tagArray.indexOf(tag)==-1) this.tags.push(tag);
+                }
+                
                 meeting['level']=talk.meeting;
                 meeting['type']='talk';
                 meeting['visible'] = true;
                 meeting['id']=meetingId;
                 processed[meeting['title']] = true;
                 meetingId++;
-                day1.meetings.push(meeting);    
+                day1.meetings.push(meeting); 
+                this.tags = tagArray.sort();   
             }
             
         }
+        data.tags = this.tags;
         data.schedule.push(day1);
         return data;
     }
@@ -119,6 +133,10 @@ export class JbcnService {
                 resolve(jbcnData);
             });
         });
+    }
+    
+    getTags() {
+        return this.tags;    
     }
 
 }

@@ -12,12 +12,16 @@
       </ion-avatar>
     {{speaker.name}}
   </h4>
-
   <p>
       {{meeting.timeStart | date:'HH:mm'}} &mdash; {{meeting.timeEnd | date:'HH:mm'}}
   </p>
 
   <p>{{meeting.location}}</p>
+  <p>
+
+     <ion-icon [name]="getIcon(n)" *ngFor="#n of [1,2,3,4,5]" class="meeting-vote" (click)="voteMeeting(meeting,n)"></ion-icon>
+  </p>
+  <p><ion-badge item-right *ngFor="#tag of meeting.tags">{{tag}}</ion-badge></p>
 
   <p [innerHTML]="meeting.about" ></p>
 </ion-content>

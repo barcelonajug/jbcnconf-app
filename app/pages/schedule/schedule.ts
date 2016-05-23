@@ -12,15 +12,20 @@ export class Schedule {
     favorites;
     nav;
     tracks;
+    tags;
+    search;
     
     constructor(jbcnService:JbcnService, nav:NavController) {
         this.nav = nav;
         this.jbcnService = jbcnService;
         this.jbcnService.load().then(data => {
             this.schedule = data.schedule;
+            this.tags = data.tags;
         });
+        
         this.favorites = this.jbcnService.getFavorites();
         this.tracks="all";
+        this.search = {day:'',track:-1,tag:''}
         this.applyFilters();
     }
     
@@ -46,6 +51,19 @@ export class Schedule {
         this.favorites = this.jbcnService.getFavorites();
     }
     
+    clearFilters() {
+        this.search = {day:'',track:-1,tag:''}
+        this.applyFilters();
+    }
+    
+    filterByTag(evt, tag) {
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.tracks = 'filter';
+        this.search = {day:'',track:-1,tag:tag};
+        this.applyFilters();
+    }
+    
     applyFilters() {
         for(var i=0; i<this.schedule.length; i++) {
             var day = this.schedule[i];
@@ -57,8 +75,15 @@ export class Schedule {
                     day.meetings[j].visible = this.jbcnService.isFavorite(day.meetings[j].id);
                 }
                 if(this.tracks == 'filter') {
-                    //TODO: applyFilters
-                    day.meetings[j].visible = true;
+                    let applyDayFilter = this.search.day != '';
+                    let applyTrackFilter = this.search.track >-1;
+                    let applyTagFilter = this.search.tag != '';
+                    console.debug(day.date + " = " + Date.parse(this.search.day) + "?" + (Date.parse(this.search.day)==day.date));
+                    day.meetings[j].visible = (
+                        (!applyDayFilter || Date.parse(this.search.day)==day.date) && 
+                        (!applyTrackFilter ||day.meetings[j].track == this.search.track) &&
+                        (!applyTagFilter || day.meetings[j].tags.indexOf(this.search.tag)>-1)
+                    );
                 }
             }
         }

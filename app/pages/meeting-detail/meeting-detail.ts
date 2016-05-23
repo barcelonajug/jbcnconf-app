@@ -11,8 +11,10 @@ export class MeetingDetail {
     meeting;
     speakers;
     nav: NavController;
+    vote;
     constructor(navParams:NavParams, jbcnService:JbcnService,nav: NavController) {
         this.meeting = navParams.data;
+        this.vote=3;
         this.nav = nav;
         jbcnService.load().then(data => {
             this.speakers = [];
@@ -26,5 +28,19 @@ export class MeetingDetail {
     
      goToSpeakerDetail(speaker) {
         this.nav.push(SpeakerDetail, speaker);
+    }
+    
+    voteMeeting(meeting,n) {
+        this.vote=n;
+    }
+    
+    
+    
+    getIcon(n) {
+        if(n<=this.vote) {
+            return 'heart';
+        } else {
+            return 'heart-outline';
+        }
     }
 }
