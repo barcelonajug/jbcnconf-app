@@ -45,7 +45,7 @@
     <ion-list>
         <ion-item-group *ngFor="#day of schedule">
 
-            <ion-item-divider sticky>
+            <ion-item-divider>
                 {{day.date | date:"dd/MM/yyyy"}}
             </ion-item-divider>
             <ion-row *ngFor="#meeting of day.meetings">

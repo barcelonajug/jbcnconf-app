@@ -12,7 +12,9 @@
     <button clear small github><ion-icon name="logo-github"></ion-icon></button>
     <button clear small instagram><ion-icon name="logo-instagram"></ion-icon></button>
   </div>
-
-  <p [innerHTML]="speaker.biography"></p>
+  <p><strong>{{speaker.description}}</strong></p>
+  <p>{{speaker.biography}}</p>
+  <p>Talk:</p>
+  <p><a (click)="goToMeetingDetail(talk)">{{talk.title}}</a></p>
 
 </ion-content>

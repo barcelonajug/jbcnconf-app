@@ -10,6 +10,7 @@ export class JbcnService {
     http: Http;
     json: string;
     schedule;
+    speakers;
     tags;
 
 
@@ -116,8 +117,30 @@ export class JbcnService {
             }
             
         }
+        
+        
         data.tags = this.tags;
         data.schedule.push(day1);
+        for(let iDay=0; iDay<data.schedule.length; iDay++) {
+            let day = data.schedule[iDay];
+            for(let iMeeting=0; iMeeting<day.meetings.length; iMeeting++) {
+                let meeting = day.meetings[iMeeting];
+                meeting.ref = iMeeting;
+                for(let iSpeaker=0; iSpeaker<meeting.speakers.length; iSpeaker++) {
+                    let meetingSpeaker = meeting.speakers[iSpeaker];
+                    for(let iRealSpeaker = 0; iRealSpeaker<data.speakers.length; iRealSpeaker++) {
+                        let realSpeaker = data.speakers[iRealSpeaker];
+                        if(realSpeaker.ref == meetingSpeaker) {
+                            realSpeaker.meetingRef = meeting.ref;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        this.schedule = data.schedule;
+        this.speakers = data.speakers;
+
         return data;
     }
 
@@ -138,5 +161,4 @@ export class JbcnService {
     getTags() {
         return this.tags;    
     }
-
 }

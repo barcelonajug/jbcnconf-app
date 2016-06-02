@@ -24,8 +24,10 @@ export class Speakers {
         this.nav.push(SpeakerDetail, speaker);
     }
 
-    goToSpeakerTwitter(speaker) {
-        window.open(`https://twitter.com/${speaker.twitter}`);
+    goToSpeakerTwitter(speaker,evt) {
+        evt.preventDefault();
+        evt.stopPropagation();
+        window.open(speaker.twitter);
     }
 
 

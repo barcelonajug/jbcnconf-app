@@ -78,7 +78,7 @@ export class Schedule {
                     let applyDayFilter = this.search.day != '';
                     let applyTrackFilter = this.search.track >-1;
                     let applyTagFilter = this.search.tag != '';
-                    console.debug(day.date + " = " + Date.parse(this.search.day) + "?" + (Date.parse(this.search.day)==day.date));
+
                     day.meetings[j].visible = (
                         (!applyDayFilter || Date.parse(this.search.day)==day.date) && 
                         (!applyTrackFilter ||day.meetings[j].track == this.search.track) &&

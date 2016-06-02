@@ -1,14 +1,40 @@
-import {Page, NavParams} from 'ionic-angular';
+import {Page, NavParams,NavController} from 'ionic-angular';
 
 import {Inject} from 'angular2/core';
 import {JbcnService} from '../../services/jbcn.service';
+import {MeetingDetail} from '../meeting-detail/meeting-detail';
 
 @Page({
     templateUrl: 'build/pages/speaker-detail/speaker-detail.html'
 })
 export class SpeakerDetail {
     speaker;
-    constructor(navParams:NavParams, jbcnService:JbcnService) {
+    talk;
+    nav;
+    constructor(navParams:NavParams, jbcnService:JbcnService, nav:NavController) {
+        this.nav=nav;
         this.speaker = navParams.data;
+        jbcnService.load().then(data => {
+            let schedule = data.schedule;
+            console.debug("searchinf for meeting with ref:"+this.speaker.meetingRef);
+            console.debug(schedule);
+            for(let iDay=0; iDay<schedule.length; iDay++) {
+                let day = schedule[iDay];
+                for(let iTalk=0; iTalk<day.meetings.length; iTalk++) {
+                    console.debug(day.meetings[iTalk].ref + "==" + this.speaker.meetingRef);
+                    if(day.meetings[iTalk].ref == this.speaker.meetingRef) {
+                        this.talk = day.meetings[iTalk];
+                        break;
+                    }
+                }
+                if(this.talk) break;
+            }
+            
+        });
+        
+    }
+    
+    goToMeetingDetail(meeting) {
+        this.nav.push(MeetingDetail, meeting);
     }
 }

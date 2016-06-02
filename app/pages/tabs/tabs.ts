@@ -1,7 +1,9 @@
 import {Page} from 'ionic-angular';
 import {Schedule} from '../schedule/schedule';
 import {Speakers} from '../speakers/speakers';
-import {Page3} from '../page3/page3';
+import {About} from '../about/about';
+import {Location} from '../location/location';
+import {Sponsors} from '../sponsors/sponsors';
 
 
 @Page({
@@ -10,7 +12,9 @@ import {Page3} from '../page3/page3';
 export class TabsPage {
   // this tells the tabs component which Pages
   // should be each tab's root Page
-  tab1Root: any = Schedule;
-  tab2Root: any = Speakers;
-  tab3Root: any = Page3;
+  schedule: any = Schedule;
+  speakers: any = Speakers;
+  about: any = About;
+  location: any = Location;
+  sponsors: any = Sponsors;
 }
