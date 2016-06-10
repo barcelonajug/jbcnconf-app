@@ -1,0 +1,20 @@
+<ion-navbar *navbar>
+    <ion-title>
+        Speakers
+    </ion-title>
+</ion-navbar>
+
+<ion-content class="page2">
+    <ion-list>
+            <ion-item *ngFor="#speaker of speakers" (click)="goToSpeakerDetail(speaker)" class="item-speaker">
+                <img [src]="speaker.image" item-left class="speaker-list-image">
+                <strong>{{speaker.name}}</strong>
+                <div>{{speaker.description}}</div>
+                <button (click)="goToSpeakerTwitter(speaker,$event)">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </button>
+            </ion-item>
+    </ion-list>
+    
+
+</ion-content>

@@ -1,0 +1,56 @@
+.schedule-star {
+    font-size: 30px;
+}
+
+.track p {
+    color:#fff;
+    font-weight: bold;
+}
+
+.track-0 {
+    background-color: #9f9f9f;
+}
+
+.track-1 {
+    background-color: #387EF5;
+}
+
+.track-2 {
+    background-color: #E1AD38;
+}
+
+.track-3 {
+    background-color: #F53D3D;
+}
+
+.track-4 {
+    background-color: #32DB64;
+}
+
+.schedule-filter-button {
+    float: right;
+    margin-right: 13px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.schedule-filter-selection {
+     background-color:#006D98;
+}
+
+.segment-button.activated, .segment-button.segment-activated {
+    border-color: #fff;
+    color: #fff;
+}
+    
+ion-item.button-holder.item {
+    border-bottom: 0px;
+}
+
+ion-list + ion-list {
+       margin-top: 0px;
+}
+
+.meeting-vote {
+    font-size:2em;
+}

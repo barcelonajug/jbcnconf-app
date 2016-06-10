@@ -1,0 +1,51 @@
+.jbcn-footer, .toolbar-title, .toolbar-background {
+    background-color:#006D98;
+    color:#fff;
+    vertical-align: middle;
+}
+
+tabbar {
+    background-color:#006D98;
+    color:#fff;
+}
+
+.tab-button[aria-selected=true] {
+    opacity: 1.0;
+    color: #fff;
+}
+
+.tab-button {
+    color: #cacaca;
+}
+
+.segment-button {
+    color: #cacaca;
+}
+
+tab-highlight {
+    color: #fff;
+    background: #fff;
+}
+
+ion-list-header, ion-item-divider {
+    color: #fff;
+    background-color: #006D98;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.image-footer {
+    width: 20%;
+    float: right;
+}
+
+.text-footer {
+    vertical-align: middle;
+    display: inline;
+    float: left;
+    padding-top: 2%;
+}
+
+.back-button {
+    color: #fff;
+}
