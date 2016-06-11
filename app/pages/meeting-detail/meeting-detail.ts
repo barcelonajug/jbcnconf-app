@@ -1,5 +1,4 @@
 import {Page,NavController, NavParams} from 'ionic-angular';
-
 import {Inject} from '@angular/core';
 import {JbcnService} from '../../services/jbcn.service';
 import {SpeakerDetail} from '../speaker-detail/speaker-detail';
@@ -38,8 +37,6 @@ export class MeetingDetail {
         this.vote=n;
         this.jbcnService.voteMeeting(meeting.id, n);
     }
-    
-    
     
     getIcon(n) {
         if(n<=this.vote) {

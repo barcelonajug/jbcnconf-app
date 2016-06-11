@@ -1,5 +1,4 @@
 import {Page, NavParams,NavController} from 'ionic-angular';
-
 import {Inject} from '@angular/core';
 import {JbcnService} from '../../services/jbcn.service';
 import {MeetingDetail} from '../meeting-detail/meeting-detail';

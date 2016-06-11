@@ -17,4 +17,5 @@ export class TabsPage {
   about: any = About;
   location: any = Location;
   sponsors: any = Sponsors;
+
 }

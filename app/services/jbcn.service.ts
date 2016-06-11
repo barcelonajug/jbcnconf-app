@@ -4,7 +4,6 @@ import {Device} from 'ionic-native';
 import 'rxjs/Rx';
 import { FirebaseRef } from 'angularfire2';
 
-
 var jbcnData;
 var favorites;
 
@@ -49,8 +48,6 @@ export class JbcnService {
     speakers;
     tags;
 
-
-
     constructor(private http: Http, @Inject(FirebaseRef) private ref: Firebase) {
         this.http = http;
         this.tags = [];
@@ -67,12 +64,10 @@ export class JbcnService {
             return this.loadFavorites();
         }
     }
-
     addFavorite(meeting) {
         favorites[meeting.id] = meeting;
         this.saveFavorites();
     }
-
     removeFavorite(meeting) {
         delete favorites[meeting.id];
         this.saveFavorites();
@@ -286,5 +281,4 @@ export class JbcnService {
         return this.http.get(firebaseUrl+"/vote/"+uuid+"/"+meetingId+"/vote.json")
             .map(response => response.json);
     }
-
 }

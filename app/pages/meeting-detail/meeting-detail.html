@@ -18,10 +18,8 @@
 
   <p>{{meeting.location}}</p>
   <p>
-
      <ion-icon [name]="getIcon(n)" *ngFor="let n of [1,2,3,4,5]" class="meeting-vote" (click)="voteMeeting(meeting,n)"></ion-icon>
   </p>
   <p><ion-badge item-right *ngFor="let tag of meeting.tags">{{tag}}</ion-badge></p>
-
   <p [innerHTML]="meeting.about" ></p>
 </ion-content>

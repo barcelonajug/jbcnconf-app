@@ -2,7 +2,6 @@ import {Page,NavController} from 'ionic-angular';
 import {JbcnService} from '../../services/jbcn.service';
 import {MeetingDetail} from '../meeting-detail/meeting-detail';
 
-
 @Page({
   templateUrl: 'build/pages/schedule/schedule.html',
   providers:[JbcnService]
@@ -28,7 +27,6 @@ export class Schedule {
         this.tracks="all";
         this.search = {day:'',track:-1,tag:''}
         this.applyFilters();
-        
     }
     
     favoriteIcon(meeting) {

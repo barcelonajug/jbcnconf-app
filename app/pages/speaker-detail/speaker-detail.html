@@ -6,13 +6,13 @@
 <ion-content padding class="speaker-detail">
 
   <div text-center>
-    <img [src]="speaker.image" [alt]="speaker.name"><br>
-    
+    <img [src]="speaker.image" [alt]="speaker.name"><br>    
     <button clear twitter (click)="goToSpeakerTwitter($event)"><ion-icon name="logo-twitter"></ion-icon></button>
   </div>
   <p><strong>{{speaker.description}}</strong></p>
   <p>{{speaker.biography}}</p>
   <p>Talk:</p>
   <p><a (click)="goToMeetingDetail(talk)">{{talk.title}}</a></p>
+
   <p></p><p></p><p></p><p></p><p></p>
 </ion-content>
