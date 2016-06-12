@@ -34,9 +34,10 @@ export class SpeakerDetail {
         this.nav.push(MeetingDetail, meeting);
     }
     
-    goToSpeakerTwitter(evt) {
-        evt.preventDefault();
-        evt.stopPropagation();
-        window.open(this.speaker.twitter,"_system");
+    goToSpeakerTwitter() {
+        //evt.preventDefault();
+        //evt.stopPropagation();
+        console.debug("Opening "+this.speaker.twitter);
+        window.open(this.speaker.twitter);
     }
 }

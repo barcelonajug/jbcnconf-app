@@ -1,7 +1,6 @@
 var gulp = require('gulp'),
     gulpWatch = require('gulp-watch'),
     del = require('del'),
-
     runSequence = require('run-sequence'),
     argv = process.argv;
 
@@ -13,7 +12,7 @@ var gulp = require('gulp'),
 gulp.task('serve:before', ['watch']);
 gulp.task('emulate:before', ['build']);
 gulp.task('deploy:before', ['build']);
-
+gulp.task('build:before', ['build']);
 
 // we want to 'watch' when livereloading
 var shouldWatch = argv.indexOf('-l') > -1 || argv.indexOf('--livereload') > -1;
@@ -32,7 +31,6 @@ var buildSass = require('ionic-gulp-sass-build');
 var copyHTML = require('ionic-gulp-html-copy');
 var copyFonts = require('ionic-gulp-fonts-copy');
 var copyScripts = require('ionic-gulp-scripts-copy');
-
 
 var isRelease = argv.indexOf('--release') > -1;
 
@@ -67,7 +65,6 @@ gulp.task('sass', buildSass);
 gulp.task('html', copyHTML);
 gulp.task('fonts', copyFonts);
 gulp.task('scripts', copyScripts);
-
 gulp.task('clean', function(){
   return del('www/build');
 });
