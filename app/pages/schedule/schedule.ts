@@ -11,7 +11,7 @@ export class Schedule {
     jbcnService;
     favorites;
     nav;
-    tracks;
+    tracks: string = "all";
     tags;
     search;
     
@@ -22,9 +22,8 @@ export class Schedule {
             this.schedule = data.schedule;
             this.tags = data.tags;
         });
-        
-        this.favorites = this.jbcnService.getFavorites();
         this.tracks="all";
+        this.favorites = this.jbcnService.getFavorites();
         this.search = {day:'',track:-1,tag:''}
         this.applyFilters();
     }
@@ -63,6 +62,14 @@ export class Schedule {
         this.search = {day:'',track:-1,tag:tag};
         this.applyFilters();
     }
+
+    filterByTrack(evt, track) {
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.tracks = 'filter';
+        this.search = {day:'',track:track,tag:''};
+        this.applyFilters();
+    }
     
     countVisibleMeetings(day) {
         let counter = 0;
@@ -71,8 +78,14 @@ export class Schedule {
         }
         return counter;
     }
+
+    apply(track) {
+        this.tracks = track;
+        this.applyFilters();
+    }
     
     applyFilters() {
+        console.debug("applyFilters - "+this.tracks);
         for(var i=0; i<this.schedule.length; i++) {
             var day = this.schedule[i];
             for(var j=0; j<day.meetings.length; j++) {
@@ -94,12 +107,6 @@ export class Schedule {
                     );
                 }
             }
-        }
-        if(this.tracks == 'all') {
-            
-        }
-        if(this.tracks=='mytracks') {
-           
         }
     }
 }

@@ -9,13 +9,13 @@ var favorites;
 
 const firebaseUrl ="https://jbcnconf.firebaseio.com";
 
-var dayTimes = {
+const dayTimes = {
     "THU": "2016-06-16",
     "FRI": "2016-06-17",
     "SAT": "2016-06-18"
 }
 
-var seasonsTimes = {
+const seasonsTimes = {
     "THU": {
         "SE1": { "timeStart": "14:30", "timeStop": "16:30" },
         "SE2": { "timeStart": "16:45", "timeStop": "18:45" }
@@ -39,6 +39,27 @@ var seasonsTimes = {
         "SE7": { "timeStart": "16:45", "timeStop": "17:35" }
     }
 };
+
+const locations = {
+    "THU":{
+        "1":"Room 20.019",
+        "2":"Room 20.017",
+        "3":"Room 20.023",
+        "4":"Room 20.027"
+    },
+    "FRI":{
+        "1":"Room 40.002",
+        "2":"Room 40.004",
+        "3":"Room 40.006",
+        "4":"Room 40.008"
+    },
+    "SAT":{
+        "1":"Room 20.019",
+        "2":"Room 20.021",
+        "3":"Room 20.023",
+        "4":"Room 20.027"
+    }
+}
 
 @Injectable()
 export class JbcnService {
@@ -165,7 +186,6 @@ export class JbcnService {
                 let meeting = {};
                 meeting['title'] = talk.title;
                 meeting['about'] = talk.abstract;
-                meeting['location'] = 'Location 1';
                 meeting['speakers'] = [speaker.ref];
                 if (speaker.cospeakerref) {
                     meeting['speakers'].push(speaker.cospeakerref);
@@ -185,6 +205,8 @@ export class JbcnService {
                 let day = meeting['id'].substring(1, 4);
                 let track = meeting['id'].substring(7, 8);
                 let session = meeting['id'].substring(9, 12);
+                meeting['location'] = locations[day][track];
+                meeting['session'] = meeting['id'].substring(11, 12);
                 meeting['id'] = speaker.scheduleId.substring(1);
                 meeting['track'] = track;
                 meeting['timeStart'] = Date.parse(dayTimes[day]+" "+seasonsTimes[day][session]["timeStart"]);

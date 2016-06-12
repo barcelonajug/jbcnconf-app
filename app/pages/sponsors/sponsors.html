@@ -1,4 +1,3 @@
-
 <ion-navbar *navbar>
   <ion-title>
     Our sponsors
@@ -6,71 +5,74 @@
 </ion-navbar>
 
 <ion-content class="page3">
-  
+
   <ion-item-group>
 
-      <ion-item-divider class="gold-sponsor-title">Gold</ion-item-divider>
-      <ion-item>
-        <ion-grid>
-           <ion-row>
-              <ion-col width-40>
-                <img src="assets/img/sponsors/redhat.png" class="gold-sponsor"/>
-              </ion-col>
-              <ion-col width-40>
-                <img src="assets/img/sponsors/netcentric.png" class="gold-sponsor"/>
-              </ion-col>
-           </ion-row>
-           <ion-row>
-              <ion-col width-40>
-                <img src="assets/img/sponsors/altran.png" class="gold-sponsor"/>
-              </ion-col>
-              <ion-col width-40>
-                <img src="assets/img/sponsors/ocadotechnology.png" class="gold-sponsor"/>
-              </ion-col>
-           </ion-row>
-           
-           <ion-row>
-              <ion-col width-40>
-                <img src="assets/img/sponsors/eDreamsODIGEO.png" class="gold-sponsor"/>
-              </ion-col>
-              <ion-col width-40>
-                <img src="assets/img/sponsors/zalando.png" class="gold-sponsor"/>
-              </ion-col>
-           </ion-row>
-        </ion-grid>
-      </ion-item>
-        
-      <ion-item></ion-item>
-
-      <ion-item-divider class="silver-sponsor-title">Silver</ion-item-divider>
-        
-        <ion-grid>
-           <ion-row>
-              <ion-col>
-                <img src="assets/img/sponsors/everis.png" class="silver-sponsor"/>
-              </ion-col>
-              <ion-col>
-                <img src="assets/img/sponsors/schibsted.png" class="silver-sponsor"/>
-              </ion-col>
-           </ion-row>
-        </ion-grid>
-        
-    <ion-item-divider class="bronze-sponsor-title">Bronze</ion-item-divider>
-      
+    <ion-item-divider class="gold-sponsor-title">Gold</ion-item-divider>
+    <ion-item>
       <ion-grid>
-           <ion-row>
-              <ion-col width-30>
-                <img src="assets/img/sponsors/cloudbees.png" class="bronze-sponsor"/>
-              </ion-col>
-              <ion-col width-30>
-                <img src="assets/img/sponsors/netsuite.png" class="bronze-sponsor"/>
-              </ion-col>
-              <ion-col width-30>
-                <img src="assets/img/sponsors/opentrends.png" class="bronze-sponsor"/>
-              </ion-col>
-           </ion-row>
-        </ion-grid>
-        
-    </ion-item-group>
+        <ion-row>
+          <ion-col width-40>
+            <img src="assets/img/sponsors/redhat.png" class="gold-sponsor" (ngClick)="openSponsor('http://www.redhat.com/')" />
+          </ion-col>
+          <ion-col width-40>
+            <a href="http://www.netcentric.biz/"><img src="assets/img/sponsors/netcentric.png" class="gold-sponsor" /></a>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-40>
+            <a href="http://www.altran.es/"><img src="assets/img/sponsors/altran.png" class="gold-sponsor" /></a>
+          </ion-col>
+          <ion-col width-40>
+            <a href="http://www.ocadotechnology.com/"><img src="assets/img/sponsors/ocadotechnology.png" class="gold-sponsor" /></a>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-40>
+            <a href="http://www.edreamsodigeo.com/"><img src="assets/img/sponsors/eDreamsODIGEO.png" class="gold-sponsor" /></a>
+          </ion-col>
+          <ion-col width-40>
+            <a href="https://tech.zalando.de/"><img src="assets/img/sponsors/zalando.png" class="gold-sponsor" /></a>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col width-40>
+            <a href="http://weareadaptive.com/"><img src="assets/img/sponsors/adaptive.png" class="gold-sponsor" /></a>
+          </ion-col>
+          <ion-col width-40></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+
+    <ion-item-divider class="silver-sponsor-title">Silver</ion-item-divider>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <a href=""><img src="assets/img/sponsors/everis.png" class="silver-sponsor" /></a>
+        </ion-col>
+        <ion-col>
+          <a href=""><img src="assets/img/sponsors/schibsted.png" class="silver-sponsor" /></a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-item-divider class="bronze-sponsor-title">Bronze</ion-item-divider>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col width-30>
+          <img src="assets/img/sponsors/cloudbees.png" class="bronze-sponsor" />
+        </ion-col>
+        <ion-col width-30>
+          <img src="assets/img/sponsors/netsuite.png" class="bronze-sponsor" />
+        </ion-col>
+        <ion-col width-30>
+          <img src="assets/img/sponsors/opentrends.png" class="bronze-sponsor" />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </ion-item-group>
 
 </ion-content>

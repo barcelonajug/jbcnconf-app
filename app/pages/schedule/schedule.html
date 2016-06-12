@@ -4,7 +4,7 @@
 
 <ion-content class="schedule">
     <div padding class="schedule-filter-selection">
-        <ion-segment [(ngModel)]="tracks" (change)="applyFilters()">
+        <ion-segment [(ngModel)]="tracks" (ngModelChange)="applyFilters()">
             <ion-segment-button value="all">All</ion-segment-button>
             <ion-segment-button value="mytracks">My tracks</ion-segment-button>
             <ion-segment-button value="filter">Filter tracks</ion-segment-button>
@@ -13,7 +13,7 @@
     <ion-list *ngIf="tracks=='filter'">
         <ion-item>
             <ion-label>Day</ion-label>
-            <ion-select [(ngModel)]="search.day"  (change)="applyFilters()">
+            <ion-select [(ngModel)]="search.day"  (ngModelChange)="applyFilters()">
                 <ion-option value="">None</ion-option>
                 <ion-option value="2016-06-16">16/06/2016</ion-option>
                 <ion-option value="2016-06-17">17/06/2016</ion-option>
@@ -22,7 +22,7 @@
         </ion-item>
         <ion-item>
             <ion-label >Track</ion-label>
-            <ion-select [(ngModel)]="search.track" (change)="applyFilters()">
+            <ion-select [(ngModel)]="search.track" (ngModelChange)="applyFilters()">
             <ion-option value="-1">None</ion-option>
             <ion-option value="0">Global track</ion-option>
             <ion-option value="1">Track 1</ion-option>
@@ -33,7 +33,7 @@
         </ion-item>
         <ion-item>
                <ion-label>Tags</ion-label>
-               <ion-select [(ngModel)]="search.tag"  (change)="applyFilters()">
+               <ion-select [(ngModel)]="search.tag"  (ngModelChange)="applyFilters()">
                    <ion-option value="">None</ion-option>
                    <ion-option *ngFor="let tag of tags" value="{{tag}}">{{tag}}</ion-option>
                 </ion-select>
@@ -51,13 +51,13 @@
                 {{day.date | date:'E'}} {{day.date | date: 'dd'}}/{{day.date | date:'MM'}}/{{day.date | date: 'yyyy'}}
             </ion-item-divider>
             <ion-row *ngFor="let meeting of day.meetings">
-                <ion-col class="track track-{{meeting.track}}" (click)="goToMeetingDetail(meeting)" width-20 *ngIf="meeting.visible == true">
+                <ion-col class="track session-{{meeting.session}}" (click)="goToMeetingDetail(meeting)" width-20 *ngIf="meeting.visible == true">
                     <p>{{meeting.timeStart | date:'HH:mm'}}</p>
                     <p>{{meeting.timeEnd | date:'HH:mm'}}</p>
                 </ion-col>
                 <ion-col width-70 (click)="goToMeetingDetail(meeting)" wrap *ngIf="meeting.visible == true">
-                    <strong>{{meeting.title}}</strong>
-                    <p>{{meeting.location}} - Track {{meeting.track}}</p>
+                    <strong>{{meeting.title}} - {{meeting.session}}</strong>
+                    <p><span class="track-{{meeting.track}}" (click)="filterByTrack($event,meeting.track)"><strong>Track {{meeting.track}}</strong></span> - {{meeting.location}}</p>
                     <p>
                         <ion-badge item-right *ngFor="let tag of meeting.tags" (click)="filterByTag($event,tag)">{{tag}}</ion-badge>
                     </p>
