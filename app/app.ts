@@ -13,17 +13,9 @@ import {
 
 
 @Component({
-  template: '<ion-nav [root]="rootPage"></ion-nav>',
-  providers:[JbcnService, FIREBASE_PROVIDERS,
-        defaultFirebase('https://jbcnconf.firebaseio.com'),
-        firebaseAuthConfig({
-            provider: AuthProviders.Password,
-            method: AuthMethods.Password,
-            remember: 'default',
-            scope: ['email']
-        })]
+  template: '<ion-nav [root]="rootPage"></ion-nav>'
 })
-export class MyApp {
+export class ConferenceApp {
   rootPage: any = TabsPage;
 
   constructor(platform: Platform, jbcnService:JbcnService) {
@@ -36,4 +28,14 @@ export class MyApp {
   }
 
 }
-ionicBootstrap(MyApp);
+ionicBootstrap(ConferenceApp, [JbcnService, FIREBASE_PROVIDERS,
+        defaultFirebase('https://jbcnconf.firebaseio.com'),
+        firebaseAuthConfig({
+            provider: AuthProviders.Password,
+            method: AuthMethods.Password,
+            remember: 'default',
+            scope: ['email']
+        })], 
+        {
+          tabbarPlacement: 'bottom'
+        });

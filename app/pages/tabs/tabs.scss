@@ -49,3 +49,9 @@ ion-list-header, ion-item-divider {
 .back-button {
     color: #fff;
 }
+
+span.twittertag {
+    position: absolute;
+    right: 30%;
+    z-index: 1000;
+}

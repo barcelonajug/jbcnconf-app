@@ -37,6 +37,6 @@ export class SpeakerDetail {
     goToSpeakerTwitter(evt) {
         evt.preventDefault();
         evt.stopPropagation();
-        window.open(this.speaker.twitter);
+        window.open(this.speaker.twitter,"_system");
     }
 }
