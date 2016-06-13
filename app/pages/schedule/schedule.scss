@@ -57,10 +57,13 @@
 }
 
 .schedule-filter-button {
-    float: right;
-    margin-right: 13px;
+    /* float: right; */
+    /* margin-right: 13px; */
     font-size: 11px;
     font-weight: bold;
+    margin-top: 10px;
+    position: absolute;
+    right: 10px;
 }
 
 .schedule-filter-selection {
@@ -82,4 +85,13 @@ ion-list + ion-list {
 
 .meeting-vote {
     font-size:2em;
+}
+
+ion-item.button-holder.item {
+    height: 0px;
+}
+
+.button-holder {
+    position: relative;
+    height: 3em;
 }

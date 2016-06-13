@@ -40,9 +40,10 @@
                 {{tags}}
         
         </ion-item>
-        <ion-item class="button-holder">
-        <button class="schedule-filter-button" (click)="clearFilters()">Clear filter</button>
-        </ion-item>
+        <div class="button-holder">
+        <button class="schedule-filter-button" (click)="clearFilters($event)">Clear filter</button>
+        </div>
+        
     </ion-list>
     <ion-list>
         <ion-item-group *ngFor="let day of schedule">

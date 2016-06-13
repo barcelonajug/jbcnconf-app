@@ -50,7 +50,8 @@ export class Schedule {
         this.favorites = this.jbcnService.getFavorites();
     }
     
-    clearFilters() {
+    clearFilters(evt) {
+        console.debug("clear filters");
         this.search = {day:'',track:-1,tag:''}
         this.applyFilters();
     }

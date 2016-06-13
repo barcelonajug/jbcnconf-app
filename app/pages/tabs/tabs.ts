@@ -19,7 +19,6 @@ export class TabsPage {
   sponsors: any = Sponsors;
 
   gotoTwitterTag(evt) {
-        console.debug("¿Pero entrar entra?");
         evt.preventDefault();
         evt.stopPropagation();
         window.open("https://twitter.com/hashtag/jbcn16?f=tweets&vertical=default","_system");

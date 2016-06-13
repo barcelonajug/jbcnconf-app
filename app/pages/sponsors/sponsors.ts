@@ -6,8 +6,9 @@ import {Page} from 'ionic-angular';
 })
 export class Sponsors {
 
-  openSponsor(url) {
-      window.open(url, "_system");	  
+  openSponsor(url, evt) {
+      console.debug("opening sponsor");
+      window.open(url);	  
   }
 
 }
