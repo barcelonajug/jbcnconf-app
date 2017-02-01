@@ -1,0 +1,5 @@
+#!bin/bash
+ionic build android --release
+cp /Users/jguitart/Desarrollo/workspaces/jbcn/jbcnconf-app/platforms/android/build/outputs/apk/android-release-unsigned.apk jbcnconf-2016-relase-unsigned.apk
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore jbcnconf-2016.keystore jbcnconf-2016-relase-unsigned.apk jbcnconf-2016
+~/Desarrollo/aplicaciones/android-sdk-macosx/build-tools/22.0.1/zipalign  -v 4 jbcnconf-2016-relase-unsigned.apk jbcnconf-2016.apk

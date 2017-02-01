@@ -14,7 +14,10 @@ export class Speakers {
         this.nav = nav;
         jbcnService.load().then(data => {
             for (let speaker in data.speakers) {
-                this.speakers.push(data.speakers[speaker]);
+                console.debug(data.speakers[speaker]);
+                if(this.speakers.indexOf(data.speakers[speaker])==-1) {
+                    this.speakers.push(data.speakers[speaker]);
+                }   
             }
 
         });

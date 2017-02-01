@@ -18,7 +18,7 @@ export class SpeakerDetail {
             for(let iDay=0; iDay<schedule.length; iDay++) {
                 let day = schedule[iDay];
                 for(let iTalk=0; iTalk<day.meetings.length; iTalk++) {
-                    if(day.meetings[iTalk].ref == this.speaker.meetingRef) {
+                    if(day.meetings[iTalk].id == this.speaker.meetingRef) {
                         this.talk = day.meetings[iTalk];
                         break;
                     }

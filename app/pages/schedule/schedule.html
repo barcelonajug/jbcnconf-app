@@ -57,8 +57,9 @@
                     <p>{{meeting.timeEnd | date:'HH:mm'}}</p>
                 </ion-col>
                 <ion-col width-70 (click)="goToMeetingDetail(meeting)" wrap *ngIf="meeting.visible == true">
-                    <strong>{{meeting.title}} - {{meeting.session}}</strong>
-                    <p><span class="track-{{meeting.track}}" (click)="filterByTrack($event,meeting.track)"><strong>Track {{meeting.track}}</strong></span> - {{meeting.location}}</p>
+                    <strong>{{meeting.title}}</strong>
+                    <p *ngIf="meeting.track!=0"><span class="track-{{meeting.track}}" (click)="filterByTrack($event,meeting.track)"><strong>Track {{meeting.track}}</strong></span> - {{meeting.location}}</p>
+                    <p *ngIf="meeting.track==0"><strong>Keynote</strong> - {{meeting.location}}</p>
                     <p>
                         <ion-badge item-right *ngFor="let tag of meeting.tags" (click)="filterByTag($event,tag)">{{tag}}</ion-badge>
                     </p>

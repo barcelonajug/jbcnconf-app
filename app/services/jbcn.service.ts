@@ -7,7 +7,7 @@ import { FirebaseRef } from 'angularfire2';
 var jbcnData;
 var favorites;
 
-const firebaseUrl ="https://jbcnconf.firebaseio.com";
+const firebaseUrl = "https://jbcnconf.firebaseio.com";
 
 const dayTimes = {
     "THU": "2016-06-16",
@@ -17,10 +17,11 @@ const dayTimes = {
 
 const seasonsTimes = {
     "THU": {
-        "SE1": { "timeStart": "14:30", "timeStop": "16:30" },
-        "SE2": { "timeStart": "16:45", "timeStop": "18:45" }
+        "SE1": { "timeStart": "15:00", "timeStop": "17:00" },
+        "SE2": { "timeStart": "17:00", "timeStop": "19:00" }
     },
     "FRI": {
+        "SE0": { "timeStart": "9:40", "timeStop": "10:30" },
         "SE1": { "timeStart": "11:00", "timeStop": "11:50" },
         "SE2": { "timeStart": "12:00", "timeStop": "12:50" },
         "SE3": { "timeStart": "14:00", "timeStop": "14:30" },
@@ -41,23 +42,25 @@ const seasonsTimes = {
 };
 
 const locations = {
-    "THU":{
-        "1":"Room 20.019",
-        "2":"Room 20.017",
-        "3":"Room 20.023",
-        "4":"Room 20.027"
+    "THU": {
+        "1": "Room 20.019",
+        "2": "Room 20.017",
+        "3": "Room 20.023",
+        "4": "Room 20.027"
     },
-    "FRI":{
-        "1":"Room 40.002",
-        "2":"Room 40.004",
-        "3":"Room 40.006",
-        "4":"Room 40.008"
+    "FRI": {
+        "0": "Auditorium",
+        "1": "Room 40.002",
+        "2": "Room 40.004",
+        "3": "Room 40.006",
+        "4": "Room 40.008"
     },
-    "SAT":{
-        "1":"Room 20.019",
-        "2":"Room 20.021",
-        "3":"Room 20.023",
-        "4":"Room 20.027"
+    "SAT": {
+        "0": "Auditorium",
+        "1": "Room 20.019",
+        "2": "Room 20.021",
+        "3": "Room 20.023",
+        "4": "Room 20.027"
     }
 }
 
@@ -75,7 +78,7 @@ export class JbcnService {
     }
 
     ngOnInit() {
-        
+
     }
 
     getFavorites() {
@@ -112,34 +115,34 @@ export class JbcnService {
         }
         return favorites;
     }
-    
+
     voteMeeting(meetingId, vote) {
-        let voteInfo = {"meetingId":meetingId, "vote":vote, "uuid":Device.device.uuid};
+        let voteInfo = { "meetingId": meetingId, "vote": vote, "uuid": Device.device.uuid };
         let meetingVotes = this.getMeetingVotes();
         this.pushVote(Device.device.uuid, meetingId, vote);
-        meetingVotes[Device.device.uuid+"_"+meetingId]=voteInfo;
+        meetingVotes[Device.device.uuid + "_" + meetingId] = voteInfo;
         this.saveMeetingVotes(meetingVotes);
     }
-    
+
     getMeetingVote(meetingId) {
         let meetingVotes = this.getMeetingVotes();
         let result = 0;
-        if(meetingVotes[Device.device.uuid+"_"+meetingId]) {
-            result = meetingVotes[Device.device.uuid+"_"+meetingId];
+        if (meetingVotes[Device.device.uuid + "_" + meetingId]) {
+            result = meetingVotes[Device.device.uuid + "_" + meetingId];
         }
-        return result; 
+        return result;
     }
-    
+
     saveMeetingVotes(meetingVotes) {
         localStorage.setItem("meetingVotes", JSON.stringify(meetingVotes));
     }
-    
+
     getMeetingVotes() {
         let meetingVotes = {};
-        if(localStorage.getItem("meetingVotes")) {
+        if (localStorage.getItem("meetingVotes")) {
             let meetingVotesStr = localStorage.getItem("meetingVotes");
             meetingVotes = JSON.parse(meetingVotesStr);
-        } 
+        }
         return meetingVotes;
     }
 
@@ -152,17 +155,17 @@ export class JbcnService {
         data.schedule = [];
         let processed = {};
         let days = {
-            "THU":{
+            "THU": {
                 "date": Date.parse("2016-06-16"),
-                "meetings":[]
+                "meetings": []
             },
-            "FRI":{
+            "FRI": {
                 "date": Date.parse("2016-06-17"),
-                "meetings":[]
+                "meetings": []
             },
-            "SAT":{
+            "SAT": {
                 "date": Date.parse("2016-06-18"),
-                "meetings":[]
+                "meetings": []
             }
         };
 
@@ -177,10 +180,7 @@ export class JbcnService {
             item['image'] = speaker.image;
             item['ref'] = speaker.ref;
             item['twitter'] = speaker.twitter;
-            data.speakers[i] = item;
-            data.speakersRef[item['ref']] = item;
-
-
+            
             let talk = speaker.talk;
             if (!processed[speaker.scheduleId]) {
                 let meeting = {};
@@ -199,7 +199,19 @@ export class JbcnService {
                 meeting['level'] = talk.meeting;
                 meeting['type'] = 'talk';
                 meeting['visible'] = true;
+
                 meeting['id'] = speaker.scheduleId;
+
+                if (speaker.scheduleId == "#Sat-Keynote") {
+                    meeting['id'] = "#SAT-TC0-SE7";
+                    console.debug("Cambiado");
+                }
+
+                if (speaker.scheduleId == "#Fri-Keynote") {
+                    meeting['id'] = "#FRI-TC0-SE0";
+                    console.debug("Cambiado");
+                }
+
 
                 processed[meeting['id']] = true;
                 let day = meeting['id'].substring(1, 4);
@@ -209,53 +221,44 @@ export class JbcnService {
                 meeting['session'] = meeting['id'].substring(11, 12);
                 meeting['id'] = speaker.scheduleId.substring(1);
                 meeting['track'] = track;
-                meeting['timeStart'] = Date.parse(dayTimes[day]+" "+seasonsTimes[day][session]["timeStart"]);
-                meeting['timeEnd'] = Date.parse(dayTimes[day]+" "+seasonsTimes[day][session]["timeStop"]);
+                meeting['timeStart'] = Date.parse(dayTimes[day] + " " + seasonsTimes[day][session]["timeStart"]);
+                meeting['timeEnd'] = Date.parse(dayTimes[day] + " " + seasonsTimes[day][session]["timeStop"]);
+                item['meetingRef']=meeting['id'];
                 days[day].meetings.push(meeting);
-                
                 this.tags = tagArray.sort();
+
             }
             
+            data.speakers[i] = item;
+            data.speakersRef[item['ref']] = item;
+            processed[speaker.scheduleId]=true;
+
 
         }
         data.tags = this.tags;
         data.schedule.push(days["THU"]);
         data.schedule.push(days["FRI"]);
         data.schedule.push(days["SAT"]);
-        
+
         //Reorder meetings
-        
+
         for (let iDay = 0; iDay < data.schedule.length; iDay++) {
             let day = data.schedule[iDay];
-            for (let iMeeting = 0; iMeeting < day.meetings.length; iMeeting++) {
-                let meeting = day.meetings[iMeeting];
-                meeting.ref = iMeeting;
-                for (let iSpeaker = 0; iSpeaker < meeting.speakers.length; iSpeaker++) {
-                    let meetingSpeaker = meeting.speakers[iSpeaker];
-                    for (let iRealSpeaker = 0; iRealSpeaker < data.speakers.length; iRealSpeaker++) {
-                        let realSpeaker = data.speakers[iRealSpeaker];
-                        if (realSpeaker.ref == meetingSpeaker) {
-                            realSpeaker.meetingRef = meeting.ref;
-                            break;
-                        }
-                    }
-                }
-            }
             //Reorder meetings
-            day.meetings.sort(function(a,b) {
-                if(a.timeStart > b.timeStart) {
+            day.meetings.sort(function (a, b) {
+                if (a.timeStart > b.timeStart) {
                     return 1;
-                } 
-                if(a.timeStart < b.timeStart) {
+                }
+                if (a.timeStart < b.timeStart) {
                     return -1;
                 }
-                if(a.timeStart == b.timeStart) {
-                    if(a.track > b.track) {
+                if (a.timeStart == b.timeStart) {
+                    if (a.track > b.track) {
                         return 1;
                     } else {
                         return -1;
                     }
-                    
+
                 }
             });
         }
@@ -267,15 +270,32 @@ export class JbcnService {
 
     load() {
         if (jbcnData) {
+            console.debug("Recovering from memory");
+            return Promise.resolve(jbcnData);
+        }
+
+        if (localStorage.getItem("localData") !== null) {
+            console.debug("Recovering from localStorage");
+            jbcnData = JSON.parse(localStorage.getItem("localData"));
             return Promise.resolve(jbcnData);
         }
 
         // don't have the data yet
         return new Promise(resolve => {
-            this.http.get('data/speakers.json').subscribe(res => {
-                jbcnData = this.processJson(res.json());
-                resolve(jbcnData);
-            });
+            this.http.get('http://www.jbcnconf.com/2016/assets/json/speakers.json').subscribe(
+                res => {
+                    console.debug("Recovering from remote json");
+                    jbcnData = this.processJson(res.json());
+                    localStorage.setItem("localData", JSON.stringify(jbcnData));
+                    resolve(jbcnData);
+                }, error => {
+                    this.http.get("data/speakers.json").subscribe(res => {
+                        console.debug("Recovering from local json");
+                        jbcnData = this.processJson(res.json());
+                        localStorage.setItem("localData", JSON.stringify(jbcnData));
+                        resolve(jbcnData);
+                    })
+                });
         });
     }
 
@@ -284,23 +304,23 @@ export class JbcnService {
     }
 
     pushVote(uuid, meetingId, vote) {
-        if(!uuid) {
+        if (!uuid) {
             uuid = new Date().getTime();
         }
 
-        let voteInfo = {"meetingId":meetingId, "vote":vote, "uuid":uuid};
+        let voteInfo = { "meetingId": meetingId, "vote": vote, "uuid": uuid };
 
-        this.ref.child("/vote/"+uuid+"/"+meetingId).set(voteInfo)
-        .then((data) => console.debug(JSON.stringify(data)))
-        .catch((error) => console.debug(JSON.stringify(error)));
+        this.ref.child("/vote/" + uuid + "/" + meetingId).set(voteInfo)
+            .then((data) => console.debug(JSON.stringify(data)))
+            .catch((error) => console.debug(JSON.stringify(error)));
 
-        
+
         //return this.http.put(firebaseUrl+"/vote/"+uuid+"/"+meetingId+"/vote.json", JSON.stringify(voteInfo))
         //.map(response => response.json);
     }
 
     pullVote(uuid, meetingId) {
-        return this.http.get(firebaseUrl+"/vote/"+uuid+"/"+meetingId+"/vote.json")
+        return this.http.get(firebaseUrl + "/vote/" + uuid + "/" + meetingId + "/vote.json")
             .map(response => response.json);
     }
 }

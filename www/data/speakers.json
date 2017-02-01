@@ -13,10 +13,10 @@
       "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
-        "title": "Messaging and Microservices",
-        "abstract": "Microservices sometimes need more than REST for scaling and performance and Message-oriented Middleware seems like an ideal fit. However, traditional Enterprise Message Brokers are pretty static, and are poor at providing the elasticity required for cloud deployments. This talk will walk through some scenarios and different deployments, adding automatic sharding across clusters of brokers and sprinkle with magic from fabric8 - to show we can have a highly scalable cloud based messaging solution ideal for microservices.",
+        "title": "Develop a Mobile Application connected to a REST Microservice",
+        "abstract": "The development of a Mobile Aplication has been donimated during a decade by proprietary technologies developed by Apple, Android & Microsoft for their own mobile brand. With the development of the Apache Cordova Platform and the framework Ionic, this situation has completely changed as a developer can now design a project using their favorite HTML5, Javascript, AngularJS frameworks and rely on the tool provided by Apache Codova to generate the HTML Hybrid code for the target platform. The purpose of this talk is to demonstrate how such Mobile project can be designed and being integrated with a Backend System which is a REST Camel microservice. Next, we will also explain how we can simplify the Management and the packaging of the NodeJS application used to access the backend service using the Feedhenry Mobile Application platform and its Api.",
         "tags": [
-          "Microservices", "Messaging"
+          "Microservices", "Camel"
         ],
         "level": "Intermediate"
       },
@@ -49,7 +49,7 @@
       "biography": "Maciej is principal software engineer at JBoss working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. In his spare time he enjoys calm and relax life on country side and travels.",
       "image": "assets/img/speakers/maciej-swiderski.png",
       "ref": "mswiderski",
-      "url": "infoSpeaker.html?ref=mswiderski",      
+      "url": "infoSpeaker.html?ref=mswiderski",
       "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
@@ -58,7 +58,7 @@
         "tags": [
           "Microservices", "Design", "Vert.x", "jBPM"
         ],
-        "level": "Intermediate"		
+        "level": "Intermediate"
       },
       "scheduleId": "#FRI-TC1-SE4"
     },
@@ -192,6 +192,7 @@
       "url": "infoSpeaker.html?ref=sritter",
       "twitter": "https://twitter.com/speakjava",
       "homepage": "http://www.azul.com",
+      "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
         "title": "JDK 8: Lessons Learnt With Lambdas and Streams",
@@ -202,6 +203,28 @@
         "level": "Intermediate"
       },
       "scheduleId": "#FRI-TC2-SE5"
+    },
+    {
+      "enabled": "1",
+      "repeated" : "1",
+      "name": "Simon Ritter",
+      "description": "CTO of Azul Systems",
+      "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. Simon joined Sun Microsystems in 1996 and spent time working in both Java development and consultancy.  He has been presenting Java technologies to developers since 1999 focusing on the core Java platform as well as client and embedded applications.  Now at Azul Systems he continues to help people understand Java and Azul’s JVM products.",
+      "image": "assets/img/speakers/simon-ritter.jpg",
+      "ref": "sritter",
+      "url": "infoSpeaker.html?ref=sritter",
+      "twitter": "https://twitter.com/speakjava",
+      "homepage": "http://www.azul.com",
+      "talk": {
+        "type": "talk",
+        "title": "21 Years of Java, 10 Years of OpenJDK: Where Do We Go From Here?",
+        "abstract": "The Java platform is twenty-one years old putting it right up there with Cobol, C and Fortran in terms of longevity. It’s also now ten years since Sun Microsystems created the OpenJDK project, open sourcing the Sun implementation of the Java Development Kit.<br>In this keynote, we’ll take a look back at how Open Source has radically changed the way software is developed, marketed and commercialised and how the OpenJDK has delivered on its original goals in this space. From there, we’ll look into our crystal ball and try to see where Java goes from here.  With many competing languages available to developers what will be required to keep Java the most popular development platform on the planet?",
+        "tags": [
+          "Java8", "Java9", "OpenJDK", "JavaEE", "OpenSource"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": "#Fri-Keynote"
     },
     {
       "enabled": "1",
@@ -268,24 +291,43 @@
     },
     {
       "enabled": "1",
-      "name": "Arek Sokolowski",
-      "description": "Programmer, mainly Java, working at Ocado Technology",
-      "biography": "Programmer, mainly Java, JVM & Co. Currently working at Ocado Technology. Fan of functional programming, good books, continuous delivery, and mountains. Claims, that writing a code is not the most difficult part of so-called software engineering. Likes to find patterns, common rules, and common denominators, both in software and life. Hobby: erasing whiteboards.",
-      "image": "assets/img/speakers/arek-sokolowski.jpg",
-      "ref": "asokolowski",
-      "url": "infoSpeaker.html?ref=asokolowski",
-      "twitter": "https://twitter.com/areksokolowski",
-      "homepage": "",
+      "name": "Wlodek Krakowski",
+      "description": "Software Development Team Leader at Ocado Technology in Krakow",
+      "biography": "Włodek Krakowski has been a software craftsman for 15+ years. Two years ago he joined Ocado Technology in Krakow as an Software Development Team Leader and before he spent 10 years in Sabre (Airline Solutions) growing there from Junior to Team Lead Software Developer. During this time he was observing struggles of teams he belonged to in delivering software to clients. What he noticed was the never­ending story of 'complaints approach' to everything (delays, changing requirements, lack of TDD, lack of time for good design...). What he noticed was that many people were getting rid of responsibility by saying it is business side fault only ­ because we are in such a hurry and requirements are changing...As outcome thoughts out of these struggles he started promoting the opposite approach 'what I can do to change it / make things better' There are lot of things we can do to improve things instead of waiting for our wishes to happen by coincidence. Włodek is leader but also a developer. Therefore he decided to join this these two skills and focus on teaching people to achieve business goals by taking care of quality and refactoring code in the smallest possible steps. Each refactoring must be done towards given goal, even a very small one and should be followed by our feedback if it was a good choice at some point. And we also need to remember that our final goal is to deliver business functionality to our clients (because they pay for it)... and good code quality is the only means that will allow us achieve it.",
+      "image": "assets/img/speakers/wlodek-krakowski.png",
+      "ref": "wkrakowski",
+      "url": "infoSpeaker.html?ref=wkrakowski",
+      "hasMoreTalks": "1",
       "talk": {
         "type": "talk",
-        "title": "Taste of new in Java 9",
-        "abstract": "Do you know what are jshell, jigsaw, G1? How can they help you and your team? To give you the taste of Java 9, I will present the most interesting of its features, like jshell (Java 9 REPL environment) and jigsaw (Java 9 modules) in action. If you are interested in the future of core Java platform, this session is for you!",
+        "title": "Effective Refactoring ­- bring it home",
+        "abstract": "Balance, this is the word we can hear in lots of places but not too often in software development. But what balance can you talk about in our industry? What is the balance we need/ How can we achieve it? Marketing people needs to have a product they can sell, developers needs to have a product that is easy and nice to work with. How can we take care of this balance? Who should take care of it? Can developers only complain 'if only I had more time I would write unit tests... / I would take care of the design / the code would be in better shape...'? Did you hear such complaints next to your desk? So what can we do about the above? It is enough to be a good developer or do we need something more? In my workshop I would like to talk about Effective Refactoring. Effective Refactoring joins two things : hand­on refactoring and talk about effectiveness. Refactoring is a mean to achieve the balance between production (clients receives working product) and production capability (developers are able to extend the product and deliver new functionality). Effectiveness is the mental approach to achieving our goals. Only when you join them you can act reasonably. My goal is to encourage people to change the approach to work by refactoring when needed, by making it everyday practice or a habit. Each of us want to be happy at work. We want to be motivated but do we take care of it? We want to have good quality code, covered by tests, object oriented but what we really do in order achieve it? I would like to show 7 Habits of Highly Effective People presented by Stephen Covey in his best seller and how they can be applied to software engineering. Here are they. Be proactive Are you waiting for things to be done and complaining? Are you part of the solution or part of the problem? 'It’s not me ­ it’s the team'. Did you hear this complaint? Start with end in mind Do you ask yourself questions : what I am doing? how should I do this? why I am doing it this way? What will be the outcome of my decisions in the near future? Did I really saved time if I skipped refactoring and quality because the product 'is working'? Importance before urgency Certainly sometimes we need to put off the fire at work. But what kind of a motivator it is? 'Must do it' vs 'want do it' are two different approaches and if you want to use the latter approach you need to to really proactive and minimize the number of fires. Then you will have more freedom to take care of your code. Think Win ­ Win or No Deal What is your approach to collaborators? Do you perceive your (product) managers / marketing as competitors (time vs quality) or members of one team that drives together towards the success? Understand before being understood How to approach dealing with legacy code? Do you just add you new functionality or consider refactoring before or after this? What you do before you decide to improve the design? Do you want to understand the current state before proposing / imposing your changes? Introduce synergy Do you understand the difference between compromise and synergy when two people have different opinions and want to achieve agreement? Team can benefit a lot if people are looking together for 'third solutions' instead of competing. Sharpen the SawDo you take care of yourself so you are able to make it better? Do you know the areas of yourself to grow (physical, mental, emotional, spiritual dimensions). Do you know that sometimes to be better in refactoring is to stop refactoring?",
         "tags": [
-          "Java9"
+          "Refactoring", "Coding", "Testing", "Design Patters"
         ],
         "level": "Intermediate"
       },
       "scheduleId": "#FRI-TC2-SE6"
+    },
+    {
+      "enabled": "1",
+      "repeated" : "1",
+      "name": "Wlodek Krakowski",
+      "description": "Software Development Team Leader at Ocado Technology in Krakow",
+      "biography": "Włodek Krakowski has been a software craftsman for 15+ years. Two years ago he joined Ocado Technology in Krakow as an Software Development Team Leader and before he spent 10 years in Sabre (Airline Solutions) growing there from Junior to Team Lead Software Developer. During this time he was observing struggles of teams he belonged to in delivering software to clients. What he noticed was the never­ending story of 'complaints approach' to everything (delays, changing requirements, lack of TDD, lack of time for good design...). What he noticed was that many people were getting rid of responsibility by saying it is business side fault only ­ because we are in such a hurry and requirements are changing...As outcome thoughts out of these struggles he started promoting the opposite approach 'what I can do to change it / make things better' There are lot of things we can do to improve things instead of waiting for our wishes to happen by coincidence. Włodek is leader but also a developer. Therefore he decided to join this these two skills and focus on teaching people to achieve business goals by taking care of quality and refactoring code in the smallest possible steps. Each refactoring must be done towards given goal, even a very small one and should be followed by our feedback if it was a good choice at some point. And we also need to remember that our final goal is to deliver business functionality to our clients (because they pay for it)... and good code quality is the only means that will allow us achieve it.",
+      "image": "assets/img/speakers/wlodek-krakowski.png",
+      "ref": "wkrakowski",
+      "url": "infoSpeaker.html?ref=wkrakowski",
+      "talk": {
+        "type": "workshop",
+        "title": "Effective Refactoring ­- Feel the Thrill",
+        "abstract": "You need to experience to understand. You need to teach to grow. Therefore in order to grow your refactoring skills you need to see it, experience it, understand it, share your ideas with others, try it yourself,try it in a group and finally encourage, teach others! During this 2 hours slot (with a break of course as nobody can keep concentrated for such time) I would like to do some live­refactoring ­ interactively with the audience. I will present pyramid of refactoring (the concept I’ve created based on lots of ideas I’ve read), and show how I teach to apply it into real code. We will use Java and IntelliJ’s automated refactorings. The codebase will be really small. This way we can quickly understand it and turn it upside down as long / as much as we want. We will start from the simplest refactorings, and step by step go into more sophisticated ones. Extracting new classes, applying Single Responsibility Principle (or the whole SOLID) will lead us towards emerging Design Patterns, reusability and testability of our classes. I do want to show that refactoring is like a game: try and see if given refactoring leads to better quality. Maybe this way, maybe not. Each trial is a lesson. When we fail then we draw conclusions and try again in order to succeed. I will prove also very quickly, why we run into one of two extremes so that refactoring does not happen to your code : ­ Hmm.... The code is so simple (not that bad yet), so why should I refactor it?­ Oh no! The code is so horrible that I do not want to work with it any longer.... and want to change the job /team. But Isn’t you the one who made it (as least partly) so bad? Effective Refactoring joins two things : hand­on refactoring and talk about effectiveness. Refactoring is a mean to achieve the balance between production (clients receives working product) and production capability (developers are able to extend the product and deliver new functionality). Effectiveness is the mental approach to achieving our goals. Only when you join them you can act reasonably. My goal is to encourage people to change the approach to work by refactoring when needed, by making it everyday practice or a habit. Each of us want to be happy at work. We want to be motivated but do we take care of it? We want to have good quality code, covered by tests, object oriented but what we really do in order achieve it?",
+        "tags": [
+          "Refactoring", "Coding", "Testing", "Design Patters"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": "#THU-TC4-SE2"
     },
     {
       "enabled": "1",
@@ -331,8 +373,8 @@
     {
       "enabled": "1",
       "name": "Alex Soto",
-      "description": "Software Engineer at CloudBees",
-      "biography": "Alex is a software engineer at CloudBees. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like Devoxx, JavaOne, JavaZone or JavaLand.",
+      "description": "Senior Software Engineer at Red Hat",
+      "biography": "Alex is a software engineer at Red Hat. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like Devoxx, JavaOne, JavaZone or JavaLand.",
       "image": "assets/img/speakers/alex-soto.jpg",
       "ref": "asoto",
       "url": "infoSpeaker.html?ref=asoto",
@@ -538,18 +580,18 @@
     {
       "enabled": "1",
       "name": "Per Jørgen Walstrøm",
-      "description": "Team Lead and Lead Developer of FINN Travel",
-      "biography": "He have almost 20 years of experience as developers and still find motivation and inner happiness in a test that goes green..",
+      "description": "Team Lead at FINN Travel",
+      "biography": "Per Jørgen is the Team Lead at FINN Travel and has almost 20 years of experience as a developer. He still finds motivation and inner happiness in a test that goes green",
       "image": "assets/img/speakers/perjorgen-walstrom.jpg",
       "ref": "perjorgenwalstrom",
       "url": "infoSpeaker.html?ref=perjorgenwalstrom",
-      "twitter": "https://twitter.com/pjwalstrom",      
+      "twitter": "https://twitter.com/pjwalstrom",
       "talk": {
         "type": "talk",
         "title": "How we deploy to production 42 times a day",
         "abstract": "When the Schibsted-company FINN Travel created its new platform in 2013, one requirement was that the code should be rolled out continuously. To be able to do this, the code that hits production needs to behave well and not destroy existing functionality. This is the story of how Continuous Integration and Continuous Delivery is a natural part of a developer's life in FINN. We show how tests will help us on our way, how the developers' role has changed to cope with the new demands, and take a dive into the internal infrastructure of FINN.",
         "tags": [
-          "Java", "Groovy", "devops", "Testing", "Integration"
+          "Java", "Groovy", "devops", "Testing", "ContinuousIntegration", "ContinuousDelivery"
         ],
         "level": "Beginner",
 		"cospeakerref": "stigkleppejorgensen"
@@ -559,18 +601,18 @@
     {
       "enabled": "1",
       "name": "Stig Kleppe-Jørgensen",
-      "description": "Team Lead and Lead Developer of FINN Travel",
-      "biography": "He have almost 20 years of experience as developers and still find motivation and inner happiness in a test that goes green..",
+      "description": "Lead Developer at FINN Travel",
+      "biography": "Stig is the Lead Developer at FINN Travel. He has been a developer for 20 years and lived with low test coverage for a long time before getting a new job and green builds at FINN. Always on the lookout for new libraries and tools to make the developer of his team happy, he makes sure code gets deployed into production in the most safe and fast way possible",
       "image": "assets/img/speakers/stikkleppe-jorgensen.png",
       "ref": "stigkleppejorgensen",
       "url": "infoSpeaker.html?ref=stigkleppejorgensen",
-      "twitter": "https://twitter.com/stigkj",      
+      "twitter": "https://twitter.com/stigkj",
       "talk": {
         "type": "talk",
         "title": "How we deploy to production 42 times a day",
         "abstract": "When the Schibsted-company FINN Travel created its new platform in 2013, one requirement was that the code should be rolled out continuously. To be able to do this, the code that hits production needs to behave well and not destroy existing functionality. This is the story of how Continuous Integration and Continuous Delivery is a natural part of a developer's life in FINN. We show how tests will help us on our way, how the developers' role has changed to cope with the new demands, and take a dive into the internal infrastructure of FINN.",
         "tags": [
-          "Java", "Groovy", "devops", "Testing", "Integration"
+          "Java", "Groovy", "devops", "Testing", "ContinuousIntegration", "ContinuousDelivery"
         ],
         "level": "Beginner",
 		"cospeakerref": "perjorgenwalstrom"
@@ -758,7 +800,7 @@
       "talk": {
         "type": "workshop",
         "title": "Drools Hands On - Improve  your Microservices with Drools",
-        "abstract": "Do you want to get started with Drools? Do you want to understand the different architectural patterns to start using Drools efficiently in your applications and/or your microservices? During the workshop you will learn how to code a set of rules to implement the logic inside a set of micro services. The aim of the session is to give you all the tools to start using Drools in your own microservices in almost no time. The session will also cover a set of pitfalls to avoid when you are starting with Drools so you can apply what is covered straight in your apps/microservices.<br><br>Follow the instructions posted in <a href=\"https://github.com/salaboy/drools-workshop/\" class=\"link\">this URL</a>",
+        "abstract": "Do you want to get started with Drools? Do you want to understand the different architectural patterns to start using Drools efficiently in your applications and/or your microservices? During the workshop you will learn how to code a set of rules to implement the logic inside a set of micro services. The aim of the session is to give you all the tools to start using Drools in your own microservices in almost no time. The session will also cover a set of pitfalls to avoid when you are starting with Drools so you can apply what is covered straight in your apps/microservices.<br><br>Follow the instructions posted in <a href=\"https://salaboy.com/2016/06/15/drools-workshop-jbcnconf-update-project-setup/\" class=\"link\">this URL</a>",
         "tags": [
           "Drools", "Microservices"
         ],
@@ -884,7 +926,7 @@
       "talk": {
         "type": "workshop",
         "title": "Solving Problems with Reasoning, Semantic Wizardry and Java",
-        "abstract": "Ever heard of Zebra Puzzles? Those logical puzzles that are claimed to be invented by Albert Einstein as a little boy? Those that are based on simple logical facts and go something like this: \"<i>The Brit lives in the Red house. The Swede keeps dogs as pets. The Dane drinks tea… Who owns the zebra?</i>\"<br>Some claim that only 2% of the population can solve it.<br>However, with the help of semantic technologies we can solve it in (almost) no time. Of course you have to know RDF, OWL, Jena, reasoning, inference... The good news are that we will show you how it works in this session.<br>We will start with introducing the puzzle. Then we will continue by looking at the toolbox for solving it. We will build a semantic representation of the puzzle (basically, a graph!), programmatically add some inferred facts and reason and solve the puzzle.<br>Suddenly solving puzzles is a piece of cake for the other 98%.<br><br>Follow the instructions posted in <a href=\"http://mehmandarov.com/reasoning-and-semantic-wizardry/#workshop-requirements\" class=\"link\">this URL</a>",
+        "abstract": "Ever heard of Zebra Puzzles? Those logical puzzles that are claimed to be invented by Albert Einstein as a little boy? Those that are based on simple logical facts and go something like this: \"<i>The Brit lives in the Red house. The Swede keeps dogs as pets. The Dane drinks tea… Who owns the zebra?</i>\"<br>Some claim that only 2% of the population can solve it.<br>However, with the help of semantic technologies we can solve it in (almost) no time. Of course you have to know RDF, OWL, Jena, reasoning, inference... The good news is that we will show you how it works in this session.<br>We will start with introducing the puzzle. Then we will continue by looking at the toolbox for solving it. We will build a semantic representation of the puzzle (basically, a graph!), programmatically add some inferred facts and reason and solve the puzzle.<br>Suddenly solving puzzles is a piece of cake for the other 98%.<br><br>Follow the instructions posted in <a href=\"http://mehmandarov.com/reasoning-and-semantic-wizardry/#workshop-requirements\" class=\"link\">this URL</a>",
         "tags": [
           "semantic", "RDF", "SPARQL"
         ],
@@ -992,7 +1034,7 @@
         "level": "Beginner",
 		"cospeakerref": "salaboy"
       },
-      "scheduleId": "#SAT-TC1-SE7"
+      "scheduleId": "#Sat-Keynote"
     },
     {
       "enabled": "1",
@@ -1015,7 +1057,7 @@
         "level": "Beginner",
 		"cospeakerref": "mswiderski"
       },
-      "scheduleId": "#SAT-TC1-SE7"
+      "scheduleId": "#Sat-Keynote"
     },
 	{
       "enabled": "1",
@@ -1157,7 +1199,7 @@
         "title": "From Zero to a Raspberry-Pi Kubernetes Cluster in 60 minutes",
         "abstract": "In this hands-on presentation we start from scratch with some Spring-Boot and Wildfly-Swarm Microservices which we first place into Docker images and then deploy them on a Kubernetes cluster running on a four-node Raspberry Pis with load-balancing and rolling updates. We will see how seamless the creation of Docker images and Kubernetes resource descriptors can be integrated into the Maven build process. Many live demos explain the Kubernetes core concepts by example. As bonus a recipe for setting up a Raspberry Pi cluster on your own is given. At the end of this talk you will know how easy it is to bring your Java applications to Kubernetes.",
         "tags": [
-          "Kubernetes", "Spring-boot", "Docker", "Raspberry Pi"
+          "Kubernetes", "Spring Boot", "Docker", "Raspberry Pi"
         ],
         "level": "Intermediate"
       },
@@ -1204,6 +1246,26 @@
         "level": "Advanced"
       },
       "scheduleId": "#SAT-TC4-SE6"
+    },
+    {
+      "enabled": "1",
+      "name": "Sergi Almar",
+      "description": "Spring I/O organizer",
+      "biography": "Sergi has been helping customers with best practices in software development in the JVM for the last 10 years. Using Spring Framework since 2006, he has also delivered the official Spring trainings to +1000 people in +20 different countries. Sergi is the organizer of the Spring I/O conference (www.springio.net) and also a core member of the javaHispano JUG.",
+      "image": "assets/img/speakers/sergialmar.jpeg",
+      "ref": "sergialmar",
+      "twitter": "https://twitter.com/sergialmar",
+      "url": "infoSpeaker.html?ref=sergialmar",
+      "talk": {
+        "type": "workshop",
+        "title": "Cloud Native Applications with Spring Cloud",
+        "abstract": "Do you want to build an application using microservices and don't know where to start? How do services find each other? How do I configure many instances of each service? How do I know which instance to use? How do I see what's going on with my services?<br>If you've ever asked any of these questions, this session will give you some answers using Spring Cloud to create microservices that are robust, discoverable, scalable and configurable.<br><br>Follow the instructions posted in <a href=\"https://github.com/salmar/cloud-native-workshop\" class=\"link\">this URL</a>",
+        "tags": [
+          "Spring", "Spring Cloud", "Spring Boot", "microservices"
+        ],
+        "level": "Intermediate"
+      },
+      "scheduleId": "#THU-TC2-SE2"
     }
   ]
 }
