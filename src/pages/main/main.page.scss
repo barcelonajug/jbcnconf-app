@@ -1,0 +1,81 @@
+.jbcn-footer, .toolbar-title, .toolbar-background {
+    background-color:#006D98;
+    color:#fff;
+    vertical-align: middle;
+}
+
+.tabs-md .tabbar, .tabs-ios .tabbar {
+    background-color:#006D98;
+    color:#fff;
+    vertical-align: middle;
+}
+
+.tabs-md .tab-button[aria-selected="true"] .tab-button-icon, .tabs-ios .tab-button[aria-selected="true"] .tab-button-icon {
+    color:#fff;
+}
+
+
+
+tabbar {
+    background-color:#006D98;
+    color:#fff;
+}
+
+.tab-button[aria-selected=true] {
+    opacity: 1.0;
+    color: #fff;
+}
+
+.tab-button {
+    color: #272727;
+}
+
+.segment-button {
+    color: #272727;
+}
+
+.tabs-md .tab-button-icon, .tabs-ios .tab-button-icon {
+    color: #272727;
+}
+
+tab-highlight {
+    color: #fff;
+    background: #fff;
+}
+
+ion-list-header, ion-item-divider {
+    color: #fff;
+    background-color: #006D98;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.image-header {
+    width: 20%;
+    float: right;
+}
+
+.text-header {
+    vertical-align: middle;
+    padding-top: 2%;
+    color: #fff;
+    float:left;
+    font-size: 2rem;
+}
+
+.back-button {
+    color: #fff;
+}
+
+span.twittertag {
+    float: right;
+    padding-left: 10%;
+}
+
+/* .ios .jbcn-footer, .toolbar-title, .toolbar-background {
+    padding-top: 20%;
+} */
+
+.toolbar-ios ion-title {
+    padding: 0 40px 1px;
+}
