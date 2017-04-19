@@ -10,6 +10,7 @@ import { SpeakerDetailPage } from '../pages/speaker-detail/speaker-detail.page';
 import { LocationPage } from '../pages/location/location.page';
 import { MainPage } from '../pages/main/main.page';
 import { JbcnService } from '../services/jbcn.service';
+import { LocalNotifications } from '@ionic-native/local-notifications';
 
 
 @NgModule({
@@ -39,6 +40,6 @@ import { JbcnService } from '../services/jbcn.service';
     SponsorsPage,
     SpeakerDetailPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, JbcnService]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, JbcnService, LocalNotifications]
 })
 export class AppModule {}

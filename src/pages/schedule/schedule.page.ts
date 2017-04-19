@@ -44,12 +44,17 @@ export class SchedulePage {
   }
 
   favoriteIcon(meeting) {
-        /* if(this.jbcnService.isFavorite(meeting.id)) {
+        if(this.jbcnService.isFavorite(meeting)) {
             return "star";
         } else {
             return "star-outline";
-        } */
-        return "star-outline";
+        }
+        //return "star-outline";
+    }
+    
+    switchFavorite(meeting, $event) {
+        this.jbcnService.switchFavorite(meeting);
+        meeting.isFavorite = this.jbcnService.isFavorite(meeting);
     }
     
     applyFilters() {
