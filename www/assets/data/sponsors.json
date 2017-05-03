@@ -1,0 +1,100 @@
+{
+  "diamond": [
+  ],
+  "gold": [
+    {
+      "name": "Adaptive",
+      "href": "http://weareadaptive.com",
+      "image": {
+        "src": "/assets/img/sponsors/adaptive-logo.png",
+        "alt": "Adaptive"
+      }
+    },
+    {
+      "name": "Netcentric",
+      "href": "https://netcentric.biz",
+      "image": {
+        "src": "/assets/img/sponsors/netcentric-logo.png",
+        "alt": "Netcentric - Expect Excellence"
+      }
+    },
+    {
+      "name": "Everis",
+      "href": "http://www.everis.com",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "Everis"
+      }
+    },
+    {
+      "name": "RedHat",
+      "href": "http://www.redhat.com",
+      "image": {
+        "src": "/assets/img/sponsors/redhat.png",
+        "alt": "RedHat"
+      }
+    },
+    {
+      "name": "Alfresco",
+      "href": "http://www.alfresco.com",
+      "image": {
+        "src": "/assets/img/sponsors/alfresco-logo.png",
+        "alt": "Alfresco"
+      }
+    }
+  ],
+  "silver": [
+    {
+      "name": "Opentrends",
+      "href": "http://www.opentrends.net",
+      "image": {
+        "src": "/assets/img/sponsors/opentrends-logo.png",
+        "alt": "Opentrends"
+      }
+    }
+  ],
+  "bronze": [
+  ],
+  "supporters": [
+    {
+      "name": "Barcelona JUG",
+      "href": "http://www.barcelonajug.org/",
+      "image": {
+        "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "alt": "Barcelona JUG"
+      }
+    },
+    {
+      "name": "Method and Tools",
+      "href": "http://www.methodsandtools.com/",
+      "image": {
+        "src": "/assets/img/sponsors/method_and_tools.jpg",
+        "alt": "Method and Tools"
+      }
+    },
+    {
+      "name": "Canoo",
+      "href": "http://www.canoo.com/",
+      "image": {
+        "src": "/assets/img/sponsors/canoo.png",
+        "alt": "Canoo"
+      }
+    },
+    {
+      "name": "London Java Community",
+      "href": "https://www.meetup.com/Londonjavacommunity/",
+      "image": {
+        "src": "/assets/img/sponsors/london-jug.png",
+        "alt": "London Java Community"
+      }
+    },
+    {
+      "name": "Salesforce",
+      "href": "https://www.salesforce.com",
+      "image": {
+        "src": "/assets/img/sponsors/salesforce-logo.png",
+        "alt": "Salesforce"
+      }
+    }      
+  ]
+}

@@ -14,6 +14,7 @@
   </p>
 
   <p>{{meeting.location}}</p>
+  <p *ngIf="meeting.voteMeeting > 0">{{meeting.voteMeeting}}</p>
   <p>
      <ion-icon [name]="getIcon(n)" *ngFor="let n of [1,2,3,4,5]" class="meeting-vote" (click)="voteMeeting(meeting,n)"></ion-icon>
   </p>

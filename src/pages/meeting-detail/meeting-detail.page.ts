@@ -1,6 +1,5 @@
 import { NavController, NavParams} from 'ionic-angular';
 import { Component } from '@angular/core';
-import {Inject} from '@angular/core';
 import {JbcnService} from '../../services/jbcn.service';
 import { SpeakerDetailPage } from '../speaker-detail/speaker-detail.page';
 //import {SpeakerDetail} from '../speaker-detail/speaker-detail';
@@ -13,11 +12,12 @@ export class MeetingDetailPage {
     meeting;
     speakers;
     nav: NavController;
-    vote;
+    vote; Number;
     jbcnService: JbcnService;
     constructor(navParams:NavParams, jbcnService:JbcnService,nav: NavController) {
         this.jbcnService = jbcnService;
         this.meeting = navParams.data;
+        this.vote = this.jbcnService.getVote(this.meeting.id);
         this.nav = nav;
         //let meetingVote = this.jbcnService.getMeetingVote(this.meeting.id);
         //this.vote= meetingVote["vote"];
@@ -37,7 +37,10 @@ export class MeetingDetailPage {
     
     voteMeeting(meeting,n) {
         this.vote=n;
-        //this.jbcnService.voteMeeting(meeting.id, n);
+        this.jbcnService.voteMeeting(meeting.id, n).then(voteMeeting => {
+            this.meeting.voteMeeting = voteMeeting;
+            this.jbcnService.storeVote(meeting.id, this.vote);
+        });
     }
 
     goBack() {

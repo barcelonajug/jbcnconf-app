@@ -1,1271 +1,1414 @@
-export const data = {
-  "speakers": [
+export const speakers = [
     {
       "enabled": "1",
-      "name": "Charles Moulliard",
-      "description": "Principal Solution Architect @RedHat",
-      "biography": "Charles Moulliard is currently a Sr. Principal Solution Architect @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies.<br>As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Programming languages, RDBMS, Architecture - JEE/SOA, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions.<br>He is also fascinated to train people on SOA, OSGI, ESB & JEE and provide consultancy.<br>As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy mountain bike & Rock’n’roll.<br>You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
-      "image": "assets/img/speakers/charles-moulliard.png",
-      "ref": "cmoulliard",
-       "url": "infoSpeaker.html?ref=cmoulliard",
-      "twitter": "http://twitter.com/cmoulliard",
-      "homepage": "http://cmoulliard.github.io/",
-      "hasMoreTalks": "1",
-      "talk": {
-        "type": "talk",
-        "title": "Develop a Mobile Application connected to a REST Microservice",
-        "abstract": "The development of a Mobile Aplication has been donimated during a decade by proprietary technologies developed by Apple, Android & Microsoft for their own mobile brand. With the development of the Apache Cordova Platform and the framework Ionic, this situation has completely changed as a developer can now design a project using their favorite HTML5, Javascript, AngularJS frameworks and rely on the tool provided by Apache Codova to generate the HTML Hybrid code for the target platform. The purpose of this talk is to demonstrate how such Mobile project can be designed and being integrated with a Backend System which is a REST Camel microservice. Next, we will also explain how we can simplify the Management and the packaging of the NodeJS application used to access the backend service using the Feedhenry Mobile Application platform and its Api.",
-        "tags": [
-          "Microservices", "Camel"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC1-SE7"
+      "name": "Venkat Subramaniam",
+      "description": "Founder of Agile Developer, Inc.",
+      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+      "image": "assets/img/speakers/venkat-subramaniam.jpg",
+      "ref": "venkat",
+      "url": "infoSpeaker.html?ref=venkat",
+      "twitter": "http://twitter.com/venkat_s",
+      "homepage": "http://agiledeveloper.com"
     },
     {
       "enabled": "1",
-      "name": "Christian Posta",
-      "description": "Principal Middleware Architect @ RedHat",
-      "biography": "Principal Middleware Specialist/Architect at Red Hat and well known for being a frequent blogger, speaker, open-source enthusiast.  He is a committer to Apache Camel, ActiveMQ and contributor to Kafka, Fabric8, others. Christian has spent a great deal of time working with large companies creating and deploying large scale distributed architectures - many of what are now called Microservices based. He enjoys mentoring, training and leading teams to be successful with distributed systems concepts, microservices, devops, and cloud-native application design.",
-      "image": "assets/img/speakers/christian-posta.jpg",
-      "ref": "cposta",
-      "url": "infoSpeaker.html?ref=cposta",
-      "twitter": "https://twitter.com/christianposta",
-      "talk": {
-        "type": "talk",
-        "title": "Cloud Native Camel riding with Kubernetes and OpenShift",
-        "abstract": "Microservices is still a distributed-systems problem and integration is a core component to any distributed system. A lot of organizations that are looking to deploy microservices are running into the following problems: how to test, how to deploy, VM proliferation, how to manage, and ultimately how to get services to integrate in a reliable way. Fuse Integration Services for OpenShift is a Docker/Kubernetes-native way of packaging our microservices and leveraging powerful integration technology built on Apache Camel to do connect the pieces together. After that, how do you build, manage and continuously deploy your microserivces? With another open-source project, fabric8.io, we can hook into well-known CI/CD tools like github, jenkins, nexus, et al, and build out end to end  pipelines with promotion and approval processes that can be customized to suit your projects and organizations needs. CI/CD also integrates with LetsChat/Slack/Ryver using Hubot automation to deliver transparency and control to enable organizations to practice ChatOps. Once you've got your microservices being built and deployed, leverage the built-in API Management, middleware visualization console, chaos monkey, and centralized logging/metrics/monitoring to operationalize your services and ensure they stay resilient.",
-        "tags": [
-          "Microservices", "Cloud", "Docker", "Kubernetes"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC3-SE1"
+      "name": "Sandro Mancuso",
+      "description": "Founder of Codurance and London Software Craftmanship Community",
+      "biography": "Software craftsman, author, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. He has worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+      "image": "assets/img/speakers/sandro-mancuso.jpg",
+      "ref": "sandro",
+      "url": "infoSpeaker.html?ref=sandro",
+      "twitter": "http://twitter.com/sandromancuso",
+      "homepage": "https://codurance.com/blog/author/sandro-mancuso/"
     },
     {
       "enabled": "1",
-      "name": "Maciej Swiderski",
-      "description": "Principal software engineer at JBoss",
-      "biography": "Maciej is principal software engineer at JBoss working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. In his spare time he enjoys calm and relax life on country side and travels.",
-      "image": "assets/img/speakers/maciej-swiderski.png",
-      "ref": "mswiderski",
-      "url": "infoSpeaker.html?ref=mswiderski",
-      "hasMoreTalks": "1",
-      "talk": {
-        "type": "talk",
-        "title": "Knowledge driven micro services",
-        "abstract": "With constantly growing business demands more and more focus is put on gathering business knowledge and making use of it in IT. Knowledge Is Everything - that’s a slogan that lots of business domains is catching up right now.On the other hand, recent trends in software development are shifting into micro services environments where loosely coupled, standalone and independent services provide access to various business assets. With that in mind, knowledge driven micro service idea came into live to combine couple of great technologies together to satisfy such needs:- vert.x - toolkit for building reactive applications on JVM- jBPM and Drools flexible process and rule engines that provide excellent execution environment for business assets - the knowledge- hazelcast - in memory data grid- various programming languages (Java, JavaScript, Scala, Groovy) to attract various development teams. This session is about illustrating how easily and fast you can build knowledge driven micro services and scale them to almost no limits. All in reactive and polyglot fashion with powerful clustering. Scale individual knowledge micro services without a hassle and allow various languages to easily interact with business knowledge without a need to know where they are located. It all goes via clustered event bus provided by Vert.x, backed by deployable knowledge archives provided by jBPM and Drools, clustering delivered by hazelcast data grid and allow polyglot client side access.It’s all about business knowledge that can be delivered as software solution with:- flexibility - speed of development - isolated scalability - manageability . Come and see how to transform your IT solutions into knowledge driven micro services with Vert.x, jBPM, Drools and Hazelcast. This session will be full of life demos to actually show the running micro services driven by business knowledge.",
-        "tags": [
-          "Microservices", "Design", "Vert.x", "jBPM"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC1-SE4"
+      "name": "Trisha Gee",
+      "description": "Developer Advocate at JetBrains",
+      "biography": "Trisha has developed Java applications for a range of industries, including finance, manufacturing, software and non-profit, for companies of all sizes. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and dabbles with Open Source development. Trisha is a leader of the Sevilla Java User Group, a MongoDB Master and a Java Champion. She believes we shouldn't all have to make the same mistakes again and again. She’s a Developer Advocate for JetBrains so she can share all the cool stuff she's discovered so far. Blog: http://www.trishagee.com",
+      "image": "assets/img/speakers/trisha-gee.jpeg",
+      "ref": "trisha",
+      "url": "infoSpeaker.html?ref=trisha",
+      "twitter": "http://twitter.com/trisha_gee",
+      "homepage": "http://www.trishagee.com"
     },
     {
       "enabled": "1",
-      "name": "Milen Dyankov",
-      "description": "Senior Consultant at Liferay.",
-      "biography": "Personally - passionate about designing and building software as well as helping others design and build good software!                     Professionally - senior consultant at Liferay assisting some of the biggest European companies succeed in today's rapidly changing virtual reality by engaging their customers, partners, and employees.                     Technically - uses mostly Java to build modular solutions that adapts to business requirements",
-      "image": "assets/img/speakers/milen-dyankov.png",
-      "ref": "mdyankov",
-      "url": "infoSpeaker.html?ref=mdyankov",
-      "twitter": "https://twitter.com/milendyankov",
-      "talk": {
-        "type": "talk",
-        "title": "What's NOT new in Modular Java!",
-        "abstract": "With Java 9 and Jigsaw project around the corner (this time apparently for real), we finally need to stop pretending we can simply ignore the concept of modularity in Java! The thing is - modularity is NOT just some new framework! Neither it is a simple set of APIs! It's a complex concept that has been around for almost as long as the industry itself. So in this talk I'd like to take a step back and reason about the fundamental idea of modularity in Java by comparing the concepts of Jigsaw with other Java modularity approaches and implementations that have been around for quite some time.",
-        "tags": [
-          "Modularity", "Java9"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC2-SE1"
+      "name": "Bert Jan Schrijver",
+      "description": "CTO at OpenValue",
+      "biography": "Bert Jan is a software craftsman at JPoint in the Netherlands and CTO at OpenValue. His focus is on Java, Continuous Delivery and DevOps. He is User Group leader for NLJUG, the Dutch Java User Group and a JavaOne Rock Star speaker. He loves to share his experience by speaking at conferences, writing for the Dutch Java magazine and helping out Devoxx4Kids with teaching kids how to code.",
+      "image": "assets/img/speakers/bert-jan-schrijver.jpg",
+      "ref": "schrijver",
+      "url": "infoSpeaker.html?ref=schrijver",
+      "twitter": "https://twitter.com/bjschrijver",
+      "homepage": "https://openvalue.nl"
     },
     {
       "enabled": "1",
-      "name": "Sean P. Floyd",
-      "description": "Full-stack developer at Zalando",
-      "biography": "Full-stack Java / Scala developer with ~20 years of experience. High level architect, low level hacker.",
-      "image": "assets/img/speakers/sean-floyd.png",
-      "ref": "sfloyd",
-      "url": "infoSpeaker.html?ref=sfloyd",
-      "twitter": "https://twitter.com/oldjavaguy",
-      "talk": {
-        "type": "talk",
-        "title": "Advanced testing patterns in Java and Scala",
-        "abstract": "Not your father's unit testing. This talk will deal with advanced testing techniques like parameterized testing, property testing, dynamic test generation. It will also focus on techniques for making seemingly untestable code testable. I'll show techniques for both Java and Scala, along with hints on how to integrate the two.",
-        "tags": [
-          "Testing", "Scala", "Patterns"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC4-SE6"
-    },
-    {
-      "enabled": "1",
-      "name": "Jean Baptiste Onofre",
-      "description": "Apache Member, PMC Chair of Karaf",
-      "biography": "JB is Apache Member, PMC Chair of Karaf, and working on about 20 Apache projects.",
-      "image": "assets/img/speakers/jbonofre.jpg",
-      "ref": "jbonofre",
-      "url": "infoSpeaker.html?ref=jbonofre",
-      "twitter": "https://twitter.com/jbonofre",
-      "talk": {
-        "type": "talk",
-        "title": "Apache Beam to design your data pipelines",
-        "abstract": "Instead of directly implementing your data processing jobs using MapReduce or Spark, you can abstract by using Apache Beam. It provides a very convenient SDK allowing you to design pipelines working in stream or batch mode.",
-        "tags": [
-          "DB", "noSQL"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#FRI-TC3-SE2"
-    },
-    {
-      "enabled": "1",
-      "name": "Viktor Farcic",
-      "description": "Senior Consultant at CloudBees",
-      "biography": "Viktor Farcic is a Senior Consultant at CloudBees.He coded using a plethora of languages starting with Pascal (yes, he is old), Basic (before it got Visual prefix), ASP (before it got .Net suffix), C, C++, Perl, Python, ASP.Net, Visual Basic, C#, JavaScript, etc. He never worked with Fortran. His current favorites are Scala and JavaScript even though most of his office hours are spent with Java.His big passions are Microservices, Continuous Integration, Delivery and Deployment (CI/CD) and Test-Driven Development.He often speaks at community gatherings and conferences.He wrote the 'Test-Driven Java Development' and 'The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices' books.",
-      "image": "assets/img/speakers/vfarcic.jpg",
-      "ref": "vfarcic",
-      "url": "infoSpeaker.html?ref=vfarcic",
-      "twitter": "https://twitter.com/vfarcic",
-      "talk": {
-        "type": "talk",
-        "title": "Continuously Deploying Microservices",
-        "abstract": "The chances are that you already tried Docker. You probably started by running one of the images from Docker Hub. The ease of use led you to experiment writing your own Dockerfile and building images from it. You tried Docker Compose. You might have realized benefits Docker provides in conjunction with microservices. Hopefully, you already deployed a container or two to production or, at least, recognized the advantages it brings to development, testing, integration and other environments and phases. All those pieces are necessary requirements for the 'real deal'. The final objective is to combine quite a few processes and technologies that will allow us to create a deployment pipeline. Docker makes it possible to reach nirvana. The world many thought is far from reality. The world where the last thing we do is run git push. From thereon, a machine takes over, and few minutes later our software is tested, built, deployed to production, and what so not. Let's see how that nirvana looks like. Let's explore which steps are required for a fully automated continuous deployment pipeline combined with microservices, and Docker containers.",
-        "tags": [
-          "Microservices", "ContinuousDelivery"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC1-SE1"
+      "name": "Maarten Mulders",
+      "description": "Enthusiastic senior developer and trainer",
+      "biography": "Enthusiastic senior developer and trainer. Passionate about 'building the right thing' and 'building the thing right'. Seasoned in Java and JavaScript, recently entangled by Scala and Akka. Love to share new ideas and knowledge.",
+      "image": "assets/img/speakers/maarten-mulders.jpg",
+      "ref": "mmulders",
+      "url": "infoSpeaker.html?ref=mmulders",
+      "twitter": "https://twitter.com/mthmulders",
+      "homepage": "https://maarten.mulders.tk"
     },
     {
       "enabled": "1",
       "name": "Claus Ibsen",
       "description": "Principal software engineer from Red Hat",
-      "biography": "Claus Ibsen is a principal software engineer from Red Hat. Claus is working full time on open source integration projects such as Apache Camel, fabric8, hawtio. He is also involved with container projects such as Kubernetes and OpenShift3. Claus is author of the Camel in Action books. Currently busy writing the 2nd edition.",
-      "image": "assets/img/speakers/cibsen.jpg",
-      "ref": "cibsen",
-      "url": "infoSpeaker.html?ref=cibsen",
+      "biography": "Works for Red Hat on open source integration projects such as Apache Camel, fabric8 and hawtio. Author of Camel in Action books.",
+      "image": "assets/img/speakers/claus-ibsen.jpg",
+      "ref": "davsclaus",
+      "url": "infoSpeaker.html?ref=davsclaus",
       "twitter": "https://twitter.com/davsclaus",
-      "talk": {
-        "type": "talk",
-        "title": "Developing Java based microservices ready for the world of containers",
-        "abstract": "The so-called experts are saying microservices and containers will change the way we build, maintain, operate, and integrate applications. This talk is intended for Java developers who wants to hear and see how you can develop Java microservices that are ready to run in containers. In this talk we will build a set of Java based microservices that uses a mix of technologies with:- Apache Camel with CDI - Spring Boot - Vert.x - WildFly Swarm . You will see how we can build small discrete microservices with these Java technologies and build and deploy on the Kubernets/OpenShift3 container platform. We will discuss practices how to build distributed and fault tolerant microservices using technologies such as Kubernetes Services, Camel EIPs, Netflixx Hysterix, and Ribbon. We will use Zipkin service tracing across all four Java based microservices to provide a visualization of timings and help highlight latency problems in our mesh of microservices. And the self healing and fault tolerant aspects of the Kubernetes/OpenShift3 platform is also discussed and demoed when we let the chaos monkeys loose killing containers. This talk is a 50/50 mix between slides and demo.",
-        "tags": [
-          "Microservices", "Containers"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC1-SE5"
+      "homepage": "http://www.davsclaus.com"
     },
     {
       "enabled": "1",
-      "name": "Esther Lozano",
-      "description": "Software Engineer at Autentia",
-      "biography": "Esther Lozano works as Software Engineer in Autentia since 2015, mainly as Java backend developer. However, this has not always been her role. After getting her degree in Computer Science, she suddenly woke up into a PhD program about Semantic Web and ontologies - because who doesn't, right? She successfully finished her research in 2015, but by then she had already made her mind about pursuing a more technical career. So she rolled an ability check, paid some hope points, and... hooray! She epically made it into professional development.",
-      "image": "assets/img/speakers/elozano.png",
-      "ref": "elozano",
-      "url": "infoSpeaker.html?ref=elozano",
-      "twitter": "https://twitter.com/esloho",
-      "talk": {
-        "type": "talk",
-        "title": "Geb+Spock: let your functional tests live long and prosper",
-        "abstract": "Functional testing, as any other testing, is important to ensure the health of our apps. However, functional tests are often tricky, too susceptible to change, and their maintenance ends up being a nightmare. Are we hopeless then? Not at all! Luckily, there are tools to ease this task like Geb and Spock, which help us to create well structured, comprehensive, and easy to maintain tests. In this talk we will review these tools, showing different options for creating the tests. Demo included!",
-        "tags": [
-          "Testing", "Geb", "Spock"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC4-SE7"
-    },
-    {
-      "enabled": "1",
-      "name": "Simon Ritter",
-      "description": "CTO of Azul Systems",
-      "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. Simon joined Sun Microsystems in 1996 and spent time working in both Java development and consultancy.  He has been presenting Java technologies to developers since 1999 focusing on the core Java platform as well as client and embedded applications.  Now at Azul Systems he continues to help people understand Java and Azul’s JVM products.",
-      "image": "assets/img/speakers/simon-ritter.jpg",
-      "ref": "sritter",
-      "url": "infoSpeaker.html?ref=sritter",
-      "twitter": "https://twitter.com/speakjava",
-      "homepage": "http://www.azul.com",
-      "hasMoreTalks": "1",
-      "talk": {
-        "type": "talk",
-        "title": "JDK 8: Lessons Learnt With Lambdas and Streams",
-        "abstract": "Lambda expressions and the streams API add a more functional style of programming to Java; something developers have not really had in the past. This session will start with a short summary of the key features of both Lambda expressions and streams before moving on to some real world examples of how to use them effectively, including a number of lessons learnt from trying to apply an imperative style of programming when it should have been functional. We’ll move on to a discussion about the way parallel streams work under-the-hood, factors that affect parallel stream performance including details of when not to use a parallel stream. We'll finish off with a quick look at some of the ideas for improvements to streams in JDK 9.",
-        "tags": [
-          "Java8", "FunctionalProgramming", "Java9", "Performance", "Lambdas"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC2-SE5"
-    },
-    {
-      "enabled": "1",
-      "repeated" : "1",
-      "name": "Simon Ritter",
-      "description": "CTO of Azul Systems",
-      "biography": "Simon Ritter is the Deputy CTO of Azul Systems.  Simon has been in the IT business since 1984 and holds a Bachelor of Science degree in Physics from Brunel University in the U.K. Simon joined Sun Microsystems in 1996 and spent time working in both Java development and consultancy.  He has been presenting Java technologies to developers since 1999 focusing on the core Java platform as well as client and embedded applications.  Now at Azul Systems he continues to help people understand Java and Azul’s JVM products.",
-      "image": "assets/img/speakers/simon-ritter.jpg",
-      "ref": "sritter",
-      "url": "infoSpeaker.html?ref=sritter",
-      "twitter": "https://twitter.com/speakjava",
-      "homepage": "http://www.azul.com",
-      "talk": {
-        "type": "talk",
-        "title": "21 Years of Java, 10 Years of OpenJDK: Where Do We Go From Here?",
-        "abstract": "The Java platform is twenty-one years old putting it right up there with Cobol, C and Fortran in terms of longevity. It’s also now ten years since Sun Microsystems created the OpenJDK project, open sourcing the Sun implementation of the Java Development Kit.<br>In this keynote, we’ll take a look back at how Open Source has radically changed the way software is developed, marketed and commercialised and how the OpenJDK has delivered on its original goals in this space. From there, we’ll look into our crystal ball and try to see where Java goes from here.  With many competing languages available to developers what will be required to keep Java the most popular development platform on the planet?",
-        "tags": [
-          "Java8", "Java9", "OpenJDK", "JavaEE", "OpenSource"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#Fri-Keynote"
-    },
-    {
-      "enabled": "1",
-      "name": "Tugdual Grall",
-      "description": "Chief Technical Evangelist for EMEA at MapR",
-      "biography": "Tugdual Grall is Chief Technical Evangelist for EMEA at MapR, an open source advocate and a passionate developer. He currently works with the European developer communities to ease MapR, Hadoop and NoSQL adoption. Before joining MapR, Tug was Technical Evangelist at MongoDB and Couchbase. Tug has also worked as CTO at eXo Plaform and JavaEE product manager, and software engineer at Oracle. Tugdual is Co-Founder of the Nantes JUG (Java User Group) that holds since 2008 monthly meeting about Java ecosystem.",
-      "image": "assets/img/speakers/tgrall.png",
-      "ref": "tgrall",
-      "url": "infoSpeaker.html?ref=tgrall",
-      "twitter": "https://twitter.com/tgrall",
-      "homepage": "http://tgrall.github.io/",
-      "talk": {
-        "type": "talk",
-        "title": "Fast Cars, Big Data - How Streaming Can Help Formula 1",
-        "abstract": "Modern cars produce data. Lots of data. And Formula 1 cars produce more than their share. I will present a working demonstration of how modern data streaming can be applied to the data acquisition and analysis problem posed by modern motorsports. Instead of bringing multiple Formula 1 cars to the talk, I will show how we instrumented a high fidelity physics-based automotive simulator to produce realistic data from simulated cars running on the Spa-Francorchamps track. We move data from the cars, to the pits, to the engineers back at HQ. The result is near real-time visualization and comparison of performance and a great exposition of how to move data using messaging systems like Kafka. The code from this talk will be made available as open source.",
-        "tags": [
-          "Bigdata", "Real-time", "Performance", "Messaging"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC2-SE1"
-    },
-    {
-      "enabled": "1",
-      "name": "Laurent Doguin",
-      "description": "Developer Advocate at Couchbase",
-      "biography": "Laurent is a Paris based Developer Advocate where he focuses on helping Java developers and the French community. He writes code in Java and blog posts in Markdown. Prior to joining Couchbase he was Nuxeo’s community liaison where he devoted his time and expertise to helping the entire Nuxeo Community become more active and efficient.",
-      "image": "assets/img/speakers/ldoguin.jpg",
-      "ref": "ldoguin",
-      "url": "infoSpeaker.html?ref=ldoguin",
-      "twitter": "http://twitter.com/ldoguin",
-      "homepage": "http://blog.couchbase.com/facet/Author/Laurent+Doguin",
-      "talk": {
-        "type": "talk",
-        "title": "A practical RxJava example with Ratpack and Couchbase",
-        "abstract": "RxJava seems to be this awesome thing that every cool kids start using. But when you read about it, half of the time it's hard to make anything out of it. Sure the isolated examples look nice but it's always hard to put this in perspective with a real app. In this talk I'll go through an application made to store, index and search files. We'll see the benefit brought by using RxJava and Ratpack. Nothing too complicated or advanced, just something pragmatic.",
-        "tags": [
-          "RxJava", "Couchbase", "noSQL", "Ratpack"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#SAT-TC1-SE1"
-    },
-    {
-      "enabled": "1",
-      "name": "Tomasz Dubikowski",
-      "description": "Software Development Team Lead at Ocado Technology",
-      "biography": "Tomek is a Software Development Team Lead at Ocado Technology.  He has 5 years experience working as a Software Engineer, Scrum Master and Agile Trainer. As an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behaviour driven development and domain driven design. As a leader, he helps to build an organisational culture based upon autonomy, collaboration and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products. Tomasz loves to change the reality around him. He his highly pragmatic, challenges orthodoxy at all levels and believes that there is always room for improvement.  He is always eager to discuss and share his ideas.",
-      "image": "assets/img/speakers/tomasz-dubikowski.png",
-      "ref": "tdubikowski",
-      "url": "infoSpeaker.html?ref=tdubikowski",
-      "twitter": "https://twitter.com/tdubikowski",
-      "homepage": "https://agilehabits.wordpress.com/",
-      "talk": {
-        "type": "talk",
-        "title": "Epic Battle: Zombies vs Mutants",
-        "abstract": "People love zombies. Just look how many movies about zombies are made. But Why? They don't have purpose, consume 'non-zombie' resources, spread panic and fear. Even though, people love them. People don't love mutants. 'Mutant' is such a negative word. Even if you find a really cool mutants, like Spiderman or Wolverine, we call them superheros. It just sounds better. But when you look at them they have great powers that can be used for great things. But nope, people don't love mutants. IT people are much smarter and prefer mutants over zombies. How many zombie test we have in our systems? Tests, that don't check anything, fail in the worst moment, consume resources and time? Do we even know where they are and how many of them there is exactly? Not really, and here mutants can help. And to be more precise - mutation testing. In my presentation I would like to talk about mutation testing and how they affect the quality of both the code and tests. During live coding session I would like to present lightweight and easy to introduce framework PITest, which I consider to be the best available solution for mutation testing.",
-        "tags": [
-          "Testing"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC4-SE4"
-    },
-    {
-      "enabled": "1",
-      "name": "Wlodek Krakowski",
-      "description": "Software Development Team Leader at Ocado Technology in Krakow",
-      "biography": "Włodek Krakowski has been a software craftsman for 15+ years. Two years ago he joined Ocado Technology in Krakow as an Software Development Team Leader and before he spent 10 years in Sabre (Airline Solutions) growing there from Junior to Team Lead Software Developer. During this time he was observing struggles of teams he belonged to in delivering software to clients. What he noticed was the never­ending story of 'complaints approach' to everything (delays, changing requirements, lack of TDD, lack of time for good design...). What he noticed was that many people were getting rid of responsibility by saying it is business side fault only ­ because we are in such a hurry and requirements are changing...As outcome thoughts out of these struggles he started promoting the opposite approach 'what I can do to change it / make things better' There are lot of things we can do to improve things instead of waiting for our wishes to happen by coincidence. Włodek is leader but also a developer. Therefore he decided to join this these two skills and focus on teaching people to achieve business goals by taking care of quality and refactoring code in the smallest possible steps. Each refactoring must be done towards given goal, even a very small one and should be followed by our feedback if it was a good choice at some point. And we also need to remember that our final goal is to deliver business functionality to our clients (because they pay for it)... and good code quality is the only means that will allow us achieve it.",
-      "image": "assets/img/speakers/wlodek-krakowski.png",
-      "ref": "wkrakowski",
-      "url": "infoSpeaker.html?ref=wkrakowski",
-      "hasMoreTalks": "1",
-      "talk": {
-        "type": "talk",
-        "title": "Effective Refactoring ­- bring it home",
-        "abstract": "Balance, this is the word we can hear in lots of places but not too often in software development. But what balance can you talk about in our industry? What is the balance we need/ How can we achieve it? Marketing people needs to have a product they can sell, developers needs to have a product that is easy and nice to work with. How can we take care of this balance? Who should take care of it? Can developers only complain 'if only I had more time I would write unit tests... / I would take care of the design / the code would be in better shape...'? Did you hear such complaints next to your desk? So what can we do about the above? It is enough to be a good developer or do we need something more? In my workshop I would like to talk about Effective Refactoring. Effective Refactoring joins two things : hand­on refactoring and talk about effectiveness. Refactoring is a mean to achieve the balance between production (clients receives working product) and production capability (developers are able to extend the product and deliver new functionality). Effectiveness is the mental approach to achieving our goals. Only when you join them you can act reasonably. My goal is to encourage people to change the approach to work by refactoring when needed, by making it everyday practice or a habit. Each of us want to be happy at work. We want to be motivated but do we take care of it? We want to have good quality code, covered by tests, object oriented but what we really do in order achieve it? I would like to show 7 Habits of Highly Effective People presented by Stephen Covey in his best seller and how they can be applied to software engineering. Here are they. Be proactive Are you waiting for things to be done and complaining? Are you part of the solution or part of the problem? 'It’s not me ­ it’s the team'. Did you hear this complaint? Start with end in mind Do you ask yourself questions : what I am doing? how should I do this? why I am doing it this way? What will be the outcome of my decisions in the near future? Did I really saved time if I skipped refactoring and quality because the product 'is working'? Importance before urgency Certainly sometimes we need to put off the fire at work. But what kind of a motivator it is? 'Must do it' vs 'want do it' are two different approaches and if you want to use the latter approach you need to to really proactive and minimize the number of fires. Then you will have more freedom to take care of your code. Think Win ­ Win or No Deal What is your approach to collaborators? Do you perceive your (product) managers / marketing as competitors (time vs quality) or members of one team that drives together towards the success? Understand before being understood How to approach dealing with legacy code? Do you just add you new functionality or consider refactoring before or after this? What you do before you decide to improve the design? Do you want to understand the current state before proposing / imposing your changes? Introduce synergy Do you understand the difference between compromise and synergy when two people have different opinions and want to achieve agreement? Team can benefit a lot if people are looking together for 'third solutions' instead of competing. Sharpen the SawDo you take care of yourself so you are able to make it better? Do you know the areas of yourself to grow (physical, mental, emotional, spiritual dimensions). Do you know that sometimes to be better in refactoring is to stop refactoring?",
-        "tags": [
-          "Refactoring", "Coding", "Testing", "Design Patters"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC2-SE6"
-    },
-    {
-      "enabled": "1",
-      "repeated" : "1",
-      "name": "Wlodek Krakowski",
-      "description": "Software Development Team Leader at Ocado Technology in Krakow",
-      "biography": "Włodek Krakowski has been a software craftsman for 15+ years. Two years ago he joined Ocado Technology in Krakow as an Software Development Team Leader and before he spent 10 years in Sabre (Airline Solutions) growing there from Junior to Team Lead Software Developer. During this time he was observing struggles of teams he belonged to in delivering software to clients. What he noticed was the never­ending story of 'complaints approach' to everything (delays, changing requirements, lack of TDD, lack of time for good design...). What he noticed was that many people were getting rid of responsibility by saying it is business side fault only ­ because we are in such a hurry and requirements are changing...As outcome thoughts out of these struggles he started promoting the opposite approach 'what I can do to change it / make things better' There are lot of things we can do to improve things instead of waiting for our wishes to happen by coincidence. Włodek is leader but also a developer. Therefore he decided to join this these two skills and focus on teaching people to achieve business goals by taking care of quality and refactoring code in the smallest possible steps. Each refactoring must be done towards given goal, even a very small one and should be followed by our feedback if it was a good choice at some point. And we also need to remember that our final goal is to deliver business functionality to our clients (because they pay for it)... and good code quality is the only means that will allow us achieve it.",
-      "image": "assets/img/speakers/wlodek-krakowski.png",
-      "ref": "wkrakowski",
-      "url": "infoSpeaker.html?ref=wkrakowski",
-      "talk": {
-        "type": "workshop",
-        "title": "Effective Refactoring ­- Feel the Thrill",
-        "abstract": "You need to experience to understand. You need to teach to grow. Therefore in order to grow your refactoring skills you need to see it, experience it, understand it, share your ideas with others, try it yourself,try it in a group and finally encourage, teach others! During this 2 hours slot (with a break of course as nobody can keep concentrated for such time) I would like to do some live­refactoring ­ interactively with the audience. I will present pyramid of refactoring (the concept I’ve created based on lots of ideas I’ve read), and show how I teach to apply it into real code. We will use Java and IntelliJ’s automated refactorings. The codebase will be really small. This way we can quickly understand it and turn it upside down as long / as much as we want. We will start from the simplest refactorings, and step by step go into more sophisticated ones. Extracting new classes, applying Single Responsibility Principle (or the whole SOLID) will lead us towards emerging Design Patterns, reusability and testability of our classes. I do want to show that refactoring is like a game: try and see if given refactoring leads to better quality. Maybe this way, maybe not. Each trial is a lesson. When we fail then we draw conclusions and try again in order to succeed. I will prove also very quickly, why we run into one of two extremes so that refactoring does not happen to your code : ­ Hmm.... The code is so simple (not that bad yet), so why should I refactor it?­ Oh no! The code is so horrible that I do not want to work with it any longer.... and want to change the job /team. But Isn’t you the one who made it (as least partly) so bad? Effective Refactoring joins two things : hand­on refactoring and talk about effectiveness. Refactoring is a mean to achieve the balance between production (clients receives working product) and production capability (developers are able to extend the product and deliver new functionality). Effectiveness is the mental approach to achieving our goals. Only when you join them you can act reasonably. My goal is to encourage people to change the approach to work by refactoring when needed, by making it everyday practice or a habit. Each of us want to be happy at work. We want to be motivated but do we take care of it? We want to have good quality code, covered by tests, object oriented but what we really do in order achieve it?",
-        "tags": [
-          "Refactoring", "Coding", "Testing", "Design Patters"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#THU-TC4-SE2"
-    },
-    {
-      "enabled": "1",
-      "name": "Maarten Mulders",
-      "description": "Senior developer, trainer and architect",
-      "biography": "Enthusiastic senior developer, trainer and architect with a passion for elegant and simple solutions. My speaking experience includes talks on a range of topics, held both inside my company (<a href='https://youtu.be/HXSB5DxIQUk' style='color:blue'>https://youtu.be/HXSB5DxIQUk</a>) and at different clients. I’ve spoken about the ELK-stack at ConFESS_2015 (<a href='https://youtu.be/mtI88EkWZgU' style='color:blue'>https://youtu.be/mtI88EkWZgU</a>) and Javantura v3. I’ve also given lectures and workshop about other topics during various events in my own company and at clients.",
-      "image": "assets/img/speakers/mmulders.jpg",
-      "ref": "mmulders",
-      "url": "infoSpeaker.html?ref=mmulders",
-      "talk": {
-        "type": "talk",
-        "title": "ELK: BigData for DevOps",
-        "abstract": "Big Data is often related to companies like Google, Facebook or Twitter. Indeed, 500 bilion tweets a day, 1,3 billion active Facebook users or 30 billion web pages to search, we're talking 'Big Data'. Many smaller companies have Big Data, too, without knowing it: application log files. This talk discusses how to use Elasticsearch, Logstash and Kibana to gain insight in these data. It also covers a real-world example at a major Dutch bank, including common pit falls, best practices and lessons  learned. It also addresses how monitoring was done before using the ELK stack and what the major advantages are. After attending this session you will be able to leverage the power of the ELK stack for your own application. Even for smaller companies and applications, a lot of knowledge can be gained from proper insight in your production environment.",
-        "tags": [
-          "Bigdata","ElasticSearch","Logstash","Kibana"
-        ],
-        "level": "Advanced"
-      },
-      "scheduleId": "#SAT-TC2-SE2"
-    },
-    {
-      "enabled": "1",
-      "name": "Mario Garcia",
-      "description": "Software Developer",
-      "biography": "I’ve always been interested in learning new ways of improving my skill sets as software developer. That idea sometimes has led me in the past to look for that knowledge abroad. Although I’m also have my days, I wouldn’t start anything without testing it in the first place. What languages do I like ? Although I personally prefer Groovy, all languages within the JVM are welcomed, and of course some others outside the JVM such as Haskell. When I’m not programming I like simple things like: a full moon, testing, having a coffee, coding, walking downtown, refactoring, and all over again.",
-      "image": "assets/img/speakers/mgarcia.jpg",
-      "ref": "mgarcia",
-      "url": "infoSpeaker.html?ref=mgarcia",
-      "twitter": "https://twitter.com/marioggar",
-      "talk": {
-        "type": "talk",
-        "title": "Generative Testing with Spock",
-        "abstract": "As our application grows in size and complexity, sometimes our testing code becomes more and more difficult to write and maintain, more use cases, more values to check...STOP! This talk will discuss on how property-based testing and Spock could help you writing more concise and maintainable testing code. Spock is a testing and specification framework for Java and Groovy with a beautiful and highly expressive specification language.",
-        "tags": [
-          "Testing",
-          "Spock",
-          "Groovy"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC4-SE1"
+      "name": "Burr Sutter",
+      "description": "Red Hat’s Director of Developer Experience",
+      "biography": "A lifelong developer advocate, community organizer, and technology evangelist, Burr Sutter is a featured speaker at technology events around the globe—from Bangalore to Brussels and Berlin to Beijing (and most parts in between)—he is currently Red Hat’s Director of Developer Experience. A Java Champion since 2005 and former president of the Atlanta Java User Group, Burr founded the DevNexus conference—now the second largest Java event in the U.S.—with the aim of making access to the world’s leading developers affordable to the developer community. When not speaking abroad, Burr is also the passionate creator and orchestrator of highly-interactive live demo keynotes at Red Hat Summit, the company’s premier annual event.",
+      "image": "assets/img/speakers/burr-sutter.jpg",
+      "ref": "burrsutter",
+      "url": "infoSpeaker.html?ref=burrsutter",
+      "twitter": "https://twitter.com/burrsutter",
+      "homepage": "https://developers.redhat.com/"
     },
     {
       "enabled": "1",
       "name": "Alex Soto",
-      "description": "Senior Software Engineer at Red Hat",
-      "biography": "Alex is a software engineer at Red Hat. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like Devoxx, JavaOne, JavaZone or JavaLand.",
+      "description": "Software Engineer at RedHat",
+      "biography": "Alex is a software engineer at Red Hat. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like JBCNConf, Devoxx, JavaOne, JavaZone or JavaLand.",
       "image": "assets/img/speakers/alex-soto.jpg",
-      "ref": "asoto",
-      "url": "infoSpeaker.html?ref=asoto",
-      "twitter": "https://twitter.com/alexsotob",
-      "talk": {
-        "type": "talk",
-        "title": "Dockerized system testing, with a dash of chaos",
-        "abstract": "With microservices, polyglot and DevOps on the rise, where are we at with testing? Does it bring more complexity and make our testing effort harder or maybe in contrary; it actually helps us write better tests easier? In this session, we will be exploring not only how we can do our testing in this new world, but also how the new world can help us test better. Meet Arquillian Cube and Q. We will take a close look at topics varying from polyglot services, orchestrated microservices to system scale testing. All are within reach. And with full control; Let's add a dash of chaos!",
-        "tags": [
-          "Docker",
-          "Testing"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC1-SE6"
+      "ref": "alexsoto",
+      "url": "infoSpeaker.html?ref=alexsoto",
+      "twitter": "https://twitter.com/alexsotob"
     },
     {
       "enabled": "1",
-      "name": "Schalk Cronjé",
-      "description": "Software Engineer and author",
-      "biography": "Schalk Cronjé’s experience in the software industry spans three decades and has performed most roles in software delivery. He believes that both software engineering and craftsmanship is important for the industry and that both disciplines should be taught to achieve holism in technology delivery.  He keeps his technical skills fit by frequent contributions to various open-source projects. He is the creator of Groovy-VFS as well a maintainer of various Gradle plugins including JRuby, GMake, Doxygen and more. He is also the author of the Leanpub book 'Idiomatic Gradle : 25 recipes for plugin authors'. He is currently working on a second volume of plugin recipes. He is a regular speaker on various software delivery techniques in aroos Europe, USA, India and South Africa. He currently serves as a steering committee member of the Agile Testing Alliance.",
-      "image": "assets/img/speakers/schalk-cronje.jpg",
-      "ref": "scronje",
-      "url": "infoSpeaker.html?ref=scronje",
-      "twitter": "http://twitter.com/ysb33r",
-      "talk": {
-        "type": "talk",
-        "title": "Quickstart Gradle for JVM Development",
-        "abstract": "Gradle has become a very popular build tool for JVM development, especially after becoming the primary way of building Android apps.  Yet Gradle is far more than that. It presents a next generation of build tooling,and large-scale deployment-pipeline automation. Some people see it as a replacement for Maven, but the comparison is unfair as Gradle offers much more in both functionality and philosophy. In this session we'll be looking at: <ul style='text-align:left'><li>Introduction to Gradle for non-Groovy geeks </li><li> Breaking into the next generation of build tools </li><li>Gradle in a polyglot JVM world </li><li>Usage of Gradle for deployment, Devops, and documentation</li></ul>",
-        "tags": [
-          "Gradle"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC1-SE2"
+      "name": "Matthias Wessendorf",
+      "description": "Project lead of AeroGear",
+      "biography": "Matthias Wessendorf is the project lead of AeroGear, working at Red Hat where he is focused on next generation of mobile computing. Previously, he was the PMC Chair of the Apache MyFaces project. Matthias is a regular speaker at international conferences, like ApacheCon, JavaOne, Devoxx, Red Hat Summit or JAX.",
+      "image": "assets/img/speakers/matthias-wessendorf.jpeg",
+      "ref": "mwessendorf",
+      "url": "infoSpeaker.html?ref=mwessendorf",
+      "twitter": "http://twitter.com/mwessendorf"
     },
     {
       "enabled": "1",
-      "name": "Nicolas Hormazabal",
-      "description": "Team lead at Schibsted Classified Media",
-      "biography": "A researcher for 6 years but a Java developer for the whole professional life, now at Schibsted Classified Media leading a team for developing a service that supports the communication to millions of users across the different sites of our media group. Previously, some experience in Android development, by leading the development and delivering apps for Schibsted across 7 different countries with a wide range of requirements.",
-      "image": "assets/img/speakers/nicolas-hormazabal.jpg",
-      "ref": "nhormazabal",
-      "url": "infoSpeaker.html?ref=nhormazabal",
-      "twitter": "https://twitter.com/pnikosis",
-      "talk": {
-        "type": "talk",
-        "title": "Fascinating! Testing with Spock",
-        "abstract": "When it comes to testing on Java, usually the first thing that comes to most developers' mind is JUnit. Probably some mocking will be needed too, and the almost de-facto option ends up being Mockito. Spock is an alternative for the popular JUnit/Mockito combo written in Groovy but not limited for tests in that language. We are going to show how to write expressive tests in Java using Spock, how to mock objects, write Data Driven tests and support Behaviour Driven Development. Also we will review other features of Spock and how they compare with JUnit/Mockito and how it has helped us locally on our productivity when testing our code, providing some real examples.",
-        "tags": [
-          "Spock",
-          "Testing"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC4-SE5"
+      "name": "Edson Yanaga",
+      "description": "Red Hat's Director of Developer Experience",
+      "biography": "Edson Yanaga is Red Hat's Director of Developer Experience, a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship.",
+      "image": "assets/img/speakers/edson-yanaga.jpeg",
+      "ref": "edsonyanaga",
+      "url": "infoSpeaker.html?ref=edsonyanaga",
+      "twitter": "http://twitter.com/yanaga"
     },
     {
       "enabled": "1",
-      "name": "José Pereda",
-      "description": "Software Engineer at Gluon",
-      "biography": "José Pereda, PhD in Structural Engineering, works as a software engineer at Gluon. Being on Java since 1999, he is a JavaFX advocate, developing JavaFX applications for mobile platforms and embedded platforms, while he also works on open source projects (JFXtras, FXyz, https://github.com/jperedadnr), co-authoring a JavaFX book (JavaFX 8 Introduction by Example), blogging (http://jperedadnr.blogspot.com.es/), tweeting (@JPeredaDnr) or speaking at conferences (JavaOne, JAX, JFokus, JavaLand, CodingSerbia, JBCNConf...). José lives with his wife and kids in Valladolid, Spain",
-      "image": "assets/img/speakers/jose-pereda.png",
-      "ref": "jpereda",
-      "url": "infoSpeaker.html?ref=jpereda",
-      "twitter": "https://twitter.com/JPeredaDnr",
-      "talk": {
-        "type": "talk",
-        "title": "Compelling mobile apps with Java: a dream come true!",
-        "abstract": "While JavaFX allows Java developers to create client applications with mainly oriented to desktop user interfaces, the market tendencies go to mobile and web applications. JavaFXPorts is an open source project that allows those developers to package and deploy their desktop applications on mobile devices with the same codebase. This session will show the current state of deploying Java on Android and iOS. Attendees will see all the steps required to create JavaFX applications that can be deployed on mobile devices and distributed via the major stores, using free tools like the Gluon plugin. Through different apps, attendees will see how those apps can be enhanced with the use of the Gluon Mobile library, which provides native UI, custom JavaFX controls, native interaction with the device, cloud integration, reducing repetitive work and improving massively time-to-market.",
-        "tags": [
-          "JavaFX",
-          "Android"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC2-SE4"
+      "name": "Bilgin Ibryam",
+      "description": "Architect at Red Hat",
+      "biography": "Bilgin Ibryam is an Architect at Red Hat and committer at Apache for Camel, OFBiz, and Isis projects. He is a blogger, speaker, open-source enthusiast and the author of Camel Design Patterns and Instant Apache Camel Message Routing books. In his day-to-day job, Bilgin enjoys mentoring, training and leading teams to be successful with application integration, distributed systems, microservices, devops, and cloud-native applications.",
+      "image": "assets/img/speakers/bilgin-ibryam.jpg",
+      "ref": "bibryam",
+      "url": "infoSpeaker.html?ref=bibryam",
+      "twitter": "http://twitter.com/bibryam"
     },
     {
       "enabled": "1",
-      "name": "David Gómez",
-      "description": "Software engineer at Autentia",
-      "biography": "David Gómez works as Software engineer at Autentia. With more than 15 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business. Aside of software development he is also dedicated to training, beeing a SringSource Certified Instructor and also delivers the JavaSpecialists Master courses in Spain. In fact, he has delivered more than 50 training courses all over spain from 2009 to the date.",
-      "image": "assets/img/speakers/david-gomezg.png",
-      "ref": "dgomez",
-      "url": "infoSpeaker.html?ref=dgomez",
-      "twitter": "http://twitter.com/dgomezg",
-      "talk": {
-        "type": "talk",
-        "title": "Parallel Streams: A look under the hood",
-        "abstract": "With Java 8 and its Stream API, we have seen a brand new way of processing collections of data.<br>One of the most powerful features of the Java8 Streams is its possibility of paralellize the operations pipeline. But, in some cases, there has been several developers which has found that not always the parallel stream works better than the serial stream (or even the traditional for or foreach loops to iterate over a collection).<br>In this talk we will take a look at the Streams performance and we will present some of the elements that could affect the performance.<br>We will also present the mechanisms under the Parallel Stream in order to know better the way it works and to try to understand what could affect to the performance of a parallel stream",
-        "tags": [
-          "Java8",
-          "Streams"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC2-SE7"
-    },
-    {
-      "enabled": "1",
-      "name": "Christopher Richard James Brett",
-      "description": "Algorithm Development Team Lead at Ocado Technology",
-      "biography": "Chris is Simulation Algorithm Development Team Lead at Ocado Technology, and helps run their Code for Life CSR initiative too.",
-      "image": "assets/img/speakers/chris-brett.jpg",
-      "ref": "cbrett",
-      "url": "infoSpeaker.html?ref=cbrett",
-      "twitter": "https://twitter.com/chrisbrett665",
-      "talk": {
-        "type": "talk",
-        "title": "Testing, Analysis and Optimisation using Discrete Event Simulation in Java",
-        "abstract": "Ocado Technology writes software and creates hardware for massive automated warehouses and supply chains. The physical devices, layout and algorithms we use affect cost, efficiency and site capacity – getting it right is worth millions.<br>Making highly optimal choices for these three aspects is often beyond human capability. We can either optimise and test by trial and error in production, which is expensive, risky and slow, or we can write software to test our systems and identify highly optimal choices for us.<br>Learn how we use Discrete Event Simulation to test production applications, predict operational performance, and optimise physical layouts, hardware design and control algorithms. Discrete Event Simulation gives us scenario and full production case testing capability. These tests are deterministic, making debugging faster and simpler, and preventing erroneous test failures. Each test can complete faster than real-time meaning that you can afford to add a vast amount of tests without excessively slowing down your development cycle.  Come along and I’ll show you how this can be done.",
-        "tags": [
-          "Testing"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC4-SE2"
-    },
-    {
-      "enabled": "1",
-      "name": "Raquel Pau",
-      "description": "Technical Lead of Walkmod",
-      "biography": "I am the technical lead of walkmod, an open source tool to apply and share code conventions. I have participated as speaker in some important Java conferences such as Devoxx or 33rdegreeconf and JUGs.<br>Additionally, I am working as project manager in research projects in Sparsity-Technologies with more than 8 years coding in Java.<br>Also, I am the writer of some posts in JavaCodeGeeks about Docker. ",
-      "image": "assets/img/speakers/raquel-pau.jpg",
-      "ref": "rpau",
-      "url": "infoSpeaker.html?ref=rpau",
-      "twitter": "https://twitter.com/walkmod",
-      "talk": {
-        "type": "talk",
-        "title": "How to Maintain and Fix code conventions with SonarQube and Walkmod",
-        "abstract": "Code conventions are programming guidelines to improve the code readability, reduce bugs and thus, reduce maintenance costs. Currently, developers can detect automatically which parts of your code are violating a specific code convention through static analysis tools such as SonarQube.<br>However, after having a detailed report about which parts of the code contain bad programming practices, developers need to fix them manually using their favorite editor over and over again even if the solution is completely simple and deterministic. To solve this problem, we have created Walkmod, an open source tool to share and automatically fix code conventions.<br>In this session we will introduce Walkmod and  we will explain how to configure it to automatically fix our sonar rules using one of the most important java open source project.",
-        "tags": [
-          "Coding",
-          "Conventions"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC3-SE7"
-    },
-    {
-      "enabled": "1",
-      "name": "Martin Toshev",
-      "description": "IT consultant",
-      "biography": "Martin is an IT consultant, Java enthusiast and one of the leads of the Bulgarian Java User group (BG JUG). He is a certified Java professional (SCJP6) and a certified IBM cloud computing solution advisor. His areas of interest include the wide range of Java-related technologies (such as Servlets, JSP, JAXB, JAXP, JMS, JMX, JAX-RS, JAX-WS, Hibernate, Spring Framework, Liferay Portal and Eclipse RCP), cloud computing technologies, cloud-based software architectures, enterprise application integration, relational and NoSQL databases. You can reach him for any Java and FOSS-related topics (especially Eclipse and the OpenJDK). Martin is a regular speaker at Java conferences and one of the organizers behind the jPrime conference in Bulgaria (http://jprime.io/).",
-      "image": "assets/img/speakers/martin-toshev.jpg",
-      "ref": "mtoshev",
-      "url": "infoSpeaker.html?ref=mtoshev",
-      "twitter": "https://twitter.com/martin_fmi",
-      "talk": {
-        "type": "talk",
-        "title": "Security architecture of the Java platform",
-        "abstract": "The session provides an overview of the security architecture of the Java platform in terms of its evolution throughout the versions of the JDK up to JDK 9 and beyond. The security utilities that fullfill the security portfolio of the JDK will be discussed briefly along with several guidelines in designing and implementing secure applications by following security best practices.",
-        "tags": [
-          "Security",
-          "Java9"
-        ],
-        "level": "Advanced"
-      },
-      "scheduleId": "#FRI-TC3-SE5"
-    },
-    {
-      "enabled": "1",
-      "name": "James Rawlings",
-      "description": "Principal Software Engineer @ Red Hat",
-      "biography": "Principal Software Engineer @ Red Hat. James works on Open Source projects such as fabric8, with a view to enabling teams to build better software, faster while continually improving",
-      "image": "assets/img/speakers/james-rawlings.jpg",
-      "ref": "jrawlings",
-      "url": "infoSpeaker.html?ref=jrawlings",
-      "twitter": "https://twitter.com/jdrawlings",
-      "talk": {
-        "type": "talk",
-        "title": "Fabric8'ing continuous improvement",
-        "abstract": "Designing, building and releasing new features is only half the story.  As developers, we need to understand more about how our applications and features are running so that we can improve them.  This ultimately leads to greater efficiencies, reliability, cost savings as well as happier developers, operations, businesses and consumers.<br>In this session we'll see a demo building different implementations of Java based applications and the effect of change during their continuous delivery pipelines.  By establishing feedback loops involving out of the box centralised logs and metrics, alerting, dashboards and charting to help learn more about our apps and processes so we can improve.<br>The talk will give insight to the advances of Open Source software including Kubernetes, Kibana, Elasticsearch, Prometheus, Grafana and how they can be used together to build better software.",
-        "tags": [
-          "Architecture"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#FRI-TC3-SE4"
-    },
-    {
-      "enabled": "1",
-      "name": "Dimitris Kapanidis",
-      "description": "Founder & Senior Consultant at Harbur",
-      "biography": "Dimitris is a software engineer, SQA evangelist, organizer of the Docker meetup in BCN and founder of Harbur. He has been for a decade the ultimate responsible of the software quality of e-voting solutions with governments across all continents, a working environment that requires pristine-quality. Now in Harbur he helps enterprise tech companies modernize their development processes and infrastructures in order to embrace containers as first-class citizens on their ecosystem.<br>He loves automation, continuous delivery, and anything that boost the development-lifecycle and make developer's life easier. He also loves noodles.",
-      "image": "assets/img/speakers/dimitris-kapanidis.jpg",
-      "ref": "dkapanidis",
-      "url": "infoSpeaker.html?ref=dkapanidis",
-      "twitter": "https://twitter.com/spiddy",
-      "talk": {
-        "type": "talk",
-        "title": "Netflix OSS and Kubernetes - Building a Microservice based Cloud platform",
-        "abstract": "There is a need these days to break monolithic solutions to distributed microservices. This need arise along with the need to restructure organizations from separate silos to DevOps.<br>Here we'll talk how to enable such migration using Spring Cloud, Spring Boot, Netflix OSS & Kubernetes and create a Cloud Platflorm where Microservices can be deployed easily using Docker containers.<br>We'll discuss about the benefits of using NetflixOSS Eureka as Service Discovery, either on-premise or on-cloud environments and how zero downtime deployments can be easily achieved using rolling updates of Kubernetes. Lastly we'll focus on resiliency using health checks, auto healing, auto scaling and multiple data-centers on cloud providers.",
-        "tags": [
-          "Cloud",
-          "Microservices"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#SAT-TC3-SE6"
-    },
-    {
-      "enabled": "1",
-      "name": "Per Jørgen Walstrøm",
-      "description": "Team Lead at FINN Travel",
-      "biography": "Per Jørgen is the Team Lead at FINN Travel and has almost 20 years of experience as a developer. He still finds motivation and inner happiness in a test that goes green",
-      "image": "assets/img/speakers/perjorgen-walstrom.jpg",
-      "ref": "perjorgenwalstrom",
-      "url": "infoSpeaker.html?ref=perjorgenwalstrom",
-      "twitter": "https://twitter.com/pjwalstrom",
-      "talk": {
-        "type": "talk",
-        "title": "How we deploy to production 42 times a day",
-        "abstract": "When the Schibsted-company FINN Travel created its new platform in 2013, one requirement was that the code should be rolled out continuously. To be able to do this, the code that hits production needs to behave well and not destroy existing functionality. This is the story of how Continuous Integration and Continuous Delivery is a natural part of a developer's life in FINN. We show how tests will help us on our way, how the developers' role has changed to cope with the new demands, and take a dive into the internal infrastructure of FINN.",
-        "tags": [
-          "Java", "Groovy", "devops", "Testing", "ContinuousIntegration", "ContinuousDelivery"
-        ],
-        "level": "Beginner",
-		"cospeakerref": "stigkleppejorgensen"
-      },
-      "scheduleId": "#FRI-TC3-SE6"
-    },
-    {
-      "enabled": "1",
-      "name": "Stig Kleppe-Jørgensen",
-      "description": "Lead Developer at FINN Travel",
-      "biography": "Stig is the Lead Developer at FINN Travel. He has been a developer for 20 years and lived with low test coverage for a long time before getting a new job and green builds at FINN. Always on the lookout for new libraries and tools to make the developer of his team happy, he makes sure code gets deployed into production in the most safe and fast way possible",
-      "image": "assets/img/speakers/stikkleppe-jorgensen.png",
-      "ref": "stigkleppejorgensen",
-      "url": "infoSpeaker.html?ref=stigkleppejorgensen",
-      "twitter": "https://twitter.com/stigkj",
-      "talk": {
-        "type": "talk",
-        "title": "How we deploy to production 42 times a day",
-        "abstract": "When the Schibsted-company FINN Travel created its new platform in 2013, one requirement was that the code should be rolled out continuously. To be able to do this, the code that hits production needs to behave well and not destroy existing functionality. This is the story of how Continuous Integration and Continuous Delivery is a natural part of a developer's life in FINN. We show how tests will help us on our way, how the developers' role has changed to cope with the new demands, and take a dive into the internal infrastructure of FINN.",
-        "tags": [
-          "Java", "Groovy", "devops", "Testing", "ContinuousIntegration", "ContinuousDelivery"
-        ],
-        "level": "Beginner",
-		"cospeakerref": "perjorgenwalstrom"
-      },
-      "scheduleId": "#FRI-TC3-SE6"
-    },
-    {
-      "enabled": "1",
-      "name": "Christian Schneider",
-      "description": "Open Source Architect at Talend",
-      "biography": "Christian is an Open Source Architect at Talend. He was the responsible architect for the Services Oriented Architecture of EnBW Trading GmbH (Trading floor of one of Germany’s largest utility companies). He specializes in OSGi and practical integration solutions. He was a a regular speaker at several Java conferences in Germany like JAX. W-JAX and at Apachecon.",
-      "image": "assets/img/speakers/christian-schneider.jpg",
-      "ref": "cschneider",
-      "url": "infoSpeaker.html?ref=cschneider",
-      "twitter": "https://twitter.com/schneider_chris",
-      "homepage":"http://liquid-reality.de",
-      "talk": {
-        "type": "talk",
-        "title": "Lean Microservices using OSGi",
-        "abstract": "Microservices and their frameworks like spring boot allow to start fast but can easily produce ugly monoliths again. OSGi on the other hand provides great modularity but is regarded as more complex than spring boot and alike. This Talk shows how to create lean and modular microservices using OSGi, maven and bndtools. The build result is a runnable jar or docker image and nicely fits microservice deployments. See how OSGi allows the flexibility to deploy each microservice on its own and let them communicate over (REST) remote calls or deploy them together and talk using OSGi services locally using the same business code bundles.",
-        "tags": [
-          "Microservices", "OSGi"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC1-SE5"
-    },
-    {
-      "enabled": "1",
-      "name": "Cecilio Alvarez Caules",
-      "description": "Consultant and Trainer on Java EE, and author",
-      "biography": "I am an Oracle Certified Master (Architect). I have worked for 15 years in Consulting and Training Java EE  for companies in northern  Spain.  As author of two books on Java and Java EE frameworks, I  highly enjoy working with HTML5 and JavaScript technologies.",
-      "image": "assets/img/speakers/cecilio-alvarez.jpg",
-      "ref": "calvarez",
-      "url": "infoSpeaker.html?ref=calvarez",
-      "twitter": "http://twitter.com/arquitectojava",
-      "homepage":"http://www.arquitecturajava.com/",
-      "talk": {
-        "type": "talk",
-        "title": "Domain Driven Design and JPA",
-        "abstract": "Building a good model with Domain Driven Design is not an easy task. In this talk, It will shown  how to develop a solid model starting from  scratch. I will make reference to the main problems found by developers. I will show how to solve these issues by using Analysis patterns.<br>We will be using JPA as the standard to build our Domain Model . The latest features of this standard (such as Entity Graph and Programmatic Named Queries) will be analysed. It will also be explained how JPA can  help build better queries to obtain suitable data, which will make the application performance improve.<br>Finally, I will compare JPA with other persistent solutions that provide  alternative approaches.",
-        "tags": [
-          "DDD", "Patterns"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC3-SE1"
+      "name": "Michal Matloka",
+      "description": "1 of 40 CEOs at SoftwareMill",
+      "biography": "Through his career Michał worked with C, Java, forgotten lands of Java EE, Spring, Scala and Big data. He committed a crime of writing a Java EE book, which may hunt him for the rest of his life. He is an open source contributor and a winner of the JBoss Community Recognition Award in 2013 for his contributions to ShrinkWrap. He is currently one of the 40 CEOs at SoftwareMill, a fully distributed company with no main office and a completely flat organization structure. He presented on GeeCON Kraków & Prague, Devoxx Poland, JDD, Confitura and other events.",
+      "image": "assets/img/speakers/michal-matloka.jpg",
+      "ref": "mmatloka",
+      "url": "infoSpeaker.html?ref=mmatloka",
+      "twitter": "http://twitter.com/mmatloka"
     },
     {
       "enabled": "1",
       "name": "Clement Escoffier",
-      "description": "Red Hat as vert.x core developer",
-      "biography": "Who am I? That’s a good question. I had several professional lives, from academic positions to management. Currently, I’m working for Red Hat as vert.x core developer. I touched to many domains and technologies such as OSGi, mobile app development, continuous delivery, devops… My main point of interest? Software engineering, so processes, methods, tools that make the development of software more efficient and also more fun. I’m also an active contributor on many open source projects such as Apache Felix, iPOJO, Wisdom Framework, and obviously, vert.x.",
-      "image": "assets/img/speakers/clement-escofier.jpg",
-      "ref": "cescofier",
-      "url": "infoSpeaker.html?ref=cescofier",
-      "twitter": "https://twitter.com/clementplop",
-      "homepage":"http://vertx.io",
-      "talk": {
-        "type": "talk",
-        "title": "Building distributed reactive applications with Vert.x",
-        "abstract": "Sorry guys, there is no free lunch. We are in 2016, but distributed applications are not simple. You can embrace any cool trends such as microservices, developing a distributed application is a challenge. Why? Well, because it’s complicated. Distributed systems have many many reason to fail, technically it’s complicated, and the theory behind distributed system is also complicated.<br>Vert.x is a toolkit for build reactive distributed applications on top of the Java Virtual Machine. The application can be developed in Java of course but also in JavaScript, Groovy, Ruby or Ceylon. Vert.x does not hide the complexity of distributed applications; it lets you handle it. Vert.x applications are able to face failures, can use several protocols and interaction styles (messages, RPC, REST,…), handle heavy load, integrate with almost anything, and cope with all the requirements of modern applications.<br>In this session, an introduction to vert.x is given while highlighting all the complexity to build distributed applications. For each hotspot, vert.x features are demonstrated. This includes clustering, distributed structure, message-based communication, HTTP and REST, load balancing, failure recovery, integration with other technologies...",
-        "tags": [
-          "Reactive", "DistributedSystems", "Vert.x"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#SAT-TC1-SE4"
+      "description": "Red Hat's Vert.x core developer",
+      "biography": "Who am I? That’s a good question. I had several professional lives, from academic positions to management. Currently, I’m working for Red Hat as Vert.x core developer. I have been involved in projects and products touching many domains and technologies such as OSGi, mobile app development, continuous delivery, DevOps… My main point of interest? Software engineering, so processes, methods, tools that make the development of software more efficient and also more fun. I’m also an active contributor to many open source projects such as Apache Felix, iPOJO, Wisdom Framework, and obviously, Eclipse Vert.x.",
+      "image": "assets/img/speakers/clement-escoffier.jpg",
+      "ref": "cescoffier",
+      "url": "infoSpeaker.html?ref=cescoffier",
+      "twitter": "http://twitter.com/cescoffier"
     },
     {
       "enabled": "1",
-      "name": "Ola Petersson",
-      "description": "Fullstack web developer working at Squeed",
-      "biography": "I'm a fullstack web developer working at Squeed (JUG organizers in Gothenbrug). I hold a Masters in Software Engineering and come from an academic background with programming as my base, but with a specialty in software processes, requirements engineering etc.<br>During my career I have worked with different types of systems such as Android applications or building meta-models for requirement databases or building web based systems. I have the last years worked as a fullstack web-developer with my main focus in JavaEE. Outside of my everyday work I'm also spending time in spreading and especially gaining knowledge through meetups, JUGs, conferences etc.<br>On a personal level I'm a guy who likes music, gaming, playing badminton or spending time with my friends and family.  I also spend a lot of my spare time to learn about Software development in general, wether it be a new database solution or a philosophical aspect about people or processes.",
-      "image": "assets/img/speakers/ola-peterson.jpg",
-      "ref": "opeterson",
-      "url": "infoSpeaker.html?ref=opeterson",
-      "twitter": "https://twitter.com/olbpetersson",
-      "homepage":"http://www.squeed.com/",
-      "talk": {
-        "type": "talk",
-        "title": "Reactive Java EE",
-        "abstract": "Hardware has gone through an evolution in the last 10 years. Have you adapted your Software to it?<br>Todays end users have high demands on the responsiveness of your application and as an answer the reactive manifesto is getting more acknowledgement every day. But what really is reactive programming and do you have to invest in a new flashy framework to get the benefits of it?<br>Join me as we take a look at what reactive programming really is. With a hands on presentation we will go through the concepts of reactive programming and then proceed to how we actually can implement it. With a well established framework (Java EE) we will visit areas such as asynchronous programming, message- and event-driven architecture as well as websockets.<br>When you leave this session you will have the utilities to build responsive applications with higher throughput, better use of your hardware and especially; a nicer user experience!",
-        "tags": [
-          "Event-driven", "Reactive", "DistributedSystems"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC1-SE3"
+      "name": "Willem Meints",
+      "description": "Technical evangelist for Info Support",
+      "biography": "Willem is a technical evangelist for Info Support. He works with projects to adopt new technologies such as AI and machine learning. He loves new technology. When not at work you can find him outside with his camera.",
+      "image": "assets/img/speakers/willem-meints.jpg",
+      "ref": "wmeints",
+      "url": "infoSpeaker.html?ref=wmeints",
+      "twitter": "http://www.twitter.com/willem_meints",
+      "homepage": "http://fizzylogic.nl/"
+    },
+    {
+      "enabled": "1",
+      "name": "Brian Vermeer",
+      "description": "Software Engineer for blue4it",
+      "biography": "Software Engineer for blue4it working consultancy based on mainly Java projects for other companies in the Netherlands. Passionate about Java, (Pure) Functional Programming and Cybersecurity. Co-writer on the published Research paper: Plagiarism Detection for Haskell with Holmes. Besides being an engineer he is a Reservist at the Royal Netherlands Air Force and a Taekwondo Teacher.",
+      "image": "assets/img/speakers/brian-vermeer.jpg",
+      "ref": "bvermeer",
+      "url": "infoSpeaker.html?ref=bvermeer",
+      "twitter": "http://twitter.com/brianverm"
+    },
+    {
+      "enabled": "1",
+      "name": "Viktor Farcic",
+      "description": "Senior Consultant at CloudBees",
+      "biography": "Viktor Farcic is a Senior Consultant at CloudBees, a member of the Docker Captains group, and books author. He coded using a plethora of languages starting with Pascal (yes, he is old), Basic (before it got Visual prefix), ASP (before it got .Net suffix), C, C++, Perl, Python, ASP.Net, Visual Basic, C#, JavaScript, Java, Scala, etc. He never worked with Fortran. His current favorite is Go. His big passions are DevOps, Microservices, Continuous Integration, Delivery and Deployment (CI/CD) and Test-Driven Development (TDD). He often speaks at community gatherings and conferences. He published The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices, The DevOps 2.1 Toolkit: Docker Swarm: Building, testing, deploying, and monitoring services inside Docker Swarm clusters and the Test-Driven Java Development. He is currently working on his third book The DevOps 2.1 Toolkit: Docker Swarm His random thoughts and tutorials can be found in his blog TechnologyConversations.com.",
+      "image": "assets/img/speakers/viktor-farcic.jpeg",
+      "ref": "vfarcic",
+      "url": "infoSpeaker.html?ref=vfarcic",
+      "twitter": "http://twitter.com/vfarcic",
+      "homepage": "https://technologyconversations.com"
+    },
+    {
+      "enabled": "1",
+      "name": "Ioannis Canellos",
+      "description": "Principal Software Engineer at Red Hat",
+      "biography": "Ioannis has more than 10 years experience as Java developer 5 of which are as full time OpenSource developer.<br>He is a member of the <a href=\"http://www.apache.org\">Apache Software Foundation</a>, with contribution to numerous projects as a committer and PMC member.<br>He is currently working as a Principal Software Engineer at Red Hat as part of iPAAS team, where he spends most of his time implementing tools and frameworks related to <a href=\"http://kubernetes.io\">Kubernetes</a>, <a href=\"https://www.openshift.com\">Openshift</a> and <a href=\"http://fabric8.io\">Fabric8</a>.",
+      "image": "assets/img/speakers/ioannis.jpg",
+      "ref": "icanellos",
+      "url": "infoSpeaker.html?ref=icanellos",
+      "twitter": "https://twitter.com/iocanel",
+      "homepage": "https://iocanel.blogspot.com"
+    },
+    {
+      "enabled": "1",
+      "name": "Heather VanCura",
+      "description": "Chair of the JCP Program at Oracle",
+      "biography": "Heather VanCura is the Chair of the JCP Program at Oracle, and is a leader of the global community driven adoption and user group programs. Heather drives the efforts to transform the JCP program and broaden participation and diversity in the community. She is passionate about Java, women in technology and developer communities, serving as an international speaker and community organizer of developer hack days around the world. Heather enjoys speaking at conferences, such as OSCON, Devoxx, JFokus, and the JavaOne Conferences. She resides in the San Francisco Bay Area, California USA and enjoys trying new sports and fitness activities in her free time.",
+      "image": "assets/img/speakers/heather-vancura.jpg",
+      "ref": "hvancura",
+      "url": "infoSpeaker.html?ref=hvancura",
+      "twitter": "https://twitter.com/heathervc",
+      "homepage": "https://jcp.org/"
+    },
+    {
+      "enabled": "1",
+      "name": "Mark Heckler",
+      "description": "Principal Technologist/Developer Advocate at Pivotal Software, Inc.",
+      "biography": "Mark Heckler is a Pivotal Principal Technologist & Developer Advocate, conference speaker, published author & Java Champion focusing upon developing innovative production-ready software at velocity for the Cloud and IoT applications. He has worked with key players in the manufacturing, retail, medical, scientific, telecom, and financial industries and various public sector organizations to develop and deliver critical capabilities on time and on budget. Mark is an open source contributor and author/curator of a developer-focused blog (http://www.thehecklers.org) and an occasionally interesting Twitter account (@MkHeck).",
+      "image": "assets/img/speakers/mark-heckler.png",
+      "ref": "mheckler",
+      "url": "infoSpeaker.html?ref=mheckler",
+      "twitter": "https://twitter.com/mkheck",
+      "homepage": "http://www.thehecklers.org/",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Andres Almiray",
+      "description": "Java/Groovy developer",
+      "biography": "Andres is a Java/Groovy developer and a Java Champion with more than 17 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated on popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event.",
+      "image": "assets/img/speakers/andres-almiray.jpg",
+      "ref": "aalmiray",
+      "url": "infoSpeaker.html?ref=aalmiray",
+      "twitter": "https://twitter.com/aalmiray",
+      "homepage": "http://andresalmiray.com",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Bastian Hofman",
+      "description": "Software Engineer at ResearchGate",
+      "biography": "Bastian works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is caring about performance, monitoring, web-security and developer productivity. When he is not developing stuff or looking at graphs, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.",
+      "image": "assets/img/speakers/bastian-hofman.jpg",
+      "ref": "bastian-hofman",
+      "url": "infoSpeaker.html?ref=bastian-hofman",
+      "twitter": "https://twitter.com/BastianHofmann",
+      "homepage": "",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Roland Huss",
+      "description": "Principal Software Engineer at RedHat",
+      "biography": "Dr. Roland Huß is a Principal Software Engineer at Red Hat working in the Fuse team on FIS and iPaaS. He has been developing in Java for eighteen years now but never forgot his roots as system administrator. Roland is an active Open Source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli pepper.",
+      "image": "assets/img/speakers/roland-huss.jpg",
+      "ref": "roland-huss",
+      "url": "infoSpeaker.html?ref=roland-huss",
+      "twitter": "https://twitter.com/ro14nd",
+      "homepage": "https://ro14nd.de",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Sebastian Daschner",
+      "description": "Java Champion",
+      "biography": "Sebastian Daschner is a Java freelancer working as a Consultant / Software Developer / Architect and is enthusiastic about programming and Java (EE). He is participating in the JCP, serving in the JSR 370 and 374 Expert Groups and hacking on various open source projects on Github. He is a Java Champion, JavaOne 2016 Rockstar and has been working with Java for more than 7 years. Besides Java, Sebastian is also a heavy user of Linux and container technologies like Docker. He evangelizes computer science practices on https://blog.sebastian-daschner.com and on Twitter via @DaschnerS. When not working with Java, he also loves to travel the world — either by plane or motorbike.",
+      "image": "assets/img/speakers/sebastian-daschner.jpg",
+      "ref": "sebastian-daschner",
+      "url": "infoSpeaker.html?ref=sebastian-daschner",
+      "twitter": "https://twitter.com/DaschnerS",
+      "homepage": "https://blog.sebastian-daschner.com",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Jacek Kunicki",
+      "description": "Passionate Software Engineer at SoftwareMill",
+      "biography": "I'm a passionate software engineer living in the JVM land - mainly, but not limited to. I also tend to play with electronics and hardware. When sharing my knowlegde, I always keep in mind that a working example is worth a thousand words.",
+      "image": "assets/img/speakers/jacek-kunicki.jpg",
+      "ref": "jacek-kunicki",
+      "url": "infoSpeaker.html?ref=jacek-kunicki",
+      "twitter": "https://twitter.com/rucek",
+      "homepage": "http://blog.kunicki.org/",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Schalk Cronjé",
+      "description": "Creator of Groovy-VFS",
+      "biography": "Schalk Cronjé’s experience in the software industry spans three decades and has performed most roles in software delivery. He believes that both software engineering and craftsmanship is important for the industry and that both disciplines should be taught to achieve holism in technology delivery. He also understands that there is a strong relationship between the modern software techniques that are used and the signature skills of people and these should be aligned for effective delivery. He is also a strong advocate of using systems thinking, holistic stakeholder analysis and impact mapping. He keeps his technical skills fit by frequent contributions to various open-source projects. He is the creator of Groovy-VFS as well a maintainer of various Gradle plugins including for JRuby, GMake, Doxygen and more. He is a regular speaker on various software delivery techniques across Europe and in the UK, USA, India and South Africa. He currently serves as a steering committee member of the Agile Testing Alliance. He is also the author of “Idiomatic Gradle: 25 recipes for plugin authors” and is currently working on Vol 2.",
+      "image": "assets/img/speakers/schalk-cronje.jpg",
+      "ref": "schalk-cronje",
+      "url": "infoSpeaker.html?ref=schalk-cronje",
+      "twitter": "https://twitter.com/ysb33r",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Ivar Grimstad",
+      "description": "Java Champion",
+      "biography": "Ivar Grimstad is a Java Champion, JUG Leader and software architect focusing on Enterprise Java. He is participating in the Java Community Process as a member of the Executive Committee, Spec Lead for JSR 371 (MVC 1.0) and Expert Group Member for JSR 375 (Java EE Security API). He is also a member of the NetBeans Dream Team. Ivar is a frequent speaker at international developer conferences.",
+      "image": "assets/img/speakers/ivar-grimstad.jpg",
+      "ref": "ivar-grimstad",
+      "url": "infoSpeaker.html?ref=ivar-grimstad",
+      "twitter": "https://twitter.com/ivar_grimstad",
+      "homepage": "http://www.agilejava.eu",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Jeroen Resoort",
+      "description": "Java Consultant at JDriven",
+      "biography": "Jeroen Resoort is a Java Consultant at JDriven. He has over 10 years of experience writing enterprise applications. He is passionate about writing good code, learning new technologies and sharing his knowledge with others.",
+      "image": "assets/img/speakers/jeroen-resoort.jpg",
+      "ref": "jeroen-resoort",
+      "url": "infoSpeaker.html?ref=jeroen-resoort",
+      "twitter": "https://twitter.com/JeroenResoort",
+      "homepage": "https://blog.jdriven.com/author/jeroen-resoort/",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Daniel Lebrero",
+      "description": "Technical architect at fin-tech IG",
+      "biography": "Daniel Lebrero is a technical architect with more than 15 years of software development experience. He works at the fin-tech IG, where he is involved in architecting the web platform, the analytics website and the big data solution. A long time Java practitioner, he now also loves ().",
+      "image": "assets/img/speakers/daniel-lebrero.jpg",
+      "ref": "daniel-lebrero",
+      "url": "infoSpeaker.html?ref=daniel-lebrero",
+      "twitter": "https://twitter.com/DanLebrero",
+      "homepage": "http://danlebrero.com",
+      "scheduleId": ""
+    },
+    {
+      "enabled": "1",
+      "name": "Carlos Cornejo",
+      "description": "Software Craftsman at atSistemas",
+      "biography": "Software Craftsman, Life-long learner, Java architect wannabe. In love with TDD and BDD. DevOps and cloud-based architectures advocate. Big on CI/CD with docker.",
+      "image": "assets/img/speakers/carlos-cornejo.jpg",
+      "ref": "carlos-cornejo",
+      "url": "infoSpeaker.html?ref=carlos-cornejo",
+      "twitter": "https://twitter.com/cmcornejocrespo"
+    },
+    {
+      "enabled": "1",
+      "name": "Philipp Krenn",
+      "description": "Developer Advocate at Elastic",
+      "biography": "Philipp is part of the infrastructure team and a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports.",
+      "image": "assets/img/speakers/philipp-krenn.jpg",
+      "ref": "philipp-krenn",
+      "url": "infoSpeaker.html?ref=philipp-krenn",
+      "twitter": "https://twitter.com/xeraa",
+      "homepage": "https://xeraa.net/en/"
     },
     {
       "enabled": "1",
       "name": "Albert Margarit",
       "description": "Software Development Manager and Architect at NetSuite",
-      "biography": "Albert Margarit is a Software Development Manager and Architect at NetSuite. He dedicates most of his time to software design of robust and performant cloud solutions. He champions best coding practices and instills the culture of clean design. Recently, he has been focused in building a multi-tenant asynchronous backend processing component for automating business processes. In his spare time he enjoys geeking out and playing inline hockey.",
-      "image": "assets/img/speakers/albert-margarit.jpg",
-      "ref": "amargarit",
-      "url": "infoSpeaker.html?ref=amargarit",
-      "twitter": "https://twitter.com/albertmargarit",
-      "homepage": "http://www.netsuite.com",
-      "talk": {
-        "type": "talk",
-        "title": "How to run 30.000 companies on a single system without dying in the attempt",
-        "abstract": "Imagine yourself building a highly-available and performant cloud system used by thousands of customers - with enough flexibility to allow any customer change the behavior of the application to match the needs of their business, and scalable enough to support the processing workload needs of all customers. Sounds like a worthwhile challenge?.<br>This talk will go through the common pitfalls of building multitenant solutions (IaaS, PaaS and SaaS) and some common patterns to allow a single system to be used by multiple customers in a concurrent, performant, secure and flexible manner. Welcome to the world of multitenancy!",
-        "tags": [
-          "Architecture", "DistributedSystems", "Cloud"
-        ],
-        "level": "Advanced"
-      },
-      "scheduleId": "#SAT-TC2-SE4"
+      "biography": "Albert Margarit is a Software Development Manager and Architect at NetSuite. He dedicates most of his time to software design of robust and performant cloud solutions. He champions best coding practices and instills the culture of clean and reusable designs. Recently, he has been focused in designing a multi-tenant solution for backend processing. In his spare time he enjoys geeking out and playing inline hockey.",
+      "image": "assets/img/speakers/albert-margarit.png",
+      "ref": "albert-margarit",
+      "url": "infoSpeaker.html?ref=albert-margarit",
+      "twitter": "https://twitter.com/albertmargarit"
     },
     {
       "enabled": "1",
-      "name": "Jakub Korab",
-      "description": "Independent consultant specialising in open source messaging and integration",
-      "biography": "Jakub Korab is a independent consultant specialising in open source messaging and integration, working exclusively with a suite of tools from the Apache Software Foundation, of which ActiveMQ and Kafka are corner stones. His experience ranges from architecture to troubleshooting across a broad range of industries that have included investment banking, law enforcement, gambling, logistics, utilities and space exploration. In 2016 he will complete his 100th messaging engagement.",
-      "image": "assets/img/speakers/jakub-korab.jpg",
-      "ref": "jkorab",
-      "url": "infoSpeaker.html?ref=jkorab",
-      "twitter": "http://twitter.com/jakekorab",
-      "homepage": "http://jakubkorab.net",
-      "talk": {
-        "type": "talk",
-        "title": "The Myth of the Magical Messaging Fabric",
-        "abstract": "Messaging systems underpin architectures ranging from stream processing, through to event sourcing and communication between loosely-coupled microservices. To most developers the technology is tangential to the business they work in, and is often disregarded with much hand waving as “just a pipe” for message distribution. Without a clear understanding of their capabilities and underlying design decisions, we tell ourselves stories about how they “should” work and are frustrated in production by behaviours emerging from design trade-offs.<br>In this session we will compare and contrast the approaches taken by two similar but fundamentally different messaging platforms – Apache ActiveMQ and Apache Kafka. We will discuss how their underlying philosophies impact message distribution, reliability, scalability, and performance. Along the way we will dip into how IOPS, latency and bandwidth affect throughput, why messaging does not play nicely with containers, and the unicorn of once-and-only-once delivery in distributed systems.",
-        "tags": [
-          "Messaging", "DistributedSystems", "Design", "Performance"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC1-SE6"
+      "name": "Hubert Klein Ikkink",
+      "description": "Also known as mrhaki, he works with Java and Groovy during his daytime job at JDriven.",
+      "biography": "Hubert Klein Ikkink is also known as mrhaki. He uses his alias to write on his blog `Messages from mrhaki` (http://mrhaki.blogspot.com/). On this blog he writes short tips and tricks about Groovy, Grails, Gradle, Spock, Spring and Asciidoctor. Hubert started to develop Java applications more than two decades ago. Nine years ago he started to explore Groovy and Grails in personal projects, because of the dynamic nature of Groovy and the speed of development. Today he works with Java and Groovy during his daytime job at JDriven in the Netherlands. He also wrote books on Gradle published at Packt Publishing and spoke at different conferences like Gr8Conf in Copenhagen and Minneapolis, Greach in Madrid, JavaLand in Germany and JFall in the Netherlands.",
+      "image": "assets/img/speakers/hubert-klein-ikkink.jpg",
+      "ref": "hubert-klein-ikkink",
+      "url": "infoSpeaker.html?ref=hubert-klein-ikkink",
+      "twitter": "https://twitter.com/mrhaki",
+      "homepage": "http://www.mrhaki.com"
     },
     {
       "enabled": "1",
-      "name": "Ihor Kolodyuk",
-      "description": "CTO of Jelastic",
-      "biography": "Ihor Kolodyuk is a Director of Technology at Jelastic, company that delivers DevOps PaaS with full containers orchestration. With over 15 years in the IT industry, Ihor is an expert in Cloud Architecture Design, Infrastructure Management, Networking and Linux Server Side Development. Ihor likes solving super complex technical problems and never gives up.",
-      "image": "assets/img/speakers/ihor.png",
-      "ref": "ihor",
-      "url": "infoSpeaker.html?ref=ihor",
-      "twitter": "https://twitter.com/jelastic",
-      "homepage": "https://jelastic.com/",
-      "talk": {
-        "type": "talk",
-        "title": "Autoscaling and load balancing of Java EE Cluster with Docker containers",
-        "abstract": "Provisioning and scaling of Java enterprise applications were always a hard task. Containers give a promise to bring automation of such IT operations to the next level. However very often it's even harder to decompose large monolithic enterprise applications into multiple containers architecture. At this session we'll dive deeply into the decomposition process and the ways to make it smooth in order to remove the bottlenecks for auto scaling and load balancing based on containers.",
-        "tags": [
-          "Containers", "Scalability", "Docker"
-        ],
-        "level": "Advanced"
-      },
-      "scheduleId": "#SAT-TC4-SE3"
+      "name": "Charlotte Cavalier",
+      "description": "Developper evangelist on the Codingame learning platform and Jug Leader at Montpellier.",
+      "image": "assets/img/speakers/charlotte-cavalier.jpg",
+      "ref": "charlotte-cavalier",
+      "url": "infoSpeaker.html?ref=charlotte-cavalier",
+      "twitter": "https://twitter.com/cavalierch"
     },
     {
       "enabled": "1",
-      "name": "Toni Tassani",
-      "description": "Agile Coach at eDreams ODIGEO",
-      "biography": "Toni Tassani is a Software Developer interested in people, communication and data. Recently he changed his title from Architect to Agile Coach. He works at eDreams ODIGEO.",
-      "image": "assets/img/speakers/toni-tassani.jpg",
-      "ref": "atassani",
-      "url": "infoSpeaker.html?ref=atassani",
-      "twitter": "https://twitter.com/atassani",
-      "talk": {
-        "type": "talk",
-        "title": "Putting order to your API ecosystem",
-        "abstract": "All Companies need to interact with other companies, and all Systems need some communication point. Nowadays web APIs are everywhere. We consume APIs (public and proprietary) and we build them for others to interact with. No matter what library or technology we use, regardless if we use REST or SOAP, we will have to evolve, document and communicate our APIs. In this talk we will review some solutions related to API Management like Axway, 3Scale, Apigee, WSO2 or CA. We will compare them with Enterprise Service Buses and we will review the features they provide in order to help you control the evolution of your APIs. But we will also talk about what you have to consider when designing and evolving APIs to make your life easier.",
-        "tags": [
-          "Architecture", "APIs", "Design"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#SAT-TC3-SE4"
+      "name": "Victor Rentea",
+      "description": "Java Engineer, Architect and Technical Lead at IBM",
+      "image": "assets/img/speakers/victor-rentea.jpg",
+      "ref": "victor-rentea",
+      "url": "infoSpeaker.html?ref=victor-rentea",
+      "twitter": "https://twitter.com/victorrentea"
     },
     {
       "enabled": "1",
-      "name": "Mauricio Salatino",
-      "description": "Senior Software Engineer @RedHat/JBoss",
-      "biography": "Senior Software Engineer @ Red Hat /JBoss working for the Drools & jBPM project. Author of 4 books (3 about jBPM and 1 about Drools).",
-      "image": "assets/img/speakers/salaboy.jpg",
-      "ref": "salaboy",
-      "url": "infoSpeaker.html?ref=salaboy",
-      "twitter": "https://twitter.com/salaboy",
-      "homepage": "http://salaboy.com",
-      "hasMoreTalks": "1",
-      "talk": {
-        "type": "workshop",
-        "title": "Drools Hands On - Improve  your Microservices with Drools",
-        "abstract": "Do you want to get started with Drools? Do you want to understand the different architectural patterns to start using Drools efficiently in your applications and/or your microservices? During the workshop you will learn how to code a set of rules to implement the logic inside a set of micro services. The aim of the session is to give you all the tools to start using Drools in your own microservices in almost no time. The session will also cover a set of pitfalls to avoid when you are starting with Drools so you can apply what is covered straight in your apps/microservices.<br><br>Follow the instructions posted in <a href=\"https://salaboy.com/2016/06/15/drools-workshop-jbcnconf-update-project-setup/\" class=\"link\">this URL</a>",
-        "tags": [
-          "Drools", "Microservices"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#THU-TC1-SE1"
+      "name": "Nicola Ferraro",
+      "description": "Software Engineer at Red Hat",
+      "image": "assets/img/speakers/nicola-ferraro.jpg",
+      "ref": "nicola-ferraro",
+      "url": "infoSpeaker.html?ref=nicola-ferraro",
+      "twitter": "https://twitter.com/ni_ferraro"
     },
     {
       "enabled": "1",
-      "name": "James Strachan",
-      "description": "Senior Consulting Software Engineer at Red Hat",
-      "biography": "James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix.<br>James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
-      "image": "assets/img/speakers/james-strachan.jpg",
-      "ref": "jstrachan",
-      "url": "infoSpeaker.html?ref=jstrachan",
-      "twitter": "https://twitter.com/jstrachan",
-      "homepage": "http://macstrac.blogspot.com/",
-      "talk": {
-        "type": "talk",
-        "title": "Open Source Microservices Platform based on Docker, Kubernetes and Jenkins",
-        "abstract": "Most enterprises want to develop better software and get it to their customers faster. The quicker software gets to customers, the more iterations and feedback which leads to software that delivers more value to customers.<br>Microservices is our best approach today for developing better software faster. However without a microservices platform it can be challenging creating, building, deploying and managing many independent microservices.<br>In this talk we'll introduce the Fabric8 Microservices Platform which is open source, Apache Licensed and built on top of the shoulders of giants; Docker, Kubernetes and Jenkins.<br>We'll then demonstrate how to create microservices easily, have them automatically built, tested and staged with Continuous Delivery and deal with the issues of building microservices architectures like service discovery, high availability, auto scaling, rolling upgrades, circuit breakers, tracing, logging and metrics.<br>After this talk you should be ready to embark on your microservices journey!",
-        "tags": [
-          "Microservices"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC1-SE2"
-    },
-    {
-      "enabled": "1",
-      "repeated": "1",
-      "name": "Charles Moulliard",
-      "description": "Principal Solution Architect @RedHat",
-      "biography": "Charles Moulliard is currently a Sr. Principal Solution Architect @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies.<br>As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Programming languages, RDBMS, Architecture - JEE/SOA, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions.<br>He is also fascinated to train people on SOA, OSGI, ESB & JEE and provide consultancy.<br>As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy mountain bike & Rock’n’roll.<br>You can find him online #irc ch007m, Twitter @cmoulliard, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog http://cmoulliard.github.io.",
-      "image": "assets/img/speakers/charles-moulliard.png",
-      "ref": "cmoulliard",
-      "url": "infoSpeaker.html?ref=cmoulliard",
-      "twitter": "http://twitter.com/cmoulliard",
-      "homepage": "http://cmoulliard.github.io/",
-      "talk": {
-        "type": "talk",
-        "title": "Security enforcement of Java Application with API Management",
-        "abstract": "The Security around the Java Web Services, RESTfull endpoints exposing the Services accessed by the clients are critical in many business applications. Although many technologies/specifications exist currently and can be implemented like WS-Security, WS-SecurityPolicy, WS-Trust, SAML, Oauth2, OpenID Connect  to secure the endpoints, they require strong Security skills from the Java developers and unfortunately this approach doesn't fit very well in a MicroService architecture running potentially hundred of endpoints and where we have to manage also hundreds of certificates. During this talk, you will see and discover how you can leverage the advantages to use an API Management platform to enforce the security of your REST endpoints and externalize such management process. WE will also demonstrate how we can discover the services/endpoints deployed within the different namespaces, define the security of the endpoints and the policies to be applied. This security enforcement will be designed using some of the policies available to authenticate or authorize the MicroService Application running in a Linux Container using Basic Auth, Oauth2 and Roles. This talk contains slides and demos.",
-        "tags": [
-          "API","Security","Microservices"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#FRI-TC2-SE2"
-    },
-    {
-      "enabled": "1",
-      "name": "Marc Savy",
-      "description": "Software Engineer @RedHat",
-      "biography": "Marc is a core contributor to the apiman project, joining shortly after its inception. In that role he has responsibilities for research, design and implementation spanning the whole project, but particularly the runtime. Marc has worked as a software engineer at Red Hat for over 5 years, tinkering with a plethora of technologies, but has particular interests in distributed systems, asynchronous and polyglot programming.",
-      "image": "assets/img/speakers/marc-savy.png",
-      "ref": "msavy",
-      "url": "infoSpeaker.html?ref=msavy",
-      "twitter": "http://twitter.com/marcsavy",
-      "talk": {
-        "type": "talk",
-        "title": "Exploring API management and apiman; with an open source twist, and a hint of microservices.",
-        "abstract": "Interacting with, developing, and deploying RESTful APIs forms a key part of many modern applications; this is especially true of microservices architectures. However, there are also an increasing number of ancillary requirements that need fulfilling, amongst which are:<br><ul style='text-align : left'><li>Security; such as authentication and authorisation</li><li>Request tracking; for metrics, logging, and billing</li><li>Access limits; such as rate limiting and quotas</li><li>Service registry, discovery, user management, custom logic, ...</li></ul><p class='abstract'>As developers it's clearly preferable to focus on perfecting the business logic of our applications rather than spending time focussing on the common and prone-to-change requirements found in every of our applications. Centralising these functions enables us not only to reduce time spent in development and maintenance, but also reduces the surface area for bugs and inconsistencies.API Management endeavours to solve these problems.In this talk, we'll explore API management broadly, then dive into the specifics of apiman: a free and open source API management solution.Examining both design time and runtime aspects, we'll examine benefits, detractions and technical approaches taken to achieve a flexible, scalable and high-performance solution.</p>",
-        "tags": [
-          "API","Microservices"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC3-SE2"
-    },
-    {
-      "enabled": "1",
-      "name": "Luis Mineiro",
-      "description": "Fullstack Engineer @Zalando",
-      "biography": "Luis Mineiro's broad background in software engineering includes experience in devops, networks, mobile development, and more. Luis has been with Zalando since 2013--starting out on the Shops team, then shifting to Platform to do more full-stack engineering. Originally from Portugal, Luis has a masters in computer science from the Instituto Politécnico de Viseu.",
-      "image": "assets/img/speakers/luis-mineiro.jpg",
-      "ref": "lmineiro",
-      "url": "infoSpeaker.html?ref=lmineiro",
-      "twitter": "https://twitter.com/voidmaze",
-      "homepage" : "https://tech.zalando.com",
-      "talk": {
-        "type": "talk",
-        "title": "The frontend taboo: a story of full stack microservices",
-        "abstract": "Microservices are not news anymore. They allow multiple teams to work autonomously by choosing their own technology stacks and having their own release cycles. There is something not being addressed though, like if it is some kind of dirty little secret, and that is frontend development. The common practice for building websites remains 'the monolith': a single frontend codebase that consumes multiple APIs. We believe we found a better solution.Last year, a handful of Zalando engineers came up with an innovative solution for this exact problem - project Mosaic. Mosaic is a new architecture for websites where microservices are used in the entire stack, all the way to the frontend.Its main components are:<br><ul style='text-align : left'><li>- Skipper - an HTTP router with runtime update of routes</li><li>- Tailor - a streaming layout service with runtime update of templates</li></ul><p class='abstract'>The network is the glue putting it all together.In this talk we want to share our motivation to build Mosaic, how to perform such migration without downtime, and the advantages it has to offer to other organizations, regardless of their size.We'll go through the operational details about Skipper and how it can be customized to answer many other different requirements. I'll also describe in detail how Tailor can dramatically improve the perceived performance of your website by streaming frontend content, from multiple fragments, in parallel.</p>",
-        "tags": [
-          "Fullstack","Microservices"
-        ],
-        "level": "Advanced"
-      },
-      "scheduleId": "#SAT-TC4-SE2"
-    },
-    {
-      "enabled": "1",
-      "name": "Aurelien Broszniowski",
-      "description": "Lead Engineer at Terracotta/Software AG",
-      "biography": "Coder since he was a teenager, currently Lead Engineer at Terracotta/Software AG, Aurelien has worked as a freelancer for many years in the java ecosystem. He has authored several opensource projects, the latest being Rainfall, a java performance testing framework.",
-      "image": "assets/img/speakers/aurelien.jpg",
-      "ref": "aurelien",
-      "url": "infoSpeaker.html?ref=aurelien",
-      "twitter": "https://twitter.com/AurBroszniowski",
-      "homepage": "https://jsoftbiz.wordpress.com",
-      "talk": {
-        "type": "workshop",
-        "title": "Performance through caching",
-        "abstract": "Caching is a solution for developers who need to increase the performance of their application. Through JSR-107, there is now a caching standard for Java. If the words Cache Aside, Cache Through, Write-Behind are not familiar to you, or if you are interested in low latency and scalable architectures, this workshop is for you! Practical exercises will cover the following topics defined in JSR-107: using caches in your application, annotations to cache specific components, expiration policies, and checking the effectiveness of the cache through statistics. We will also cover topics beyond JSR-107 that are fairly common across providers: capacity control, cache topologies and consistency of shared data. We will use Ehcache 3 as the implementation.<br><br>Follow the instructions posted in <a href=\"https://github.com/aurbroszniowski/jbcn2016/\" class=\"link\">this URL</a>",
-        "tags": [
-          "Performance", "Cache"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#THU-TC3-SE1"
+      "name": "Manuel Alvarez",
+      "description": "Software developer at CERN",
+      "image": "assets/img/speakers/manuel-alvarez.jpg",
+      "ref": "manuel-alvarez",
+      "url": "infoSpeaker.html?ref=manuel-alvarez",
+      "twitter": "https://twitter.com/malvarez_bis"
     },
     {
       "enabled": "1",
       "name": "Rustam Mehmandarov",
-      "description": "Leader of the Norwegian Java User Group - javaBin",
-      "biography": "Rustam Mehmandarov holds a master's degree in Computer Science from the University of Oslo. He has been working as a developer and lead programmer for 10 years. In addition to being passionate about agile development, web development, architecture and geographical information systems, he is also a guru of both Linux and Windows worlds. On his spare time he enjoys working out, as well as coding in Python and Java [but not simultaneously]. He is a frequent speaker at both national and international conferences and events.",
-      "image": "assets/img/speakers/rmehmandarov.jpg",
-      "ref": "rmehmandarov",
-      "url": "infoSpeaker.html?ref=rmehmandarov",
+      "description": "Passionate computer scientist. Leader of the Norwegian JUG - javaBin & JavaZone. Speaker.",
+      "image": "assets/img/speakers/rustam-mehmandarov.jpg",
+      "ref": "rustam-mehmandarov",
+      "url": "infoSpeaker.html?ref=rustam-mehmandarov",
       "twitter": "https://twitter.com/rmehmandarov",
-      "homepage": "http://lanyrd.com/profile/rmehmandarov/",
-      "talk": {
-        "type": "workshop",
-        "title": "Solving Problems with Reasoning, Semantic Wizardry and Java",
-        "abstract": "Ever heard of Zebra Puzzles? Those logical puzzles that are claimed to be invented by Albert Einstein as a little boy? Those that are based on simple logical facts and go something like this: \"<i>The Brit lives in the Red house. The Swede keeps dogs as pets. The Dane drinks tea… Who owns the zebra?</i>\"<br>Some claim that only 2% of the population can solve it.<br>However, with the help of semantic technologies we can solve it in (almost) no time. Of course you have to know RDF, OWL, Jena, reasoning, inference... The good news is that we will show you how it works in this session.<br>We will start with introducing the puzzle. Then we will continue by looking at the toolbox for solving it. We will build a semantic representation of the puzzle (basically, a graph!), programmatically add some inferred facts and reason and solve the puzzle.<br>Suddenly solving puzzles is a piece of cake for the other 98%.<br><br>Follow the instructions posted in <a href=\"http://mehmandarov.com/reasoning-and-semantic-wizardry/#workshop-requirements\" class=\"link\">this URL</a>",
-        "tags": [
-          "semantic", "RDF", "SPARQL"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#THU-TC4-SE1"
+      "homepage": "http://mehmandarov.com/"
     },
     {
       "enabled": "1",
-      "name": "Manuel Ángel Quindimil López",
-      "description": "Senior Developer at Salenda",
-      "biography": "Manuel is a passionate and in love with Java/Grails, having been working with Grails for many years, and sharing his heart with UX experience and front-end techs.",
-      "image": "assets/img/speakers/manuel-lopez.jpg",
-      "ref": "quindimildev",
-      "url": "infoSpeaker.html?ref=quindimildev",
-      "twitter": "https://twitter.com/quindimildev",
-      "talk": {
-        "type": "workshop",
-        "title": "Boost your productivity. Grails yourself!",
-        "abstract": "We are going to learn how to create a web-app with Grails 3. Also applying some security plugins and others, to learn how to start developing with the most productivy Java framework, from the beginning to deploying a war into Tomcat.<br><br>Follow the instructions posted in <a href=\"http://quindimildev.github.io/jbcnconf2016_workshop/\" class=\"link\">this URL</a>",
-        "tags": [
-          "Groovy", "Grails"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#THU-TC2-SE1"
+      "name": "Charles Moulliard",
+      "description": "Principal Software Engineer @RedHat & Apache Committer.",
+      "biography": "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog",
+      "image": "assets/img/speakers/charles-moulliard.jpg",
+      "ref": "charles-moulliard",
+      "url": "infoSpeaker.html?ref=charles-moulliard",
+      "twitter": "https://twitter.com/cmoulliard",
+      "homepage": "http://cmoulliard.github.io/"
     },
     {
       "enabled": "1",
-      "name": "Valdas Jasaitis",
-      "description": "Principal software engineer at Netcentric",
-      "biography": "Principal software engineer at Netcentric, Spain with 15 years of experience in leading web projects based on Java. He has Ph.D. in Computer Science from Vilnius University, Lithuania. Currently Valdas is engaged in Apache Sling, Apache Felix and Apache Jackrabbit frameworks with a focus on customer analytics and data science technologies.",
-      "image": "assets/img/speakers/valdas-jasaitis.jpg",
-      "ref": "vjasaitis",
-      "url": "infoSpeaker.html?ref=vjasaitis",
-      "homepage" : "http://www.netcentric.biz",
-      "talk": {
-        "type": "talk",
-        "title": "Sling: a Content Centric Web Development Framework",
-        "abstract": "This presentation will introduce the core values of the Apache Sling Framework and what it means to be content-centric. You will learn some of the advantages of such an approach that allows a developer to forget about database schemas, primary keys (and other constraints) and to focus on development of resources. The RESTful famework contains a Java Content Repository (JCR) standard (JSR 283) implemented as Apache JackRabbit. <br>The talk includes some live code examples, that will review the most key and important phases of development such as testing (unit, integration testing and automatic health checks), deployment in an OSGi environment, surviving web penetration tests for web components, caching strategy and performance for multi-language and region sites, error handling for forms, templates, and components, content hierarchies for organizing different content types, solutions for responsiveness and mobile support, and integration with web templating tools; for example, javascript, Sightly (another Apache Open Source project), and Granite (the hypermedia driven UI that allows for a modular way of building components).The introduction covers the essential Sling and how the REST framework is based on interpreting the (HTTP) request. <br>The center of the framework is the mapping of each resource to an internal representation that is flexible. It explains how scripts are resolved as part of the request and what extra benefits there are to ease development; for example, how to leverage inheritance in certain content hierarchies. The main objective is to show how resources and representations are modeled in the server.The presentation aims to be highly practical, focusing on those aspects of enterprise java systems that deal with Web Content Management and in which the complexity of the different types of pages served, the need for performance, the multinational and multi-lingual rollout are key factors of success.",
-        "tags": [
-          "Web", "Framework", "CMS"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC4-SE4"
+      "name": "Maria Gomez",
+      "description": "Market Tech Principal at ThoughtWorks in Barcelona.",
+      "biography": "Maria Gomez is a Market Tech Principal at ThoughtWorks in Barcelona. She's been a developer and an architect for over 9 years. She has worked with many different technologies and domains, which has helped her lead teams and advise stakeholders in making the right technology decisions. She is also a speaker and an advocate for diversity and inclusion in the IT industry.",
+      "image": "assets/img/speakers/maria-gomez.png",
+      "ref": "maria-gomez",
+      "url": "infoSpeaker.html?ref=maria-gomez",
+      "twitter": "https://twitter.com/mariascandella",
+      "homepage": "http://maria-gomez.me/"
     },
     {
       "enabled": "1",
-      "name": "Romain Manni-Bucau",
-      "description": "Senior Software Engineer working with Tomitribe",
-      "biography": "Romain is a Senior Software Engineer working with Tomitribe. Romain joined Apache TomEE since 2011 and more generally the Apache EE family (TomEE, Johnzon, BatchEE, OpenJPA...). He contributes to mainly Open Source projects (CukeSpace, Arquillian, ...) and aims to make development a detail of an idea becoming reality. You can follow Romain on twitter at @rmannibucau.",
-      "image": "assets/img/speakers/romain-manibucau.jpg",
-      "ref": "rmannibucau",
-      "url": "infoSpeaker.html?ref=rmannibucau",
-      "twitter":"https://twitter.com/rmannibucau",
-      "talk": {
-        "type": "talk",
-        "title": "Hate me I love you: when JavaEE meets Angular2",
-        "abstract": "JavaEE is has been? Inadapted to modern applications? Angular2 is too recent? It is not prod ready? Cloud is not for you? Too hard to use, too hard to customize? What if we would use all of them to write an application and deploy it easily? This is what this talk is about. From backend to frontend let's see how both Java and Javascript worlds can meet. Then let see how relying on a cloud provider can allow you to deploy any kind of application very easily. If you know what is JavaEE or Javascript but never worked with both, if you want to see how Angular2 is now closer to what Java developers know or if you simply want how to use these technologies and deploy them on Openshift this talk is for you!",
-        "tags": [
-          "Java", "Javascript", "Angular2"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#SAT-TC4-SE1"
+      "name": "Hanno Embregts",
+      "description": "Java Developer, Scrum Master and Trainer at Info Support",
+      "biography": "Hanno is a Java Developer, Scrum Master and Trainer at Info Support (Veenendaal, Netherlands). He has over 9 years of experience developing enterprise software in various fields (insurance companies, banks, hospitals, industry) and currently works for the Dutch Railway Company (‘NS’). He loves building innovative software and has a passion for clean, elegant solutions. On top of that, he likes continuous delivery, behavior-driven development and all things agile.",
+      "image": "assets/img/speakers/hanno-embregts.jpg",
+      "ref": "hanno-embregts",
+      "url": "infoSpeaker.html?ref=hanno-embregts",
+      "twitter": "https://twitter.com/hannotify",
+      "homepage": "https://blogs.infosupport.com/author/h-embregts/"
     },
     {
       "enabled": "1",
-      "name": "Sebastian Daschner",
-      "description": "Java freelancer working as a Consultant / Software Developer / Architect",
-      "biography": "Sebastian Daschner is a Java freelancer working as a Consultant / Software Developer / Architect and is enthusiastic about programming and Java (EE). He is participating in the JCP, serving in the JSR 370 Expert Group and hacking on various open source projects on Github. He has been working with Java for more than 6 years. Besides Java, Sebastian is also a heavy user of Linux and container technologies like Docker. He evangelizes computer science practices on https://blog.sebastian-daschner.com and on Twitter via @DaschnerS.",
-      "image": "assets/img/speakers/sebastian-daschner.jpg",
-      "ref": "sdaschner",
-      "url": "infoSpeaker.html?ref=sdaschner",
-      "twitter":"https://twitter.com/daschners",
-      "talk": {
-        "type": "talk",
-        "title": "Who wants to test anyway? Bulletproof Java EE with least developer frustration",
-        "abstract": "In (enterprise) development testing often is treated very much as poor relations. But for more than 'Hello World' applications testing is not just nice to have (at the end of the project) rather than crucial for working software. This session shows how Java EE application are tested in a productive yet comprehensive way, why it is indispensable to do system tests and why are integration test frameworks like Arquillian overrated for most of the use cases. Most of the time will be spent live-coding and of course live-testing.",
-        "tags": [
-          "JavaEE", "Testing"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC3-SE5"
+      "name": "Juantomas Garcia",
+      "description": "Data Solution Manager at Open Sistemas",
+      "biography": "Data Solution Manager at Open Sistemas. Co-author of 'La pastilla roja' the first spanish book about free software. Former President of Hispalinux, Google Developer Expert. GDG Cloud Madrid Organizer. Machine Learning Spain Meetup Organizer.",
+      "image": "assets/img/speakers/juantomas-garcia.jpg",
+      "ref": "juantomas-garcia",
+      "url": "infoSpeaker.html?ref=juantomas-garcia",
+      "twitter": "https://twitter.com/juantomas",
+      "homepage": "http://www.juantomas.net"
     },
     {
       "enabled": "1",
-      "repeated": "1",
-      "name": "Maciej Swiderski",
-      "description": "Principal software engineer at JBoss",
-      "biography": "Maciej is principal software engineer at JBoss working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. In his spare time he enjoys calm and relax life on country side and travels.",
-      "image": "assets/img/speakers/maciej-swiderski.png",
-      "ref": "mswiderski",
-      "url": "infoSpeaker.html?ref=mswiderski",
-      "homepage": "http://mswiderski.blogspot.com",
-      "talk": {
-        "type": "talk",
-        "title": "The OpenSource way - what, why & how",
-        "abstract": "Open source is very well known around software industry. But does everyone really understands what is it about? In this talk we would like to bring in some real life experience in working in open source community (JBoss Community). We'll touch upon:<br>-what open source means<br>-what is a community<br>-how and why you should be part of a community<br>-how you can contribute and what is in it for you<br>On top of that we'll try to emphasize the difference between open source way and proprietary way. What you need to focus on when making a decision between these two. Last but not least, we'll try to encourage you to give it a try and become a member of the community - you'll see it's not hard frankly speaking quite the opposite - and you'll enjoy it!",
-        "tags": [
-          "community", "OpenSource"
-        ],
-        "level": "Beginner",
-		"cospeakerref": "salaboy"
-      },
-      "scheduleId": "#Sat-Keynote"
+      "name": "Tomasz Dubikowski",
+      "description": "Software Development Manager at Ocado Technology",
+      "biography": "Tomek is a Software Development Manager at Ocado Technology. He has 5 years of experience working as a Software Engineer, Scrum Master and Agile Trainer. As an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behavior-driven development and domain-driven design. As a leader, he helps to build an organizational culture based upon autonomy, collaboration, and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products. Tomek loves to change the reality around him. He is highly pragmatic, challenges orthodoxy at all levels, and believes that there is always room for improvement. He is always eager to share and discuss his ideas.",
+      "image": "assets/img/speakers/tomasz-dubikowski.png",
+      "ref": "tomasz-dubikowski",
+      "url": "infoSpeaker.html?ref=tomasz-dubikowski",
+      "twitter": "https://twitter.com/tdubikowski",
+      "homepage": "https://agilehabits.wordpress.com/"
     },
     {
       "enabled": "1",
-      "repeated": "1",
-      "name": "Mauricio Salatino",
-      "description": "Senior Software Engineer @RedHat/JBoss",
-      "biography": "Senior Software Engineer @ Red Hat /JBoss working for the Drools & jBPM project. Author of 4 books (3 about jBPM and 1 about Drools).",
-      "image": "assets/img/speakers/salaboy.jpg",
-      "ref": "salaboy",
-      "url": "infoSpeaker.html?ref=salaboy",
-      "twitter": "https://twitter.com/salaboy",
-      "homepage": "http://salaboy.com",
-      "talk": {
-        "type": "talk",
-        "title": "The OpenSource way - what, why & how",
-        "abstract": "Open source is very well known around software industry. But does everyone really understands what is it about? In this talk we would like to bring in some real life experience in working in open source community (JBoss Community). We'll touch upon:<br>-what open source means<br>-what is a community<br>-how and why you should be part of a community<br>-how you can contribute and what is in it for you<br>On top of that we'll try to emphasize the difference between open source way and proprietary way. What you need to focus on when making a decision between these two. Last but not least, we'll try to encourage you to give it a try and become a member of the community - you'll see it's not hard frankly speaking quite the opposite - and you'll enjoy it!",
-        "tags": [
-          "community", "OpenSource"
-        ],
-        "level": "Beginner",
-		"cospeakerref": "mswiderski"
-      },
-      "scheduleId": "#Sat-Keynote"
-    },
-	{
-      "enabled": "1",
-      "name": "Jean-Frederic Clere",
-      "description": "Java developer at RedHat for JBoss division",
-      "biography": "Jean-Frederic has spent more than 20 years writing client/server software. His knowledges range from Cobol to Java, BS2000 to Linux and /390 to i386 but with preference to the later ;). He is committer in Httpd and Tomcat and he likes complex projects where different languages and machines are involved. Borne in France, Jean-Frederic lived in Barcelona (Spain) for 14 years. Since May 2006 he lives in Neuchatel (Switzerland) where he works for RedHat in the JBoss division. ",
-      "image": "assets/img/speakers/jean-frederic.jpg",
-      "ref": "jclere",
-      "url": "infoSpeaker.html?ref=jclere",
-      "twitter":"https://twitter.com/jfclere",
-      "homepage" : "http://www.jfclere.org/",
-      "talk": {
-        "type": "talk",
-        "title": "Tomcat NEXT progress report",
-        "abstract": "This presentation will provide an update on the Tomcat 9 implementation of the next versions of the JavaEE specifications that most impact Tomcat (Servlet, JSP, EL and WebSocket). There will be a particular focus on the progress of HTTP/2 support. The Tomcat 8.5 which brings the HTTP/2, SNI etc in a java7 and EE7 is the step before EE8 will be presented. The configuration changes and migration to earlier Tomcat versions will be discussed and the roadmap to the next stable Tomcat releases will be presented.",
-        "tags": [
-          "JavaEE", "HTTP2"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#SAT-TC4-SE5"
+      "name": "Marcus Fihlon",
+      "description": "Software Engineer at CSS Insurance in Lucerne, Switzerland",
+      "biography": "Marcus Fihlon is an Agile Coach and Software Engineer at CSS Insurance in Lucerne. He also lectures at TEKO Swiss Technical College in Olten and is a speaker at conferences and user groups. He has been developing software for more than three decades and has worked with Java since the late 90s. Marcus is the grounding member and organizer of the monthly Hackergarten in Lucerne and is involved in several open source projects. Since 2017, he is member of the board of the Java User Group Switzerland and responsible for organizing events and workshops in central Switzerland.",
+      "image": "assets/img/speakers/marcus-fihlon.jpg",
+      "ref": "marcus-fihlon",
+      "url": "infoSpeaker.html?ref=marcus-fihlon",
+      "twitter": "https://twitter.com/McPringle",
+      "homepage": "https://www.fihlon.ch"
     },
     {
       "enabled": "1",
-      "name": "Carlos Ballesteros Velasco",
-      "description": "Passionate programmer that ended programming in Kotlin",
-      "biography": "Passionate programmer that ended programming in Kotlin",
-      "image": "assets/img/speakers/carlos-ballesteros.jpg",
-      "ref": "cballesteros",
-      "url": "infoSpeaker.html?ref=cballesteros",
-      "twitter":"https://twitter.com/jtransc",
-      "homepage" : "https://github.com/jtransc/jtransc/",
-      "talk": {
-        "type": "talk",
-        "title": "JTransc - AOT compiling JVM languages to javascript, C++, flash and others with just one technology",
-        "abstract": "How to use opensource JTransc to AOT your JVM language (Java, Kotlin, Scala and others) projects and bring them to web, flash and mobile.",
-        "tags": [
-          "JVM", "AOT"
-        ],
-        "level": "Beginner"
-      },
-      "scheduleId": "#SAT-TC2-SE6"
+      "name": "Simon Maple",
+      "description": "Director of Developer Relations at ZeroTurnaround",
+      "biography": "Simon is the Director of Developer Relations at ZeroTurnaround, a Java Champion since 2014, JavaOne Rockstar speaker in 2014, Duke's Choice award winner in 2016, Virtual JUG founder and organiser, London Java Community co-leader and RebelLabs author. He is an experienced speaker, having presented at JavaOne, JavaZone, Jfokus, DevoxxUK, DevoxxFR, JavaZone, JMaghreb and many more including many JUG tours. His passion is around user groups and communities. When not traveling, Simon enjoys spending quality time with his family, cooking and eating great food.",
+      "image": "assets/img/speakers/simon-maple.jpg",
+      "ref": "simon-maple",
+      "url": "infoSpeaker.html?ref=simon-maple",
+      "twitter": "https://twitter.com/sjmaple",
+      "homepage": ""
     },
     {
       "enabled": "1",
-      "name": "Bilgin Ibryam",
-      "description": "Apache Camel committer, integration architect at Red Hat",
-      "biography": "Bilgin Ibryam is an Apache Camel committer, integration architect at Red Hat and a software craftsman. He is an open source fanatic, passionate about distributed systems, messaging, enterprise integration patterns, and application integration. He is a hands-on software consultant, responsible for designing, and delivering scalable and highly available solutions using open source software such as Apache Camel, Apache ActiveMQ, Apache Karaf, Apache CXF, JBoss Fuse, JBoss Infinispan, etc. In his spare time, he enjoys contributing to open source projects and blogging at ofbizian.com.",
-      "image": "assets/img/speakers/bilgin-ibryam.jpg",
-      "ref": "cibryam",
-      "url": "infoSpeaker.html?ref=cibryam",
-      "twitter":"https://twitter.com/bibryam",
-      "homepage" : "http://www.ofbizian.com/",
-      "talk": {
-        "type": "talk",
-        "title": "Apache Camel design patterns learned through blood, sweat, and tears",
-        "abstract": "Throughout the building of a Camel application, there are many levels of design decisions to be made. Knowing the Camel framework and the Enterprise Integration Patterns (EIPs) is a must, but not enough to design a real-world integration application. Driven by real-world experiences, this talk consolidates the most commonly used patterns and principles for designing Camel applications. For each pattern, we start with a problem description in a context, a proposed solution, and Camel specifics, suggestions and tips around the implementation. Patterns range from individual Camel route designs for happy path scenarios, to error handling and prevention practices, to principles used in the deployment of multiple routes and applications for achieving scalability and high availability. <br>We will cover patterns such as: <ul style='text-align : left'><li>VETRO</li><li>Edge Component</li><li>CQRS</li><li>Data Integrity</li><li>Saga</li><li>Retry</li><li>Circuit Breaker</li><li>Error Channel</li><li>Service Instance</li><li>Singleton Service</li><li>Bulkhead</li></ul>",
-        "tags": [
-          "Design Patterns", "Integration"
-        ],
-        "level": "Advanced"
-      },
-      "scheduleId": "#SAT-TC3-SE3"
+      "name": "Adrian Cole",
+      "description": "Software Engineer at Pivotal",
+      "biography": "Adrian works at Pivotal, on the Spring Cloud team. He spends most on Zipkin, usually in Java. He also runs a distributed tracing working group for implementors.",
+      "image": "assets/img/speakers/adrian-cole.jpeg",
+      "ref": "adrian-cole",
+      "url": "infoSpeaker.html?ref=adrian-cole",
+      "twitter": "https://twitter.com/adrianfcole"
     },
     {
       "enabled": "1",
-      "name": "Galo Navarro",
-      "description": "Software engineer focused on scalability and distributed systems",
-      "biography": "Software engineer focused on scalability and distributed systems, mostly on the JVM. Currently building systems to analyze mobile network traffic at Zhilabs. Previously, virtual networks at Midokura and social networks at Tuenti and Last.fm.",
-      "image": "assets/img/speakers/galo.jpg",
-      "ref": "galo",
-      "url": "infoSpeaker.html?ref=galo",
-      "twitter": "https://twitter.com/srvaroa",
-      "talk": {
-        "type": "workshop",
-        "title": "It is slow: performance analysis and optimisation on the JVM",
-        "abstract": "This session is aimed at developers on any JVM language that are interested in understanding and improving the performance of their applications. During the workshop we will experiment with several basic examples and frameworks like Akka, ReactiveX or JCTools, using profilers (Mission Control, VisualVm), raw JDK/OS tools (jstat, jmap, jcmd, etc. perf) and the Java Microbenchmark Harness to examine various the behaviour of our applications: resource utilisation, scalability, etc. We will review how these tools help us detect hotspots and discuss common improvements and good practises that make our applications more performant focusing in critical areas like memory management or concurrency.  This workshop will only assume basic familiarity with Java.",
-        "tags": [
-          "Performance", "JVM"
-        ],
-        "level": "Intermediate",
-		"cospeakerref": "gontanon"
-      },
-      "scheduleId": "#THU-TC3-SE2"
-    },
-	{
-      "enabled": "1",
-      "name": "Guillermo Ontañón",
-      "description": "Software Architect at Zhilabs",
-      "biography": "Software Engineer specialized in systems/network/concurrent/distributed development on Linux. Java, Scala, C, C++, Python. <br>Code samples: https://github.com/gontanon/portfolio",
-      "image": "assets/img/speakers/guillermo.jpg",
-      "ref": "gontanon",
-      "url": "infoSpeaker.html?ref=gontanon",
-      "twitter": "https://twitter.com/gontanon",
-      "talk": {
-        "type": "workshop",
-        "title": "It is slow: performance analysis and optimisation on the JVM",
-        "abstract": "This session is aimed at developers on any JVM language that are interested in understanding and improving the performance of their applications. During the workshop we will experiment with several basic examples and frameworks like Akka, ReactiveX or JCTools, using profilers (Mission Control, VisualVm), raw JDK/OS tools (jstat, jmap, jcmd, etc. perf) and the Java Microbenchmark Harness to examine various the behaviour of our applications: resource utilisation, scalability, etc. We will review how these tools help us detect hotspots and discuss common improvements and good practises that make our applications more performant focusing in critical areas like memory management or concurrency.  This workshop will only assume basic familiarity with Java.",
-        "tags": [
-          "Performance", "JVM"
-        ],
-        "level": "Intermediate",
-		"cospeakerref": "galo"
-      },
-      "scheduleId": "#THU-TC3-SE2"
+      "name": "Michel Schudel",
+      "description": "Passionate Java developer working for Railways in the Netherlands",
+      "biography": "Michel Schudel has been a passionate Java developer since 1998, building various Java solutions for banks, insurance companies and telecom providers. Since then he has seen the good, the bad and the ugly in Java land. He loves agile development and coding with micro and meso frameworks like SpringBoot and SparkJava to get up-and-running as fast as possible. Futhermore, he likes to coach junior developers in Core Java. Michel is currently working for Dutch Railways in the Netherlands.",
+      "image": "assets/img/speakers/michel-schudel.jpg",
+      "ref": "michel-schudel",
+      "url": "infoSpeaker.html?ref=michel-schudel",
+      "homepage": "http://www.craftsmen.nl"
     },
     {
       "enabled": "1",
-      "name": "Nitesh Thakrar",
-      "description": "Software IT Architect at the IBM Ecosystem Development team",
-      "biography": "Nitesh Thakrar is a Software IT Architect at the IBM Ecosystem Development team based in Nice, France. He is dedicated to empowering the IBM Ecosystem of Developers, Independent Software Vendors and partners in Europe, Middle East and Africa. In this capacity Nitesh works with this ecosystem in building and mastering their IT skills across the full solution lifecycle referencing related and appropriate software to the solution (example, Smarter Analytics, BigData, and Cloud (including. IBM Bluemix)). He delivers technical briefing and educational workshops. He also supports the IBM Ecosystem with the development of Proof Of Technology and solutions based on IBM products, provides consultancy on design, and assists them to solve configuration and development issues. Specialised across multiple industries, Nitesh provides architectural and integration technology expertise to take the partner's solution to the market. Previous to working for IBM, Nitesh has over 25 years of experience in software development from Hands-on to IT-Director level. He has a Masters degree in Computer Science from Pace University (White Plains, NY). ",
-      "image": "assets/img/speakers/Nitesh.jpg",
-      "ref": "nthakrar",
-      "url": "infoSpeaker.html?ref=nthakrar",
-      "twitter": "https://twitter.com/niteshpthakrar",
-      "talk": {
-        "type": "workshop",
-        "title": "Build and deploy your Java, IoT and cognitive app in the cloud with the IBM Bluemix platform",
-        "abstract": "During this 2 hours lab, you will first learn how to build your Java app in the Cloud with IBM Bluemix, you will discover the different tools to deploy your code and how to use the DevOps services integrated with Bluemix. In the second part you will build an IoT application using IoT services, IBM Watson cognitive APIs and NoSQL services integrated with Bluemix.<br><br>Follow the instructions posted in <a href=\"http://jbcnconf2016.eu-gb.mybluemix.net/\" class=\"link\">this URL</a>",
-        "tags": [
-          "Java", "IoT"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#THU-TC1-SE2"
+      "name": "Grzegorz Piwowarek",
+      "description": "Senior software developer at Touk",
+      "biography": "Grzegorz is a senior software developer@TouK in Warsaw, senior technical editor@Baeldung, guitarist@VisionsOfTondal, professional yo-yo player and a former Mensa member. His professional experience ranges from backend web development and systems’ integration to image recognition engines. Grzegorz is fascinated by the beauty of functional programming and recently helping in spreading the Javaslang word.",
+      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+      "ref": "grzegorz-piwowarek",
+      "url": "infoSpeaker.html?ref=grzegorz-piwowarek",
+      "homepage": "",
+      "twitter": "https://twitter.com/pivovarit"
     },
     {
       "enabled": "1",
-      "name": "Roland Huss",
-      "description": "Principal Software Engineer at Red Hat",
-      "biography": "Roland Huss is a Principal Software Engineer at Red Hat working in the xPaas team on fabric8. He has been developing in Java for nineteen years now but never forgot his roots as system administrator. Roland is an active open source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli pepper.",
-      "image": "assets/img/speakers/roland.jpeg",
-      "ref": "roland",
-      "url": "infoSpeaker.html?ref=roland",
-      "twitter": "https://twitter.com/ro14nd",
-      "homepage": "https://ro14nd.de",
-      "talk": {
-        "type": "talk",
-        "title": "From Zero to a Raspberry-Pi Kubernetes Cluster in 60 minutes",
-        "abstract": "In this hands-on presentation we start from scratch with some Spring-Boot and Wildfly-Swarm Microservices which we first place into Docker images and then deploy them on a Kubernetes cluster running on a four-node Raspberry Pis with load-balancing and rolling updates. We will see how seamless the creation of Docker images and Kubernetes resource descriptors can be integrated into the Maven build process. Many live demos explain the Kubernetes core concepts by example. As bonus a recipe for setting up a Raspberry Pi cluster on your own is given. At the end of this talk you will know how easy it is to bring your Java applications to Kubernetes.",
-        "tags": [
-          "Kubernetes", "Spring Boot", "Docker", "Raspberry Pi"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC2-SE5"
+      "name": "Dmitry Vinnik",
+      "description": "Senior software engineer at Salesforce",
+      "biography": "Senior Software Engineer at Salesforce, who has been passionate about software quality since the very beginning of his career. Started as a Quality Engineer, he was able to bring test expertise into current role of a software engineer, and ensure a delivery of a high quality product. In addition to being an Individual Contributor, he is a Scrum Master focused on making his team more efficient and productive. His background involves studying Medicine, later transition into Bioinformatics field, and now being in a purely Software Engineering-centric area.",
+      "image": "assets/img/speakers/dmitry-vinnik.jpg",
+      "ref": "dmitry-vinnik",
+      "url": "infoSpeaker.html?ref=dmitry-vinnik",
+      "homepage": "",
+      "twitter": ""
     },
     {
       "enabled": "1",
-      "name": "Alonso Torres",
-      "description": "Software engineer at Kaleidos Open Source",
-      "biography": "Software engineer at Kaleidos Open Source, Alonso has been developing in Java and JVM ecosystem and almost 10 years. He has been fortunately enough to be involved in humongous corporate-level projects and small, cutting-edge technology startups. Alonso also is a big advocate of the Open Source moevement, the functional programming paradigm and the different languages around the JVM like Groovy or Clojure.",
-      "image": "assets/img/speakers/alonso-torres.jpg",
-      "ref": "atorres",
-      "url": "infoSpeaker.html?ref=atorres",
-      "twitter": "https://twitter.com/alotor",
-      "homepage": "http://kaleidos.net/FFFF00/",
-      "talk": {
-        "type": "talk",
-        "title": "Garbage Collection: WTF?!",
-        "abstract": "Have you ever seen an OutOfMemoryError? I'm sure you have. But then, did you understood that line you copied from StackOverflow? If you haven't, and if you want a gently introduction to the complex world of Java Garbage Collection this is your talk. I'll talk about garbage collection concepts, the garbage collection in the Hotspot JVM (the default in Oraclel's JDK/JRE) and I'll try to put it in terms that any Java developer can grasp. The next time you'll face the dreaded 'OutOfMemoryError', at least, you'll know what are you up against.",
-        "tags": [
-          "Java", "Internal"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#SAT-TC2-SE3"
-    },
-    {
-      "enabled": "1",
-      "name": "Andres L. Martinez-Ortiz",
-      "description": "Developer Program Manager in Google",
-      "biography": "Andres L. Martinez-Ortiz a.k.a Almo is Developer Program Manager in Google's Engineering organisation. He is focused on driving the success of Google's developer products and the open web by creating a thriving ecosystem of 3rd party applications and businesses built on them. Closely with Product Management, Marketing, PR, Business Development, and other, he works with and supports developer communities, initiating activities that meet the needs of the innovation ecosystem. In addition, he meets with developers and partners in large companies, startups, universities and enterprises, promoting Open standards and Google technologies.",
-      "image": "assets/img/speakers/almo.jpg",
-      "ref": "almo",
-      "url": "infoSpeaker.html?ref=almo",
-      "twitter": "https://twitter.com/davilagrau",
-      "homepage": "http://gplus.to/almo",
-      "talk": {
-        "type": "talk",
-        "title": "Google Firebase: developing Android & iOS mobile apps",
-        "abstract": "During the presentation, almo will introduce the tools and architecture necessary for Android & iOS app development using the Firebase Realtime Database, OpenID Connect w. the Google Identity Toolkit and a Go backend in AppEngine.",
-        "tags": [
-          "Firebase", "Go", "Android", "iOS"
-        ],
-        "level": "Advanced"
-      },
-      "scheduleId": "#SAT-TC4-SE6"
-    },
-    {
-      "enabled": "1",
-      "name": "Sergi Almar",
-      "description": "Spring I/O organizer",
-      "biography": "Sergi has been helping customers with best practices in software development in the JVM for the last 10 years. Using Spring Framework since 2006, he has also delivered the official Spring trainings to +1000 people in +20 different countries. Sergi is the organizer of the Spring I/O conference (www.springio.net) and also a core member of the javaHispano JUG.",
-      "image": "assets/img/speakers/sergialmar.jpeg",
-      "ref": "sergialmar",
-      "twitter": "https://twitter.com/sergialmar",
-      "url": "infoSpeaker.html?ref=sergialmar",
-      "talk": {
-        "type": "workshop",
-        "title": "Cloud Native Applications with Spring Cloud",
-        "abstract": "Do you want to build an application using microservices and don't know where to start? How do services find each other? How do I configure many instances of each service? How do I know which instance to use? How do I see what's going on with my services?<br>If you've ever asked any of these questions, this session will give you some answers using Spring Cloud to create microservices that are robust, discoverable, scalable and configurable.<br><br>Follow the instructions posted in <a href=\"https://github.com/salmar/cloud-native-workshop\" class=\"link\">this URL</a>",
-        "tags": [
-          "Spring", "Spring Cloud", "Spring Boot", "microservices"
-        ],
-        "level": "Intermediate"
-      },
-      "scheduleId": "#THU-TC2-SE2"
+      "name": "Piotr Kafel",
+      "description": "Software Engineer and Reactive programming evangelist at Groupon",
+      "biography": "Software Engineer and reactive programming evangelist at Groupon. I wrote my first line of code in Java when I was 16 years old. Since then I was working on projects for companies like Nokia, HP or Credit Suisse. Even though Java is my main programming language I'm trying not to limit myself to it. I love exploring new languages, technologies and approaches. I'm an open source contributor and ex Wroclaw JUG leader. Related links: <ul><li>http://www.reactivemanifesto.org/</li><li>http://www.reactive-streams.org/</li><li>https://github.com/ReactiveX/RxJava</li></ul>",
+      "image": "assets/img/speakers/piotr-kafel.png",
+      "ref": "piotr-kafel",
+      "url": "infoSpeaker.html?ref=piotr-kafel",
+      "homepage": "",
+      "twitter": "http://twitter.com/daftano"
     }
-  ]
-};
+  ];
+
+export const meetings = [{
+      "type": "talk",
+      "title": "The Art of Simplicity",
+      "abstract": "We've been told to keep things simple. It turns out, that's easily said than done. Creating something simple is, well, not really that simple. If simple was sitting next to us, would we even recognize it? Is my design simple, is yours simple? How can we tell? That's a simple question, but the answer to it is… well come to this keynote to find out.",
+      "tags": [
+        "Design",
+        "KISS"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "#MON-TC1-SE1",
+      "speakers": [
+        "venkat"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Functional Programming in Java",
+      "abstract": "Java 8 is the most significant change to the language since it's introduction, surpassing changes seen in any of the previous versions. It is not merely syntactical change or addition of a few extra features, it's a paradigm shift. Come to this presentation to learn about the power and capabilities of functional programming using Java 8 and how to benefit from those when building Java applications.",
+      "tags": [
+        "Functional",
+        "Java"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "venkat"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Closing Keynote",
+      "abstract": "Keynote TBD",
+      "tags": [
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "#TUE-TC1-SE7",
+      "speakers": [
+        "sandro"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Real World Java 9",
+      "abstract": "The feature we always hear about whenever Java 9 is in the news is Jigsaw, modularity.  But this doesn't scratch the same developer itch that Java 8's lambdas and streams did, and we're left with a vague sensation that the next version might not be that interesting. Java 9 actually has a lot of great additions and changes to make development a bit nicer.  These features can't be lumped under an umbrella term like Java 8's lambdas and streams, the changes are scattered throughout the APIs and language features that we regularly use. In this presentation Trisha will show, via live coding:<br> - How we can use the new Flow API to utilise Reactive Programming <br> - How the improvements to the Streams API make it easier to control real-time streaming data <br> - How to the Collections convenience methods simplify code<br> Along the way we'll bump into other Java 9 features, including some of the additions to interfaces and changes to deprecation.  We’ll see that once you start using Java 9, you can't go back to Before.",
+      "tags": [
+        "Java",
+        "Java 9",
+        "Reactive",
+        "Live coding"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "trisha"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "Refactoring to Java 8",
+      "abstract": "In reality, many projects that developers are working on are pre-Java-8. Even if a project has technically adopted Java 8, and even if new features are developed taking advantage of Java 8 syntax, it’s likely the majority of the code is still not making the most of what’s available - features like Lambda Expressions, the Streams API, and new Date/Time. In this workshop we’ll: <br>Cover some of the benefits of using Java 8 - after all, you’ll probably have to persuade The Management that tampering with existing code is worthwhile <br>Learn how to identify areas of code that can be updated to use Java 8 features<br>See how to automatically refactor your code to make use of features like lambdas and streams.<br>Cover some of the pros and cons of using the new features - including examples of when refactoring may not be the best idea. <br>Take a look at example benchmarks using JMH and discuss what makes a good performance test.",
+      "tags": [
+        "Java",
+        "Java 9",
+        "Refactoring",
+        "Live coding"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "trisha"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Building microservices with Vert.x",
+      "abstract": "Vert.x is a toolkit for building reactive applications on the JVM. It was awarded for 'Most Innovative Java Technology' at the JAX Innovation awards. Vert.x is event driven, non blocking and polyglot, which makes it an excellent platform for building microservices. In this talk, I’ll share experiences and real-world use cases from a Dutch company that started building reactive web applications with Vert.x about 4 years ago. You’ll learn the concepts behind Vert.x, why we chose Vert.x, how we’re using it and the challenges we faced. Topics include the anatomy of our projects, (micro)services architecture, deployment model and DevOps, scalability, the upgrade from Vert.x 2 to Vert.x 3 and cooperation with the team behind Vert.x. At the end of this session, you’ll know enough about Vert.x to get started yourself right away!",
+      "tags": [
+        "Vertx",
+        "Microservices",
+        "Reactive"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "schrijver"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "How To Stay Responsive With 400 Backends",
+      "abstract": "In these days of web scale and microservices, gracefully handling faulty or crashing backend web services becomes increasingly important. As long as your application uses just a handful of such backends, there’s no problem. But what if you have hundreds of them? How will you prevent your application from the negative effects of inevitable incidental crashes or timeouts when contacting other web services? In this talk, we’ll take a real-world example from a web scale system. This system is targeted at 10 million users and has around 400 heterogeneous backends. Akka and Scala power a system that is capable of running smoothly even when some backends might not be so stable.",
+      "tags": [
+        "Microservice",
+        "Web scale",
+        "Reactive",
+        "Akka",
+        "Scala"
+      ],
+      "level": "Advanced",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "mmulders"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Developing cloud-ready Camel microservices",
+      "abstract": "As a Java developer it may be daunting to know how to get started how to develop container applications that runs on Kubernetes cluster. Using minikube its very easy to run a local Kubernetes cluster and with the help of fabric8 tooling its even easier to install and run using familiar tools like Maven. In this talk we will build a set of Apache Camel and Java based Microservices that uses Spring Boot and WildFly Swarm. With the help of fabric8 maven tooling you will see how to build, deploy, and run your Java projects on a Kubernetes cluster (local or remote). And even live debugging is easy to do as well. We will discuss practices how to build distributed and fault tolerant microservices using technologies such as Kubernetes Services, Netflix Hystrix, and Camel EIP patterns for fault tolerance. This talk is a 50/50 mix between slides and demo.",
+      "tags": [
+        "Microservices",
+        "Kubernetes",
+        "Integration"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "davsclaus"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Going Reactive with Vert.x",
+      "abstract": "Forget the theory, ignore the academics, in the end all that matters for us is CODE! Come to this session and we won't disappoint you! We are simply going to build awesome, next generation apps, with a reactive and asynchronous programming model on RxJava + Vert.x. Bring your smartphone as you will be participating in this fast and furious session. Brace yourselves! Forget Spring. Winter is coming.",
+      "tags": [
+        "RxJava",
+        "Reactive programming",
+        "Java 8",
+        "Asynchronous",
+        "Microservices"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "burrsutter"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Why you’re going to FAIL running Java on docker!",
+      "abstract": "Running Java on docker is easy, right? Just create a Dockerfile, run a docker build and then you’re ready to go! Thinking this way is the easiest path to complete FAILURE when running docker containers in production.<br/>The JVM knows how to auto-tune itself to achieve the best possible performance in the environment it’s running. So far, the environment has been a single physical or virtual machine. But now you have containers, and it changes everything: you need to know how containers manages their own resources, and you need to apply this knowledge when running and optimizing your JVM running in a container.<br/>Want to get ready to really run Java on docker in production? Then come to this session to learn a lot about JVM and containers and avoid the highway to debugging hell. You’ll get simple tips & tricks that will save you hundreds of hours of debugging & logging to figure out what is wrong with your containers.",
+      "tags": [
+        "docker",
+        "jvm",
+        "java",
+        "containers",
+        "kubernetes",
+        "openshift"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "burrsutter"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Testing For Unicorns",
+      "abstract": "One of the most important benefits of automated testing is to ensure a fast and safe code refactoring to evolve our system architecture.  The main problem is how to write tests that are easy to write, easy to follow and not time consuming during development nor execution time. In this session, we are going to explore some powerful Java testing libraries that will help you write better (unit) tests focusing on the main Unicorns architecture challenges such as validating microservices endpoints, remote calls to other microservices or just asynchronous/reactive code.",
+      "tags": [
+        "Testing"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "alexsoto"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Reactive Stream Processing with MicroProfile and Apache Kafka",
+      "abstract": "The community driven Microprofile initiative aims to optimize Enterprise Java for a microservices architecture, by leveraging a few Java EE APIs, such as JAX-RS, CDI and JSONP. With this minimal, but very powerful set of technologies, the profile is a perfect base for modern Java EE applications in combinations new technologies, such as integration with Apache Kafka for reactive stream processing. The session gives a short introduction to Apache Kafka and WildFly Swarm. You will learn about integration between WildFly Swarm's Microprofile fraction and Apache Kafka, mixing both Java EE standard APIs as well as Kafka Client APIs. The session is supported by a demo, showing processing of mobile application data for metric analysis. The session ends with an outlook how to run the different parts on Docker and Kubernetes, as well as bringing in other technologies for consuming Kafka messages, such as Vert.x.",
+      "tags": [
+        "Reactive",
+        "MicroProfile",
+        "Kafka",
+        "Microservices",
+        "Docker",
+        "Kubernetes"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "mwessendorf"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Cloud Native Java with Kubernetes",
+      "abstract": "We all want to craft Cloud Native Java applications that are modern, scalable and resilient. We're all aware by now that we need centralized configuration, log aggregation, monitoring, healthchecking, circuit breakers, tracing, service discovery, and more! What if instead of having to code all of this we could have all of these features provided to our system in a non-intrusive way? Without having to rearchitect everything all over again? Come and join us on this session when we'll show you how to leverage your new Spring Boot application (or even your Java EE one) with the Kubernetes Platform. We'll convince you that you don't need to manage many different services by yourself to have a true Cloud Native application. You can rely on Kubernetes services to solve most of the problems. For the rest of them you can use alternatives like sidecar containers to offer added-value functionality without having to add even a single @Annotation!",
+      "tags": [
+        "Java EE",
+        "Spring Boot",
+        "Kubernetes",
+        "Cloud Native",
+        "Microservices"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "edsonyanaga"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Designing Cloud Native Applications with Kubernetes",
+      "abstract": "The way we design, develop and run applications on Cloud Native platforms differs significantly from traditional applications. When working with Kubernetes, there are fewer concerns for developers to think about, but at the same time, there are new patterns and practices for solving every-day challenges. In this talk, we will look at on a number of common practices and patterns for developing Cloud Native applications. More specifically we will look at the following patterns: Application Descriptor, Observable Interior, Life Cycle Conformance, Service Discovery and Load Balancing, Self Service Environments, Dynamic Placement, Declarative Deployment.",
+      "tags": [
+        "Cloud",
+        "Kubernetes",
+        "architecture",
+        "Design",
+        "Docker",
+        "Patterns"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "bibryam"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Machine learning by example",
+      "abstract": "Are the machines learning on their own? Wait, is Skynet already here? During this session we will tackle an easy Machine Learning problem, show how can it be processed on Spark including data cleaning, normalization and a learning process. Live coding session, but only if the machines don’t rise against us.",
+      "tags": [
+        "Machine learning",
+        "Spark"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "mmatloka"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "The reactive landscape",
+      "abstract": "Reactive Programming, Reactive eXtensions, Reactive Streams, Reactive Systems, Reactive Manifesto, that’s a lot of 'reactive' thingies. Just to make it even more confusing, 'reactive' is often associated with asynchronous, scalability, RX libraries (RX Java, RX JS), back pressure, streams, observables, futures, promises, spreadsheets and so on…. That's a lot to digest… This session helps you understanding what's behind the 'reactive' word. It explores the reactive landscape and explains what all these 'things' are and how they are related. Attendees don't only learn what does 'reactive' mean, but also how it is related to their projects and applications. By providing a global overview of the reactive landscape, this session also provides to the attendees a general understanding of the 'reactive' trend, and why it matters. The presentation uses several live coding demos to explain the different concepts. It uses Eclipse Vert.x as a playground to explain how all these concepts work together. Eclipse Vert.x is a toolkit to build reactive and distributed systems on the JVM. It supports a set of languages such as Java, JavaScript, Ceylon, Scala and Kotlin… but also a set of programming styles (callbacks, futures, streams, RX...). It covers a large part of the reactive spectrum making it a great choice to implement reactive applications and systems.",
+      "tags": [
+        "Reactive",
+        "Vert.x"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "cescoffier"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Build a Q&A bot with Deeplearning4J",
+      "abstract": "Chatbots are here, you don't longer necessarily talk to a human when you contact your local insurance agency. Whether that's a good thing remains to be seen, but it sure is interesting for us as developers. In this talk I will show you how you can build a basic chatbot that is capable of answering questions. I will show you how you can use DeepLearning4J to build a neural network and how the neural network can be trained with a FAQ from your company. This talk is aimed at developers who have heard of neural networks, but don't want to get involved in all the math behind it. This is a not so scientific introduction into the wonderful world of chatbots and AI.",
+      "tags": [
+        "Chatbot",
+        "Deeplearning4J"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "wmeints"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Java 8: the good, the bad and the ugly",
+      "abstract": "Java 8 has been there for a while but still not everybody is using it. It brought us some 'life changing' new code constructions. Now it is time to look back and evaluate wat java 8 brought us in practice. With great syntax possibilities you can still write utterly ugly code.What is a good way to use Java 8 syntax? How functional is Java 8 really and is Optional the life saver some people promised it to be?",
+      "tags": [
+        "Java 8",
+        "clean code"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "bvermeer"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "The DevOps 2.1 Toolkit: Continuously Deploying Microservices To a Swarm Cluster",
+      "abstract": "DevOps is as much a cultural as technological change. While it united diverse teams and professionals and thought us how to automate all repetitive steps in our processes, it failed to introduce a real difference in the software landscape we use. Hence, DevOps 2.0 emerged with a drastic change in our methods, tools, and architecture. Finally, we have everything we need to build scalable, fault-tolerant, and self-healing systems delivered to production through continuous deployment. This talk focuses on architectural changes and new tools we should adopt to be able to tackle the problems presented by a demand for modern, responsive, fault tolerant, and elastic systems. It is based on the material published in The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices book.",
+      "tags": [
+        "DevOps",
+        "Docker",
+        "Containers",
+        "CD",
+        "Service Discovery",
+        "cluster",
+        "schedulers"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "vfarcic"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Spring Cloud Kubernetes",
+      "abstract": "Spring Cloud Kubernetes is an opensource project which provides Spring Cloud integration with Kubernetes. This presentation is going to be a live coding tour through all of the Spring Cloud Kubernetes features:<br/><ul style='text-align:left'><li>Service Discovery</li><li>Client side Load Balancing</li><li>Circuit Breakers</li><li>Tracing</li></ul><p class='abstract'>The presentation aims at both Spring developers that interested in making the move to Kubernetes and for Kubernetes users that are in need of a framework that can help them glue everything together and ease the burden of microservices.</p>",
+      "tags": [
+        "spring",
+        "cloud",
+        "kubernetes"
+      ],
+      "level": "Advanced",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "icanellos"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Java + JCP + Adopt-a-JSR + You",
+      "abstract": "Learn how to take part in Java technology evolution through the Java Community Process (JCP) program. You can participate as an individual, corporation, or nonprofit such as a Java user group (JUG). This session outlines why and how to participate in the JCP Program. You will also learn about the global Adoption programs and how you can participate in the programs. We will discuss details such as how to run hack days, collaborate with other JUG leads on Adopt-a-JSR activities, and review use cases from other JUGs around the world contributing to the Java EE 7 and Java SE 8 JSRs. Currently there are new JSRs being submitted and developed for the Java EE 8 and Java SE 9 platforms. Find out how you have contribute to the future editions of the Java Standard and Java Enterprise Editions.",
+      "tags": [
+        "java",
+        "community",
+        "opensource"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "hvancura"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Services Assemble! Apply MVP Principles to Create Cutting-Edge Microservices Without Chaos with Spring Cloud/Netflix OSS",
+      "abstract": "In this session, learn how to use proven patterns & open source software to rapidly build a robust portfolio of microservices that provide a solid foundation for your dynamic and growing microservice architecture. This session addresses vital points such as: <br/><ul><li>Configuration services</li><li>Microservice registration and discovery</li><li>Circuit breakers for graceful degradation</li><li>Load balancing and intelligent routing</li><li>Asynchronous messaging</li></ul><p class='abstract'>Additional topics discussed include logging & tracing, testing approaches, and migration patterns. The presenter will demonstrate how to develop & effectively manage microservices using OSS tools employed by Netflix to keep movies streaming globally 24x7.</p>",
+      "tags": [
+        "Microservices",
+        "Spring",
+        "Spring Boot",
+        "Netflix",
+        "Zuul",
+        "Devices",
+        "asynchronous",
+        "live code"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "mheckler"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Java Libraries You Can’t Afford to Miss",
+      "abstract": "The Java language has passed its 20th anniversary, and with it comes an incredible range of tools libraries to choose from; sometimes there are actually too many choices for the same task. This presentation covers those libraries that have risen to the top, having proved themselves to be worthy of a place in every developer’s toolbox, for both production and testing code. It also discusses some fairly new libraries that are bound to make a big impact in the ecosystem.",
+      "tags": [
+        "Java",
+        "opensource",
+        "libraries"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "aalmiray"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Elastic scaling with Kubernetes in a (micro)service oriented architecture",
+      "abstract": "Splitting an application up into multiple independent services can be a good way to keep it scaling and ensure stability and developer productivity in larger, growing teams. But just splitting the codebase, creating APIs and deploying the code on some servers is not enough, somehow your services need to know where and how other services are accessible. Classical approaches like hardcoding everything in every service or having a central load-balancer can quickly lead to problems in terms of scalability and maintainability. In this talk I'll show how we at ResearchGate tackled this challenge. With the help of tools like Consul, linkerd and Kubernetes we created a setup that allows us to quickly boot and shutdown services. This ensures that all servers are utilized optimally and load spikes can be reacted upon quickly and automatically.",
+      "tags": [
+        "Kubernetes",
+        "Microservices",
+        "Devops"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "bastian-hofman"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Docker Patterns",
+      "abstract": "It is for sure fair to claim that Docker changed the way how we develop, ship and run applications. Although everything is set for a bright future, there are still a lot of open questions. A multitude of different Docker usage patterns has been tried out. But what will survive when the gold rush is over ? This talk presents several useful Docker patterns for Java Developers focused on the categories 'Configuration', 'Service Discovery' and 'Image Building'. You will meet commonly used patterns like 'Configuration Container, 'DNS Service Lookup', 'Dockerfile Template' or the famous 'Sidecar Pattern', but also some more esoteric recipes like the 'Wormhole' pattern. Live demos explain these patterns in detail. After the session you will have a good overview about popular and useful Docker patterns that are used in the real world. ",
+      "tags": [
+        "Docker",
+        "Container",
+        "Pattern",
+        "Cloud",
+        "DevOps"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "roland-huss"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "When, why and how to CQRS",
+      "abstract": "Most of today’s enterprise applications base on a CRUD data model that is simple and straightforward to implement. Another concept of how to model applications is Command Query Responsibility Segregation (CQRS) that enables interesting solutions and use cases, especially with rising demands of scalability. In this session I’ll show the concept and benefits of CQRS, to which other buzzwords such as eventual consistency, event-driven architectures and event sourcing it is related and how to realize a CQRS application. The questions whether this concept can be realized with Java EE technology, where the framework already offers solutions and where it has to be extended will be answered. Most of the time will be spent live-coding and examining the 'devil is in the details' cases of both approaches.",
+      "tags": [
+        "java",
+        "architecture",
+        "microservices",
+        "event sourcing",
+        "event-driven"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "sebastian-daschner"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Tame Your Data with Akka Streams and Java 8",
+      "abstract": "Stream processing is a hot topic today and it’s easy to get lost among all the possibilities. In this live coding session we will explore the Reactive Streams approach used by the Akka Streams project. On an almost real-life example we’re going to walk through both the basics and some more advanced usages of the library. And if you thought Akka Streams was a Scala library, come to learn the nice Java API and see how wrong you were.",
+      "tags": [
+        "reactive streams",
+        "akka streams",
+        "stream processing",
+        "java 8"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "jacek-kunicki"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Trials & Tribulations of Java NIO2 Providers",
+      "abstract": "Java NIO2 has been around since JDK7, yet we have not seen any real libraries from virtual file system support. It is totally possible to simplify service access such as classic FTP or SFTP or modern cloud services such as S3 or Dropbox using NIO2 yet does not exist. This talk will explore a very useful predecessor, Apache Commons VFS2 as well as my own Groovy VFS library. We'll then look at what is required to make real providers for virtual system using NIO2. We'll explore the various interfaces and the complexity of writing such providers. The hope is that this will be a useful substitute for the complete lack of any useful documentation of the subject and will inspire people to contribute their own providers.",
+      "tags": [
+        "java",
+        "groovy",
+        "Apache commons",
+        "NIO2"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "schalk-cronje"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "MicroProfile - by Example",
+      "abstract": "Architectures based on microservices introduce new challenges for architects and developers. An ever-increasing list of languages and tools brings with it the capabilities to conquer this challenge. Java is no exception. The latest addition in this area is the http://microprofile.io initiative. In this session, we will explore different approaches to building microservices using the Java ecosystem and compare them to using Microprofile.io. Strategies for building microservices with Java that are presented will be compared and demoed in live coding demos. The demos will include technologies such as Java, Java EE, microprofile.io, Docker and more.",
+      "tags": [
+        "JavaEE",
+        "MicroProfile",
+        "Microservices"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "ivar-grimstad"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Mission to Mars: Exploring new worlds with AWS IoT",
+      "abstract": "Would you like to explore new worlds with your connected devices? In this presentation we will build a simple robot and connect to it remotely, receiving data and sending instructions over the internet. Just like the Pathfinder spacecraft and its Sojourner Mars rover, our little robot will boldly travel into uncharted territory. In a live demo, our robot will explore the session room and transmit all kinds of sensor data. We will visualise that data in a web UI. With the Mars robot use case, we explore the capabilities of the Amazon IoT platform. AWS IoT comes with easy to use APIs and arranges secure communication with our robot. It also provides neat features like a rules engine and ‘device shadow’. Even when our robot is offline, device shadow makes it very easy to retrieve its latest status. And last but not least, for small scale use, AWS IoT is free to try out. Are you curious about how to connect your devices to the cloud? Take this journey and find out if this mission will lead to new discoveries.",
+      "tags": [
+        "IoT",
+        "Robot"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "jeroen-resoort"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Applying stability patterns: a case study",
+      "abstract": "We all know how painful is to be paged at 3 am because the site is not responding. Netflix has made popular the Circuit Breaker pattern, but that is just one of the stability patterns of Michael Nygard's 'Release it!' book. On this presentation, you will learn each of the stability patterns found in the 'Release it!' book and we will look at practical examples of how they were applied while building a Java based system that integrates and mash up information from more than twenty different sources, some of them quite unreliable.",
+      "tags": [
+        "StabilityPatterns"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "daniel-lebrero"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "Fully-automated CI stack to improve time-to-market using Docker and friends",
+      "abstract": "Developers nowadays are very comfortable with software life cycle management and ceremonies around agile methodologies but the reality is that every time we need to setup a CI environment from scratch there is always struggling and suffering involved. Also the resulting environment due to its moving parts requires to have a solid mechanism to trace logs and metrics as liaising with sysadmins is out of the equation. We propose a solution that aims at minimising the time-to-market by providing an ecosystem that is able to help developers and QA ́s to deliver fast and quality code focusing on coding itself and not in the infrastructure or the setting up of the environment required. In this workshop we'll introduce how at atSistemas we tackle this problem by providing a fully-automated open-sourced CI stack where containers are first-class citizens. In the session we´ll talk about docker, Gitlab, Jenkins, SonarQube, Nexus, Selenium, Kubernetes, Graylog and Prometheus among others. We'll also cover and apply some common quality standards in the building stages, run all sort of tests, promote images, orchestrate deployments and monitoring logs and metrics.",
+      "tags": [
+        "Docker",
+        "Continuous Integration"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "carlos-cornejo"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Monitor Your Containers",
+      "abstract": "Containers are quickly gaining popularity as the preferred tool for deploying and running services. While being easier to deploy and isolate, containerized applications are creating new challenges for the logging and monitoring systems. This talk looks into the details about how the Elastic Stack, and in particular Beats — lightweight shippers — are gathering data from containers. The session shows our way to: fetch logs from containers, collect different measurements from cgroups, collect metrics using the Docker API, enhance the data with the metadata of the containers, monitor the network traffic exchanged between containers, collect metrics from the underlying host. We conclude the talk with a live demo of all the components in action.",
+      "tags": [
+        "Docker",
+        "Elastic",
+        "Beats",
+        "Monitoring"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "philipp-krenn"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Keep calm and watch Kibana: proactive approach to software development",
+      "abstract": "Imagine yourself building a highly-available and performant multi-tenant cloud system used by thousands of users. Your responsibility as an engineer or product manager in your company is to deliver value to your customers by cohesive and performant solutions.<br/>Have you ever asked yourself any of the following questions?<br/> - How do I know that my team is delivering what our customers want? <br/> - How much intuition do I use to develop requirements and solutions?<br/> - How do I ensure that our solutions are performant and scalable in all situations?<br/> - Am I sure that users are using our features with the frequency that we expected?<br/>The common approach in software development is to adopt a reactive attitude towards the previous points: deliver the functionality to production, wait for customer feedback (if any) and just wait for issues and bugs to be raised by the customer. No bugs? No customer feedback? Everything is ok!<br/>Unfortunately, the reactive approach is not scalable in an enterprise environment and will not help your team much to deliver valuable solutions to your customers.In the new cloud computing era, we have a great opportunity to change our mindset and move to a proactive approach where software development teams can immediately know what's going on in production and design new functionality based on customer's behavior and data. No more intuition-driven designs!<br/>In this session, we will explore how feature instrumentation through ElasticSearch and Kibana can help cloud enterprises to change to a proactive approach: anticipate problems, get real insights about feature usage and empower their teams to own their features even after they are released to production. We will also explore how ElasticSearch can be used by multiple teams with the least friction possible and how to incorporate instrumentation as another milestone in the software development lifecycle just like requirements gathering or testing.Just think about it, keep calm and watch Kibana ;)",
+      "tags": [
+        "Kibana",
+        "ElasticSearch",
+        "Instrumentation",
+        "Cloud"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "albert-margarit"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Writing tests is fun with Spock",
+      "abstract": "Spock is a test framework with built-in mocking and stubbing facilities. We can use Spock to write test code for testing Java and Groovy code. Spock tests are called specifications and we write specifications with a Groovy DSL. The DSL enforces a certain way to define the specifications, which results in better readable and maintainable test code. First we learn about the DSL Spock uses. We can write for example test methods and simply use a sentence as a method name. Also we use labels to define fixed sections each test needs. Spock support data driven testing, where we can invoke a method under test multiple times and each time with a different value. We can define the data in data providers, like lists or database rows and with data tables. To write a mock or stub we don’t need an external library. Spock has support built-in and with a very concise syntax. We learn about this syntax and see how clean our test code will be.",
+      "tags": [
+        "Spock",
+        "Tests",
+        "Groovy"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "hubert-klein-ikkink"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Functional Programming Explained to my grandma",
+      "abstract": "Functional programming reminds you of some old school memories... Monad scares you and you think High Order Function are rude words. However you love lambdas and you feel immutability is a great thing. I will introduce you to core principles of functionnal programming without complexity and you will be able to apply them straight away. No installation required: just internet, a basic knowledge of your favourite language and a web browser.",
+      "tags": [
+        "Scala",
+        "Functional Programming"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "charlotte-cavalier"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Clean Lambdas",
+      "abstract": "Everybody's using Java8 Lambdas and Streams nowadays, right? So then, why shouldn't you use them in developing your enterprise application? It's absurd to keep away from these exponents, but at some point you may start having some weird feeling about them. And then you get to your first code review, and you start wondering... How do the 'Clean Code' principles change, when you jump on Lambdas? How should you use Lambdas while keeping a clean maintainable codebase - the ultimate goal of any java enterprise application.<br/> We'll remember how a clean function should look like, as stated in the Clean Code 'bible' by Uncle Bob, and then we'll see how these principles change when you throw Lambdas in. We'll try to figure out together some guidelines you should you keep in mind when playing with fire (oups,sorry.. Lambdas) in your enterprise application code.<br/> Then, we'll walk together through some Lambdas code samples, from the most trivial to the more mind-stretching, following an order inferred from a little study I'm running. This way, you'll see that the adoption of Lambdas and Streams can become a gradual process, that would allow your developers to master the functional thinking bit-by-bit.<br/> The talk will leave you with a lot of take-aways: hints, tips, warnings, useful even if you don't have practical experience with Lambdas. Some prior experience with Java 8 Streams and Lambdas IS recommended however, to be able to follow the discussion closely.",
+      "tags": [
+        "Java8",
+        "Lambda",
+        "Streams API",
+        "Clean Code",
+        "Functional Programming"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "victor-rentea"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Integrating Applications: The Reactive Way",
+      "abstract": "Reactive programming is one of the top trending paradigms for building fast asynchronous applications in the microservices era. But if you dive a bit into the reactive world, you will find out that scaling from a single application to a fully fledged reactive system is hard: you need to solve complex integration problems and communicating inside a heterogeneous system is simply a headache!<br/> In this talk, we will explore how reactive applications currently address integration problems, with live coding examples based on RxJava and Vert.x. You’ll learn how the popular framework Apache Camel can be used as reactive integration layer through the new Java 9 Flow API, opening a lot of new possibilities to reactive applications.<br/> This talk will also give you insights on the future directions of the Apache Camel project with reference to reactive systems.",
+      "tags": [
+        "Java",
+        "Integration",
+        "Functional Programming",
+        "Microservices",
+        "Actors"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "nicola-ferraro"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "From Monoliths to Microservices using CQRS and Event Sourcing",
+      "abstract": "In a Microservices architecture state is distributed across many applications and databases. Keeping all the microservices consistent is a non trivial task and here is where CQRS and Event Sourcing really shine.<br/>In this workshop we will move from a terrible Monolith to a nice Microservices app using CQRS/ES as the  middle man.<br/>The recipe to Microservices that we will follow here will be:<br/>1. Start with an ugly Monolith.<br/>2. Add some CQRS and ES to the Monolith using Spring Streams and Apache Kafka.<br/>3. Break your CQRS Monolith into small microservices using Spring Cloud.<br/>The only requirement will be a running Docker installation in your machine.",
+      "tags": [
+        "Microservices",
+        "CQRS",
+        "Event Sourcing",
+        "Spring Cloud",
+        "Spring Streams",
+        "Apache Kafka",
+        "Docker"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "manuel-alvarez"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "IoT Hackathon",
+      "abstract": "I will bring a bunch of devices and give you some code to get started. We will put all that things together during the workshop. I will have Raspberry Pis, some sensors, controller, and peripheral devices that use Z-Wave for communication. You are also welcome to bring your own devices, if you have any. And don’t forget your PC. Machine Learning, cloud, data analysis, security, home automation (bingo!) – sky is the limit! Primarily for: Developers, Participant requirements: Bring your own devices, if you have any. And don’t forget your PC.",
+      "tags": [
+        "IoT",
+        "Hackathon",
+        "Cloud"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "rustam-mehmandarov"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "Design a SpringBoot Application running on Kubernetes/OpenShift",
+      "abstract": "The goal of this workshop is to demonstrate how easy it could be to design/develop a microservice architecture using Spring Boot technology, Kubernetes/OpenShift as Containerized & Management platform. During the workshop, you will learn how to create a Spring Boot Application composed of 3 microservices (a CD Front Store, the backend exposing and running the service & the Database store), transform it to a Kubernetes/Docker Project using the Fabric8 Technology and deploy/operate it on OpenShift.  With the help of JBoss Forge Tool, you will accelerate the creation of the project and scaffolding of the code",
+      "tags": [
+        "Microservices",
+        "Kubernetes",
+        "Spring Boot"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "charles-moulliard"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Observable Microservices",
+      "abstract": "Think of this talk as a Microservices 201. You know the basic of microservices and their pros and cons, but can you successfully maintain them in production? Microservices can make your code cleaner and more decoupled but they can be a pain to maintain in production: services writing logs in different places, requests that need to be tracked through multiple endpoints, circuit breakers going off… In this talk I review these and other operational concerns and I explain how making your microservices “observable” helps you maintain a healthy production environment without driving you crazy.",
+      "tags": [
+        "Microservices",
+        "DevOps"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "maria-gomez"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Building a Spring Boot application: Ask the Audience!",
+      "abstract": "Spring Boot makes it easy to create stand-alone Spring-based application that you can ‘just run’. It uses a ‘convention over configuration’ approach to get you up and running in no-time, while offering all Spring features that you have grown fond of in the past years. In this session this is demonstrated by live-coding a Spring Boot application that will 'just work'.<br/>But audience beware, this is not your standard ‘live-coding session’. Attendees will have a vital say in the session’s content by defining the application’s requirements. Should it be an app to track your kitchen cupboard contents or do you want a simple task planner? It's up to you! Should it use MongoDB or Couchbase? You decide! Do you want an Angular front-end with a RESTful back-end or do you prefer a classic web app with Thymeleaf templates? It's your call! Seriously.<br/>During the session you get to make these decisions by participating in an online vote. And you will discover that Spring Boot is up to the task no matter what choices you make.<br/>So what are you waiting for? Bring your own device, help shape the application that we're building and learn lots about Spring Boot in the process.<br/>This session is intended for Java software engineers with an interest in Spring Boot. Some Spring experience could come in handy, but is not strictly necessary. After this session, you will know enough to start your own Spring Boot project.",
+      "tags": [
+        "spring-boot",
+        "java",
+        "spring",
+        "mongodb",
+        "couchbase",
+        "thymeleaf",
+        "angular"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "hanno-embregts"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Kappa Architecture",
+      "abstract": "The kappa architecture was coined by Jay Kreps in a key post that he wrote for the o'reilly radar website. Kappa Architecture is an strategic pattern design to work with data. At the talk we will see the main concepts, what's the differences with lambda architecture, why scala language is very important in all the definition and creation of the project and what's our favorite tools to implement it (kafka+spark+scala). In addition we will show a real use case with IoT (with data from cars) and how the adoption of kappa architecture improve the project. We will finish with our vision about the future with tools like google dataflow, apache beams or Scio (an scala port of apache beams).",
+      "tags": [
+        "kappa-architecture",
+        "patterns",
+        "data",
+        "scala",
+        "kafka",
+        "spark"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "juantomas-garcia"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Star Trek: BDD Enterprise",
+      "abstract": "'To explore strange new worlds, to seek out new life and new civilisations, to boldly go where no man has gone before.' Just like the crew of the Starship Enterprise, we explore the IT universe – seeking out new solutions, new technologies, and frameworks – from which we can learn to help us work better and more efficiently. We do this to create more functional and usable software for our customers, to put a big smile on their faces, and maybe – if we do our job really well – to make them stand back and admire what we have crafted. Tomasz was lucky enough to work in BDD (Behaviour Driven Development) quite early in his career, but he also had the misfortune to see how this great idea so often tends to fail. In his presentation Tomasz wanted to show what it is like working with BDD frameworks like JBehave, Cucumber or Concordian. He proposed an effective alternative solution for BDD which is 'Spock' – a convenient, lightweight framework, based on the Groovy language.",
+      "tags": [
+        "bdd",
+        "test",
+        "spock"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "tomasz-dubikowski"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Lightweight Java EE for Buzzword Services",
+      "abstract": "Java EE is not a hype. It is a well known player since 1999 – a quite long time but Java EE is just about to come off age. 'Modern' developers create micro or nano services, they use 'state of the art' and 'lightweight' frameworks. But when is a service micro or nano? When is a framework lightweight? How does Java EE fit in this modern world of software development? In my opinion Java EE is a perfect choice for writing micro or nano services. In this talk I try to prove my statement. Live on stage I write two services with RESTful JSON APIs with only a few lines of code which communicate with each other and run the services using a local Docker cloud where you can see how these can be scaled up and down to manage fluctuating loads. Coding, building, deploying, scaling: fast and efficient!",
+      "tags": [
+        "microservices",
+        "nanoservices",
+        "JavaEE",
+        "lightweight",
+        "Docker",
+        "REST",
+        "JSON"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "marcus-fihlon"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Productivity Tips for Java EE and Spring Developers",
+      "abstract": "In this live coding session, we’ll build a Java EE application using JBoss Forge, deploy it onto Wildfly and test it using Arquillian. All of this is possible while barely writing a line of code! We’ll also create a microservice using JBoss Swarm. If you’re more into Spring we’ll also show you how to create a Spring application from scratch, use Spring Boot and how you can rapidly develop you applications using JRebel. There will be a bunch of other tools and tips in this session, so if you want to write code like a pro, this is the session for you!",
+      "tags": [
+        "JavaEE",
+        "testing",
+        "Arquillian"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "simon-maple"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "The Pragmatic Developer's Guide to Java 9 and beyond",
+      "abstract": "The upcoming Java 9 release brings with it modularity, a new REPL, a new default garbage collector, HTTP 2 client, and much more. However it importantly misses out on such features as Value Types, JSON API and others. This session looks at what is in and what is out of the Java 9 release and whether the features *really* benefit a developer. We’ll discuss questions like whether Java 9 will be as useful to a developer as Java 8 was? How will libraries and frameworks make use of the modularity framework? How will applications benefit, or not, from the new default garbage collector? This session cuts through the hype to outline how Java 9 will realistically affect the everyday pragmatic developer and looks forward to what we can expect in future releases.",
+      "tags": [
+        "Java9",
+        "modularity"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "simon-maple"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "How to Properly Blame Things for Causing Latency: An Introduction to Distributed Tracing and Zipkin",
+      "abstract": "Latency analysis is the act of blaming components for causing user perceptible delay. In today's world of microservices, this can be tricky as requests can fan out across polyglot components and even data-centers. This session will overview how to debug latency problems, using call graphs created by Zipkin.",
+      "tags": [
+        "zipkin",
+        "tracing",
+        "performance"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "adrian-cole"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Test your microservices with REST-assured",
+      "abstract": "As the number of microservices in our application landscape grows, we'd better make sure they are tested really well! There are multiple approaches to testing microservices. Unit tests help, but if we want to test a microservice as a whole, we'll have to use integration testing. In this talk, I will use REST-assured, a framework using a Java DSL, to test against the REST interface of a microservice. REST-assured is a 100% java REST testing solution that integrates nicely with other tools such as JUnit. I will also show how this compares with other solutions, for example Cucumber in combination with custom glue code, and Spring integration tests.",
+      "tags": [
+        "test",
+        "microservices",
+        "restassured"
+      ],
+      "level": "Beginner",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "michel-schudel"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Javaslang - Functional Java Done Right",
+      "abstract": "Java 8’s lambdas empower us to create wonderful APIs. Javaslang lets us dive deeper into the world of functional programming by providing us with persistent data types, immutable collections, and functional control structures. The results are beautiful and do just work. During this presentation, we will recall Java8’s downsides and explore how Javaslang’s Scala-inspired features fill-in the gaps.",
+      "tags": [
+        "java8",
+        "javaslang",
+        "functional"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "grzegorz-piwowarek"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Back to the CompletableFuture: Concurrency in Action",
+      "abstract": "Starting Java 8, the main focus of many developers was on Functional Programming in Java including Streams, Optional, and Functional Interfaces. However, there were more amazing features introduced along the way which has changed Java programming. One of such features was ComparableFuture which is continuously being improved in Java 9 (JEP 266). As Concurrency in Java is generally a complicated topic where many had a difficult time switching to ThreadLocal from regular Threads, the idea of Future and ComparableFuture which refers to asynchronous computations is even more difficult. In this talk, the speaker will attempt to make asynchronous programming using Java 8/9 more compelling by approaching the topic with clear examples and references to other languages. One example of a language heavily relying on asynchronous tasks is JavaScript. Using some of the conceptual similarities of two languages in regards to asynchronous programming, this talk will cover how Future/CompletableFuture can be used in a safe and a programmer friendly way. As mentioned in this abstract, this talk will include enhancements made to concurrency in Java 9 as a part of JEP 266.",
+      "tags": [
+        "java",
+        "concurrency"
+      ],
+      "level": "Advanced",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "dmitry-vinnik"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Reactive - land of confusion",
+      "abstract": "Buzzword, buzzwords everywhere! Among them word with many meanings - reactive. Reactive systems, reactive manifesto, reactive programing, reactive streams... Do you know them all and do you know what are the difference between them? During the talk we will try to put some order in the reactive land of confusion. We will take a closer look into the most prominent reactive initiatives, how they relate to each other, what are the benefits coming from them and if this is something you should pay attention to. At the end of the talk everyone should have clear understanding of reactive landscape. Lets spread the knowledge!",
+      "tags": [
+        "reactive programming",
+        "reactive manifesto",
+        "reactive streams",
+        "rxjava"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "",
+      "speakers": [
+        "piotr-kafel"
+      ]
+    }];

@@ -1,17 +1,17 @@
 import { Injectable } from '@angular/core';
-import {Http} from '@angular/http';
+import { Http } from '@angular/http';
 import { Device } from 'ionic-native';
 import { LocalNotifications } from '@ionic-native/local-notifications';
 import { Platform } from 'ionic-angular';
 //import { data } from './data';
-import { data } from './data2017'
+import { speakers, meetings } from './data'
 import { Speaker, Meeting, SpeakerRaw, TalkRaw } from '../model/jbcn.model';
 import 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 const config = {
-    apiUrl:'http://localhost:8080'
+    apiUrl: 'http://localhost:8080'
 };
 
 const dayTimes = {
@@ -75,14 +75,14 @@ export class JbcnService {
 
     jbcnData: any;
     schedule: any;
-    speakers : any;
+    speakers: any;
     tags: any;
 
-    constructor(private http: Http, private platform:Platform, private localNotifications: LocalNotifications) {
+    constructor(private http: Http, private platform: Platform, private localNotifications: LocalNotifications) {
 
     }
 
-    processJson(json) {
+    processJson(speakers, talks) {
         let data: any = {}
         data.speakers = [];
         data.speakersRef = {};
@@ -105,9 +105,9 @@ export class JbcnService {
 
         let tagArray = [];
         this.tags = [];
-        
-        for (var i = 0; i < json.speakers.length; i++) {
-            let speaker:SpeakerRaw = json.speakers[i];
+
+        for (var i = 0; i < speakers.length; i++) {
+            let speaker: SpeakerRaw = speakers[i];
             let item: Speaker = new Speaker();
             item.name = speaker.name;
             item.description = speaker.description;
@@ -115,62 +115,52 @@ export class JbcnService {
             item.image = speaker.image;
             item.ref = speaker.ref;
             item.twitter = speaker.twitter;
-            
-            let talks:Array<TalkRaw> = speaker.talks;
-            for(let talk of talks) {
-
-                let meeting: Meeting = new Meeting();
-                meeting.title = talk.title;
-                meeting.abstract = talk.abstract;
-                meeting.type = talk.type;
-                meeting.tags = talk.tags;
-
-                for (let iTag = 0; iTag < talk.tags.length; iTag++) {
-                    let tag = talk.tags[iTag];
-                    if (tagArray.indexOf(tag) == -1) this.tags.push(tag);
-                }
-
-                meeting.level = talk.level;
-                meeting.id= talk.scheduleId;
-                meeting.visible = true;
-
-                if (!processed[meeting.id]) {
-                    meeting.speakers = [speaker.ref];
-                }
-
-                if (meeting.scheduleId === '#Sat-Keynote') {
-                    meeting.id = '#SAT-TC0-SE7';
-                    console.debug('Cambiado');
-                }
-
-                if (meeting.scheduleId === '#Fri-Keynote') {
-                    meeting.id = '#FRI-TC0-SE0';
-                    console.debug('Cambiado');
-                }
-
-                if(meeting.id && meeting.id !== '') {
-                    let day = this.getMeetingDay(meeting['id']);
-                    let track = this.getMeetingTrack(meeting['id']);
-                    let session = this.getMeetingSession(meeting['id']);
-                    console.log('day:',day);
-                    
-                    meeting.location = locations[day][track];
-                    meeting.session = meeting.id.substring(11, 12);
-                    meeting.id = meeting.id.substring(1);
-                    meeting.track = track;
-                    meeting.timeStart = Date.parse(dayTimes[day] + ' ' + seasonsTimes[day][session]['timeStart']);
-                    meeting.timeEnd = Date.parse(dayTimes[day] + ' ' + seasonsTimes[day][session]['timeStop']);
-                    item.meetingRef=meeting['id'];
-                    days[day].meetings.push(meeting);
-                    this.tags = tagArray.sort();
-                    processed[meeting.id]=true;
-                }
-                
-
-            }
             data.speakers[i] = item;
-            data.speakersRef[item['ref']] = item;
-            
+            data.speakersRef[item.ref] = item;
+        }
+
+        for (let i = 0; i < talks.length; i++) {
+            let talk: TalkRaw = talks[i];
+            let meeting: Meeting = new Meeting();
+            meeting.title = talk.title;
+            meeting.abstract = talk.abstract;
+            meeting.type = talk.type;
+            meeting.tags = talk.tags;
+            meeting.level = talk.level;
+            meeting.id = talk.scheduleId;
+            meeting.visible = true;
+            meeting.speakers = talk.speakers;
+
+            for (let iTag = 0; iTag < talk.tags.length; iTag++) {
+                let tag = talk.tags[iTag];
+                if (tagArray.indexOf(tag) == -1) this.tags.push(tag);
+            }
+
+            if (meeting.scheduleId === '#Sat-Keynote') {
+                meeting.id = '#SAT-TC0-SE7';
+            }
+
+            if (meeting.scheduleId === '#Fri-Keynote') {
+                meeting.id = '#FRI-TC0-SE0';
+            }
+
+            if (meeting.id && meeting.id !== '') {
+                let day = this.getMeetingDay(meeting.id);
+                let track = this.getMeetingTrack(meeting.id);
+                let session = this.getMeetingSession(meeting.id);
+                console.log('day:', day);
+
+                meeting.location = locations[day][track];
+                meeting.session = meeting.id.substring(11, 12);
+                meeting.id = meeting.id.substring(1);
+                meeting.track = track;
+                meeting.timeStart = Date.parse(dayTimes[day] + ' ' + seasonsTimes[day][session]['timeStart']);
+                meeting.timeEnd = Date.parse(dayTimes[day] + ' ' + seasonsTimes[day][session]['timeStop']);
+                days[day].meetings.push(meeting);
+                this.tags = tagArray.sort();
+                processed[meeting.id] = true;
+            }
+
         }
         data.tags = this.tags;
         data.schedule.push(days['MON']);
@@ -178,7 +168,6 @@ export class JbcnService {
         data.schedule.push(days['WED']);
 
         //Reorder meetings
-
         for (let iDay = 0; iDay < data.schedule.length; iDay++) {
             let day = data.schedule[iDay];
             //Reorder meetings
@@ -195,43 +184,39 @@ export class JbcnService {
                     } else {
                         return -1;
                     }
-
                 }
             });
         }
         this.schedule = data.schedule;
         this.speakers = data.speakers;
-
         return data;
     }
 
-    switchFavorite(meeting:Meeting) {
+    switchFavorite(meeting: Meeting) {
         let favoriting = localStorage.getItem(meeting.id);
-        if(!favoriting || favoriting === 'false') {
+        if (!favoriting || favoriting === 'false') {
             favoriting = 'true';
         } else {
             favoriting = 'false';
         }
         localStorage.setItem(meeting.id, favoriting);
-        if(this.platform.is('ios') || this.platform.is('android')) {
-            if(favoriting === 'true') {
+        if (this.platform.is('ios') || this.platform.is('android')) {
+            if (favoriting === 'true') {
                 let notificationId = new Date().getTime();
-                console.log(meeting.timeStart);
                 this.localNotifications.schedule({
-                    id:notificationId,
+                    id: notificationId,
                     title: 'Your favorite talk will start in 10 mintues!',
                     text: meeting.title,
-                    data: {'id':meeting.id},
-                    at: new Date(meeting.timeStart - (1000*60*10))
+                    data: { 'id': meeting.id },
+                    at: new Date(meeting.timeStart - (1000 * 60 * 10))
                 });
             } else {
                 this.localNotifications.getAll().then((notifications) => {
-                    console.log(notifications.length);
-                    for(let notification of notifications) {
-                        console.log(notification);
-                        console.log(notification.data.id, '===', meeting.id, '?', notification.data.id === meeting.id);
-                        if(notification.data.id === meeting.id) {
-                            this.localNotifications.clear(notification.id);
+                    for (let notification of notifications) {
+                        let notification_data = JSON.parse(notification.data);
+                        if (notification_data['id'] === meeting.id) {
+                            this.localNotifications.cancel(notification.id);
+                            this.localNotifications.clear(notification.id).then(result => console.log(JSON.stringify(result)));
                             break;
                         }
                     }
@@ -239,28 +224,28 @@ export class JbcnService {
 
             }
         }
-        
+
     }
 
-    isFavorite(meeting:Meeting) {
+    isFavorite(meeting: Meeting) {
         return localStorage.getItem(meeting.id) === 'true';
     }
 
-    private getMeetingDay(id:string):string {
+    private getMeetingDay(id: string): string {
         let day = id.substring(1, 4);
         return day;
     }
 
-    private getMeetingTrack(id:string):string {
+    private getMeetingTrack(id: string): string {
         let track = id.substring(7, 8);
         return track;
     }
 
-    private getMeetingSession(id:string):string {
+    private getMeetingSession(id: string): string {
         let session = id.substring(9, 12);
         return session;
     }
-                
+
 
 
 
@@ -276,51 +261,31 @@ export class JbcnService {
             return Promise.resolve(this.jbcnData);
         }
 
-        // don't have the data yet
-        /* return new Promise(resolve => {
-            this.http.get('http://www.jbcnconf.com/2016/assets/json/speakers.json').subscribe(
-                res => {
-                    console.debug('Recovering from remote json');
-                    this.jbcnData = this.processJson(res.json());
-                    localStorage.setItem('localData', JSON.stringify(this.jbcnData));
-                    resolve(this.jbcnData);
-                }, error => {
-                    this.http.get('data/speakers.json').subscribe(res => {
-                        console.debug('Recovering from local json');
-                        this.jbcnData = this.processJson(res.json());
-                        localStorage.setItem('localData', JSON.stringify(this.jbcnData));
-                        resolve(this.jbcnData);
-                    })
-                });
-        }); */
-        console.log('Data from import ts:',data);
-        this.jbcnData = this.processJson(data);
-        console.log('DAta processed:',this.jbcnData);
+        
+        this.jbcnData = this.processJson(speakers, meetings);
         //localStorage.setItem('localData', JSON.stringify(this.jbcnData));
         return Promise.resolve(this.jbcnData);
-        
+
     }
 
-    voteMeeting(id: string, vote:number) {
-        /* return new Promise((resolve, reject) => {
-            this.http.post(`/jbcn/2017/talk/${id}`, {})
-            .subscribe(response => {
-                let json = response.json();
 
-            }, error => {});
-        });*/
-    }
 
-    commentMeeting(id: string, comment: string, from: string) {
-        Device.uuid
-        /* 
+    voteMeeting(id: string, vote: number) {
+        return new Promise((resolve, reject) => {
+            let deviceId = this.getDeviceId();
 
-         */
+            this.http.get(`http://localhost:8080/jbcn/2017/talk/${id}/vote/${deviceId}/${vote}`, {})
+                .subscribe(response => {
+                    let json = response.json();
+                    resolve(json['voteAverage']);
+                }, error => {
+                });
+        });
     }
 
     getDeviceId() {
         let result = Device.uuid;
-        if(!result) {
+        if (!result) {
             if (localStorage.getItem('deviceId') !== null) {
                 result = localStorage.getItem('deviceId');
             } else {
@@ -333,15 +298,25 @@ export class JbcnService {
 
     registerToken() {
         return new Promise((resolve, reject) => {
-            let token = 'token_'+new Date().getTime(); //TODO: Cambiar esta parte para que el token sea válido.
+            let token = 'token_' + new Date().getTime(); //TODO: Cambiar esta parte para que el token sea válido.
             let deviceId = this.getDeviceId();
-            let params = {'token':token, 'deviceId': deviceId};
-            this.http.post(config.apiUrl+'/jbcn/2017/push', params).subscribe(response => {
-                console.log('device registered')
-            }, error =>{
-                
+            let params = { 'token': token, 'deviceId': deviceId };
+            this.http.post(config.apiUrl + '/jbcn/2017/push', params).subscribe(response => {
+
+            }, error => {
+
             });
         });
+    }
+
+    getVote(meetingId: string): number {
+        const id = 'vote-' + meetingId;
+        return parseInt(localStorage.getItem(id));
+    }
+
+    storeVote(meetingId: string, vote: number) {
+        const id = 'vote-' + meetingId;
+        localStorage.setItem(id, vote.toString());
     }
 
 }

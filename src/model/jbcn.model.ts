@@ -26,18 +26,19 @@ export class Meeting {
     timeEnd: number;
     isFavorite:boolean;
     scheduleId: string;
+    vote: number;
 }
 
 export class SpeakerRaw {
-    enabled: number;
-    name: string;
-    description: string;
-    biography: string;
-    image: string;
-    ref: string;
-    url: string;
-    twitter: string;
-    talks: Array<TalkRaw>;
+     enabled: number;
+      name: string;
+      description: string;
+      biography: string;
+      image: string;
+      ref: string;
+      url: string;
+      twitter: string;
+      homepage: string;
 }
 
 export class TalkRaw {
@@ -48,4 +49,5 @@ export class TalkRaw {
     level: string;
     video: string;
     scheduleId: string;
+    speakers: Array<string>;
 }
