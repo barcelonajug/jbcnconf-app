@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-
 import { NavController } from 'ionic-angular';
+import { team } from '../../services/team';
 
 @Component({
   selector: 'page-about',
@@ -8,8 +8,14 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController) {
+  private team = [];
 
+  constructor(public navCtrl: NavController) {
+    this.team = team;
+  }
+
+  gotoUrl(url) {
+      window.open(url,"_system");
   }
 
 }

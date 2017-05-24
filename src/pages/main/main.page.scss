@@ -1,11 +1,11 @@
 .jbcn-footer, .toolbar-title, .toolbar-background {
-    background-color:#006D98;
+    background-color:#eb3349;
     color:#fff;
     vertical-align: middle;
 }
 
 .tabs-md .tabbar, .tabs-ios .tabbar {
-    background-color:#006D98;
+    background-color:#eb3349;
     color:#fff;
     vertical-align: middle;
 }
@@ -14,10 +14,18 @@
     color:#fff;
 }
 
+ion-item-divider.item.item-divider.item-md.item-divider-md {
+    background-color: #771824;
+    color: #fff;
+}
 
+.badge-md {
+    background-color: #eb3349;
+    color: #fff;
+}
 
 tabbar {
-    background-color:#006D98;
+    background-color:#eb3349;
     color:#fff;
 }
 
@@ -45,7 +53,7 @@ tab-highlight {
 
 ion-list-header, ion-item-divider {
     color: #fff;
-    background-color: #006D98;
+    background-color: #eb3349;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -60,7 +68,14 @@ ion-list-header, ion-item-divider {
     padding-top: 2%;
     color: #fff;
     float:left;
-    font-size: 2rem;
+    font-size: 100%;
+}
+
+ion-app.md .text-header {
+    padding: 14px;
+    margin-top: auto;
+    vertical-align: middle;
+    margin-bottom: auto;
 }
 
 .back-button {

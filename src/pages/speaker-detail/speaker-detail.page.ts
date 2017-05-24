@@ -31,6 +31,10 @@ export class SpeakerDetailPage {
         });
     }
 
+    goToSpeakerTwitter() {
+        window.open(this.speaker.twitter,"_system");
+    }
+
     goToMeetingDetail(meeting) {
         this.nav.push(MeetingDetailPage, meeting);
     }

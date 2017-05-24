@@ -11,7 +11,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 const config = {
-    apiUrl: 'http://localhost:8080'
+    apiUrl: 'https://jbcnconf.joseguitart.pro'
 };
 
 const dayTimes = {
@@ -131,9 +131,8 @@ export class JbcnService {
             meeting.visible = true;
             meeting.speakers = talk.speakers;
 
-            for (let iTag = 0; iTag < talk.tags.length; iTag++) {
-                let tag = talk.tags[iTag];
-                if (tagArray.indexOf(tag) == -1) this.tags.push(tag);
+            for(let tag of talk.tags) {
+                if(tagArray.indexOf(tag) == -1) this.tags.push(tag);
             }
 
             if (meeting.scheduleId === '#Sat-Keynote') {
@@ -148,7 +147,6 @@ export class JbcnService {
                 let day = this.getMeetingDay(meeting.id);
                 let track = this.getMeetingTrack(meeting.id);
                 let session = this.getMeetingSession(meeting.id);
-                console.log('day:', day);
 
                 meeting.location = locations[day][track];
                 meeting.session = meeting.id.substring(11, 12);
@@ -227,8 +225,8 @@ export class JbcnService {
 
     }
 
-    isFavorite(meeting: Meeting) {
-        return localStorage.getItem(meeting.id) === 'true';
+    isFavorite(id: string) {
+        return localStorage.getItem(id) === 'true';
     }
 
     private getMeetingDay(id: string): string {
@@ -317,6 +315,78 @@ export class JbcnService {
     storeVote(meetingId: string, vote: number) {
         const id = 'vote-' + meetingId;
         localStorage.setItem(id, vote.toString());
+    }
+
+    getComments(meetingId: string) {
+        let result = [];
+        const jsonstr = localStorage.getItem('comments-'+meetingId);
+        if(jsonstr) {
+            result = JSON.parse(jsonstr);
+        }
+        return result;
+    }
+
+    loadComments(meetingId: string) {
+        return new Promise((resolve, reject) => {
+            this.http.get(config.apiUrl + `/jbcn/2017/talk/${meetingId}/comment`)
+            .map(response => response.json())
+            .subscribe(response => {
+                if (response['status']) {
+                    resolve(response.comments);
+                } else {
+                    reject(response.error);
+                }
+            }, error => {
+                reject(error);
+            });
+        });
+    }
+
+    storeComments(meetingId: string, comments: Array<any>) {
+        localStorage.setItem('comments-'+meetingId, JSON.stringify(comments));
+    }
+
+    storeUserComment(meetingId, vote, name, comment) {
+        let userComment = {
+            vote: vote,
+            name: name,
+            comment: comment
+        };
+        localStorage.setItem('user-comment-'+meetingId, JSON.stringify(userComment));
+    }
+
+    getUserComment(meetingId) {
+        let result = null;
+        const json = localStorage.getItem('user-comment-'+meetingId);
+        if(json) {
+            result = JSON.parse(json);
+        }
+        return result;
+    }
+
+    sendComment(meetingId: string, vote: number, name: string, comment: string) {
+        const deviceId = this.getDeviceId();
+        return new Promise((resolve, reject) => {
+            const params = {
+                talkId: meetingId,
+                deviceId: deviceId,
+                vote: vote,
+                name: name,
+                text: comment
+            };
+            this.http.post(config.apiUrl+'/jbcn/2017/talk/comment', params).subscribe(response => {
+                if(response['status']) {
+                    this.storeVote(meetingId, response.json().averageVote);
+                    this.storeUserComment(meetingId, vote, name, comment);
+                    resolve(response);
+                } else {
+                    reject(response['error']);
+                }
+                
+            }, error => {
+                reject(error);
+            });
+        });
     }
 
 }

@@ -1,24 +1,37 @@
-
-
 <ion-content padding class="meeting-detail">
-<button ion-button (click)="goBack()">Back</button>
-  <h1>{{meeting.title}}</h1>
-  <h4 (click)="goToSpeakerDetail(speaker)" *ngFor="let speaker of speakers">
-      <ion-avatar item-left>
-          <img [src]="speaker.image">
-      </ion-avatar>
-    {{speaker.name}}
-  </h4>
-  <p>
-      {{meeting.timeStart | date:'HH:mm'}} &mdash; {{meeting.timeEnd | date:'HH:mm'}}
-  </p>
 
-  <p>{{meeting.location}}</p>
-  <p *ngIf="meeting.voteMeeting > 0">{{meeting.voteMeeting}}</p>
-  <p>
-     <ion-icon [name]="getIcon(n)" *ngFor="let n of [1,2,3,4,5]" class="meeting-vote" (click)="voteMeeting(meeting,n)"></ion-icon>
-  </p>
-  <p><ion-badge item-right *ngFor="let tag of meeting.tags">{{tag}}</ion-badge></p>
-  <p [innerHTML]="meeting.about" ></p>
-  <button ion-button (click)="goBack()">Back</button>
+
+    <button ion-button full (click)="goBack()">Back</button>
+    <h1>{{meeting.title}}</h1>
+    <p>
+        <ion-badge item-right *ngFor="let tag of meeting.tags">{{tag}}</ion-badge>
+    </p>
+    <p>{{meeting.timeStart | date:'HH:mm'}} &mdash; {{meeting.timeEnd | date:'HH:mm'}} - {{meeting.location}}</p>
+    <h4 (click)="goToSpeakerDetail(speaker)" *ngFor="let speaker of speakers">
+        <ion-avatar class="meeting-detail-avatar">
+            <img [src]="speaker.image">
+        </ion-avatar>
+        {{speaker.name}}
+    </h4>
+    <p text-center>
+        <ion-icon [name]="getIcon(n)" *ngFor="let n of [1,2,3,4,5]" class="meeting-vote"></ion-icon>
+    </p>
+
+
+    <p>{{meeting.abstract}}</p>
+
+    <!-- Comments & votes -->
+
+    <button ion-button full (click)="openCommentMeetingPage()">Add your comment</button>
+
+    <!-- comments -->
+    <ion-card *ngFor="let comment of comments">
+        <ion-card-header>
+            <b>{{comment.name}}</b> <span class="meeting-detail-comment-vote"><ion-icon [name]="getIcon(n,comment.vote)" *ngFor="let n of [1,2,3,4,5]" class="meeting-comment-vote"></ion-icon></span>
+        </ion-card-header>
+        <ion-card-content>
+            <div padding>{{comment.text}}</div>
+        </ion-card-content>
+    </ion-card>
+    <button ion-button full (click)="goBack()">Back</button>
 </ion-content>

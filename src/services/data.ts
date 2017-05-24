@@ -1,535 +1,536 @@
 export const speakers = [
-    {
-      "enabled": "1",
-      "name": "Venkat Subramaniam",
-      "description": "Founder of Agile Developer, Inc.",
-      "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
-      "image": "assets/img/speakers/venkat-subramaniam.jpg",
-      "ref": "venkat",
-      "url": "infoSpeaker.html?ref=venkat",
-      "twitter": "http://twitter.com/venkat_s",
-      "homepage": "http://agiledeveloper.com"
-    },
-    {
-      "enabled": "1",
-      "name": "Sandro Mancuso",
-      "description": "Founder of Codurance and London Software Craftmanship Community",
-      "biography": "Software craftsman, author, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. He has worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
-      "image": "assets/img/speakers/sandro-mancuso.jpg",
-      "ref": "sandro",
-      "url": "infoSpeaker.html?ref=sandro",
-      "twitter": "http://twitter.com/sandromancuso",
-      "homepage": "https://codurance.com/blog/author/sandro-mancuso/"
-    },
-    {
-      "enabled": "1",
-      "name": "Trisha Gee",
-      "description": "Developer Advocate at JetBrains",
-      "biography": "Trisha has developed Java applications for a range of industries, including finance, manufacturing, software and non-profit, for companies of all sizes. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and dabbles with Open Source development. Trisha is a leader of the Sevilla Java User Group, a MongoDB Master and a Java Champion. She believes we shouldn't all have to make the same mistakes again and again. She’s a Developer Advocate for JetBrains so she can share all the cool stuff she's discovered so far. Blog: http://www.trishagee.com",
-      "image": "assets/img/speakers/trisha-gee.jpeg",
-      "ref": "trisha",
-      "url": "infoSpeaker.html?ref=trisha",
-      "twitter": "http://twitter.com/trisha_gee",
-      "homepage": "http://www.trishagee.com"
-    },
-    {
-      "enabled": "1",
-      "name": "Bert Jan Schrijver",
-      "description": "CTO at OpenValue",
-      "biography": "Bert Jan is a software craftsman at JPoint in the Netherlands and CTO at OpenValue. His focus is on Java, Continuous Delivery and DevOps. He is User Group leader for NLJUG, the Dutch Java User Group and a JavaOne Rock Star speaker. He loves to share his experience by speaking at conferences, writing for the Dutch Java magazine and helping out Devoxx4Kids with teaching kids how to code.",
-      "image": "assets/img/speakers/bert-jan-schrijver.jpg",
-      "ref": "schrijver",
-      "url": "infoSpeaker.html?ref=schrijver",
-      "twitter": "https://twitter.com/bjschrijver",
-      "homepage": "https://openvalue.nl"
-    },
-    {
-      "enabled": "1",
-      "name": "Maarten Mulders",
-      "description": "Enthusiastic senior developer and trainer",
-      "biography": "Enthusiastic senior developer and trainer. Passionate about 'building the right thing' and 'building the thing right'. Seasoned in Java and JavaScript, recently entangled by Scala and Akka. Love to share new ideas and knowledge.",
-      "image": "assets/img/speakers/maarten-mulders.jpg",
-      "ref": "mmulders",
-      "url": "infoSpeaker.html?ref=mmulders",
-      "twitter": "https://twitter.com/mthmulders",
-      "homepage": "https://maarten.mulders.tk"
-    },
-    {
-      "enabled": "1",
-      "name": "Claus Ibsen",
-      "description": "Principal software engineer from Red Hat",
-      "biography": "Works for Red Hat on open source integration projects such as Apache Camel, fabric8 and hawtio. Author of Camel in Action books.",
-      "image": "assets/img/speakers/claus-ibsen.jpg",
-      "ref": "davsclaus",
-      "url": "infoSpeaker.html?ref=davsclaus",
-      "twitter": "https://twitter.com/davsclaus",
-      "homepage": "http://www.davsclaus.com"
-    },
-    {
-      "enabled": "1",
-      "name": "Burr Sutter",
-      "description": "Red Hat’s Director of Developer Experience",
-      "biography": "A lifelong developer advocate, community organizer, and technology evangelist, Burr Sutter is a featured speaker at technology events around the globe—from Bangalore to Brussels and Berlin to Beijing (and most parts in between)—he is currently Red Hat’s Director of Developer Experience. A Java Champion since 2005 and former president of the Atlanta Java User Group, Burr founded the DevNexus conference—now the second largest Java event in the U.S.—with the aim of making access to the world’s leading developers affordable to the developer community. When not speaking abroad, Burr is also the passionate creator and orchestrator of highly-interactive live demo keynotes at Red Hat Summit, the company’s premier annual event.",
-      "image": "assets/img/speakers/burr-sutter.jpg",
-      "ref": "burrsutter",
-      "url": "infoSpeaker.html?ref=burrsutter",
-      "twitter": "https://twitter.com/burrsutter",
-      "homepage": "https://developers.redhat.com/"
-    },
-    {
-      "enabled": "1",
-      "name": "Alex Soto",
-      "description": "Software Engineer at RedHat",
-      "biography": "Alex is a software engineer at Red Hat. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like JBCNConf, Devoxx, JavaOne, JavaZone or JavaLand.",
-      "image": "assets/img/speakers/alex-soto.jpg",
-      "ref": "alexsoto",
-      "url": "infoSpeaker.html?ref=alexsoto",
-      "twitter": "https://twitter.com/alexsotob"
-    },
-    {
-      "enabled": "1",
-      "name": "Matthias Wessendorf",
-      "description": "Project lead of AeroGear",
-      "biography": "Matthias Wessendorf is the project lead of AeroGear, working at Red Hat where he is focused on next generation of mobile computing. Previously, he was the PMC Chair of the Apache MyFaces project. Matthias is a regular speaker at international conferences, like ApacheCon, JavaOne, Devoxx, Red Hat Summit or JAX.",
-      "image": "assets/img/speakers/matthias-wessendorf.jpeg",
-      "ref": "mwessendorf",
-      "url": "infoSpeaker.html?ref=mwessendorf",
-      "twitter": "http://twitter.com/mwessendorf"
-    },
-    {
-      "enabled": "1",
-      "name": "Edson Yanaga",
-      "description": "Red Hat's Director of Developer Experience",
-      "biography": "Edson Yanaga is Red Hat's Director of Developer Experience, a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship.",
-      "image": "assets/img/speakers/edson-yanaga.jpeg",
-      "ref": "edsonyanaga",
-      "url": "infoSpeaker.html?ref=edsonyanaga",
-      "twitter": "http://twitter.com/yanaga"
-    },
-    {
-      "enabled": "1",
-      "name": "Bilgin Ibryam",
-      "description": "Architect at Red Hat",
-      "biography": "Bilgin Ibryam is an Architect at Red Hat and committer at Apache for Camel, OFBiz, and Isis projects. He is a blogger, speaker, open-source enthusiast and the author of Camel Design Patterns and Instant Apache Camel Message Routing books. In his day-to-day job, Bilgin enjoys mentoring, training and leading teams to be successful with application integration, distributed systems, microservices, devops, and cloud-native applications.",
-      "image": "assets/img/speakers/bilgin-ibryam.jpg",
-      "ref": "bibryam",
-      "url": "infoSpeaker.html?ref=bibryam",
-      "twitter": "http://twitter.com/bibryam"
-    },
-    {
-      "enabled": "1",
-      "name": "Michal Matloka",
-      "description": "1 of 40 CEOs at SoftwareMill",
-      "biography": "Through his career Michał worked with C, Java, forgotten lands of Java EE, Spring, Scala and Big data. He committed a crime of writing a Java EE book, which may hunt him for the rest of his life. He is an open source contributor and a winner of the JBoss Community Recognition Award in 2013 for his contributions to ShrinkWrap. He is currently one of the 40 CEOs at SoftwareMill, a fully distributed company with no main office and a completely flat organization structure. He presented on GeeCON Kraków & Prague, Devoxx Poland, JDD, Confitura and other events.",
-      "image": "assets/img/speakers/michal-matloka.jpg",
-      "ref": "mmatloka",
-      "url": "infoSpeaker.html?ref=mmatloka",
-      "twitter": "http://twitter.com/mmatloka"
-    },
-    {
-      "enabled": "1",
-      "name": "Clement Escoffier",
-      "description": "Red Hat's Vert.x core developer",
-      "biography": "Who am I? That’s a good question. I had several professional lives, from academic positions to management. Currently, I’m working for Red Hat as Vert.x core developer. I have been involved in projects and products touching many domains and technologies such as OSGi, mobile app development, continuous delivery, DevOps… My main point of interest? Software engineering, so processes, methods, tools that make the development of software more efficient and also more fun. I’m also an active contributor to many open source projects such as Apache Felix, iPOJO, Wisdom Framework, and obviously, Eclipse Vert.x.",
-      "image": "assets/img/speakers/clement-escoffier.jpg",
-      "ref": "cescoffier",
-      "url": "infoSpeaker.html?ref=cescoffier",
-      "twitter": "http://twitter.com/cescoffier"
-    },
-    {
-      "enabled": "1",
-      "name": "Willem Meints",
-      "description": "Technical evangelist for Info Support",
-      "biography": "Willem is a technical evangelist for Info Support. He works with projects to adopt new technologies such as AI and machine learning. He loves new technology. When not at work you can find him outside with his camera.",
-      "image": "assets/img/speakers/willem-meints.jpg",
-      "ref": "wmeints",
-      "url": "infoSpeaker.html?ref=wmeints",
-      "twitter": "http://www.twitter.com/willem_meints",
-      "homepage": "http://fizzylogic.nl/"
-    },
-    {
-      "enabled": "1",
-      "name": "Brian Vermeer",
-      "description": "Software Engineer for blue4it",
-      "biography": "Software Engineer for blue4it working consultancy based on mainly Java projects for other companies in the Netherlands. Passionate about Java, (Pure) Functional Programming and Cybersecurity. Co-writer on the published Research paper: Plagiarism Detection for Haskell with Holmes. Besides being an engineer he is a Reservist at the Royal Netherlands Air Force and a Taekwondo Teacher.",
-      "image": "assets/img/speakers/brian-vermeer.jpg",
-      "ref": "bvermeer",
-      "url": "infoSpeaker.html?ref=bvermeer",
-      "twitter": "http://twitter.com/brianverm"
-    },
-    {
-      "enabled": "1",
-      "name": "Viktor Farcic",
-      "description": "Senior Consultant at CloudBees",
-      "biography": "Viktor Farcic is a Senior Consultant at CloudBees, a member of the Docker Captains group, and books author. He coded using a plethora of languages starting with Pascal (yes, he is old), Basic (before it got Visual prefix), ASP (before it got .Net suffix), C, C++, Perl, Python, ASP.Net, Visual Basic, C#, JavaScript, Java, Scala, etc. He never worked with Fortran. His current favorite is Go. His big passions are DevOps, Microservices, Continuous Integration, Delivery and Deployment (CI/CD) and Test-Driven Development (TDD). He often speaks at community gatherings and conferences. He published The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices, The DevOps 2.1 Toolkit: Docker Swarm: Building, testing, deploying, and monitoring services inside Docker Swarm clusters and the Test-Driven Java Development. He is currently working on his third book The DevOps 2.1 Toolkit: Docker Swarm His random thoughts and tutorials can be found in his blog TechnologyConversations.com.",
-      "image": "assets/img/speakers/viktor-farcic.jpeg",
-      "ref": "vfarcic",
-      "url": "infoSpeaker.html?ref=vfarcic",
-      "twitter": "http://twitter.com/vfarcic",
-      "homepage": "https://technologyconversations.com"
-    },
-    {
-      "enabled": "1",
-      "name": "Ioannis Canellos",
-      "description": "Principal Software Engineer at Red Hat",
-      "biography": "Ioannis has more than 10 years experience as Java developer 5 of which are as full time OpenSource developer.<br>He is a member of the <a href=\"http://www.apache.org\">Apache Software Foundation</a>, with contribution to numerous projects as a committer and PMC member.<br>He is currently working as a Principal Software Engineer at Red Hat as part of iPAAS team, where he spends most of his time implementing tools and frameworks related to <a href=\"http://kubernetes.io\">Kubernetes</a>, <a href=\"https://www.openshift.com\">Openshift</a> and <a href=\"http://fabric8.io\">Fabric8</a>.",
-      "image": "assets/img/speakers/ioannis.jpg",
-      "ref": "icanellos",
-      "url": "infoSpeaker.html?ref=icanellos",
-      "twitter": "https://twitter.com/iocanel",
-      "homepage": "https://iocanel.blogspot.com"
-    },
-    {
-      "enabled": "1",
-      "name": "Heather VanCura",
-      "description": "Chair of the JCP Program at Oracle",
-      "biography": "Heather VanCura is the Chair of the JCP Program at Oracle, and is a leader of the global community driven adoption and user group programs. Heather drives the efforts to transform the JCP program and broaden participation and diversity in the community. She is passionate about Java, women in technology and developer communities, serving as an international speaker and community organizer of developer hack days around the world. Heather enjoys speaking at conferences, such as OSCON, Devoxx, JFokus, and the JavaOne Conferences. She resides in the San Francisco Bay Area, California USA and enjoys trying new sports and fitness activities in her free time.",
-      "image": "assets/img/speakers/heather-vancura.jpg",
-      "ref": "hvancura",
-      "url": "infoSpeaker.html?ref=hvancura",
-      "twitter": "https://twitter.com/heathervc",
-      "homepage": "https://jcp.org/"
-    },
-    {
-      "enabled": "1",
-      "name": "Mark Heckler",
-      "description": "Principal Technologist/Developer Advocate at Pivotal Software, Inc.",
-      "biography": "Mark Heckler is a Pivotal Principal Technologist & Developer Advocate, conference speaker, published author & Java Champion focusing upon developing innovative production-ready software at velocity for the Cloud and IoT applications. He has worked with key players in the manufacturing, retail, medical, scientific, telecom, and financial industries and various public sector organizations to develop and deliver critical capabilities on time and on budget. Mark is an open source contributor and author/curator of a developer-focused blog (http://www.thehecklers.org) and an occasionally interesting Twitter account (@MkHeck).",
-      "image": "assets/img/speakers/mark-heckler.png",
-      "ref": "mheckler",
-      "url": "infoSpeaker.html?ref=mheckler",
-      "twitter": "https://twitter.com/mkheck",
-      "homepage": "http://www.thehecklers.org/",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Andres Almiray",
-      "description": "Java/Groovy developer",
-      "biography": "Andres is a Java/Groovy developer and a Java Champion with more than 17 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated on popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event.",
-      "image": "assets/img/speakers/andres-almiray.jpg",
-      "ref": "aalmiray",
-      "url": "infoSpeaker.html?ref=aalmiray",
-      "twitter": "https://twitter.com/aalmiray",
-      "homepage": "http://andresalmiray.com",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Bastian Hofman",
-      "description": "Software Engineer at ResearchGate",
-      "biography": "Bastian works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is caring about performance, monitoring, web-security and developer productivity. When he is not developing stuff or looking at graphs, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.",
-      "image": "assets/img/speakers/bastian-hofman.jpg",
-      "ref": "bastian-hofman",
-      "url": "infoSpeaker.html?ref=bastian-hofman",
-      "twitter": "https://twitter.com/BastianHofmann",
-      "homepage": "",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Roland Huss",
-      "description": "Principal Software Engineer at RedHat",
-      "biography": "Dr. Roland Huß is a Principal Software Engineer at Red Hat working in the Fuse team on FIS and iPaaS. He has been developing in Java for eighteen years now but never forgot his roots as system administrator. Roland is an active Open Source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli pepper.",
-      "image": "assets/img/speakers/roland-huss.jpg",
-      "ref": "roland-huss",
-      "url": "infoSpeaker.html?ref=roland-huss",
-      "twitter": "https://twitter.com/ro14nd",
-      "homepage": "https://ro14nd.de",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Sebastian Daschner",
-      "description": "Java Champion",
-      "biography": "Sebastian Daschner is a Java freelancer working as a Consultant / Software Developer / Architect and is enthusiastic about programming and Java (EE). He is participating in the JCP, serving in the JSR 370 and 374 Expert Groups and hacking on various open source projects on Github. He is a Java Champion, JavaOne 2016 Rockstar and has been working with Java for more than 7 years. Besides Java, Sebastian is also a heavy user of Linux and container technologies like Docker. He evangelizes computer science practices on https://blog.sebastian-daschner.com and on Twitter via @DaschnerS. When not working with Java, he also loves to travel the world — either by plane or motorbike.",
-      "image": "assets/img/speakers/sebastian-daschner.jpg",
-      "ref": "sebastian-daschner",
-      "url": "infoSpeaker.html?ref=sebastian-daschner",
-      "twitter": "https://twitter.com/DaschnerS",
-      "homepage": "https://blog.sebastian-daschner.com",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Jacek Kunicki",
-      "description": "Passionate Software Engineer at SoftwareMill",
-      "biography": "I'm a passionate software engineer living in the JVM land - mainly, but not limited to. I also tend to play with electronics and hardware. When sharing my knowlegde, I always keep in mind that a working example is worth a thousand words.",
-      "image": "assets/img/speakers/jacek-kunicki.jpg",
-      "ref": "jacek-kunicki",
-      "url": "infoSpeaker.html?ref=jacek-kunicki",
-      "twitter": "https://twitter.com/rucek",
-      "homepage": "http://blog.kunicki.org/",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Schalk Cronjé",
-      "description": "Creator of Groovy-VFS",
-      "biography": "Schalk Cronjé’s experience in the software industry spans three decades and has performed most roles in software delivery. He believes that both software engineering and craftsmanship is important for the industry and that both disciplines should be taught to achieve holism in technology delivery. He also understands that there is a strong relationship between the modern software techniques that are used and the signature skills of people and these should be aligned for effective delivery. He is also a strong advocate of using systems thinking, holistic stakeholder analysis and impact mapping. He keeps his technical skills fit by frequent contributions to various open-source projects. He is the creator of Groovy-VFS as well a maintainer of various Gradle plugins including for JRuby, GMake, Doxygen and more. He is a regular speaker on various software delivery techniques across Europe and in the UK, USA, India and South Africa. He currently serves as a steering committee member of the Agile Testing Alliance. He is also the author of “Idiomatic Gradle: 25 recipes for plugin authors” and is currently working on Vol 2.",
-      "image": "assets/img/speakers/schalk-cronje.jpg",
-      "ref": "schalk-cronje",
-      "url": "infoSpeaker.html?ref=schalk-cronje",
-      "twitter": "https://twitter.com/ysb33r",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Ivar Grimstad",
-      "description": "Java Champion",
-      "biography": "Ivar Grimstad is a Java Champion, JUG Leader and software architect focusing on Enterprise Java. He is participating in the Java Community Process as a member of the Executive Committee, Spec Lead for JSR 371 (MVC 1.0) and Expert Group Member for JSR 375 (Java EE Security API). He is also a member of the NetBeans Dream Team. Ivar is a frequent speaker at international developer conferences.",
-      "image": "assets/img/speakers/ivar-grimstad.jpg",
-      "ref": "ivar-grimstad",
-      "url": "infoSpeaker.html?ref=ivar-grimstad",
-      "twitter": "https://twitter.com/ivar_grimstad",
-      "homepage": "http://www.agilejava.eu",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Jeroen Resoort",
-      "description": "Java Consultant at JDriven",
-      "biography": "Jeroen Resoort is a Java Consultant at JDriven. He has over 10 years of experience writing enterprise applications. He is passionate about writing good code, learning new technologies and sharing his knowledge with others.",
-      "image": "assets/img/speakers/jeroen-resoort.jpg",
-      "ref": "jeroen-resoort",
-      "url": "infoSpeaker.html?ref=jeroen-resoort",
-      "twitter": "https://twitter.com/JeroenResoort",
-      "homepage": "https://blog.jdriven.com/author/jeroen-resoort/",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Daniel Lebrero",
-      "description": "Technical architect at fin-tech IG",
-      "biography": "Daniel Lebrero is a technical architect with more than 15 years of software development experience. He works at the fin-tech IG, where he is involved in architecting the web platform, the analytics website and the big data solution. A long time Java practitioner, he now also loves ().",
-      "image": "assets/img/speakers/daniel-lebrero.jpg",
-      "ref": "daniel-lebrero",
-      "url": "infoSpeaker.html?ref=daniel-lebrero",
-      "twitter": "https://twitter.com/DanLebrero",
-      "homepage": "http://danlebrero.com",
-      "scheduleId": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Carlos Cornejo",
-      "description": "Software Craftsman at atSistemas",
-      "biography": "Software Craftsman, Life-long learner, Java architect wannabe. In love with TDD and BDD. DevOps and cloud-based architectures advocate. Big on CI/CD with docker.",
-      "image": "assets/img/speakers/carlos-cornejo.jpg",
-      "ref": "carlos-cornejo",
-      "url": "infoSpeaker.html?ref=carlos-cornejo",
-      "twitter": "https://twitter.com/cmcornejocrespo"
-    },
-    {
-      "enabled": "1",
-      "name": "Philipp Krenn",
-      "description": "Developer Advocate at Elastic",
-      "biography": "Philipp is part of the infrastructure team and a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports.",
-      "image": "assets/img/speakers/philipp-krenn.jpg",
-      "ref": "philipp-krenn",
-      "url": "infoSpeaker.html?ref=philipp-krenn",
-      "twitter": "https://twitter.com/xeraa",
-      "homepage": "https://xeraa.net/en/"
-    },
-    {
-      "enabled": "1",
-      "name": "Albert Margarit",
-      "description": "Software Development Manager and Architect at NetSuite",
-      "biography": "Albert Margarit is a Software Development Manager and Architect at NetSuite. He dedicates most of his time to software design of robust and performant cloud solutions. He champions best coding practices and instills the culture of clean and reusable designs. Recently, he has been focused in designing a multi-tenant solution for backend processing. In his spare time he enjoys geeking out and playing inline hockey.",
-      "image": "assets/img/speakers/albert-margarit.png",
-      "ref": "albert-margarit",
-      "url": "infoSpeaker.html?ref=albert-margarit",
-      "twitter": "https://twitter.com/albertmargarit"
-    },
-    {
-      "enabled": "1",
-      "name": "Hubert Klein Ikkink",
-      "description": "Also known as mrhaki, he works with Java and Groovy during his daytime job at JDriven.",
-      "biography": "Hubert Klein Ikkink is also known as mrhaki. He uses his alias to write on his blog `Messages from mrhaki` (http://mrhaki.blogspot.com/). On this blog he writes short tips and tricks about Groovy, Grails, Gradle, Spock, Spring and Asciidoctor. Hubert started to develop Java applications more than two decades ago. Nine years ago he started to explore Groovy and Grails in personal projects, because of the dynamic nature of Groovy and the speed of development. Today he works with Java and Groovy during his daytime job at JDriven in the Netherlands. He also wrote books on Gradle published at Packt Publishing and spoke at different conferences like Gr8Conf in Copenhagen and Minneapolis, Greach in Madrid, JavaLand in Germany and JFall in the Netherlands.",
-      "image": "assets/img/speakers/hubert-klein-ikkink.jpg",
-      "ref": "hubert-klein-ikkink",
-      "url": "infoSpeaker.html?ref=hubert-klein-ikkink",
-      "twitter": "https://twitter.com/mrhaki",
-      "homepage": "http://www.mrhaki.com"
-    },
-    {
-      "enabled": "1",
-      "name": "Charlotte Cavalier",
-      "description": "Developper evangelist on the Codingame learning platform and Jug Leader at Montpellier.",
-      "image": "assets/img/speakers/charlotte-cavalier.jpg",
-      "ref": "charlotte-cavalier",
-      "url": "infoSpeaker.html?ref=charlotte-cavalier",
-      "twitter": "https://twitter.com/cavalierch"
-    },
-    {
-      "enabled": "1",
-      "name": "Victor Rentea",
-      "description": "Java Engineer, Architect and Technical Lead at IBM",
-      "image": "assets/img/speakers/victor-rentea.jpg",
-      "ref": "victor-rentea",
-      "url": "infoSpeaker.html?ref=victor-rentea",
-      "twitter": "https://twitter.com/victorrentea"
-    },
-    {
-      "enabled": "1",
-      "name": "Nicola Ferraro",
-      "description": "Software Engineer at Red Hat",
-      "image": "assets/img/speakers/nicola-ferraro.jpg",
-      "ref": "nicola-ferraro",
-      "url": "infoSpeaker.html?ref=nicola-ferraro",
-      "twitter": "https://twitter.com/ni_ferraro"
-    },
-    {
-      "enabled": "1",
-      "name": "Manuel Alvarez",
-      "description": "Software developer at CERN",
-      "image": "assets/img/speakers/manuel-alvarez.jpg",
-      "ref": "manuel-alvarez",
-      "url": "infoSpeaker.html?ref=manuel-alvarez",
-      "twitter": "https://twitter.com/malvarez_bis"
-    },
-    {
-      "enabled": "1",
-      "name": "Rustam Mehmandarov",
-      "description": "Passionate computer scientist. Leader of the Norwegian JUG - javaBin & JavaZone. Speaker.",
-      "image": "assets/img/speakers/rustam-mehmandarov.jpg",
-      "ref": "rustam-mehmandarov",
-      "url": "infoSpeaker.html?ref=rustam-mehmandarov",
-      "twitter": "https://twitter.com/rmehmandarov",
-      "homepage": "http://mehmandarov.com/"
-    },
-    {
-      "enabled": "1",
-      "name": "Charles Moulliard",
-      "description": "Principal Software Engineer @RedHat & Apache Committer.",
-      "biography": "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog",
-      "image": "assets/img/speakers/charles-moulliard.jpg",
-      "ref": "charles-moulliard",
-      "url": "infoSpeaker.html?ref=charles-moulliard",
-      "twitter": "https://twitter.com/cmoulliard",
-      "homepage": "http://cmoulliard.github.io/"
-    },
-    {
-      "enabled": "1",
-      "name": "Maria Gomez",
-      "description": "Market Tech Principal at ThoughtWorks in Barcelona.",
-      "biography": "Maria Gomez is a Market Tech Principal at ThoughtWorks in Barcelona. She's been a developer and an architect for over 9 years. She has worked with many different technologies and domains, which has helped her lead teams and advise stakeholders in making the right technology decisions. She is also a speaker and an advocate for diversity and inclusion in the IT industry.",
-      "image": "assets/img/speakers/maria-gomez.png",
-      "ref": "maria-gomez",
-      "url": "infoSpeaker.html?ref=maria-gomez",
-      "twitter": "https://twitter.com/mariascandella",
-      "homepage": "http://maria-gomez.me/"
-    },
-    {
-      "enabled": "1",
-      "name": "Hanno Embregts",
-      "description": "Java Developer, Scrum Master and Trainer at Info Support",
-      "biography": "Hanno is a Java Developer, Scrum Master and Trainer at Info Support (Veenendaal, Netherlands). He has over 9 years of experience developing enterprise software in various fields (insurance companies, banks, hospitals, industry) and currently works for the Dutch Railway Company (‘NS’). He loves building innovative software and has a passion for clean, elegant solutions. On top of that, he likes continuous delivery, behavior-driven development and all things agile.",
-      "image": "assets/img/speakers/hanno-embregts.jpg",
-      "ref": "hanno-embregts",
-      "url": "infoSpeaker.html?ref=hanno-embregts",
-      "twitter": "https://twitter.com/hannotify",
-      "homepage": "https://blogs.infosupport.com/author/h-embregts/"
-    },
-    {
-      "enabled": "1",
-      "name": "Juantomas Garcia",
-      "description": "Data Solution Manager at Open Sistemas",
-      "biography": "Data Solution Manager at Open Sistemas. Co-author of 'La pastilla roja' the first spanish book about free software. Former President of Hispalinux, Google Developer Expert. GDG Cloud Madrid Organizer. Machine Learning Spain Meetup Organizer.",
-      "image": "assets/img/speakers/juantomas-garcia.jpg",
-      "ref": "juantomas-garcia",
-      "url": "infoSpeaker.html?ref=juantomas-garcia",
-      "twitter": "https://twitter.com/juantomas",
-      "homepage": "http://www.juantomas.net"
-    },
-    {
-      "enabled": "1",
-      "name": "Tomasz Dubikowski",
-      "description": "Software Development Manager at Ocado Technology",
-      "biography": "Tomek is a Software Development Manager at Ocado Technology. He has 5 years of experience working as a Software Engineer, Scrum Master and Agile Trainer. As an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behavior-driven development and domain-driven design. As a leader, he helps to build an organizational culture based upon autonomy, collaboration, and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products. Tomek loves to change the reality around him. He is highly pragmatic, challenges orthodoxy at all levels, and believes that there is always room for improvement. He is always eager to share and discuss his ideas.",
-      "image": "assets/img/speakers/tomasz-dubikowski.png",
-      "ref": "tomasz-dubikowski",
-      "url": "infoSpeaker.html?ref=tomasz-dubikowski",
-      "twitter": "https://twitter.com/tdubikowski",
-      "homepage": "https://agilehabits.wordpress.com/"
-    },
-    {
-      "enabled": "1",
-      "name": "Marcus Fihlon",
-      "description": "Software Engineer at CSS Insurance in Lucerne, Switzerland",
-      "biography": "Marcus Fihlon is an Agile Coach and Software Engineer at CSS Insurance in Lucerne. He also lectures at TEKO Swiss Technical College in Olten and is a speaker at conferences and user groups. He has been developing software for more than three decades and has worked with Java since the late 90s. Marcus is the grounding member and organizer of the monthly Hackergarten in Lucerne and is involved in several open source projects. Since 2017, he is member of the board of the Java User Group Switzerland and responsible for organizing events and workshops in central Switzerland.",
-      "image": "assets/img/speakers/marcus-fihlon.jpg",
-      "ref": "marcus-fihlon",
-      "url": "infoSpeaker.html?ref=marcus-fihlon",
-      "twitter": "https://twitter.com/McPringle",
-      "homepage": "https://www.fihlon.ch"
-    },
-    {
-      "enabled": "1",
-      "name": "Simon Maple",
-      "description": "Director of Developer Relations at ZeroTurnaround",
-      "biography": "Simon is the Director of Developer Relations at ZeroTurnaround, a Java Champion since 2014, JavaOne Rockstar speaker in 2014, Duke's Choice award winner in 2016, Virtual JUG founder and organiser, London Java Community co-leader and RebelLabs author. He is an experienced speaker, having presented at JavaOne, JavaZone, Jfokus, DevoxxUK, DevoxxFR, JavaZone, JMaghreb and many more including many JUG tours. His passion is around user groups and communities. When not traveling, Simon enjoys spending quality time with his family, cooking and eating great food.",
-      "image": "assets/img/speakers/simon-maple.jpg",
-      "ref": "simon-maple",
-      "url": "infoSpeaker.html?ref=simon-maple",
-      "twitter": "https://twitter.com/sjmaple",
-      "homepage": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Adrian Cole",
-      "description": "Software Engineer at Pivotal",
-      "biography": "Adrian works at Pivotal, on the Spring Cloud team. He spends most on Zipkin, usually in Java. He also runs a distributed tracing working group for implementors.",
-      "image": "assets/img/speakers/adrian-cole.jpeg",
-      "ref": "adrian-cole",
-      "url": "infoSpeaker.html?ref=adrian-cole",
-      "twitter": "https://twitter.com/adrianfcole"
-    },
-    {
-      "enabled": "1",
-      "name": "Michel Schudel",
-      "description": "Passionate Java developer working for Railways in the Netherlands",
-      "biography": "Michel Schudel has been a passionate Java developer since 1998, building various Java solutions for banks, insurance companies and telecom providers. Since then he has seen the good, the bad and the ugly in Java land. He loves agile development and coding with micro and meso frameworks like SpringBoot and SparkJava to get up-and-running as fast as possible. Futhermore, he likes to coach junior developers in Core Java. Michel is currently working for Dutch Railways in the Netherlands.",
-      "image": "assets/img/speakers/michel-schudel.jpg",
-      "ref": "michel-schudel",
-      "url": "infoSpeaker.html?ref=michel-schudel",
-      "homepage": "http://www.craftsmen.nl"
-    },
-    {
-      "enabled": "1",
-      "name": "Grzegorz Piwowarek",
-      "description": "Senior software developer at Touk",
-      "biography": "Grzegorz is a senior software developer@TouK in Warsaw, senior technical editor@Baeldung, guitarist@VisionsOfTondal, professional yo-yo player and a former Mensa member. His professional experience ranges from backend web development and systems’ integration to image recognition engines. Grzegorz is fascinated by the beauty of functional programming and recently helping in spreading the Javaslang word.",
-      "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
-      "ref": "grzegorz-piwowarek",
-      "url": "infoSpeaker.html?ref=grzegorz-piwowarek",
-      "homepage": "",
-      "twitter": "https://twitter.com/pivovarit"
-    },
-    {
-      "enabled": "1",
-      "name": "Dmitry Vinnik",
-      "description": "Senior software engineer at Salesforce",
-      "biography": "Senior Software Engineer at Salesforce, who has been passionate about software quality since the very beginning of his career. Started as a Quality Engineer, he was able to bring test expertise into current role of a software engineer, and ensure a delivery of a high quality product. In addition to being an Individual Contributor, he is a Scrum Master focused on making his team more efficient and productive. His background involves studying Medicine, later transition into Bioinformatics field, and now being in a purely Software Engineering-centric area.",
-      "image": "assets/img/speakers/dmitry-vinnik.jpg",
-      "ref": "dmitry-vinnik",
-      "url": "infoSpeaker.html?ref=dmitry-vinnik",
-      "homepage": "",
-      "twitter": ""
-    },
-    {
-      "enabled": "1",
-      "name": "Piotr Kafel",
-      "description": "Software Engineer and Reactive programming evangelist at Groupon",
-      "biography": "Software Engineer and reactive programming evangelist at Groupon. I wrote my first line of code in Java when I was 16 years old. Since then I was working on projects for companies like Nokia, HP or Credit Suisse. Even though Java is my main programming language I'm trying not to limit myself to it. I love exploring new languages, technologies and approaches. I'm an open source contributor and ex Wroclaw JUG leader. Related links: <ul><li>http://www.reactivemanifesto.org/</li><li>http://www.reactive-streams.org/</li><li>https://github.com/ReactiveX/RxJava</li></ul>",
-      "image": "assets/img/speakers/piotr-kafel.png",
-      "ref": "piotr-kafel",
-      "url": "infoSpeaker.html?ref=piotr-kafel",
-      "homepage": "",
-      "twitter": "http://twitter.com/daftano"
-    }
-  ];
+  {
+    "enabled": "1",
+    "name": "Venkat Subramaniam",
+    "description": "Founder of Agile Developer, Inc.",
+    "biography": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly-invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award winning book Practices of an Agile Developer. You can find a list of his books at agiledeveloper.com. You can reach him by email at venkats@agiledeveloper.com or on twitter at @venkat_s.",
+    "image": "assets/img/speakers/venkat-subramaniam.jpg",
+    "ref": "venkat",
+    "url": "infoSpeaker.html?ref=venkat",
+    "twitter": "http://twitter.com/venkat_s",
+    "homepage": "http://agiledeveloper.com"
+  },
+  {
+    "enabled": "1",
+    "name": "Sandro Mancuso",
+    "description": "Founder of Codurance and London Software Craftmanship Community",
+    "biography": "Software craftsman, author, and founder of the London Software Craftsmanship Community (LSCC). Sandro has been coding since a very young age but only started his professional career in 1996. He has worked for startups, software houses, product companies, international consultancy companies, and investment banks. During his career Sandro had the opportunity to work in a good variety of projects, with different languages, technologies, and across many different industries. Sandro has a lot of experience in bringing the Software Craftsmanship ideology and Extreme Programming practices to organisations of all sizes. Sandro is internationally renowned by his work on evolving and spreading Software Craftsmanship and is frequently invited to speak in many conferences around the world. His professional aspiration is to raise the bar of the software industry by helping developers become better at and care more about their craft.",
+    "image": "assets/img/speakers/sandro-mancuso.jpg",
+    "ref": "sandro",
+    "url": "infoSpeaker.html?ref=sandro",
+    "twitter": "http://twitter.com/sandromancuso",
+    "homepage": "https://codurance.com/blog/author/sandro-mancuso/"
+  },
+  {
+    "enabled": "1",
+    "name": "Trisha Gee",
+    "description": "Developer Advocate at JetBrains",
+    "biography": "Trisha has developed Java applications for a range of industries, including finance, manufacturing, software and non-profit, for companies of all sizes. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and dabbles with Open Source development. Trisha is a leader of the Sevilla Java User Group, a MongoDB Master and a Java Champion. She believes we shouldn't all have to make the same mistakes again and again. She’s a Developer Advocate for JetBrains so she can share all the cool stuff she's discovered so far. Blog: http://www.trishagee.com",
+    "image": "assets/img/speakers/trisha-gee.jpeg",
+    "ref": "trisha",
+    "url": "infoSpeaker.html?ref=trisha",
+    "twitter": "http://twitter.com/trisha_gee",
+    "homepage": "http://www.trishagee.com"
+  },
+  {
+    "enabled": "1",
+    "name": "Bert Jan Schrijver",
+    "description": "CTO at OpenValue",
+    "biography": "Bert Jan is a software craftsman at JPoint in the Netherlands and CTO at OpenValue. His focus is on Java, Continuous Delivery and DevOps. He is User Group leader for NLJUG, the Dutch Java User Group and a JavaOne Rock Star speaker. He loves to share his experience by speaking at conferences, writing for the Dutch Java magazine and helping out Devoxx4Kids with teaching kids how to code.",
+    "image": "assets/img/speakers/bert-jan-schrijver.jpg",
+    "ref": "schrijver",
+    "url": "infoSpeaker.html?ref=schrijver",
+    "twitter": "https://twitter.com/bjschrijver",
+    "homepage": "https://openvalue.nl"
+  },
+  {
+    "enabled": "1",
+    "name": "Maarten Mulders",
+    "description": "Enthusiastic senior developer and trainer",
+    "biography": "Enthusiastic senior developer and trainer. Passionate about 'building the right thing' and 'building the thing right'. Seasoned in Java and JavaScript, recently entangled by Scala and Akka. Love to share new ideas and knowledge.",
+    "image": "assets/img/speakers/maarten-mulders.jpg",
+    "ref": "mmulders",
+    "url": "infoSpeaker.html?ref=mmulders",
+    "twitter": "https://twitter.com/mthmulders",
+    "homepage": "https://maarten.mulders.tk"
+  },
+  {
+    "enabled": "1",
+    "name": "Claus Ibsen",
+    "description": "Principal software engineer from Red Hat",
+    "biography": "Works for Red Hat on open source integration projects such as Apache Camel, fabric8 and hawtio. Author of Camel in Action books.",
+    "image": "assets/img/speakers/claus-ibsen.jpg",
+    "ref": "davsclaus",
+    "url": "infoSpeaker.html?ref=davsclaus",
+    "twitter": "https://twitter.com/davsclaus",
+    "homepage": "http://www.davsclaus.com"
+  },
+  {
+    "enabled": "1",
+    "name": "Burr Sutter",
+    "description": "Red Hat’s Director of Developer Experience",
+    "biography": "A lifelong developer advocate, community organizer, and technology evangelist, Burr Sutter is a featured speaker at technology events around the globe—from Bangalore to Brussels and Berlin to Beijing (and most parts in between)—he is currently Red Hat’s Director of Developer Experience. A Java Champion since 2005 and former president of the Atlanta Java User Group, Burr founded the DevNexus conference—now the second largest Java event in the U.S.—with the aim of making access to the world’s leading developers affordable to the developer community. When not speaking abroad, Burr is also the passionate creator and orchestrator of highly-interactive live demo keynotes at Red Hat Summit, the company’s premier annual event.",
+    "image": "assets/img/speakers/burr-sutter.jpg",
+    "ref": "burrsutter",
+    "url": "infoSpeaker.html?ref=burrsutter",
+    "twitter": "https://twitter.com/burrsutter",
+    "homepage": "https://developers.redhat.com/"
+  },
+  {
+    "enabled": "1",
+    "name": "Alex Soto",
+    "description": "Software Engineer at RedHat",
+    "biography": "Alex is a software engineer at Red Hat. He is a passionate of Java world, software automation and he believes in the open source software model. Alex is the creator of NoSQLUnit project and team member of Arquillian, Asciidoctor and Apache TomEE projects. He is a member of JSR374 (Java API for JSON Processing) Expert Group. Currently Alex is co-writing Arquillian in Action book for Manning and he is an international speaker presenting his talks at software conferences like JBCNConf, Devoxx, JavaOne, JavaZone or JavaLand.",
+    "image": "assets/img/speakers/alex-soto.jpg",
+    "ref": "alexsoto",
+    "url": "infoSpeaker.html?ref=alexsoto",
+    "twitter": "https://twitter.com/alexsotob"
+  },
+  {
+    "enabled": "1",
+    "name": "Matthias Wessendorf",
+    "description": "Project lead of AeroGear",
+    "biography": "Matthias Wessendorf is the project lead of AeroGear, working at Red Hat where he is focused on next generation of mobile computing. Previously, he was the PMC Chair of the Apache MyFaces project. Matthias is a regular speaker at international conferences, like ApacheCon, JavaOne, Devoxx, Red Hat Summit or JAX.",
+    "image": "assets/img/speakers/matthias-wessendorf.jpeg",
+    "ref": "mwessendorf",
+    "url": "infoSpeaker.html?ref=mwessendorf",
+    "twitter": "http://twitter.com/mwessendorf"
+  },
+  {
+    "enabled": "1",
+    "name": "Edson Yanaga",
+    "description": "Red Hat's Director of Developer Experience",
+    "biography": "Edson Yanaga is Red Hat's Director of Developer Experience, a Java Champion and a Microsoft MVP. He is also a published author and a frequent speaker at international conferences, discussing Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship.",
+    "image": "assets/img/speakers/edson-yanaga.jpeg",
+    "ref": "edsonyanaga",
+    "url": "infoSpeaker.html?ref=edsonyanaga",
+    "twitter": "http://twitter.com/yanaga"
+  },
+  {
+    "enabled": "1",
+    "name": "Bilgin Ibryam",
+    "description": "Architect at Red Hat",
+    "biography": "Bilgin Ibryam is an Architect at Red Hat and committer at Apache for Camel, OFBiz, and Isis projects. He is a blogger, speaker, open-source enthusiast and the author of Camel Design Patterns and Instant Apache Camel Message Routing books. In his day-to-day job, Bilgin enjoys mentoring, training and leading teams to be successful with application integration, distributed systems, microservices, devops, and cloud-native applications.",
+    "image": "assets/img/speakers/bilgin-ibryam.jpg",
+    "ref": "bibryam",
+    "url": "infoSpeaker.html?ref=bibryam",
+    "twitter": "http://twitter.com/bibryam"
+  },
+  {
+    "enabled": "1",
+    "name": "Michal Matloka",
+    "description": "1 of 40 CEOs at SoftwareMill",
+    "biography": "Through his career Michał worked with C, Java, forgotten lands of Java EE, Spring, Scala and Big data. He committed a crime of writing a Java EE book, which may hunt him for the rest of his life. He is an open source contributor and a winner of the JBoss Community Recognition Award in 2013 for his contributions to ShrinkWrap. He is currently one of the 40 CEOs at SoftwareMill, a fully distributed company with no main office and a completely flat organization structure. He presented on GeeCON Kraków & Prague, Devoxx Poland, JDD, Confitura and other events.",
+    "image": "assets/img/speakers/michal-matloka.jpg",
+    "ref": "mmatloka",
+    "url": "infoSpeaker.html?ref=mmatloka",
+    "twitter": "http://twitter.com/mmatloka"
+  },
+  {
+    "enabled": "1",
+    "name": "Clement Escoffier",
+    "description": "Red Hat's Vert.x core developer",
+    "biography": "Who am I? That’s a good question. I had several professional lives, from academic positions to management. Currently, I’m working for Red Hat as Vert.x core developer. I have been involved in projects and products touching many domains and technologies such as OSGi, mobile app development, continuous delivery, DevOps… My main point of interest? Software engineering, so processes, methods, tools that make the development of software more efficient and also more fun. I’m also an active contributor to many open source projects such as Apache Felix, iPOJO, Wisdom Framework, and obviously, Eclipse Vert.x.",
+    "image": "assets/img/speakers/clement-escoffier.jpg",
+    "ref": "cescoffier",
+    "url": "infoSpeaker.html?ref=cescoffier",
+    "twitter": "http://twitter.com/cescoffier"
+  },
+  {
+    "enabled": "1",
+    "name": "Willem Meints",
+    "description": "Technical evangelist for Info Support",
+    "biography": "Willem is a technical evangelist for Info Support. He works with projects to adopt new technologies such as AI and machine learning. He loves new technology. When not at work you can find him outside with his camera.",
+    "image": "assets/img/speakers/willem-meints.jpg",
+    "ref": "wmeints",
+    "url": "infoSpeaker.html?ref=wmeints",
+    "twitter": "http://www.twitter.com/willem_meints",
+    "homepage": "http://fizzylogic.nl/"
+  },
+  {
+    "enabled": "1",
+    "name": "Brian Vermeer",
+    "description": "Software Engineer for blue4it",
+    "biography": "Software Engineer for blue4it working consultancy based on mainly Java projects for other companies in the Netherlands. Passionate about Java, (Pure) Functional Programming and Cybersecurity. Co-writer on the published Research paper: Plagiarism Detection for Haskell with Holmes. Besides being an engineer he is a Reservist at the Royal Netherlands Air Force and a Taekwondo Teacher.",
+    "image": "assets/img/speakers/brian-vermeer.jpg",
+    "ref": "bvermeer",
+    "url": "infoSpeaker.html?ref=bvermeer",
+    "twitter": "http://twitter.com/brianverm"
+  },
+  {
+    "enabled": "1",
+    "name": "Viktor Farcic",
+    "description": "Senior Consultant at CloudBees",
+    "biography": "Viktor Farcic is a Senior Consultant at CloudBees, a member of the Docker Captains group, and books author. He coded using a plethora of languages starting with Pascal (yes, he is old), Basic (before it got Visual prefix), ASP (before it got .Net suffix), C, C++, Perl, Python, ASP.Net, Visual Basic, C#, JavaScript, Java, Scala, etc. He never worked with Fortran. His current favorite is Go. His big passions are DevOps, Microservices, Continuous Integration, Delivery and Deployment (CI/CD) and Test-Driven Development (TDD). He often speaks at community gatherings and conferences. He published The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices, The DevOps 2.1 Toolkit: Docker Swarm: Building, testing, deploying, and monitoring services inside Docker Swarm clusters and the Test-Driven Java Development. He is currently working on his third book The DevOps 2.1 Toolkit: Docker Swarm His random thoughts and tutorials can be found in his blog TechnologyConversations.com.",
+    "image": "assets/img/speakers/viktor-farcic.jpeg",
+    "ref": "vfarcic",
+    "url": "infoSpeaker.html?ref=vfarcic",
+    "twitter": "http://twitter.com/vfarcic",
+    "homepage": "https://technologyconversations.com"
+  },
+  {
+    "enabled": "1",
+    "name": "Ioannis Canellos",
+    "description": "Principal Software Engineer at Red Hat",
+    "biography": "Ioannis has more than 10 years experience as Java developer 5 of which are as full time OpenSource developer.<br>He is a member of the <a href=\"http://www.apache.org\">Apache Software Foundation</a>, with contribution to numerous projects as a committer and PMC member.<br>He is currently working as a Principal Software Engineer at Red Hat as part of iPAAS team, where he spends most of his time implementing tools and frameworks related to <a href=\"http://kubernetes.io\">Kubernetes</a>, <a href=\"https://www.openshift.com\">Openshift</a> and <a href=\"http://fabric8.io\">Fabric8</a>.",
+    "image": "assets/img/speakers/ioannis.jpg",
+    "ref": "icanellos",
+    "url": "infoSpeaker.html?ref=icanellos",
+    "twitter": "https://twitter.com/iocanel",
+    "homepage": "https://iocanel.blogspot.com"
+  },
+  {
+    "enabled": "1",
+    "name": "Heather VanCura",
+    "description": "Chair of the JCP Program at Oracle",
+    "biography": "Heather VanCura is the Chair of the JCP Program at Oracle, and is a leader of the global community driven adoption and user group programs. Heather drives the efforts to transform the JCP program and broaden participation and diversity in the community. She is passionate about Java, women in technology and developer communities, serving as an international speaker and community organizer of developer hack days around the world. Heather enjoys speaking at conferences, such as OSCON, Devoxx, JFokus, and the JavaOne Conferences. She resides in the San Francisco Bay Area, California USA and enjoys trying new sports and fitness activities in her free time.",
+    "image": "assets/img/speakers/heather-vancura.jpg",
+    "ref": "hvancura",
+    "url": "infoSpeaker.html?ref=hvancura",
+    "twitter": "https://twitter.com/heathervc",
+    "homepage": "https://jcp.org/"
+  },
+  {
+    "enabled": "1",
+    "name": "Mark Heckler",
+    "description": "Principal Technologist/Developer Advocate at Pivotal Software, Inc.",
+    "biography": "Mark Heckler is a Pivotal Principal Technologist & Developer Advocate, conference speaker, published author & Java Champion focusing upon developing innovative production-ready software at velocity for the Cloud and IoT applications. He has worked with key players in the manufacturing, retail, medical, scientific, telecom, and financial industries and various public sector organizations to develop and deliver critical capabilities on time and on budget. Mark is an open source contributor and author/curator of a developer-focused blog (http://www.thehecklers.org) and an occasionally interesting Twitter account (@MkHeck).",
+    "image": "assets/img/speakers/mark-heckler.png",
+    "ref": "mheckler",
+    "url": "infoSpeaker.html?ref=mheckler",
+    "twitter": "https://twitter.com/mkheck",
+    "homepage": "http://www.thehecklers.org/",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Andres Almiray",
+    "description": "Java/Groovy developer",
+    "biography": "Andres is a Java/Groovy developer and a Java Champion with more than 17 years of experience in software design and development. He has been involved in web and desktop application development since the early days of Java. Andres is a true believer in open source and has participated on popular projects like Groovy, Griffon, and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member of the Griffon framework and Hackergarten community event.",
+    "image": "assets/img/speakers/andres-almiray.jpg",
+    "ref": "aalmiray",
+    "url": "infoSpeaker.html?ref=aalmiray",
+    "twitter": "https://twitter.com/aalmiray",
+    "homepage": "http://andresalmiray.com",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Bastian Hofman",
+    "description": "Software Engineer at ResearchGate",
+    "biography": "Bastian works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is caring about performance, monitoring, web-security and developer productivity. When he is not developing stuff or looking at graphs, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.",
+    "image": "assets/img/speakers/bastian-hofman.jpg",
+    "ref": "bastian-hofman",
+    "url": "infoSpeaker.html?ref=bastian-hofman",
+    "twitter": "https://twitter.com/BastianHofmann",
+    "homepage": "",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Roland Huss",
+    "description": "Principal Software Engineer at RedHat",
+    "biography": "Dr. Roland Huß is a Principal Software Engineer at Red Hat working in the Fuse team on FIS and iPaaS. He has been developing in Java for eighteen years now but never forgot his roots as system administrator. Roland is an active Open Source contributor, lead developer of the JMX-HTTP bridge Jolokia and the popular fabric8io/docker-maven-plugin. And he loves chilli pepper.",
+    "image": "assets/img/speakers/roland-huss.jpg",
+    "ref": "roland-huss",
+    "url": "infoSpeaker.html?ref=roland-huss",
+    "twitter": "https://twitter.com/ro14nd",
+    "homepage": "https://ro14nd.de",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Sebastian Daschner",
+    "description": "Java Champion",
+    "biography": "Sebastian Daschner is a Java freelancer working as a Consultant / Software Developer / Architect and is enthusiastic about programming and Java (EE). He is participating in the JCP, serving in the JSR 370 and 374 Expert Groups and hacking on various open source projects on Github. He is a Java Champion, JavaOne 2016 Rockstar and has been working with Java for more than 7 years. Besides Java, Sebastian is also a heavy user of Linux and container technologies like Docker. He evangelizes computer science practices on https://blog.sebastian-daschner.com and on Twitter via @DaschnerS. When not working with Java, he also loves to travel the world — either by plane or motorbike.",
+    "image": "assets/img/speakers/sebastian-daschner.jpg",
+    "ref": "sebastian-daschner",
+    "url": "infoSpeaker.html?ref=sebastian-daschner",
+    "twitter": "https://twitter.com/DaschnerS",
+    "homepage": "https://blog.sebastian-daschner.com",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Jacek Kunicki",
+    "description": "Passionate Software Engineer at SoftwareMill",
+    "biography": "I'm a passionate software engineer living in the JVM land - mainly, but not limited to. I also tend to play with electronics and hardware. When sharing my knowlegde, I always keep in mind that a working example is worth a thousand words.",
+    "image": "assets/img/speakers/jacek-kunicki.jpg",
+    "ref": "jacek-kunicki",
+    "url": "infoSpeaker.html?ref=jacek-kunicki",
+    "twitter": "https://twitter.com/rucek",
+    "homepage": "http://blog.kunicki.org/",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Schalk Cronjé",
+    "description": "Creator of Groovy-VFS",
+    "biography": "Schalk Cronjé’s experience in the software industry spans three decades and has performed most roles in software delivery. He believes that both software engineering and craftsmanship is important for the industry and that both disciplines should be taught to achieve holism in technology delivery. He also understands that there is a strong relationship between the modern software techniques that are used and the signature skills of people and these should be aligned for effective delivery. He is also a strong advocate of using systems thinking, holistic stakeholder analysis and impact mapping. He keeps his technical skills fit by frequent contributions to various open-source projects. He is the creator of Groovy-VFS as well a maintainer of various Gradle plugins including for JRuby, GMake, Doxygen and more. He is a regular speaker on various software delivery techniques across Europe and in the UK, USA, India and South Africa. He currently serves as a steering committee member of the Agile Testing Alliance. He is also the author of “Idiomatic Gradle: 25 recipes for plugin authors” and is currently working on Vol 2.",
+    "image": "assets/img/speakers/schalk-cronje.jpg",
+    "ref": "schalk-cronje",
+    "url": "infoSpeaker.html?ref=schalk-cronje",
+    "twitter": "https://twitter.com/ysb33r",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Ivar Grimstad",
+    "description": "Java Champion",
+    "biography": "Ivar Grimstad is a Java Champion, JUG Leader and software architect focusing on Enterprise Java. He is participating in the Java Community Process as a member of the Executive Committee, Spec Lead for JSR 371 (MVC 1.0) and Expert Group Member for JSR 375 (Java EE Security API). He is also a member of the NetBeans Dream Team. Ivar is a frequent speaker at international developer conferences.",
+    "image": "assets/img/speakers/ivar-grimstad.jpg",
+    "ref": "ivar-grimstad",
+    "url": "infoSpeaker.html?ref=ivar-grimstad",
+    "twitter": "https://twitter.com/ivar_grimstad",
+    "homepage": "http://www.agilejava.eu",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Jeroen Resoort",
+    "description": "Java Consultant at JDriven",
+    "biography": "Jeroen Resoort is a Java Consultant at JDriven. He has over 10 years of experience writing enterprise applications. He is passionate about writing good code, learning new technologies and sharing his knowledge with others.",
+    "image": "assets/img/speakers/jeroen-resoort.jpg",
+    "ref": "jeroen-resoort",
+    "url": "infoSpeaker.html?ref=jeroen-resoort",
+    "twitter": "https://twitter.com/JeroenResoort",
+    "homepage": "https://blog.jdriven.com/author/jeroen-resoort/",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Daniel Lebrero",
+    "description": "Technical architect at fin-tech IG",
+    "biography": "Daniel Lebrero is a technical architect with more than 15 years of software development experience. He works at the fin-tech IG, where he is involved in architecting the web platform, the analytics website and the big data solution. A long time Java practitioner, he now also loves ().",
+    "image": "assets/img/speakers/daniel-lebrero.jpg",
+    "ref": "daniel-lebrero",
+    "url": "infoSpeaker.html?ref=daniel-lebrero",
+    "twitter": "https://twitter.com/DanLebrero",
+    "homepage": "http://danlebrero.com",
+    "scheduleId": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Carlos Cornejo",
+    "description": "Software Craftsman at atSistemas",
+    "biography": "Software Craftsman, Life-long learner, Java architect wannabe. In love with TDD and BDD. DevOps and cloud-based architectures advocate. Big on CI/CD with docker.",
+    "image": "assets/img/speakers/carlos-cornejo.jpg",
+    "ref": "carlos-cornejo",
+    "url": "infoSpeaker.html?ref=carlos-cornejo",
+    "twitter": "https://twitter.com/cmcornejocrespo"
+  },
+  {
+    "enabled": "1",
+    "name": "Philipp Krenn",
+    "description": "Developer Advocate at Elastic",
+    "biography": "Philipp is part of the infrastructure team and a Developer Advocate at Elastic, spreading the love and knowledge of full-text search, analytics, and real-time data. He is a frequent speaker at conferences and meetups about all things search & analytics, databases, cloud computing, and devops. Philipp lives in Vienna where he enjoys experimenting with software, organizing meetups, and sports.",
+    "image": "assets/img/speakers/philipp-krenn.jpg",
+    "ref": "philipp-krenn",
+    "url": "infoSpeaker.html?ref=philipp-krenn",
+    "twitter": "https://twitter.com/xeraa",
+    "homepage": "https://xeraa.net/en/"
+  },
+  {
+    "enabled": "1",
+    "name": "Albert Margarit",
+    "description": "Software Development Manager and Architect at NetSuite",
+    "biography": "Albert Margarit is a Software Development Manager and Architect at NetSuite. He dedicates most of his time to software design of robust and performant cloud solutions. He champions best coding practices and instills the culture of clean and reusable designs. Recently, he has been focused in designing a multi-tenant solution for backend processing. In his spare time he enjoys geeking out and playing inline hockey.",
+    "image": "assets/img/speakers/albert-margarit.png",
+    "ref": "albert-margarit",
+    "url": "infoSpeaker.html?ref=albert-margarit",
+    "twitter": "https://twitter.com/albertmargarit"
+  },
+  {
+    "enabled": "1",
+    "name": "Hubert Klein Ikkink",
+    "description": "Also known as mrhaki, he works with Java and Groovy during his daytime job at JDriven.",
+    "biography": "Hubert Klein Ikkink is also known as mrhaki. He uses his alias to write on his blog `Messages from mrhaki` (http://mrhaki.blogspot.com/). On this blog he writes short tips and tricks about Groovy, Grails, Gradle, Spock, Spring and Asciidoctor. Hubert started to develop Java applications more than two decades ago. Nine years ago he started to explore Groovy and Grails in personal projects, because of the dynamic nature of Groovy and the speed of development. Today he works with Java and Groovy during his daytime job at JDriven in the Netherlands. He also wrote books on Gradle published at Packt Publishing and spoke at different conferences like Gr8Conf in Copenhagen and Minneapolis, Greach in Madrid, JavaLand in Germany and JFall in the Netherlands.",
+    "image": "assets/img/speakers/hubert-klein-ikkink.jpg",
+    "ref": "hubert-klein-ikkink",
+    "url": "infoSpeaker.html?ref=hubert-klein-ikkink",
+    "twitter": "https://twitter.com/mrhaki",
+    "homepage": "http://www.mrhaki.com"
+  },
+  {
+    "enabled": "1",
+    "name": "Charlotte Cavalier",
+    "description": "Developper evangelist on the Codingame learning platform and Jug Leader at Montpellier.",
+    "image": "assets/img/speakers/charlotte-cavalier.jpg",
+    "ref": "charlotte-cavalier",
+    "url": "infoSpeaker.html?ref=charlotte-cavalier",
+    "twitter": "https://twitter.com/cavalierch"
+  },
+  {
+    "enabled": "1",
+    "name": "Victor Rentea",
+    "description": "Java Engineer, Architect and Technical Lead at IBM",
+    "image": "assets/img/speakers/victor-rentea.jpg",
+    "ref": "victor-rentea",
+    "url": "infoSpeaker.html?ref=victor-rentea",
+    "twitter": "https://twitter.com/victorrentea"
+  },
+  {
+    "enabled": "1",
+    "name": "Nicola Ferraro",
+    "description": "Software Engineer at Red Hat",
+    "image": "assets/img/speakers/nicola-ferraro.jpg",
+    "ref": "nicola-ferraro",
+    "url": "infoSpeaker.html?ref=nicola-ferraro",
+    "twitter": "https://twitter.com/ni_ferraro"
+  },
+  {
+    "enabled": "1",
+    "name": "Manuel Alvarez",
+    "description": "Software developer at CERN",
+    "image": "assets/img/speakers/manuel-alvarez.jpg",
+    "ref": "manuel-alvarez",
+    "url": "infoSpeaker.html?ref=manuel-alvarez",
+    "twitter": "https://twitter.com/malvarez_bis"
+  },
+  {
+    "enabled": "1",
+    "name": "Rustam Mehmandarov",
+    "description": "Passionate computer scientist. Leader of the Norwegian JUG - javaBin & JavaZone. Speaker.",
+    "image": "assets/img/speakers/rustam-mehmandarov.jpg",
+    "ref": "rustam-mehmandarov",
+    "url": "infoSpeaker.html?ref=rustam-mehmandarov",
+    "twitter": "https://twitter.com/rmehmandarov",
+    "homepage": "http://mehmandarov.com/"
+  },
+  {
+    "enabled": "1",
+    "name": "Charles Moulliard",
+    "description": "Principal Software Engineer @RedHat & Apache Committer.",
+    "biography": "Charles Moulliard is currently a Sr. Principal Software Engineer @RedHat & Apache Committer with more than 20 years of expertise in solutions design based on JEE / Middleware technologies. As Engineer & Architect, he has been involved in system integration of projects in Financial and Banking world. The skills (Methodology, UML, RUP, Project Management, Network, Security, Web Development, Fluent Api & DSL - JavaEE, Middleware) that he acquires during its career path have help him to address business, functional, security and infrastructure requirements and transpose them into operable and efficient solutions. He is also passionated to train people on Microservices, SOA, Middleware & JavaEE. As an Apache Committer he contributes since several years on opensource projects Apache Camel, Karaf, ServiceMix, DeltaSpike, Fabric8, Hawtio, Drools, Asciidoctor and uses these technologies as standards for integration projects. He is a Technology Evangelist making regularly conferences, talks. He lives in Belgium, enjoy Mountain bike & Rock’n’roll. You can find him online #irc ch007m, Twitter, GitHub https://github.com/cmoulliard, Linkedin, SlideShare, Google+ or on his Blog",
+    "image": "assets/img/speakers/charles-moulliard.jpg",
+    "ref": "charles-moulliard",
+    "url": "infoSpeaker.html?ref=charles-moulliard",
+    "twitter": "https://twitter.com/cmoulliard",
+    "homepage": "http://cmoulliard.github.io/"
+  },
+  {
+    "enabled": "1",
+    "name": "Maria Gomez",
+    "description": "Market Tech Principal at ThoughtWorks in Barcelona.",
+    "biography": "Maria Gomez is a Market Tech Principal at ThoughtWorks in Barcelona. She's been a developer and an architect for over 9 years. She has worked with many different technologies and domains, which has helped her lead teams and advise stakeholders in making the right technology decisions. She is also a speaker and an advocate for diversity and inclusion in the IT industry.",
+    "image": "assets/img/speakers/maria-gomez.png",
+    "ref": "maria-gomez",
+    "url": "infoSpeaker.html?ref=maria-gomez",
+    "twitter": "https://twitter.com/mariascandella",
+    "homepage": "http://maria-gomez.me/"
+  },
+  {
+    "enabled": "1",
+    "name": "Hanno Embregts",
+    "description": "Java Developer, Scrum Master and Trainer at Info Support",
+    "biography": "Hanno is a Java Developer, Scrum Master and Trainer at Info Support (Veenendaal, Netherlands). He has over 9 years of experience developing enterprise software in various fields (insurance companies, banks, hospitals, industry) and currently works for the Dutch Railway Company (‘NS’). He loves building innovative software and has a passion for clean, elegant solutions. On top of that, he likes continuous delivery, behavior-driven development and all things agile.",
+    "image": "assets/img/speakers/hanno-embregts.jpg",
+    "ref": "hanno-embregts",
+    "url": "infoSpeaker.html?ref=hanno-embregts",
+    "twitter": "https://twitter.com/hannotify",
+    "homepage": "https://blogs.infosupport.com/author/h-embregts/"
+  },
+  {
+    "enabled": "1",
+    "name": "Juantomas Garcia",
+    "description": "Data Solution Manager at Open Sistemas",
+    "biography": "Data Solution Manager at Open Sistemas. Co-author of 'La pastilla roja' the first spanish book about free software. Former President of Hispalinux, Google Developer Expert. GDG Cloud Madrid Organizer. Machine Learning Spain Meetup Organizer.",
+    "image": "assets/img/speakers/juantomas-garcia.jpg",
+    "ref": "juantomas-garcia",
+    "url": "infoSpeaker.html?ref=juantomas-garcia",
+    "twitter": "https://twitter.com/juantomas",
+    "homepage": "http://www.juantomas.net"
+  },
+  {
+    "enabled": "1",
+    "name": "Tomasz Dubikowski",
+    "description": "Software Development Manager at Ocado Technology",
+    "biography": "Tomek is a Software Development Manager at Ocado Technology. He has 5 years of experience working as a Software Engineer, Scrum Master and Agile Trainer. As an engineer, he is passionate about craftsmanship, propagating clean code, automated tests, behavior-driven development and domain-driven design. As a leader, he helps to build an organizational culture based upon autonomy, collaboration, and trust so that developers are equipped with both the hard and soft skills necessary to build truly awesome products. Tomek loves to change the reality around him. He is highly pragmatic, challenges orthodoxy at all levels, and believes that there is always room for improvement. He is always eager to share and discuss his ideas.",
+    "image": "assets/img/speakers/tomasz-dubikowski.png",
+    "ref": "tomasz-dubikowski",
+    "url": "infoSpeaker.html?ref=tomasz-dubikowski",
+    "twitter": "https://twitter.com/tdubikowski",
+    "homepage": "https://agilehabits.wordpress.com/"
+  },
+  {
+    "enabled": "1",
+    "name": "Marcus Fihlon",
+    "description": "Software Engineer at CSS Insurance in Lucerne, Switzerland",
+    "biography": "Marcus Fihlon is an Agile Coach and Software Engineer at CSS Insurance in Lucerne. He also lectures at TEKO Swiss Technical College in Olten and is a speaker at conferences and user groups. He has been developing software for more than three decades and has worked with Java since the late 90s. Marcus is the grounding member and organizer of the monthly Hackergarten in Lucerne and is involved in several open source projects. Since 2017, he is member of the board of the Java User Group Switzerland and responsible for organizing events and workshops in central Switzerland.",
+    "image": "assets/img/speakers/marcus-fihlon.jpg",
+    "ref": "marcus-fihlon",
+    "url": "infoSpeaker.html?ref=marcus-fihlon",
+    "twitter": "https://twitter.com/McPringle",
+    "homepage": "https://www.fihlon.ch"
+  },
+  {
+    "enabled": "1",
+    "name": "Simon Maple",
+    "description": "Director of Developer Relations at ZeroTurnaround",
+    "biography": "Simon is the Director of Developer Relations at ZeroTurnaround, a Java Champion since 2014, JavaOne Rockstar speaker in 2014, Duke's Choice award winner in 2016, Virtual JUG founder and organiser, London Java Community co-leader and RebelLabs author. He is an experienced speaker, having presented at JavaOne, JavaZone, Jfokus, DevoxxUK, DevoxxFR, JavaZone, JMaghreb and many more including many JUG tours. His passion is around user groups and communities. When not traveling, Simon enjoys spending quality time with his family, cooking and eating great food.",
+    "image": "assets/img/speakers/simon-maple.jpg",
+    "ref": "simon-maple",
+    "url": "infoSpeaker.html?ref=simon-maple",
+    "twitter": "https://twitter.com/sjmaple",
+    "homepage": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Adrian Cole",
+    "description": "Software Engineer at Pivotal",
+    "biography": "Adrian works at Pivotal, on the Spring Cloud team. He spends most on Zipkin, usually in Java. He also runs a distributed tracing working group for implementors.",
+    "image": "assets/img/speakers/adrian-cole.jpeg",
+    "ref": "adrian-cole",
+    "url": "infoSpeaker.html?ref=adrian-cole",
+    "twitter": "https://twitter.com/adrianfcole"
+  },
+  {
+    "enabled": "1",
+    "name": "Michel Schudel",
+    "description": "Passionate Java developer working for Railways in the Netherlands",
+    "biography": "Michel Schudel has been a passionate Java developer since 1998, building various Java solutions for banks, insurance companies and telecom providers. Since then he has seen the good, the bad and the ugly in Java land. He loves agile development and coding with micro and meso frameworks like SpringBoot and SparkJava to get up-and-running as fast as possible. Futhermore, he likes to coach junior developers in Core Java. Michel is currently working for Dutch Railways in the Netherlands.",
+    "image": "assets/img/speakers/michel-schudel.jpg",
+    "ref": "michel-schudel",
+    "url": "infoSpeaker.html?ref=michel-schudel",
+    "homepage": "http://www.craftsmen.nl"
+  },
+  {
+    "enabled": "1",
+    "name": "Grzegorz Piwowarek",
+    "description": "Senior software developer at Touk",
+    "biography": "Grzegorz is a senior software developer@TouK in Warsaw, senior technical editor@Baeldung, guitarist@VisionsOfTondal, professional yo-yo player and a former Mensa member. His professional experience ranges from backend web development and systems’ integration to image recognition engines. Grzegorz is fascinated by the beauty of functional programming and recently helping in spreading the Javaslang word.",
+    "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
+    "ref": "grzegorz-piwowarek",
+    "url": "infoSpeaker.html?ref=grzegorz-piwowarek",
+    "homepage": "",
+    "twitter": "https://twitter.com/pivovarit"
+  },
+  {
+    "enabled": "1",
+    "name": "Dmitry Vinnik",
+    "description": "Senior software engineer at Salesforce",
+    "biography": "Senior Software Engineer at Salesforce, who has been passionate about software quality since the very beginning of his career. Started as a Quality Engineer, he was able to bring test expertise into current role of a software engineer, and ensure a delivery of a high quality product. In addition to being an Individual Contributor, he is a Scrum Master focused on making his team more efficient and productive. His background involves studying Medicine, later transition into Bioinformatics field, and now being in a purely Software Engineering-centric area.",
+    "image": "assets/img/speakers/dmitry-vinnik.jpg",
+    "ref": "dmitry-vinnik",
+    "url": "infoSpeaker.html?ref=dmitry-vinnik",
+    "homepage": "",
+    "twitter": ""
+  },
+  {
+    "enabled": "1",
+    "name": "Piotr Kafel",
+    "description": "Software Engineer and Reactive programming evangelist at Groupon",
+    "biography": "Software Engineer and reactive programming evangelist at Groupon. I wrote my first line of code in Java when I was 16 years old. Since then I was working on projects for companies like Nokia, HP or Credit Suisse. Even though Java is my main programming language I'm trying not to limit myself to it. I love exploring new languages, technologies and approaches. I'm an open source contributor and ex Wroclaw JUG leader. Related links: <ul><li>http://www.reactivemanifesto.org/</li><li>http://www.reactive-streams.org/</li><li>https://github.com/ReactiveX/RxJava</li></ul>",
+    "image": "assets/img/speakers/piotr-kafel.png",
+    "ref": "piotr-kafel",
+    "url": "infoSpeaker.html?ref=piotr-kafel",
+    "homepage": "",
+    "twitter": "http://twitter.com/daftano"
+  }
+];
 
-export const meetings = [{
+export const meetings = [
+    {
       "type": "talk",
       "title": "The Art of Simplicity",
       "abstract": "We've been told to keep things simple. It turns out, that's easily said than done. Creating something simple is, well, not really that simple. If simple was sitting next to us, would we even recognize it? Is my design simple, is yours simple? How can we tell? That's a simple question, but the answer to it is… well come to this keynote to find out.",
@@ -539,7 +540,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "#MON-TC1-SE1",
+      "scheduleId": "#MON-TC0-SE0",
       "speakers": [
         "venkat"
       ]
@@ -554,7 +555,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE1",
       "speakers": [
         "venkat"
       ]
@@ -567,7 +568,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "#TUE-TC1-SE7",
+      "scheduleId": "#TUE-TC0-SE7",
       "speakers": [
         "sandro"
       ]
@@ -584,7 +585,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE2",
       "speakers": [
         "trisha"
       ]
@@ -601,7 +602,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC1-SE2",
       "speakers": [
         "trisha"
       ]
@@ -617,7 +618,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE5",
       "speakers": [
         "schrijver"
       ]
@@ -635,7 +636,7 @@ export const meetings = [{
       ],
       "level": "Advanced",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE1",
       "speakers": [
         "mmulders"
       ]
@@ -651,7 +652,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE2",
       "speakers": [
         "davsclaus"
       ]
@@ -669,7 +670,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE5",
       "speakers": [
         "burrsutter"
       ]
@@ -688,7 +689,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE2",
       "speakers": [
         "burrsutter"
       ]
@@ -702,7 +703,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE1",
       "speakers": [
         "alexsoto"
       ]
@@ -721,7 +722,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE2",
       "speakers": [
         "mwessendorf"
       ]
@@ -739,7 +740,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE4",
       "speakers": [
         "edsonyanaga"
       ]
@@ -758,7 +759,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE2",
       "speakers": [
         "bibryam"
       ]
@@ -773,7 +774,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE3",
       "speakers": [
         "mmatloka"
       ]
@@ -788,7 +789,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE5",
       "speakers": [
         "cescoffier"
       ]
@@ -803,7 +804,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE1",
       "speakers": [
         "wmeints"
       ]
@@ -818,7 +819,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE3",
       "speakers": [
         "bvermeer"
       ]
@@ -838,7 +839,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE5",
       "speakers": [
         "vfarcic"
       ]
@@ -854,7 +855,7 @@ export const meetings = [{
       ],
       "level": "Advanced",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE5",
       "speakers": [
         "icanellos"
       ]
@@ -870,7 +871,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE6",
       "speakers": [
         "hvancura"
       ]
@@ -891,7 +892,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE4",
       "speakers": [
         "mheckler"
       ]
@@ -907,7 +908,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE1",
       "speakers": [
         "aalmiray"
       ]
@@ -923,7 +924,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE3",
       "speakers": [
         "bastian-hofman"
       ]
@@ -941,7 +942,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE1",
       "speakers": [
         "roland-huss"
       ]
@@ -959,7 +960,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE3",
       "speakers": [
         "sebastian-daschner"
       ]
@@ -976,7 +977,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE6",
       "speakers": [
         "jacek-kunicki"
       ]
@@ -993,7 +994,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE2",
       "speakers": [
         "schalk-cronje"
       ]
@@ -1009,7 +1010,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE6",
       "speakers": [
         "ivar-grimstad"
       ]
@@ -1024,7 +1025,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE6",
       "speakers": [
         "jeroen-resoort"
       ]
@@ -1038,7 +1039,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE4",
       "speakers": [
         "daniel-lebrero"
       ]
@@ -1053,7 +1054,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC1-SE1",
       "speakers": [
         "carlos-cornejo"
       ]
@@ -1070,7 +1071,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE3",
       "speakers": [
         "philipp-krenn"
       ]
@@ -1087,7 +1088,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE4",
       "speakers": [
         "albert-margarit"
       ]
@@ -1103,7 +1104,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE4",
       "speakers": [
         "hubert-klein-ikkink"
       ]
@@ -1118,7 +1119,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE4",
       "speakers": [
         "charlotte-cavalier"
       ]
@@ -1136,7 +1137,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE1",
       "speakers": [
         "victor-rentea"
       ]
@@ -1154,7 +1155,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE2",
       "speakers": [
         "nicola-ferraro"
       ]
@@ -1174,7 +1175,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC2-SE2",
       "speakers": [
         "manuel-alvarez"
       ]
@@ -1190,7 +1191,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC3-SE1",
       "speakers": [
         "rustam-mehmandarov"
       ]
@@ -1206,7 +1207,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC2-SE1",
       "speakers": [
         "charles-moulliard"
       ]
@@ -1221,7 +1222,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE2",
       "speakers": [
         "maria-gomez"
       ]
@@ -1241,7 +1242,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE5",
       "speakers": [
         "hanno-embregts"
       ]
@@ -1260,7 +1261,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE4",
       "speakers": [
         "juantomas-garcia"
       ]
@@ -1276,7 +1277,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE6",
       "speakers": [
         "tomasz-dubikowski"
       ]
@@ -1296,7 +1297,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE6",
       "speakers": [
         "marcus-fihlon"
       ]
@@ -1312,7 +1313,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE3",
       "speakers": [
         "simon-maple"
       ]
@@ -1327,7 +1328,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#WED-TC4-SE1",
       "speakers": [
         "simon-maple"
       ]
@@ -1343,7 +1344,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE5",
       "speakers": [
         "adrian-cole"
       ]
@@ -1359,7 +1360,7 @@ export const meetings = [{
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE6",
       "speakers": [
         "michel-schudel"
       ]
@@ -1375,7 +1376,7 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE1",
       "speakers": [
         "grzegorz-piwowarek"
       ]
@@ -1390,7 +1391,7 @@ export const meetings = [{
       ],
       "level": "Advanced",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE3",
       "speakers": [
         "dmitry-vinnik"
       ]
@@ -1407,8 +1408,78 @@ export const meetings = [{
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE3",
       "speakers": [
         "piotr-kafel"
       ]
-    }];
+    },
+    {
+      "type": "talk",
+      "title": "The... Wonderful? World of lambdas",
+      "abstract": "We, Java developers, embrace Java 8 in the hope that by mastering Lambdas and Streams, we would be gifted with a functional programming mind. And thus we walk down the yellow brick road to the wizard of lambdas. That road usually starts from the fear and terror of learning their syntax until finally getting to understand them and opening our minds to the fruitful fields of functional programming. But this road eventually reaches a final stage: the lambda abuse.<br/>Let’s get the curtain down!<br/>During our talk, we will see examples of abuse and misuse of lambdas and streams. To master the lambas art means to know when to use them and when not to not damage your brain and, most importantly, other Java developers’. Keep your code readable and maintainable, avoid becoming a lambda addict!<br/>And if nothing else you will take with you a bunch of apparently smart java 8 one-liners to show off among your friends and colleagues.",
+      "tags": [
+        "java8",
+        "lambda",
+        "abuse"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "#TUE-TC2-SE3",
+      "speakers": [
+        "david-gomez", "esther-lozano"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Tomorrow's Model Driven Development",
+      "abstract": "With microservices all over the place how do we make sure that we don't hide the core business logic deep inside our services and their interactions? How can we separate the technical details from the domain expertise? During this presentation we will be talking about how to best take advantage of DDD and how it compares and can be used in conjunction with model driven methodologies. In order to demonstrate all these concepts in action we will be showing how to use Spring Cloud with modelling tools and frameworks to create self-documenting, adaptable and context-aware applications that will run into highly-distributed environments.",
+      "tags": [
+        "ddd",
+        "model driven",
+        "spring cloud",
+        "distributed",
+        "knowledge engineering",
+        "frameworks"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "#TUE-TC4-SE5",
+      "speakers": [
+        "mauricio-salatino", "mario-romano"
+      ]
+    },
+    {
+      "type": "workshop",
+      "title": "Streaming and the Internet of Things: Hands-on Workshop",
+      "abstract": "During this Workshop you will learn how to design a scalable IoT application from sensor to data center, including: Data capture with various sensors, Data transport using various protocol and API, for example Apache Kafka API with MapR Streams, Stream processing using Apache Spark and/or Apache Flink, Data Persistence using Streams, NoSQL Database, and File System, Analytics with Apache Drill. Come with your laptop and start coding your first scalable IoT Application; you will have access to sensors 'the things', a MapR Cluster to capture, store, process and analyse the data; and sample code to play with the data. Prerequisites: Some Java Experience, Java  Development Kit 1.8 (JDK), Your favorite IDE, Maven, Git.",
+      "tags": [
+        "IoT",
+        "MapR",
+        "Apache Kafka"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "#WED-TC4-SE2",
+      "speakers": [
+        "tugdual-grall"
+      ]
+    },
+    {
+      "type": "talk",
+      "title": "Clustered event-driven services",
+      "abstract": "In 2010 I came across a strange, new (to me!) architecture that the LMAX team used for their Foreign Exchange system. You might have heard about the Disruptor, it came out of this project.<br/>The core of our system is a clustered service which uses the Raft consensus algorithm to reliably replicate state between the different nodes and hosts our application logic. We will take a quick look at Raft and then at the benefits of this design compared to more “mainstream” architectures. This architecture offers a clean separation of concerns between the infrastructure - which takes care of the concurrency, I/O and high availability aspects -  and the application logic. The clean architecture is a great fit for domain-driven design.<br/>If you fancy building fast, resilient services without a database you should come to this talk!",
+      "tags": [
+        "Architecture",
+        "Event sourcing",
+        "Raft",
+        "Event driven"
+      ],
+      "level": "Advanced",
+      "video": "",
+      "scheduleId": "#TUE-TC4-SE6",
+      "speakers": [
+        "olivier-deheurles"
+      ]
+    }
+
+];

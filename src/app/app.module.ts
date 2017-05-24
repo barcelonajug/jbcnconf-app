@@ -6,12 +6,13 @@ import { SpeakersPage } from '../pages/speakers/speakers.page';
 import { SchedulePage } from '../pages/schedule/schedule.page';
 import { SponsorsPage } from '../pages/sponsors/sponsors.page';
 import { MeetingDetailPage } from '../pages/meeting-detail/meeting-detail.page';
+import { MeetingCommentPage } from '../pages/meeting-comment/meeting-comment.page';
 import { SpeakerDetailPage } from '../pages/speaker-detail/speaker-detail.page';
 import { LocationPage } from '../pages/location/location.page';
 import { MainPage } from '../pages/main/main.page';
 import { JbcnService } from '../services/jbcn.service';
 import { LocalNotifications } from '@ionic-native/local-notifications';
-
+import { Elastic } from '../directives/elastic.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
     SpeakersPage,
     LocationPage,
     SponsorsPage,
-    SpeakerDetailPage
+    SpeakerDetailPage,
+    MeetingCommentPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -38,7 +40,8 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
     SpeakersPage,
     LocationPage,
     SponsorsPage,
-    SpeakerDetailPage
+    SpeakerDetailPage,
+    MeetingCommentPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, JbcnService, LocalNotifications]
 })

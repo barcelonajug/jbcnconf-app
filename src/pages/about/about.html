@@ -1,13 +1,34 @@
-
 <ion-content class="page3">
   <h2>About us</h2>
   <ion-card>
     <img src="assets/img/jbcnconf-logo.png" class="image-header">
     <ion-card-content>
-      <p>The Barcelona JUG is a nonprofit association with a great team and a broad
-        experience in Java technologies.</p>
-      <p>Since 2012, Barcelona JUG is organizing talks and meetups focused on Java
-        topics, looking forward to spin this technology from our hometown to the rest of the world.</p>
+      <p>The Barcelona Java User Group is a non profit association with a great team and a broad experience in Java technologies.</p>
+      <p>Since 2012, we are organizing talks and meetups focused on Java topics, looking forward to spin this technology from
+        our hometown to the rest of the world.</p>
     </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngFor="let member of team">
+    <img [src]="member.image.url" alt="{{member.image.alt}}" />
+    <ion-card-content>
+      <ion-card-title>
+        {{member.name}}
+      </ion-card-title>
+      <!--<h4>{{member.position}}</h4>-->
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear color="danger" icon-left (click)="gotoUrl(member.linkedin)">
+          <ion-icon name='logo-linkedin'></ion-icon>
+        </button>
+        <button ion-button clear color="danger" icon-left  (click)="gotoUrl(member.twitter)">
+          <ion-icon name='logo-twitter'></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+
+
   </ion-card>
 </ion-content>

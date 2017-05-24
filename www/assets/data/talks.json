@@ -10,7 +10,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "#MON-TC1-SE1",
+      "scheduleId": "",
       "speakers": [
         "venkat"
       ]
@@ -25,7 +25,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE1",
       "speakers": [
         "venkat"
       ]
@@ -55,7 +55,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE2",
       "speakers": [
         "trisha"
       ]
@@ -88,7 +88,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE5",
       "speakers": [
         "schrijver"
       ]
@@ -106,7 +106,7 @@
       ],
       "level": "Advanced",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE1",
       "speakers": [
         "mmulders"
       ]
@@ -122,7 +122,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE2",
       "speakers": [
         "davsclaus"
       ]
@@ -159,7 +159,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE2",
       "speakers": [
         "burrsutter"
       ]
@@ -173,7 +173,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE1",
       "speakers": [
         "alexsoto"
       ]
@@ -192,7 +192,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE2",
       "speakers": [
         "mwessendorf"
       ]
@@ -210,7 +210,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE4",
       "speakers": [
         "edsonyanaga"
       ]
@@ -229,7 +229,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE2",
       "speakers": [
         "bibryam"
       ]
@@ -244,7 +244,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE3",
       "speakers": [
         "mmatloka"
       ]
@@ -259,7 +259,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE5",
       "speakers": [
         "cescoffier"
       ]
@@ -274,7 +274,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE1",
       "speakers": [
         "wmeints"
       ]
@@ -289,7 +289,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE3",
       "speakers": [
         "bvermeer"
       ]
@@ -309,7 +309,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE5",
       "speakers": [
         "vfarcic"
       ]
@@ -341,7 +341,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE6",
       "speakers": [
         "hvancura"
       ]
@@ -378,7 +378,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE1",
       "speakers": [
         "aalmiray"
       ]
@@ -394,7 +394,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE3",
       "speakers": [
         "bastian-hofman"
       ]
@@ -412,7 +412,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE1",
       "speakers": [
         "roland-huss"
       ]
@@ -430,7 +430,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC1-SE3",
       "speakers": [
         "sebastian-daschner"
       ]
@@ -447,7 +447,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC14SE6",
       "speakers": [
         "jacek-kunicki"
       ]
@@ -464,7 +464,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC4-SE2",
       "speakers": [
         "schalk-cronje"
       ]
@@ -541,7 +541,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE4",
       "speakers": [
         "philipp-krenn"
       ]
@@ -558,7 +558,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE4",
       "speakers": [
         "albert-margarit"
       ]
@@ -607,7 +607,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE1",
       "speakers": [
         "victor-rentea"
       ]
@@ -625,7 +625,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC3-SE2",
       "speakers": [
         "nicola-ferraro"
       ]
@@ -692,7 +692,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC2-SE2",
       "speakers": [
         "maria-gomez"
       ]
@@ -712,7 +712,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE5",
       "speakers": [
         "hanno-embregts"
       ]
@@ -731,7 +731,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE4",
       "speakers": [
         "juantomas-garcia"
       ]
@@ -747,7 +747,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC3-SE6",
       "speakers": [
         "tomasz-dubikowski"
       ]
@@ -767,7 +767,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC2-SE6",
       "speakers": [
         "marcus-fihlon"
       ]
@@ -783,7 +783,7 @@
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#TUE-TC1-SE3",
       "speakers": [
         "simon-maple"
       ]
@@ -846,7 +846,7 @@
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "",
+      "scheduleId": "#MON-TC4-SE1",
       "speakers": [
         "grzegorz-piwowarek"
       ]
