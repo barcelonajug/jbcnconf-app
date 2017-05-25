@@ -1480,6 +1480,21 @@ export const meetings = [
       "speakers": [
         "olivier-deheurles"
       ]
+    },
+    {
+      "type": "workshop",
+      "title": "TDD in Baby Steps",
+      "abstract": "Committing fast and often helps us focus on the behaviour we are implementing and allows design to incrementally emerge. It takes a lot of discipline to mae your TDD cycle (red-green-refactor) as small as possible so that you can commit often and reduce merge problems. In this workshop we will learn how to work in tiny increments. It is guaranteed to frustrate you in the beginning (as it frustrated me when I started) but you will be surprised how quickly you will get use to it and will never go back to big commits. Essential Requirements for the workshop: bring your own laptop, your favourite IDE / Text editor and your favourite language, make sure you can start a new project and run tests, you should be familiar with TDD (or at least know how to right unit tests), have git installed (preferably on the command line). You should be familiar with the basic commands to add and commit files.",
+      "tags": [
+        "TDD",
+        "Testing"
+      ],
+      "level": "Intermediate",
+      "video": "",
+      "scheduleId": "#WED-TC3-SE2",
+      "speakers": [
+        "sandro"
+      ]
     }
 
 ];

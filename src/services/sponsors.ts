@@ -3,7 +3,7 @@ export const sponsors = {
     "name": "New Relic",
     "href": "https://newrelic.com/",
     "image": {
-      "src": "/assets/img/sponsors/newrelic-logo.png",
+      "src": "assets/img/sponsors/newrelic-logo.png",
       "alt": "New Relic"
     }
   },
@@ -12,7 +12,7 @@ export const sponsors = {
       "name": "Adaptive",
       "href": "http://weareadaptive.com",
       "image": {
-        "src": "/assets/img/sponsors/adaptive-logo.png",
+        "src": "assets/img/sponsors/adaptive-logo.png",
         "alt": "Adaptive"
       }
     },
@@ -20,7 +20,7 @@ export const sponsors = {
       "name": "Netcentric",
       "href": "https://netcentric.biz",
       "image": {
-        "src": "/assets/img/sponsors/netcentric-logo.png",
+        "src": "assets/img/sponsors/netcentric-logo.png",
         "alt": "Netcentric - Expect Excellence"
       }
     },
@@ -28,7 +28,7 @@ export const sponsors = {
       "name": "Everis",
       "href": "http://www.everis.com",
       "image": {
-        "src": "/assets/img/sponsors/everis-logo.png",
+        "src": "assets/img/sponsors/everis-logo.png",
         "alt": "Everis"
       }
     },
@@ -36,7 +36,7 @@ export const sponsors = {
       "name": "RedHat",
       "href": "http://www.redhat.com",
       "image": {
-        "src": "/assets/img/sponsors/redhat.png",
+        "src": "assets/img/sponsors/redhat.png",
         "alt": "RedHat"
       }
     },
@@ -44,7 +44,7 @@ export const sponsors = {
       "name": "Alfresco",
       "href": "http://www.alfresco.com",
       "image": {
-        "src": "/assets/img/sponsors/alfresco-logo.png",
+        "src": "assets/img/sponsors/alfresco-logo.png",
         "alt": "Alfresco"
       }
     },
@@ -52,7 +52,7 @@ export const sponsors = {
       "name": "eDreams ODIGEO",
       "href": "http://www.edreamsodigeo.com",
       "image": {
-        "src": "/assets/img/sponsors/eDreamsODIGEO_logo_RGB.png",
+        "src": "assets/img/sponsors/eDreamsODIGEO_logo_RGB.png",
         "alt": "eDreams ODIGEO"
       }
     },
@@ -60,7 +60,7 @@ export const sponsors = {
       "name": "Oracle + NetSuite",
       "href": "http://www.netsuite.com",
       "image": {
-        "src": "/assets/img/sponsors/oracle-netsuite.png",
+        "src": "assets/img/sponsors/oracle-netsuite.png",
         "alt": "Oracle + NetSuite"
       }
     }
@@ -70,7 +70,7 @@ export const sponsors = {
       "name": "Opentrends",
       "href": "http://www.opentrends.net",
       "image": {
-        "src": "/assets/img/sponsors/opentrends-logo.png",
+        "src": "assets/img/sponsors/opentrends-logo.png",
         "alt": "Opentrends"
       }
     },
@@ -78,7 +78,7 @@ export const sponsors = {
       "name": "Thoughtworks",
       "href": "https://www.thoughtworks.com/",
       "image": {
-        "src": "/assets/img/sponsors/thoughtworks.png",
+        "src": "assets/img/sponsors/thoughtworks.png",
         "alt": "Thoughtworks"
       }
     },
@@ -86,7 +86,7 @@ export const sponsors = {
       "name": "Arhs Group",
       "href": "http://www.arhs-group.com",
       "image": {
-        "src": "/assets/img/sponsors/arhs-logo.png",
+        "src": "assets/img/sponsors/arhs-logo.png",
         "alt": "Arhs Group"
       }
     },
@@ -94,7 +94,7 @@ export const sponsors = {
       "name": "GFT",
       "href": "http://www.gft.com/empleo",
       "image": {
-        "src": "/assets/img/sponsors/gft-logo.jpg",
+        "src": "assets/img/sponsors/gft-logo.jpg",
         "alt": "GFT"
       }
     }    
@@ -106,7 +106,7 @@ export const sponsors = {
       "name": "Barcelona JUG",
       "href": "http://www.barcelonajug.org/",
       "image": {
-        "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "src": "assets/img/logos/logo_bicolor_blog_barcelonajug.png",
         "alt": "Barcelona JUG"
       }
     },
@@ -114,7 +114,7 @@ export const sponsors = {
       "name": "Method and Tools",
       "href": "http://www.methodsandtools.com/",
       "image": {
-        "src": "/assets/img/sponsors/method_and_tools.jpg",
+        "src": "assets/img/sponsors/method_and_tools.jpg",
         "alt": "Method and Tools"
       }
     },
@@ -122,7 +122,7 @@ export const sponsors = {
       "name": "Canoo",
       "href": "http://www.canoo.com/",
       "image": {
-        "src": "/assets/img/sponsors/canoo.png",
+        "src": "assets/img/sponsors/canoo.png",
         "alt": "Canoo"
       }
     },
@@ -130,7 +130,7 @@ export const sponsors = {
       "name": "London Java Community",
       "href": "https://www.meetup.com/Londonjavacommunity/",
       "image": {
-        "src": "/assets/img/sponsors/london-jug.png",
+        "src": "assets/img/sponsors/london-jug.png",
         "alt": "London Java Community"
       }
     },
@@ -138,7 +138,7 @@ export const sponsors = {
       "name": "Salesforce",
       "href": "https://www.salesforce.com",
       "image": {
-        "src": "/assets/img/sponsors/salesforce-logo.png",
+        "src": "assets/img/sponsors/salesforce-logo.png",
         "alt": "Salesforce"
       }
     },
@@ -146,7 +146,7 @@ export const sponsors = {
       "name": "Sevilla Java User Group",
       "href": "https://www.meetup.com/SVQJUG",
       "image": {
-        "src": "/assets/img/sponsors/sevilla-jug.png",
+        "src": "assets/img/sponsors/sevilla-jug.png",
         "alt": "Sevilla Java User Group"
       }
     }      
