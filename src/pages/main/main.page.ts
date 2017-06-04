@@ -4,6 +4,7 @@ import { SpeakersPage } from '../speakers/speakers.page';
 import { AboutPage } from '../about/about';
 import { SponsorsPage } from '../sponsors/sponsors.page';
 import { LocationPage } from '../location/location.page';
+import { ScannerPage } from '../scanner/scanner.page';
 
 @Component({
   templateUrl: 'main.page.html'
@@ -15,6 +16,7 @@ export class MainPage {
   speakers: any = SpeakersPage;
   location: any = LocationPage;
   sponsors: any = SponsorsPage;
+  scanner: any = ScannerPage;
   about: any= AboutPage;
 
 

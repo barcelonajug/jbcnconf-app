@@ -24,14 +24,11 @@ export class SponsorsPage {
     }
 
     openSponsor(url, evt) {
-        console.debug('opening sponsor');
-        window.open(url);
+        window.open(url, '_system');
     }
 
     getGoldSponsors() {
-        console.log('get gold sponsors');
         let rows = [];
-        console.log(this.sponsors.gold.length);
         for (let i = 0; i < this.sponsors.gold.length; i = i + 2) {
             let row = [];
             if (i + 1 < this.sponsors.gold.length) {
@@ -45,7 +42,6 @@ export class SponsorsPage {
     }
 
     getSilverSponsors() {
-        console.log('get silver sponsors');
         let rows = [];
         for (let i = 0; i < this.sponsors.silver.length; i = i + 2) {
             let row = [];
@@ -60,7 +56,6 @@ export class SponsorsPage {
     }
 
     getBronzeSponsors() {
-        console.log('get bronze sponsors');
         let rows = [];
         for (let i = 0; i < this.sponsors.bronze.length; i = i + 3) {
             let row = [];
@@ -77,7 +72,6 @@ export class SponsorsPage {
     }
 
     getSupporters() {
-        console.log('get supporters');
         let rows = [];
         for (let i = 0; i < this.sponsors.supporters.length; i = i + 3) {
             let row = [];

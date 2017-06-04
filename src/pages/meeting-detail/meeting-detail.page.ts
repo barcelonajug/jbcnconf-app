@@ -1,5 +1,5 @@
 import { NavController, NavParams, Events} from 'ionic-angular';
-import { Component, OnInit} from '@angular/core';
+import { Component} from '@angular/core';
 import {JbcnService} from '../../services/jbcn.service';
 import { SpeakerDetailPage } from '../speaker-detail/speaker-detail.page';
 import { MeetingCommentPage } from '../meeting-comment/meeting-comment.page';
@@ -18,7 +18,6 @@ export class MeetingDetailPage {
         this.meeting = navParams.data;
         this.loadData();
         this.events.subscribe('reload-meeting-detail', () => {
-            console.log('event!');
             this.loadData();
         })
     }
@@ -49,7 +48,6 @@ export class MeetingDetailPage {
         for(let comment of this.comments) {
             sum += comment.vote;
         }
-        console.log(sum);
         this.vote = sum / this.comments.length;
     }
 

@@ -20,7 +20,6 @@ export class SpeakerDetailPage {
                 for(let iTalk=0; iTalk<day.meetings.length; iTalk++) {
                     if(day.meetings[iTalk].id == this.speaker.meetingRef) {
                         this.talk = day.meetings[iTalk];
-                        console.log(this.talk);
                         break;
                     }
                 }

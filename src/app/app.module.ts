@@ -12,7 +12,8 @@ import { LocationPage } from '../pages/location/location.page';
 import { MainPage } from '../pages/main/main.page';
 import { JbcnService } from '../services/jbcn.service';
 import { LocalNotifications } from '@ionic-native/local-notifications';
-import { Elastic } from '../directives/elastic.directive';
+import { ScannerPage } from '../pages/scanner/scanner.page';
+import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { Elastic } from '../directives/elastic.directive';
     LocationPage,
     SponsorsPage,
     SpeakerDetailPage,
-    MeetingCommentPage
+    MeetingCommentPage,
+    ScannerPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -41,8 +43,9 @@ import { Elastic } from '../directives/elastic.directive';
     LocationPage,
     SponsorsPage,
     SpeakerDetailPage,
-    MeetingCommentPage
+    MeetingCommentPage,
+    ScannerPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, JbcnService, LocalNotifications]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, JbcnService, LocalNotifications, BarcodeScanner]
 })
 export class AppModule {}

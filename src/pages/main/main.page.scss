@@ -64,11 +64,13 @@ ion-list-header, ion-item-divider {
 }
 
 .text-header {
-    vertical-align: middle;
-    padding-top: 2%;
+    align-content: center;
+    align-items: center;
     color: #fff;
-    float:left;
     font-size: 100%;
+    display: block;
+    height: 100%;
+    margin-top: 25%;
 }
 
 ion-app.md .text-header {
@@ -82,11 +84,6 @@ ion-app.md .text-header {
     color: #fff;
 }
 
-span.twittertag {
-    float: right;
-    padding-left: 10%;
-    font-size: 85%;
-}
 
 /* .ios .jbcn-footer, .toolbar-title, .toolbar-background {
     padding-top: 20%;

@@ -105,4 +105,12 @@
         height: 3em;
     }
 
+    .segment-ios .segment-button {
+        color: white;
+    }
+
+    .segment-ios .segment-button.segment-activated {
+        font-weight: bolder;
+    }
+
 }

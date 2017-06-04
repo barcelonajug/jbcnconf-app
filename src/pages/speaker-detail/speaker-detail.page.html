@@ -1,14 +1,14 @@
 <ion-content padding class="speaker-detail">
-    <button ion-button (click)="goBack()">Back</button>
+    <button ion-button (tap)="goBack()">Back</button>
     <h2>{{speaker.name}}</h2>
     <div text-center>
         <img [src]="speaker.image" [alt]="speaker.name"><br>
         
-        <button ion-button clear (click)="goToSpeakerTwitter()" *ngIf="speaker.twitter"><ion-icon name="logo-twitter"></ion-icon> {{"@"+speaker.twitter.substr(speaker.twitter.lastIndexOf('/') + 1)}}</button>
+        <button ion-button clear (tap)="goToSpeakerTwitter()" *ngIf="speaker.twitter"><ion-icon name="logo-twitter"></ion-icon> {{"@"+speaker.twitter.substr(speaker.twitter.lastIndexOf('/') + 1)}}</button>
     </div>
     <p><strong>{{speaker.description}}</strong></p>
     <p>{{speaker.biography}}</p>
-    <p>Talk:</p>
-    <p><a (click)="goToMeetingDetail(talk)">{{talk.title}}</a></p>
-    <button ion-button (click)="goBack()">Back</button>
+    <!--<p>Talk:</p>
+    <p><a (tap)="goToMeetingDetail(talk)">{{talk.title}}</a></p>-->
+    <button ion-button (tap)="goBack()">Back</button>
 </ion-content>

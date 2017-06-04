@@ -41,7 +41,6 @@ export class MeetingCommentPage implements OnInit {
 
     setVote(vote: number) {
         this.vote = vote;
-        console.log(this.vote);
     }
 
     save() {
@@ -50,7 +49,6 @@ export class MeetingCommentPage implements OnInit {
                 this.events.publish('reload-meeting-detail');
                 this.nav.pop();
             }, error => {
-                console.log(error);
 
             });
         }

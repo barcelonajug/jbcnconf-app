@@ -1,15 +1,24 @@
 
 <ion-header>
   <ion-navbar>
-    <div class="text-header" padding>JBCNConf 2017 <span class="twittertag" (click)="gotoTwitterTag($event)">#JBCN17</span></div> 
-    <img class="image-header" src="assets/img/jbcnconf-logo-little.png">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div class="text-header">JBCNConf 2017</div>
+        </ion-col>
+        <ion-col>
+          <div class="text-header">#JBCN17</div> 
+        </ion-col>
+        <ion-col><img src="assets/img/jbcnconf-logo.png"></ion-col>
+      </ion-row>
+    </ion-grid>
 </ion-navbar>
 </ion-header>
 
 <!--
 <ion-toolbar position="bottom" class="jbcn-footer">
   <ion-title>
-    <div class="text-footer">JBCNConf 2017 <span class="twittertag" (click)="gotoTwitterTag($event)">#JBCN17</span></div> 
+    <div class="text-footer">JBCNConf 2017 <span class="twittertag" (tap)="gotoTwitterTag($event)">#JBCN17</span></div> 
     <img class="image-footer" src="assets/img/jbcnconf-logo-little.png">
    </ion-title>
 </ion-toolbar>
@@ -20,6 +29,7 @@
   <ion-tab [root]="speakers" tabTitle="" tabIcon="contacts"></ion-tab>
   <!--<ion-tab [root]="location" tabTitle="" tabIcon="pin"></ion-tab>-->
   <ion-tab [root]="sponsors" tabTitle="" tabIcon="logo-bitcoin"></ion-tab>
+  <!--<ion-tab [root]="scanner" tabTitle="" tabIcon="qr-scanner"></ion-tab>-->
   <ion-tab [root]="about" tabTitle="" tabIcon="information-circle"></ion-tab>
 </ion-tabs>
 </ion-content>

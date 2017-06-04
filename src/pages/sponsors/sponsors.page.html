@@ -4,7 +4,7 @@
     <ion-grid>
         <ion-row>
             <ion-col>
-                <img [src]="sponsors.diamond.image.src" [alt]="sponsors.diamond.image.alt" (click)="openSponsor(sponsors.diamond.href)" class="diamond-sponsor" />
+                <img [src]="sponsors.diamond.image.src" [alt]="sponsors.diamond.image.alt" (tap)="openSponsor(sponsors.diamond.href)" class="diamond-sponsor" />
             </ion-col>
         </ion-row>
     </ion-grid>
@@ -12,7 +12,7 @@
     <ion-grid>
         <ion-row *ngFor="let row of getGoldSponsors()">
             <ion-col *ngFor="let sponsor of row" class="sponsor-image">
-                <img [src]="sponsor.image.src" [alt]="sponsor.image.alt" (click)="openSponsor(sponsor.href)" class="gold-sponsor" />
+                <img [src]="sponsor.image.src" [alt]="sponsor.image.alt" (tap)="openSponsor(sponsor.href)" class="gold-sponsor" />
             </ion-col>
         </ion-row>
         
@@ -23,7 +23,7 @@
     <ion-grid>
         <ion-row *ngFor="let row of getSilverSponsors()">
             <ion-col *ngFor="let sponsor of row" class="sponsor-image">
-                <img [src]="sponsor.image.src" [alt]="sponsor.image.alt" (click)="openSponsor(sponsor.href)" class="silver-sponsor" />
+                <img [src]="sponsor.image.src" [alt]="sponsor.image.alt" (tap)="openSponsor(sponsor.href)" class="silver-sponsor" />
             </ion-col>
         </ion-row>
     </ion-grid>
@@ -33,7 +33,7 @@
     <ion-grid  *ngIf="sponsors.bronze.length>0">
         <ion-row *ngFor="let row of getBronzeSponsors()">
             <ion-col *ngFor="let sponsor of row" class="sponsor-image">
-                <img *ngIf="sponsor.name" [src]="sponsor.image.src" [alt]="sponsor.image.alt" (click)="openSponsor(sponsor.href)" class="bronze-sponsor" />
+                <img *ngIf="sponsor.name" [src]="sponsor.image.src" [alt]="sponsor.image.alt" (tap)="openSponsor(sponsor.href)" class="bronze-sponsor" />
             </ion-col>
         </ion-row>
     </ion-grid>
@@ -42,7 +42,7 @@
     <ion-grid *ngIf="sponsors.supporters.length>0">
         <ion-row *ngFor="let row of getSupporters()">
             <ion-col *ngFor="let supporter of row" width-30 class="sponsor-image">
-                <img *ngIf="supporter.name" [src]="supporter.image.src" [alt]="supporter.image.alt" (click)="opensupporter(supporter.href)" class="bronze-supporter" />
+                <img *ngIf="supporter.name" [src]="supporter.image.src" [alt]="supporter.image.alt" (tap)="opensupporter(supporter.href)" class="bronze-supporter" />
             </ion-col>
         </ion-row>
     </ion-grid>

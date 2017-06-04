@@ -1,7 +1,7 @@
 <ion-content class="page2">
     <h1>Speakers</h1>
     <ion-list>
-            <ion-item *ngFor="let speaker of speakers" (click)="goToSpeakerDetail(speaker)" class="item-speaker">
+            <ion-item *ngFor="let speaker of speakers" (tap)="goToSpeakerDetail(speaker)" class="item-speaker">
                 <img [src]="speaker.image" item-left class="speaker-list-image">
                 <strong>{{speaker.name}}</strong>
                 <div>{{speaker.description}}</div>

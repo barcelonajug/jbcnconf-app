@@ -39,7 +39,7 @@
         
         </ion-item>
         <div class="button-holder">
-        <button class="schedule-filter-button" (click)="clearFilters($event)">Clear filter</button>
+        <button class="schedule-filter-button" (tap)="clearFilters($event)">Clear filter</button>
         </div>
         
     </ion-list>
@@ -50,20 +50,20 @@
                 {{day.date | date:'E'}} {{day.date | date: 'dd'}}/{{day.date | date:'MM'}}/{{day.date | date: 'yyyy'}}
             </ion-item-divider>
             <ion-row *ngFor="let meeting of day.meetings">
-                <ion-col class="track session-{{meeting.session}}" (click)="goToMeetingDetail(meeting)" width-20 *ngIf="meeting.visible == true">
+                <ion-col class="track session-{{meeting.session}}" (tap)="goToMeetingDetail(meeting)" width-20 *ngIf="meeting.visible == true">
                     <p>{{meeting.timeStart | date:'HH:mm'}}</p>
                     <p>{{meeting.timeEnd | date:'HH:mm'}}</p>
                 </ion-col>
-                <ion-col width-70 (click)="goToMeetingDetail(meeting)" wrap *ngIf="meeting.visible == true">
+                <ion-col width-70 (tap)="goToMeetingDetail(meeting)" wrap *ngIf="meeting.visible == true">
                     <strong>{{meeting.title}}</strong>
-                    <p *ngIf="meeting.track!=0"><span class="track-{{meeting.track}}" (click)="filterByTrack($event,meeting.track)"><strong>Track {{meeting.track}}</strong></span> - {{meeting.location}}</p>
-                    <p *ngIf="meeting.track==0"><strong>Keynote</strong> - {{meeting.location}}</p>
+                    <p *ngIf="meeting.track!=0"><span class="track-{{meeting.track}}" (tap)="filterByTrack($event,meeting.track)"><strong>Track {{meeting.track}}</strong></span> - {{meeting.location}}</p>
+                    <p *ngIf="meeting.track==0"><strong>Keynote</strong></p>
                     <p>
-                        <ion-badge item-right *ngFor="let tag of meeting.tags" (click)="filterByTag($event,tag)">{{tag}}</ion-badge>
+                        <ion-badge item-right *ngFor="let tag of meeting.tags" (tap)="filterByTag($event,tag)">{{tag}}</ion-badge>
                     </p>
                 </ion-col>
                 <ion-col width-10 *ngIf="meeting.visible == true">
-                    <ion-icon [name]="favoriteIcon(meeting)" class="schedule-star" (click)="switchFavorite(meeting, $event)"></ion-icon>
+                    <ion-icon [name]="favoriteIcon(meeting)" class="schedule-star" (tap)="switchFavorite(meeting, $event)"></ion-icon>
                 </ion-col>
             </ion-row>
 

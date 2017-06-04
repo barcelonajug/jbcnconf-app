@@ -15,9 +15,9 @@ const config = {
 };
 
 const dayTimes = {
-    'MON': '2017-06-19',
-    'TUE': '2017-06-20',
-    'WED': '2017-06-21'
+    'MON': '2017/06/19',
+    'TUE': '2017/06/20',
+    'WED': '2017/06/21'
 };
 
 const seasonsTimes = {
@@ -152,7 +152,8 @@ export class JbcnService {
                 meeting.session = meeting.id.substring(11, 12);
                 meeting.id = meeting.id.substring(1);
                 meeting.track = track;
-                meeting.timeStart = Date.parse(dayTimes[day] + ' ' + seasonsTimes[day][session]['timeStart']);
+                let timeStartStr = dayTimes[day] + ' ' + seasonsTimes[day][session]['timeStart'];
+                meeting.timeStart = Date.parse(timeStartStr);
                 meeting.timeEnd = Date.parse(dayTimes[day] + ' ' + seasonsTimes[day][session]['timeStop']);
                 days[day].meetings.push(meeting);
                 this.tags = tagArray.sort();
@@ -190,9 +191,25 @@ export class JbcnService {
         return data;
     }
 
+    unfavoriteAllInSeason(id: string) {
+        if(id) {
+            let tokens = id.split('-');
+            if(tokens && tokens.length == 3) {
+                for (var i = 0; i < localStorage.length; i++) {
+                    let key = localStorage.key(i);
+                    if(key.startsWith(tokens[0]) && key.endsWith(tokens[2])) {
+                        localStorage.setItem(key, 'false');
+                        this.clearNotifications(key);
+                    }
+                }
+            }
+        }
+    }    
+
     switchFavorite(meeting: Meeting) {
         let favoriting = localStorage.getItem(meeting.id);
         if (!favoriting || favoriting === 'false') {
+            this.unfavoriteAllInSeason(meeting.id);
             favoriting = 'true';
         } else {
             favoriting = 'false';
@@ -209,20 +226,23 @@ export class JbcnService {
                     at: new Date(meeting.timeStart - (1000 * 60 * 10))
                 });
             } else {
-                this.localNotifications.getAll().then((notifications) => {
-                    for (let notification of notifications) {
-                        let notification_data = JSON.parse(notification.data);
-                        if (notification_data['id'] === meeting.id) {
-                            this.localNotifications.cancel(notification.id);
-                            this.localNotifications.clear(notification.id).then(result => console.log(JSON.stringify(result)));
-                            break;
-                        }
-                    }
-                })
-
+                this.clearNotifications(meeting.id);
             }
         }
 
+    }
+
+    clearNotifications(id: string) {
+        this.localNotifications.getAll().then((notifications) => {
+            for (let notification of notifications) {
+                let notification_data = JSON.parse(notification.data);
+                if (notification_data['id'] === id) {
+                    this.localNotifications.cancel(notification.id);
+                    this.localNotifications.clear(notification.id);
+                    break;
+                }
+            }
+        });
     }
 
     isFavorite(id: string) {
@@ -253,11 +273,13 @@ export class JbcnService {
             return Promise.resolve(this.jbcnData);
         }
 
+        /* 
         if (localStorage.getItem('localData') !== null) {
             console.debug('Recovering from localStorage');
             this.jbcnData = JSON.parse(localStorage.getItem('localData'));
             return Promise.resolve(this.jbcnData);
         }
+        */
 
         
         this.jbcnData = this.processJson(speakers, meetings);
