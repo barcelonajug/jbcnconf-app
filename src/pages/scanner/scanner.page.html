@@ -1,0 +1,35 @@
+<!--
+  Generated template for the Scanner page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Contacts</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button (tap)="launchScanner()">Scan badge</button>
+  <button ion-button (tap)="launchShare()" *ngIf="contacts && contacts.length>0"><ion-icon name="share"></ion-icon></button>
+  <div *ngIf="contacts.length==0">
+    <p>
+      Scan a badge to collect the contact of all amazing devs you meet at JBCNConf 2017!
+    </p>
+    <img src="assets/img/badge-scan.png" style="width:80%">
+  </div>
+  <ion-list *ngIf="contacts && contacts.length>0">
+    <ion-item *ngFor="let contact of contacts">
+      <div>{{contact.name}}</div>
+      <div>{{contact.position}}</div>
+      <div>{{contact.programLanguage}}</div>
+      <div>{{contact.email}}</div>
+      <button ion-button (tap)="remove(contact)">Remove</button>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

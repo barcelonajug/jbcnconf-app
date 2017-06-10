@@ -1,0 +1,29 @@
+<ion-content class="page3">
+  <h2>About us</h2>
+  <ion-card>
+    <img src="assets/img/jbcnconf-logo.png" class="image-header">
+    <ion-card-content>
+      <p>The Barcelona Java User Group is a non profit association with a great team and a broad experience in Java technologies.</p>
+      <p>Since 2012, we are organizing talks and meetups focused on Java topics, looking forward to spin this technology from
+        our hometown to the rest of the world.</p>
+      <p>www.jbcnconf.com - info@barcelonajug.org</p>
+      
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <ion-item *ngFor="let member of team">
+    <img item-left [src]="member.image.url" alt="{{member.image.alt}}" class="speaker-list-image" />
+    <div>{{member.name}}</div>
+    <div>
+      <button ion-button clear color="danger" icon-left (tap)="gotoUrl(member.linkedin)">
+          <ion-icon name='logo-linkedin'></ion-icon>
+        </button>
+        <button ion-button clear color="danger" icon-left  (tap)="gotoUrl(member.twitter)">
+          <ion-icon name='logo-twitter'></ion-icon>
+        </button>
+    </div>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,116 @@
+.schedule {
+    .schedule-star {
+        font-size: 30px;
+    }
+
+    .track p {
+        color:#fff;
+        font-weight: bold;
+    }
+
+    .track-0 {
+        color: #AA3939;
+    }
+
+    .track-1 {
+        color: #852C64;
+    }
+
+    .track-2 {
+        color: #552B72;
+    }
+
+    .track-3 {
+        color: #413075;
+    }
+
+    .track-4 {
+        color: #2F4172;
+    }
+
+    .session-0 {
+        background-color: #dc815c;
+    }
+
+    .session-1 {
+        background-color: #ff5d5d;
+    }
+
+    .session-2 {
+        background-color: #d43030;
+    }
+
+    .session-3 {
+        background-color: #902020;
+    }
+
+    .session-4 {
+        background-color: #541313;
+    }
+
+    .session-5 {
+        background-color: #843902;
+    }
+
+    .session-6 {
+        background-color: #ca5c0b;
+    }
+
+    .session-7 {
+        background-color: #FF0000;
+    }
+
+    .schedule-filter-button {
+        /* float: right; */
+        /* margin-right: 13px; */
+        font-size: 11px;
+        font-weight: bold;
+        margin-top: 10px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .schedule-filter-selection {
+        background-color:#eb3349;
+    }
+
+    .segment-md .segment-button {
+        border-color: #e1e1e1;
+        color: #e1e1e1;
+    }
+
+    .segment-md .segment-button.activated, .segment-md .segment-button.segment-activated {
+        border-color: #fff;
+        color: #fff;
+    }
+        
+    ion-item.button-holder.item {
+        border-bottom: 0px;
+    }
+
+    ion-list + ion-list {
+        margin-top: 0px;
+    }
+
+    .meeting-vote {
+        font-size:2em;
+    }
+
+    ion-item.button-holder.item {
+        height: 0px;
+    }
+
+    .button-holder {
+        position: relative;
+        height: 3em;
+    }
+
+    .segment-ios .segment-button {
+        color: white;
+    }
+
+    .segment-ios .segment-button.segment-activated {
+        font-weight: bolder;
+    }
+
+}

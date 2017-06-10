@@ -1,0 +1,74 @@
+
+<ion-content class="schedule">
+  
+      <ion-segment [(ngModel)]="tracks" (ngModelChange)="applyFilters()" class="schedule-filter-selection">
+          <ion-segment-button value="all">All</ion-segment-button>
+          <ion-segment-button value="mytracks">My tracks</ion-segment-button>
+          <ion-segment-button value="filter">Filter tracks</ion-segment-button>
+      </ion-segment>
+      
+
+      <ion-list *ngIf="tracks=='filter'">
+        <ion-item>
+            <ion-label>Day</ion-label>
+            <ion-select [(ngModel)]="search.day"  (ngModelChange)="applyFilters()">
+                <ion-option value="">None</ion-option>
+                <ion-option value="2017-06-19">19/06/2016</ion-option>
+                <ion-option value="2017-06-20">20/06/2016</ion-option>
+                <ion-option value="2017-06-21">21/06/2016</ion-option>
+            </ion-select>
+        </ion-item>
+        <ion-item>
+            <ion-label >Track</ion-label>
+            <ion-select [(ngModel)]="search.track" (ngModelChange)="applyFilters()">
+            <ion-option value="-1">None</ion-option>
+            <ion-option value="0">Global track</ion-option>
+            <ion-option value="1">Track 1</ion-option>
+            <ion-option value="2">Track 2</ion-option>
+            <ion-option value="3">Track 3</ion-option>
+            <ion-option value="4">Track 4</ion-option>
+            </ion-select>
+        </ion-item>
+        <ion-item>
+               <ion-label>Tags</ion-label>
+               <ion-select [(ngModel)]="search.tag"  (ngModelChange)="applyFilters()">
+                   <ion-option value="">None</ion-option>
+                   <ion-option *ngFor="let tag of tags" value="{{tag}}">{{tag}}</ion-option>
+                </ion-select>
+                {{tags}}
+        
+        </ion-item>
+        <div class="button-holder">
+        <button class="schedule-filter-button" (tap)="clearFilters($event)">Clear filter</button>
+        </div>
+        
+    </ion-list>
+    <ion-list>
+        <ion-item-group *ngFor="let day of schedule">
+
+            <ion-item-divider *ngIf="countVisibleMeetings(day)>0">
+                {{day.date | date:'E'}} {{day.date | date: 'dd'}}/{{day.date | date:'MM'}}/{{day.date | date: 'yyyy'}}
+            </ion-item-divider>
+            <ion-row *ngFor="let meeting of day.meetings">
+                <ion-col class="track session-{{meeting.session}}" (tap)="goToMeetingDetail(meeting)" width-20 *ngIf="meeting.visible == true">
+                    <p>{{meeting.timeStart | date:'HH:mm'}}</p>
+                    <p>{{meeting.timeEnd | date:'HH:mm'}}</p>
+                </ion-col>
+                <ion-col width-70 (tap)="goToMeetingDetail(meeting)" wrap *ngIf="meeting.visible == true">
+                    <strong>{{meeting.title}}</strong>
+                    <p *ngIf="meeting.track!=0"><span class="track-{{meeting.track}}" (tap)="filterByTrack($event,meeting.track)"><strong>Track {{meeting.track}}</strong></span> - {{meeting.location}}</p>
+                    <p *ngIf="meeting.track==0"><strong>Keynote</strong></p>
+                    <p>
+                        <ion-badge item-right *ngFor="let tag of meeting.tags" (tap)="filterByTag($event,tag)">{{tag}}</ion-badge>
+                    </p>
+                </ion-col>
+                <ion-col width-10 *ngIf="meeting.visible == true">
+                    <ion-icon [name]="favoriteIcon(meeting)" class="schedule-star" (tap)="switchFavorite(meeting, $event)"></ion-icon>
+                </ion-col>
+            </ion-row>
+
+        </ion-item-group>
+
+    </ion-list>
+
+</ion-content>

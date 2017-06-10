@@ -1,0 +1,18 @@
+<ion-content class="meeting-comment">
+<button ion-button (tap)="goBack()">Back</button>
+  <h1>{{meeting.title}}</h1>
+  <p>
+     <ion-icon [name]="getIcon(n)" *ngFor="let n of [1,2,3,4,5]" class="meeting-vote" (tap)="setVote(n)"></ion-icon>
+  </p>
+  <p>
+      <ion-label stacked>Name</ion-label>
+      <input type="text" placeholder="Insert your name" name="name" [(ngModel)]="name">
+  </p>
+  <p>
+      <ion-label stacked>Comment</ion-label>
+      <ion-textarea rows="10" name="comment" placeholder="Write here your comment" [(ngModel)]="comment"></ion-textarea>
+  </p>
+
+  <button ion-button (tap)="save()">Save</button>
+  <p [innerHTML]="meeting.about" ></p>
+</ion-content>
