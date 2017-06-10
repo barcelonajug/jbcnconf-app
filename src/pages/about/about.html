@@ -11,26 +11,19 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card *ngFor="let member of team">
-    <img [src]="member.image.url" alt="{{member.image.alt}}" />
-    <ion-card-content>
-      <ion-card-title>
-        {{member.name}}
-      </ion-card-title>
-      <!--<h4>{{member.position}}</h4>-->
-    </ion-card-content>
-
-    <ion-row no-padding>
-      <ion-col>
-        <button ion-button clear color="danger" icon-left (tap)="gotoUrl(member.linkedin)">
+  <ion-list>
+    <ion-item *ngFor="let member of team">
+    <img item-left [src]="member.image.url" alt="{{member.image.alt}}" class="speaker-list-image" />
+    <div>{{member.name}}</div>
+    <div>
+      <button ion-button clear color="danger" icon-left (tap)="gotoUrl(member.linkedin)">
           <ion-icon name='logo-linkedin'></ion-icon>
         </button>
         <button ion-button clear color="danger" icon-left  (tap)="gotoUrl(member.twitter)">
           <ion-icon name='logo-twitter'></ion-icon>
         </button>
-      </ion-col>
-    </ion-row>
+    </div>
+    </ion-item>
+  </ion-list>
 
-
-  </ion-card>
 </ion-content>

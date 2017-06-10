@@ -51,3 +51,11 @@ export class TalkRaw {
     scheduleId: string;
     speakers: Array<string>;
 }
+
+export class Contact {
+    languages: string;
+    name: string;
+    email: string;
+    position: string;
+    programLanguages: string;
+}

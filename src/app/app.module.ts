@@ -14,6 +14,7 @@ import { JbcnService } from '../services/jbcn.service';
 import { LocalNotifications } from '@ionic-native/local-notifications';
 import { ScannerPage } from '../pages/scanner/scanner.page';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,6 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
     MeetingCommentPage,
     ScannerPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, JbcnService, LocalNotifications, BarcodeScanner]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, JbcnService, LocalNotifications, BarcodeScanner, SocialSharing]
 })
 export class AppModule {}

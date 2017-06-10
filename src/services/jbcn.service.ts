@@ -5,7 +5,7 @@ import { LocalNotifications } from '@ionic-native/local-notifications';
 import { Platform } from 'ionic-angular';
 //import { data } from './data';
 import { speakers, meetings } from './data'
-import { Speaker, Meeting, SpeakerRaw, TalkRaw } from '../model/jbcn.model';
+import { Speaker, Meeting, SpeakerRaw, TalkRaw, Contact } from '../model/jbcn.model';
 import 'rxjs/Rx';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
@@ -77,6 +77,7 @@ export class JbcnService {
     schedule: any;
     speakers: any;
     tags: any;
+    contacts: Array<Contact>;
 
     constructor(private http: Http, private platform: Platform, private localNotifications: LocalNotifications) {
 
@@ -409,6 +410,62 @@ export class JbcnService {
                 reject(error);
             });
         });
+    }
+
+    addContact(contact: Contact) {
+        let contacts = this.getContacts();
+        let b = false;
+        for(let contactStored of contacts) {
+            b = contactStored.languages === contact.languages && 
+                contactStored.name === contact.name &&
+                contactStored.email === contact.email &&
+                contactStored.position === contact.position &&
+                contactStored.programLanguages === contactStored.programLanguages;
+            if(b) break;
+        }
+        if(!b) {
+            contacts.push(contact);
+            this.saveContacts(contacts);
+        }
+    }
+
+    getContacts() {
+        if(!this.contacts) {
+            let json = localStorage.getItem('contacts');
+            if(!json) {
+                this.contacts = [];
+                this.saveContacts(this.contacts);
+            } else {
+                this.contacts = JSON.parse(json);
+            }
+        }
+        return this.contacts;
+    }
+
+    saveContacts(contacts: Array<Contact>) {
+        this.contacts = contacts;
+        localStorage.setItem('contacts', JSON.stringify(this.contacts));
+    }
+
+    removeContact(contact: Contact) {
+        let contacts = this.getContacts();
+        const index = contacts.indexOf(contact);
+        if(index > -1) {
+            contacts.splice(index,1);
+        }
+        this.saveContacts(contacts);
+    }
+
+    parseContact(csv: string): Contact {
+        const tokens = csv.split(';');
+        let contact = new Contact();
+        contact.languages = tokens[0];
+        contact.name = tokens[1];
+        contact.email = tokens[2];
+        contact.position = tokens[3];
+        contact.programLanguages = tokens[4];
+        return contact;
+        
     }
 
 }
