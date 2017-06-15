@@ -37,13 +37,13 @@ export const team = [
     },
     {
       "name": "José Guitart Ruíz",
-      "position": "Senior Java Developer",
+      "position": "Java Engineer",
       "role": "Team Member Barcelona JUG.",
       "bio": "IT Architect focused on Java/J2EE application design and development in several platforms and frameworks. Direct experience in design and execution of continuous integration processes.",
       "linkedin": "https://es.linkedin.com/in/joseguitart",
       "image": {
         "url": "assets/img/team/jose.jpg",
-        "alt": "Jose Guitart, Java Lover"
+        "alt": "Jose Guitart Java Lover"
       }
     },
     {
@@ -52,9 +52,10 @@ export const team = [
       "role": "Team Member Barcelona JUG.",
       "bio": "High-Energy, Results-Driven, Focused Software Engineer.  Interested in RestFul API, cloud platforms and micro services architectures.  Highly skilled table soccer player.",
       "linkedin": "https://www.linkedin.com/in/christiansisti",
+      "twitter":"https://twitter.com/ciscox83",
       "image": {
         "url": "assets/img/team/christian.jpg",
-        "alt": "Christian, Java Lover"
+        "alt": "Christian Java Lover"
       }
     },
     {
@@ -66,7 +67,31 @@ export const team = [
       "twitter": "https://twitter.com/mkbrv",
       "image": {
         "url": "assets/img/team/miklos.jpg",
-        "alt": "Miklos, Java Lover"
+        "alt": "Miklos Java Lover"
+      }
+    },
+    {
+      "name": "Xavi Rodríguez",
+      "position": "Software Engineer",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I am a Java developer trying to keep learning every day. Clean code enthusiast, interested in Agile practices and cloud architectures.",
+      "linkedin": "https://www.linkedin.com/in/xrodriguezmo",
+      "twitter": "https://twitter.com/xeeevi",
+      "image": {
+        "url": "assets/img/team/xavi.jpg",
+        "alt": "Xavi Rodríguez, Java Lover"
+      }
+    },
+    {
+      "name": "Sergio Ferraz",
+      "position": "Software Engineer",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "I am a software developer specialized in Java.",
+      "linkedin": "https://www.linkedin.com/in/sferrazjr/",
+      "twitter": "https://twitter.com/sferrazjr",
+      "image": {
+        "url": "assets/img/team/sergio-ferraz.jpg",
+        "alt": "Sergio Ferraz"
       }
     }
   ]

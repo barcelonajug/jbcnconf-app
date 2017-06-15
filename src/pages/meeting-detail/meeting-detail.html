@@ -13,28 +13,33 @@
         </ion-avatar>
         {{speaker.name}}
     </h4>
-    <!--
-    <p text-center>
-        <ion-icon [name]="getIcon(n)" *ngFor="let n of [1,2,3,4,5]" class="meeting-vote"></ion-icon>
-    </p>
-    -->
+    
+
+    <!--<p text-center>
+        <span *ngIf="vote">{{vote}}</span>
+        <span *ngIf="!vote">-</span>
+        <ion-icon name="heart"></ion-icon>
+    </p>-->
+
 
 
     <p>{{meeting.abstract}}</p>
 
     <!-- Comments & votes -->
-    <!--
-    <button ion-button full (tap)="openCommentMeetingPage()">Add your comment</button>
-    -->
+    
+    <!--<button ion-button full (tap)="openCommentMeetingPage()">Add your comment</button>-->
+    
 
     <!-- comments -->
-    <ion-card *ngFor="let comment of comments">
+    
+    <!--<ion-card *ngFor="let comment of comments">
         <ion-card-header>
             <b>{{comment.name}}</b> <span class="meeting-detail-comment-vote"><ion-icon [name]="getIcon(n,comment.vote)" *ngFor="let n of [1,2,3,4,5]" class="meeting-comment-vote"></ion-icon></span>
         </ion-card-header>
         <ion-card-content>
             <div padding>{{comment.text}}</div>
         </ion-card-content>
-    </ion-card>
+    </ion-card>-->
+    
     <button ion-button full (tap)="goBack()">Back</button>
 </ion-content>

@@ -16,10 +16,10 @@
     <img item-left [src]="member.image.url" alt="{{member.image.alt}}" class="speaker-list-image" />
     <div>{{member.name}}</div>
     <div>
-      <button ion-button clear color="danger" icon-left (tap)="gotoUrl(member.linkedin)">
+      <button ion-button clear color="danger" icon-left (tap)="gotoUrl(member.linkedin)" *ngIf="member.linkedin">
           <ion-icon name='logo-linkedin'></ion-icon>
         </button>
-        <button ion-button clear color="danger" icon-left  (tap)="gotoUrl(member.twitter)">
+        <button ion-button clear color="danger" icon-left  (tap)="gotoUrl(member.twitter)" *ngIf="member.twitter">
           <ion-icon name='logo-twitter'></ion-icon>
         </button>
     </div>

@@ -12,6 +12,7 @@ import 'rxjs/add/operator/catch';
 
 const config = {
     apiUrl: 'https://jbcnconf.joseguitart.pro'
+    //apiUrl: 'http://localhost:8080'
 };
 
 const dayTimes = {

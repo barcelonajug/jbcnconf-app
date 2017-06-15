@@ -29,9 +29,12 @@ export class ScannerPage {
   launchScanner() {
 
     this.barcodeScanner.scan().then((barcodeData) => {
-      const contact = this.jbcnService.parseContact(barcodeData.text);
-      this.jbcnService.addContact(contact);
-      this.loadContacts();
+      if(barcodeData && barcodeData.text) {
+        const contact = this.jbcnService.parseContact(barcodeData.text);
+        this.jbcnService.addContact(contact);
+        this.loadContacts();
+      }
+      
     }, (err) => {
       console.log(err);
     });
@@ -57,7 +60,7 @@ export class ScannerPage {
       contactText = contactText + 'Name:'+contact.name+'\r\n';
       contactText = contactText + 'Email:'+contact.email+'\r\n';
       contactText = contactText + 'Position:'+contact.position +'\r\n';
-      contactText = contactText + 'Progam languages:'+contact.programLanguages +'\r\n';
+      contactText = contactText + 'Progaming languages:'+contact.programLanguages +'\r\n';
       contactText = contactText +'Languages:'+contact.languages+'\r\n';
       contactText = contactText + '\r\n\r\n';
     }

@@ -14,11 +14,13 @@ export class SpeakerDetailPage {
     constructor(navParams:NavParams, jbcnService:JbcnService, private nav:NavController) {
         this.speaker = navParams.data;
         jbcnService.load().then(data => {
+            console.log(data);
             let schedule = data.schedule;
             for(let iDay=0; iDay<schedule.length; iDay++) {
                 let day = schedule[iDay];
+
                 for(let iTalk=0; iTalk<day.meetings.length; iTalk++) {
-                    if(day.meetings[iTalk].id == this.speaker.meetingRef) {
+                    if(day.meetings[iTalk].speakers.indexOf(this.speaker.ref)>-1) {
                         this.talk = day.meetings[iTalk];
                         break;
                     }

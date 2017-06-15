@@ -97,9 +97,49 @@ export const sponsors = {
         "src": "assets/img/sponsors/gft-logo.jpg",
         "alt": "GFT"
       }
-    }    
+    },
+    {
+      "name": "JetBrains",
+      "href": "https://www.jetbrains.com/",
+      "image": {
+        "src": "assets/img/sponsors/jetbrains.png",
+        "alt": "JetBrains"
+      }
+    },
+    {
+      "name": "Altran",
+      "href": "http://www.altran.es",
+      "image": {
+        "src": "assets/img/sponsors/altran-logo.jpg",
+        "alt": "Altran"
+      }
+    },
+    {
+      "name": "YourKit",
+      "href": "https://www.yourkit.com",
+      "image": {
+        "src": "assets/img/sponsors/yourkit.png",
+        "alt": "YourKit"
+      }
+    }
   ],
   "bronze": [
+    {
+      "name": "O'Reilly",
+      "href": "http://www.oreilly.com/pub/cpc/82233",
+      "image": {
+        "src": "assets/img/sponsors/oreilly.jpg",
+        "alt": "O'Reilly"
+      }
+    },
+    {
+      "name": "Manning",
+      "href": "http://www.manning.com",
+      "image": {
+        "src": "assets/img/sponsors/manning.png",
+        "alt": "Manning"
+      }
+    }
   ],
   "supporters": [
     {
