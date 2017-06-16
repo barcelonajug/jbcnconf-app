@@ -39,12 +39,12 @@ const seasonsTimes = {
         'SE4': { 'timeStart': '12:20', 'timeStop': '13:10' },
         'SE5': { 'timeStart': '14:25', 'timeStop': '15:15' },
         'SE6': { 'timeStart': '15:25', 'timeStop': '16:15' },
-        'SE7': { 'timeStart': '16:45', 'timeStop': '17:35' },
-        'SE8': { 'timeStart': '17:40', 'timeStop': '18:10' }
+        'SE7': { 'timeStart': '17:05', 'timeStop': '17:55' },
+        'SE8': { 'timeStart': '18:00', 'timeStop': '18:30' }
     },
     'WED': {
-        'SE1': { 'timeStart': '15:00', 'timeStop': '17:00' },
-        'SE2': { 'timeStart': '17:00', 'timeStop': '19:00' }
+        'SE1': { 'timeStart': '09:00', 'timeStop': '11:00' },
+        'SE2': { 'timeStart': '11:30', 'timeStop': '13:30' }
     }
 };
 
