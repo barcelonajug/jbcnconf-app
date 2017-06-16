@@ -81,8 +81,9 @@ export class SchedulePage {
     }
 
     filterByTag(evt: Event, tag) {
-        evt.stopPropagation();
+        console.log('filterByTag');
         evt.preventDefault();
+        evt.stopPropagation();
         this.search.day = '';
         this.search.track = -1;
         this.search.tag = tag;
@@ -90,10 +91,15 @@ export class SchedulePage {
         this.applyFilters();
     }
 
-    clearFilters(evt) {
-        this.search = { day: '', track: -1, tag: '' }
+    filterByTrack(evt: Event, track) {
+        console.log('filterByTrack');
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.search.day = '';
+        this.search.track = track;
+        this.search.tag = '';
+        this.tracks='filter';
         this.applyFilters();
     }
-
 
 }

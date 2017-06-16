@@ -1,0 +1,10 @@
+/* _GlobalPrefix_ */
+/* _Module_:fps */
+try{
+uv_I("fps");var uv_QF=function(a,b){this.H=[];for(var c=0;c<b.length;++c)this.H.push(new uv_m(b[c]));0==this.H.length&&this.H.push(new uv_m("//lh5.ggpht.com/"));this.R=a},uv_RF=[512,1024,1536];
+uv_QF.prototype.getTile=function(a,b,c,d,e,f,g){var h=uv_Y(a.getContent());a=uv_0l(h);"fife:"==a.substr(0,5)&&(a=a.substr(5));uv_ox(a)||(0==a.indexOf("fife|")?a=a.substr(5):(b=this.H[(b+c)%this.H.length],c=uv_tl(h.wa()),uv_o(c.Ra(),0)?(a=uv_n(c.Ra(),0),a=uv_Ba(a,"//")?"https:"+a:uv_Ba(a,"/")?b.toString()+a.substr(1):a):(h=uv_Fs(h),b=b.toString(),10==h&&(b+="p/"),b+=a,3==h&&(b+="/photo"),a=uv_9w(new uv_6w(b))?b:"")));a&&(d=uv_yc(d,0,uv_RF.length-1),a=new uv_jx(a),a.Cd(uv_RF[d]),a=a.Sc(),a=a.replace(/^https?:\/\//, "//"));return this.R.H(a,f.Qa(e,"fife-get-tile"),g)};uv_QF.prototype.zc=uv_c;
+var uv_SF=function(a,b,c,d){b=new uv_QF(c,d);a(b)};var uv_TF=function(){uv_h.call(this)};uv_f(uv_TF,uv_l);uv_TF.prototype.initialize=function(){uv__("FPS",uv_SF)};uv_2(uv_TF);
+uv_H("fps");uv_J();
+}catch(e){_DumpException(e)}
+/* _GlobalSuffix_ */
+// Google Inc.

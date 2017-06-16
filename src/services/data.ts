@@ -688,7 +688,7 @@ export const meetings = [
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "#WED-TC1-SE2",
+      "scheduleId": "#WED-TC4-SE2",
       "speakers": [
         "marcelo-colomer", "carlos-rubio"
       ]
@@ -1414,7 +1414,7 @@ export const meetings = [
       ],
       "level": "Beginner",
       "video": "",
-      "scheduleId": "#WED-TC4-SE2",
+      "scheduleId": "#WED-TC1-SE2",
       "speakers": [
         "simon-maple"
       ]

@@ -1,97 +1,59 @@
 <ion-content class="centered_page">
-    <h2>Where to go</h2>
   
-  <a href="#" (tap)="openAllLocationsMap($event)">
-    <img src="assets/img/campus_map.png">
-  </a>
-
-  <div><strong>Universitat Pompeu Fabra</strong></div>
-  <div>Ciutadella Campus UPF</div>
-  <div>C/ Ramon Trias Fargas, 25-27</div>
-  <div>08002 Barcelona, España</div>
-
-  <a href="#" (tap)="openAllLocationsMap($event)" 
-    class="disable-hover button button-default button-round button-icon-left location-button">
-        <span class="button-inner">
-            <ion-icon name="pin" role="img" class="ion-md-pin" aria-label="pin"></ion-icon> Open location's map</span>
-  </a>
-  <p></p>
-  <p></p>
-
-  <h3>Talk Rooms</h3>
-
   <ion-card>
     <ion-card-header>
-      <strong>Thurday: Jaume I Building (20)</strong>
+      <strong>Where to go</strong>
     </ion-card-header>
-    <ion-card-content>
-      <ion-grid>
-        <ion-row>
-          <ion-col width-50>
-            <p><strong>Rooms</strong></p>
-            <p>Track 01: 20.019</p>
-            <p>Track 02: 20.017</p>
-            <p>Track 03: 20.023</p>
-            <p>Track 04: 20.027</p>
-          </ion-col>
-          <ion-col width-50>
-            <img src="assets/img/edificio01.png" />
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-    </ion-card-content>
+    <ion-item>
+      <img src="assets/img/venue/conference-map.png" (tap)="openAllLocationsMap()">
+    </ion-item>
+    <ion-item>
+      <button ion-button icon-left clear item-end (tap)="openAllLocationsMap()">
+        <ion-icon name="pin" role="img" class="ion-md-pin" aria-label="pin"></ion-icon> Open all location's map
+      </button>
+    </ion-item>
   </ion-card>
 
   <ion-card>
     <ion-card-header>
-      <strong>Friday: Roger de Llúria Building (40)</strong>
+      <strong>Talks Day (Monday-Tuesday):</strong>
     </ion-card-header>
     <ion-card-content>
-      <ion-grid>
-        <ion-row>
-          <ion-col width-50>
-            <p><strong>Rooms</strong></p>
-            <p>Track 01: 40.002</p>
-            <p>Track 02: 40.004</p>
-            <p>Track 03: 40.006</p>
-            <p>Track 04: 40.008</p>
-          </ion-col>
-          <ion-col width-50>
-            <img src="assets/img/edificio02.png" />
-          </ion-col>
-        </ion-row>
-      </ion-grid>
+      <div>Centre Comercial Gran Via 2</div>
+      <div>Avinguda de la Granvia, 75</div>
+      <div>08908 L'Hospitalet de Llobregat, Barcelona</div>
+      <br/>
+      <div><strong>Parking</strong></div>
+      <div>If you are coming with your own car, you can use the Shopping Center Parking with a special deal for the conference
+        : 10 EUR for all day. You only need to take a ticket as usual when you enter the parking and before leaving you have
+        to go to the Central Office in the Parking and they will give you a new ticket after paying 10 € that you will use
+        to leave.</div>
     </ion-card-content>
+    <ion-item>
+      <button ion-button icon-left clear item-end (tap)="openLocation('Centre Comercial Gran Via 2, Avinguda de la Granvia, 75 08908 Hospitalet de Llobregat, Barcelona')">
+        <ion-icon name="pin" role="img" class="ion-md-pin" aria-label="pin"></ion-icon>
+        Open location's map
+      </button>
+      <img src="assets/img/venue/granvia2.jpg" (tap)="openLocation('Centre Comercial Gran Via 2, Avinguda de la Granvia, 75 08908 Hospitalet de Llobregat, Barcelona')">
+      <img src="assets/img/venue/granvia2_cine.jpg" (tap)="openLocation('Centre Comercial Gran Via 2, Avinguda de la Granvia, 75 08908 Hospitalet de Llobregat, Barcelona')">
+    </ion-item>
   </ion-card>
 
   <ion-card>
     <ion-card-header>
-      <strong>Saturday: Jaume I Building (20)</strong>
+      <strong>Workshops Day (Wednesday):</strong>
     </ion-card-header>
     <ion-card-content>
-      <ion-grid>
-        <ion-row>
-          <ion-col width-50>
-            <p><strong>Rooms</strong></p>
-            <p>Track 01: 20.019</p>
-            <p>Track 02: 20.021</p>
-            <p>Track 03: 20.023</p>
-            <p>Track 04: 20.027</p>
-          </ion-col>
-          <ion-col width-50>
-            <img src="assets/img/edificio03.png" />
-          </ion-col>
-        </ion-row>
-      </ion-grid>
+      <div>Hotel Fira Congress Barcelona</div>
+      <div>C/ José Agustín Goytisolo, 9-11</div>
+      <div>08908 Hospitalet de Llobregat, Barcelona</div>
     </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-header>
-      <strong>General building map</strong>
-    </ion-card-header>
-    <ion-card-content>
-      <img src="assets/img/campus_map2.png" />
-    </ion-card-content>
+    <ion-item>
+      <button ion-button icon-left clear item-end (tap)="openLocation('Hotel Fira Congress Barcelona, C/ José Agustín Goytisolo 9-11, 08908 Hospitalet de Llobregat, Barcelona')">
+        <ion-icon name="pin" role="img" class="ion-md-pin" aria-label="pin"></ion-icon>
+        Open location's map
+      </button>
+      <img src="assets/img/venue/hotel.jpg" (tap)="openLocation('Hotel Fira Congress Barcelona, C/ José Agustín Goytisolo 9-11, 08908 Hospitalet de Llobregat, Barcelona')">
+    </ion-item>
   </ion-card>
 </ion-content>
