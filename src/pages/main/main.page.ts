@@ -27,7 +27,7 @@ export class MainPage {
   gotoTwitterTag(evt) {
       evt.preventDefault();
       evt.stopPropagation();
-      window.open("https://twitter.com/hashtag/jbcn17?f=tweets&vertical=default","_system");
+      window.open("https://twitter.com/hashtag/jbcn17?src=hash","_system");
   }
 
 }

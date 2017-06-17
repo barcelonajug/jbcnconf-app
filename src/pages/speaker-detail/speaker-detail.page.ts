@@ -15,16 +15,19 @@ export class SpeakerDetailPage {
         this.speaker = navParams.data;
         jbcnService.load().then(data => {
             let schedule = data.schedule;
+            console.log(schedule);
             for(let iDay=0; iDay<schedule.length; iDay++) {
                 let day = schedule[iDay];
+                console.log(day);
                 for(let iTalk=0; iTalk<day.meetings.length; iTalk++) {
-                    if(day.meetings[iTalk].id == this.speaker.meetingRef) {
+                    console.log(day.meetings[iTalk].speakers, '=', this.speaker.ref, '?', day.meetings[iTalk].speakers.indexOf(this.speaker.ref)>-1);
+                    if(day.meetings[iTalk].speakers.indexOf(this.speaker.ref)>-1) {
                         this.talk = day.meetings[iTalk];
                         break;
                     }
                 }
                 
-                if(this.talk) break;
+                //if(this.talk) break;
             }
             
         });

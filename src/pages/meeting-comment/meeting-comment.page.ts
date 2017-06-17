@@ -44,7 +44,7 @@ export class MeetingCommentPage implements OnInit {
     }
 
     save() {
-        if (this.name && this.comment) {
+        if ((this.name && this.comment) || this.vote > 0) {
             this.jbcnService.sendComment(this.meeting.id, this.vote, this.name, this.comment).then(response => {
                 this.events.publish('reload-meeting-detail');
                 this.nav.pop();

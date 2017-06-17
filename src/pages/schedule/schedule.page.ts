@@ -54,6 +54,8 @@ export class SchedulePage {
     }
 
     applyFilters() {
+        console.log('Calling applyFilters');
+        let date = new Date();
         for (var i = 0; i < this.schedule.length; i++) {
             var day = this.schedule[i];
             for (var j = 0; j < day.meetings.length; j++) {
@@ -75,11 +77,13 @@ export class SchedulePage {
                 }
             }
         }
+        console.log('Ending applyFilters:'+(new Date().getTime() - date.getTime()));
     }
 
     filterByTag(evt: Event, tag) {
-        evt.stopPropagation();
+        console.log('filterByTag');
         evt.preventDefault();
+        evt.stopPropagation();
         this.search.day = '';
         this.search.track = -1;
         this.search.tag = tag;
@@ -87,10 +91,15 @@ export class SchedulePage {
         this.applyFilters();
     }
 
-    clearFilters(evt) {
-        this.search = { day: '', track: -1, tag: '' }
+    filterByTrack(evt: Event, track) {
+        console.log('filterByTrack');
+        evt.preventDefault();
+        evt.stopPropagation();
+        this.search.day = '';
+        this.search.track = track;
+        this.search.tag = '';
+        this.tracks='filter';
         this.applyFilters();
     }
-
 
 }
