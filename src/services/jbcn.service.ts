@@ -23,22 +23,21 @@ const dayTimes = {
 
 const seasonsTimes = {
     'MON': {
-        'SE0': { 'timeStart': '9:40', 'timeStop': '10:30' },
-        'SE1': { 'timeStart': '11:00', 'timeStop': '11:50' },
-        'SE2': { 'timeStart': '12:00', 'timeStop': '12:50' },
-        'SE3': { 'timeStart': '14:00', 'timeStop': '14:30' },
-        'SE4': { 'timeStart': '14:35', 'timeStop': '15:25' },
-        'SE5': { 'timeStart': '15:35', 'timeStop': '16:25' },
-        'SE6': { 'timeStart': '16:55', 'timeStop': '17:45' },
-        'SE7': { 'timeStart': '17:55', 'timeStop': '18:45' }
+        'SE1': { 'timeStart': '09:40', 'timeStop': '10:30' },
+        'SE2': { 'timeStart': '11:10', 'timeStop': '12:00' },
+        'SE3': { 'timeStart': '12:10', 'timeStop': '13:00' },
+        'SE4': { 'timeStart': '14:15', 'timeStop': '15:05' },
+        'SE5': { 'timeStart': '15:15', 'timeStop': '16:05' },
+        'SE6': { 'timeStart': '16:45', 'timeStop': '17:35' },
+        'SE7': { 'timeStart': '17:40', 'timeStop': '18:35' }
     },
     'TUE': {
         'SE1': { 'timeStart': '9:00', 'timeStop': '9:50' },
         'SE2': { 'timeStart': '10:00', 'timeStop': '10:50' },
-        'SE3': { 'timeStart': '11:20', 'timeStop': '12:10' },
-        'SE4': { 'timeStart': '12:20', 'timeStop': '13:10' },
-        'SE5': { 'timeStart': '14:25', 'timeStop': '15:15' },
-        'SE6': { 'timeStart': '15:25', 'timeStop': '16:15' },
+        'SE3': { 'timeStart': '11:30', 'timeStop': '12:20' },
+        'SE4': { 'timeStart': '12:30', 'timeStop': '13:20' },
+        'SE5': { 'timeStart': '14:35', 'timeStop': '15:25' },
+        'SE6': { 'timeStart': '15:35', 'timeStop': '16:25' },
         'SE7': { 'timeStart': '17:05', 'timeStop': '17:55' },
         'SE8': { 'timeStart': '18:00', 'timeStop': '18:30' }
     },
@@ -50,24 +49,22 @@ const seasonsTimes = {
 
 const locations = {
     'MON': {
-        '0': 'Auditorium',
-        '1': 'Room 40.002',
-        '2': 'Room 40.004',
-        '3': 'Room 40.006',
-        '4': 'Room 40.008'
+        '1': 'Room #1',
+        '2': 'Room #2',
+        '3': 'Room #3',
+        '4': 'Room #4'
     },
     'TUE': {
-        '0': 'Auditorium',
-        '1': 'Room 20.019',
-        '2': 'Room 20.021',
-        '3': 'Room 20.023',
-        '4': 'Room 20.027'
+        '1': 'Room #1',
+        '2': 'Room #2',
+        '3': 'Room #3',
+        '4': 'Room #4'
     },
     'WED': {
-        '1': 'Room 20.019',
-        '2': 'Room 20.017',
-        '3': 'Room 20.023',
-        '4': 'Room 20.027'
+        '1': 'Room Paris',
+        '2': 'Room Barcelona',
+        '3': 'Room Amsterdam',
+        '4': 'Room Londres'
     }
 };
 

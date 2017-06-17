@@ -614,7 +614,7 @@ export const speakers = [
 ];
 
 export const meetings = [
-    {
+   {
       "type": "talk",
       "title": "The Art of Simplicity",
       "abstract": "We've been told to keep things simple. It turns out, that's easily said than done. Creating something simple is, well, not really that simple. If simple was sitting next to us, would we even recognize it? Is my design simple, is yours simple? How can we tell? That's a simple question, but the answer to it is… well come to this keynote to find out.",
@@ -624,7 +624,7 @@ export const meetings = [
       ],
       "level": "Intermediate",
       "video": "",
-      "scheduleId": "#MON-TC1-SE0",
+      "scheduleId": "#MON-TC1-SE1",
       "speakers": [
         "venkat"
       ]
