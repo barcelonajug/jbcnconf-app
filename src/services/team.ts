@@ -14,10 +14,10 @@ export const team = [
     {
       "name": "Jonathan Vila",
       "position": "Senior Java Developer",
-      "role": "Coordinator at Barcelona JUG.",
+      "role": "Treasurer at Barcelona JUG.",
       "twitter": "https://twitter.com/vilojona",
       "linkedin": "https://www.linkedin.com/in/jonathanvila",
-      "bio": "I'm interested in Software Development Management Methodologies such as Agile ( XP, Scrum ) ... Also in treating people as individuals with dreams, interests and powers, not in treating people as 'workers at service' ...",
+      "bio": "Interested on learning and specially about Java and microservices",
       "image": {
         "url": "assets/img/team/jonathan.jpg",
         "alt": "Jonathan Vila, Java Lover"
@@ -48,14 +48,14 @@ export const team = [
     },
     {
       "name": "Christian Sisti",
-      "position": "Team Leader",
+      "position": "Software Development Manager",
       "role": "Team Member Barcelona JUG.",
-      "bio": "High-Energy, Results-Driven, Focused Software Engineer.  Interested in RestFul API, cloud platforms and micro services architectures.  Highly skilled table soccer player.",
+      "bio": "Software Development Manager in love for clean code, agile best practices and table soccer",
       "linkedin": "https://www.linkedin.com/in/christiansisti",
-      "twitter":"https://twitter.com/ciscox83",
+      "twitter": "https://twitter.com/ciscox83",
       "image": {
         "url": "assets/img/team/christian.jpg",
-        "alt": "Christian Java Lover"
+        "alt": "Christian Sisti"
       }
     },
     {
@@ -93,5 +93,17 @@ export const team = [
         "url": "assets/img/team/sergio-ferraz.jpg",
         "alt": "Sergio Ferraz"
       }
+    },
+    {
+    "name": "Tetiana Borys",
+    "position": "Software Engineer",
+    "role": "Barcelona JUG Conference contributor",
+    "bio": "I am a software developer specialized in Java. Passionate about innovations in coding, love working with open source technology.",
+    "linkedin": "https://www.linkedin.com/in/tetianaborys",
+    "twitter": "https://twitter.com/TetianaBorys",
+    "image": {
+      "url": "assets/img/team/tetiana.jpg",
+      "alt": "Tetiana Borys"
+    }
     }
   ]
