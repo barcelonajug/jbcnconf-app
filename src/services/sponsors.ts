@@ -1,226 +1,246 @@
 export const sponsors = {
   "diamond": {
-    "name": "New Relic",
-    "href": "https://newrelic.com/",
+    "name": "Skyscanner",
+    "href": "https://www.skyscanner.com",
     "image": {
-      "src": "assets/img/sponsors/newrelic-logo.png",
-      "alt": "New Relic"
+      "src": "/assets/img/sponsors/skyscanner.png",
+      "alt": "Skyscanner"
     }
   },
-  "gold": [
-    {
-      "name": "Adaptive",
-      "href": "http://weareadaptive.com",
+  "gold": [{
+      "name": "Digital Origin",
+      "href": "https://www.digitalorigin.com/",
       "image": {
-        "src": "assets/img/sponsors/adaptive-logo.png",
-        "alt": "Adaptive"
+        "src": "/assets/img/sponsors/digital-origin.png",
+        "alt": "Digital Origin"
       }
     },
     {
-      "name": "Netcentric",
-      "href": "https://netcentric.biz",
+      "name": "Dynatrace",
+      "href": "https://www.dynatrace.es/",
       "image": {
-        "src": "assets/img/sponsors/netcentric-logo.png",
-        "alt": "Netcentric - Expect Excellence"
-      }
-    },
-    {
-      "name": "Everis",
-      "href": "http://www.everis.com",
-      "image": {
-        "src": "assets/img/sponsors/everis-logo.png",
-        "alt": "Everis"
+        "src": "/assets/img/sponsors/dynatrace.png",
+        "alt": "Dynatrace"
       }
     },
     {
       "name": "RedHat",
-      "href": "http://www.redhat.com",
+      "href": "https://www.redhat.com/",
       "image": {
-        "src": "assets/img/sponsors/redhat.png",
+        "src": "/assets/img/sponsors/redhat.png",
         "alt": "RedHat"
       }
     },
     {
-      "name": "Alfresco",
-      "href": "http://www.alfresco.com",
+      "name": "Ocado Technology",
+      "href": "http://www.ocadotechnology.com/",
       "image": {
-        "src": "assets/img/sponsors/alfresco-logo.png",
-        "alt": "Alfresco"
+        "src": "/assets/img/sponsors/ocadotechnology.png",
+        "alt": "Ocado Technology"
       }
     },
     {
-      "name": "eDreams ODIGEO",
-      "href": "http://www.edreamsodigeo.com",
+      "name": "eDreams Odigeo",
+      "href": "https://www.edreamsodigeo.com",
       "image": {
-        "src": "assets/img/sponsors/eDreamsODIGEO_logo_RGB.png",
-        "alt": "eDreams ODIGEO"
+        "src": "/assets/img/sponsors/edreams.png",
+        "alt": "eDreams Odigeo"
       }
     },
     {
-      "name": "Oracle + NetSuite",
-      "href": "http://www.netsuite.com",
+      "name": "Casumo",
+      "href": "http://www.casumocareers.com/",
       "image": {
-        "src": "assets/img/sponsors/oracle-netsuite.png",
-        "alt": "Oracle + NetSuite"
-      }
-    }
-  ],
-  "silver": [
-    {
-      "name": "Opentrends",
-      "href": "http://www.opentrends.net",
-      "image": {
-        "src": "assets/img/sponsors/opentrends-logo.png",
-        "alt": "Opentrends"
+        "src": "/assets/img/sponsors/casumo.png",
+        "alt": "Casumo"
       }
     },
     {
-      "name": "Thoughtworks",
-      "href": "https://www.thoughtworks.com/",
+      "name": "mytaxi",
+      "href": "https://www.mytaxi.com",
       "image": {
-        "src": "assets/img/sponsors/thoughtworks.png",
-        "alt": "Thoughtworks"
-      }
-    },
-    {
-      "name": "Arhs Group",
-      "href": "http://www.arhs-group.com",
-      "image": {
-        "src": "assets/img/sponsors/arhs-logo.png",
-        "alt": "Arhs Group"
-      }
-    },
-    {
-      "name": "GFT",
-      "href": "http://www.gft.com/empleo",
-      "image": {
-        "src": "assets/img/sponsors/gft-logo.jpg",
-        "alt": "GFT"
-      }
-    },
-    {
-      "name": "JetBrains",
-      "href": "https://www.jetbrains.com/",
-      "image": {
-        "src": "assets/img/sponsors/jetbrains.png",
-        "alt": "JetBrains"
+        "src": "/assets/img/sponsors/mytaxi.png",
+        "alt": "mytaxi"
       }
     },
     {
       "name": "Altran",
-      "href": "http://www.altran.es",
+      "href": "https://www.altran.com/es",
       "image": {
-        "src": "assets/img/sponsors/altran-logo.jpg",
+        "src": "/assets/img/sponsors/altran-logo.jpg",
         "alt": "Altran"
       }
     },
     {
-      "name": "YourKit",
-      "href": "https://www.yourkit.com",
+      "name": "RedHat OpenShift",
+      "href": "https://www.openshift.com/",
       "image": {
-        "src": "assets/img/sponsors/yourkit.png",
-        "alt": "YourKit"
-      }
-    }
-  ],
-  "bronze": [
-    {
-      "name": "O'Reilly",
-      "href": "http://www.oreilly.com/pub/cpc/82233",
-      "image": {
-        "src": "assets/img/sponsors/oreilly.jpg",
-        "alt": "O'Reilly"
+        "src": "/assets/img/sponsors/openshift.png",
+        "alt": "openshift"
       }
     },
     {
-      "name": "Manning",
-      "href": "http://www.manning.com",
+      "name": "GFT",
+      "href": "http://www.gft.com/es",
       "image": {
-        "src": "assets/img/sponsors/manning.png",
-        "alt": "Manning"
+        "src": "/assets/img/sponsors/gft-logo.jpg",
+        "alt": "GFT"
+      }
+    },
+    {
+      "name": "everis",
+      "href": "https://www.everis.com/spain/es/whatwedo/technology",
+      "image": {
+        "src": "/assets/img/sponsors/everis-logo.png",
+        "alt": "everis"
+      }
+    },
+    {
+      "name": "accenture",
+      "href": " https://www.accenture.com/es-es/Careers",
+      "image": {
+        "src": "/assets/img/sponsors/accenture-logo.png",
+        "alt": "accenture"
+      }
+    },
+    {
+      "name": "Liferay",
+      "href": "http://www.liferay.com/",
+      "image": {
+        "src": "/assets/img/sponsors/liferay.png",
+        "alt": "Liferay"
+      }
+    },
+    {
+      "name": "Oracle Netsuite",
+      "href": "http://www.netsuite.com/",
+      "image": {
+        "src": "/assets/img/sponsors/oracle-netsuite.jpg",
+        "alt": "Oracle Netsuite"
+      }
+    },
+    {
+      "name": "We Are Adaptive",
+      "href": "http://www.weareadaptive.com/",
+      "image": {
+        "src": "/assets/img/sponsors/adaptive-logo.png",
+        "alt": "We Are Adaptive"
+      }
+    },
+    {
+      "name": "New Relic",
+      "href": "https://newrelic.com/about/culture",
+      "image": {
+        "src": "/assets/img/sponsors/newrelic-logo.png",
+        "alt": "New Relic"
       }
     }
   ],
+  "silver": [{
+      "name": "Jetbrains",
+      "href": "https://www.jetbrains.com/",
+      "image": {
+        "src": "/assets/img/sponsors/jetbrains.png",
+        "alt": "Jetbrains"
+      }
+    },
+    {
+      "name": "YourKit",
+      "href": "http://www.yourkit.com/",
+      "image": {
+        "src": "/assets/img/sponsors/yourkit.png",
+        "alt": "YourKit"
+      }
+    },
+    {
+      "name": "Zopa",
+      "href": "https://www.zopa.com/about/careers",
+      "image": {
+        "src": "/assets/img/sponsors/zopa.png",
+        "alt": "Zopa"
+      }
+    },
+    {
+      "name": "Marfeel",
+      "href": "https://www.marfeel.com",
+      "image": {
+        "src": "/assets/img/sponsors/marfeel.png",
+        "alt": "Marfeel"
+      }
+    },
+    {
+      "name": "Blueliv",
+      "href": "https://www.blueliv.com",
+      "image": {
+        "src": "/assets/img/sponsors/blueliv.jpg",
+        "alt": "Blueliv"
+      }
+    },
+    {
+      "name": "Netcentric",
+      "href": "https://www.netcentric.biz/careers.html",
+      "image": {
+        "src": "/assets/img/sponsors/netcentric-logo.jpg",
+        "alt": "Netcentric"
+      }
+    }],
+  "bronze": [],
   "supporters": [
     {
       "name": "Barcelona JUG",
       "href": "http://www.barcelonajug.org/",
       "image": {
-        "src": "assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "src": "/assets/img/logos/logo_bicolor_blog_barcelonajug.png",
         "alt": "Barcelona JUG"
       }
     },
     {
-      "name": "Method and Tools",
+      "name": "Method & Tools",
       "href": "http://www.methodsandtools.com/",
       "image": {
-        "src": "assets/img/sponsors/method_and_tools.jpg",
-        "alt": "Method and Tools"
+        "src": "/assets/img/sponsors/method_and_tools.jpg",
+        "alt": "Method & Tools"
       }
     },
     {
-      "name": "Canoo",
-      "href": "http://www.canoo.com/",
+      "name": "GDG Barcelona",
+      "href": "https://www.meetup.com/GDG-Barcelona/",
       "image": {
-        "src": "assets/img/sponsors/canoo.png",
-        "alt": "Canoo"
+        "src": "/assets/img/sponsors/gdg_barcelona.png",
+        "alt": "GDG Barcelona"
+      }
+    },
+    {
+      "name": "GDG Tarragona",
+      "href": "http://www.gdgtarragona.net",
+      "image": {
+        "src": "/assets/img/sponsors/gdg_tarragona.png",
+        "alt": "GDG Tarragona"
       }
     },
     {
       "name": "London Java Community",
       "href": "https://www.meetup.com/Londonjavacommunity/",
       "image": {
-        "src": "assets/img/sponsors/london-jug.png",
+        "src": "/assets/img/sponsors/london-java-community.png",
         "alt": "London Java Community"
       }
     },
     {
-      "name": "Salesforce",
-      "href": "https://www.salesforce.com",
+      "name": "Tech & Ladies",
+      "href": "https://www.meetup.com/tech-ladies-Barcelona/",
       "image": {
-        "src": "assets/img/sponsors/salesforce-logo.png",
-        "alt": "Salesforce"
+        "src": "/assets/img/sponsors/technladies.jpg",
+        "alt": "Tech & Ladies Barcelona"
       }
     },
     {
-      "name": "Sevilla Java User Group",
-      "href": "https://www.meetup.com/SVQJUG",
+      "name": "SmartCatalonia",
+      "href": "http://www.smartcatalonia.gencat.cat/",
       "image": {
-        "src": "assets/img/sponsors/sevilla-jug.png",
-        "alt": "Sevilla Java User Group"
-      }
-    },    
-    {
-      "name": "Warszawa Java User Group",
-      "href": "http://warszawa.jug.pl",
-      "image": {
-        "src": "assets/img/sponsors/warszawa-jug.png",
-        "alt": "Warszawa Java User Group"
-      }
-    },
-    {
-      "name": "Berlin Java User Group",
-      "href": "https://www.meetup.com/jug-bb/",
-      "image": {
-        "src": "assets/img/sponsors/berlin-jug.png",
-        "alt": "Berlin Java User Group"
-      }
-    },
-    {
-      "name": "Malaga Java User Group",
-      "href": "https://www.meetup.com/MalagaJUG/",
-      "image": {
-        "src": "assets/img/sponsors/malaga-jug.png",
-        "alt": "Malaga Java User Group"
-      }
-    },    
-    {
-      "name": "Madrid Java User Group",
-      "href": "https://www.meetup.com/MadridJUG/",
-      "image": {
-        "src": "assets/img/sponsors/madrid-jug.jpg",
-        "alt": "Madrid Java User Group"
+        "src": "/assets/img/sponsors/smart-catalonia.jpg",
+        "alt": "SmartCatalonia"
       }
     }
   ]
-};
+}
