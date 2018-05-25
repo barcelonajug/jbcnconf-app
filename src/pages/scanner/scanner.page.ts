@@ -57,11 +57,14 @@ export class ScannerPage {
   launchShare() {
     let contactText = '';
     for(let contact of this.contacts) {
+
       contactText = contactText + 'Name:'+contact.name+'\r\n';
-      contactText = contactText + 'Email:'+contact.email+'\r\n';
-      contactText = contactText + 'Position:'+contact.position +'\r\n';
-      contactText = contactText + 'Progaming languages:'+contact.programLanguages +'\r\n';
-      contactText = contactText +'Languages:'+contact.languages+'\r\n';
+      contactText = contactText + 'Country:'+contact.country +'\r\n';
+      contactText = contactText + 'City:'+contact.city +'\r\n';
+      contactText = contactText + 'Company:'+contact.company +'\r\n';
+      contactText = contactText + 'Level:'+contact.level +'\r\n';
+      contactText = contactText + 'Program Languages:'+contact.programLanguages +'\r\n';
+      contactText = contactText + 'Email:'+contact.email +'\r\n';
       contactText = contactText + '\r\n\r\n';
     }
     console.log(contactText);

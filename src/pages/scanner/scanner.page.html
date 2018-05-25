@@ -18,16 +18,21 @@
   <button ion-button (tap)="launchShare()" *ngIf="contacts && contacts.length>0"><ion-icon name="share"></ion-icon></button>
   <div *ngIf="contacts.length==0">
     <p>
-      Scan a badge to collect the contact of all amazing devs you meet at JBCNConf 2017!
+      Scan a badge to collect the contact of all amazing devs you meet at JBCNConf 2018!
     </p>
     <img src="assets/img/badge-scan.png" style="width:80%">
   </div>
   <ion-list *ngIf="contacts && contacts.length>0">
     <ion-item *ngFor="let contact of contacts">
-      <div>{{contact.name}}</div>
-      <div>{{contact.position}}</div>
-      <div>{{contact.programLanguage}}</div>
-      <div>{{contact.email}}</div>
+      
+      <div>Name: {{contact.name}}</div>
+      <div>Country: {{contact.country}}</div>
+      <div>City: {{contact.city}}</div>
+      <div>Company: {{contact.company}}</div>
+      <div>Level: {{contact.level}}</div>
+      <div>Program Languages: {{contact.programLanguages}}</div>
+      <div>Email: {{contact.email}}</div>
+      
       <button ion-button (tap)="remove(contact)">Remove</button>
     </ion-item>
   </ion-list>

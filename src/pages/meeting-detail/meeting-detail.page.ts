@@ -19,10 +19,8 @@ export class MeetingDetailPage {
         this.loadData();
         this.events.subscribe('reload-meeting-detail', () => {
             this.loadData();
-        })
+        });
     }
-
-
 
     loadData() {
         this.vote = this.jbcnService.getVote(this.meeting.id);

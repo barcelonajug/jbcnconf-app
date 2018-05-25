@@ -52,10 +52,19 @@ export class TalkRaw {
     speakers: Array<string>;
 }
 
+//  0 Name:Jonathan_Vila;
+//  1 Country:Spain;
+//  2 City:Barcelona;
+//  3 Company:Ocado;
+//  4 Level:Senior;
+//  5 Languages:Java;
+//  6 Email:jonathan@barcelonajug.org
 export class Contact {
-    languages: string;
     name: string;
-    email: string;
-    position: string;
+    country: string;
+    city: string;
+    company: string;
+    level: string;
     programLanguages: string;
+    email: string;
 }

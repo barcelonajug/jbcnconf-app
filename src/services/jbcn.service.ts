@@ -413,12 +413,14 @@ export class JbcnService {
     addContact(contact: Contact) {
         let contacts = this.getContacts();
         let b = false;
-        for(let contactStored of contacts) {
-            b = contactStored.languages === contact.languages && 
-                contactStored.name === contact.name &&
-                contactStored.email === contact.email &&
-                contactStored.position === contact.position &&
-                contactStored.programLanguages === contactStored.programLanguages;
+        for(const contact of contacts) {
+            b = contact.name === contact.name &&
+                contact.country === contact.country &&
+                contact.city === contact.city &&
+                contact.company === contact.company &&
+                contact.level === contact.level &&
+                contact.programLanguages === contact.programLanguages &&
+                contact.email === contact.email;
             if(b) break;
         }
         if(!b) {
@@ -454,16 +456,48 @@ export class JbcnService {
         this.saveContacts(contacts);
     }
 
-    parseContact(csv: string): Contact {
+    parseContact(line: string): Contact {
+//  0 Name:Jonathan_Vila;
+//  1 Country:Spain;
+//  2 City:Barcelona;
+//  3 Company:Ocado;
+//  4 Level:Senior;
+//  5 Languages:Java;
+//  6 Email:jonathan@barcelonajug.org
+
+        const csv = this.decodeContact(line);
         const tokens = csv.split(';');
         let contact = new Contact();
-        contact.languages = tokens[0];
-        contact.name = tokens[1];
-        contact.email = tokens[2];
-        contact.position = tokens[3];
-        contact.programLanguages = tokens[4];
+        contact.name = tokens[0];
+        contact.country = tokens[1];
+        contact.city = tokens[2];
+        contact.company = tokens[3];
+        contact.level = tokens[4];
+        contact.programLanguages = tokens[5];
+        contact.email = tokens[6];
         return contact;
         
+    }
+
+    encodeString(someString) {
+        let encripted = "";
+        for (let i = 0; i < someString.length; i++) {
+            let char = someString.charCodeAt(i);
+            char = char + 5;
+            encripted = encripted + String.fromCharCode(char);
+        }
+        return encripted;
+    }
+    
+    decodeContact(someString: string): string {
+        var decripted = "";
+        for (let i = 0; i < someString.length; i++) {
+            let char = someString.charCodeAt(i);
+            char = char - 5;
+            decripted = decripted + String.fromCharCode(char);
+        }
+        decripted = decripted.replace(/_/g," ");
+        return decripted;
     }
 
 }
