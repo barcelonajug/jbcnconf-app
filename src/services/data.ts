@@ -1862,7 +1862,8 @@ export const meetings = [{
   "level": "beginner",
   "speakers": [
     "af372ba246acd002092dc3287e2323c4736d744e"
-  ]
+  ],
+  "id": "#TUE-TC3-SE3"
 },
 {
   "title": "Integrating cloud services with Apache Camel",
