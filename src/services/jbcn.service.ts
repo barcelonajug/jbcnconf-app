@@ -23,23 +23,21 @@ const dayTimes = {
 
 const seasonsTimes = {
     'MON': {
-        'SE1': { 'timeStart': '09:40', 'timeStop': '10:30' },
-        'SE2': { 'timeStart': '11:10', 'timeStop': '12:00' },
-        'SE3': { 'timeStart': '12:10', 'timeStop': '13:00' },
-        'SE4': { 'timeStart': '14:15', 'timeStop': '15:05' },
-        'SE5': { 'timeStart': '15:15', 'timeStop': '16:05' },
-        'SE6': { 'timeStart': '16:45', 'timeStop': '17:35' },
-        'SE7': { 'timeStart': '17:40', 'timeStop': '18:35' }
+        'SE0': { 'timeStart': '09:40', 'timeStop': '10:30' },
+        'SE1': { 'timeStart': '11:10', 'timeStop': '12:00' },
+        'SE2': { 'timeStart': '12:15', 'timeStop': '13:05' },
+        'SE3': { 'timeStart': '14:30', 'timeStop': '15:20' },
+        'SE4': { 'timeStart': '15:35', 'timeStop': '16:25' },
+        'SE5': { 'timeStart': '17:05', 'timeStop': '17:55' }
     },
     'TUE': {
         'SE1': { 'timeStart': '9:00', 'timeStop': '9:50' },
-        'SE2': { 'timeStart': '10:00', 'timeStop': '10:50' },
-        'SE3': { 'timeStart': '11:30', 'timeStop': '12:20' },
-        'SE4': { 'timeStart': '12:30', 'timeStop': '13:20' },
-        'SE5': { 'timeStart': '14:35', 'timeStop': '15:25' },
-        'SE6': { 'timeStart': '15:35', 'timeStop': '16:25' },
-        'SE7': { 'timeStart': '17:05', 'timeStop': '17:55' },
-        'SE8': { 'timeStart': '18:00', 'timeStop': '18:30' }
+        'SE2': { 'timeStart': '10:05', 'timeStop': '10:55' },
+        'SE3': { 'timeStart': '11:35', 'timeStop': '12:25' },
+        'SE4': { 'timeStart': '12:40', 'timeStop': '13:30' },
+        'SE5': { 'timeStart': '14:55', 'timeStop': '15:45' },
+        'SE6': { 'timeStart': '16:25', 'timeStop': '17:15' }, //Keynote
+        'SE7': { 'timeStart': '17:20', 'timeStop': '17:50' } //Closing 
     },
     'WED': {
         'SE1': { 'timeStart': '09:00', 'timeStop': '11:00' },
