@@ -901,7 +901,8 @@ export const meetings = [{
   "level": "middle",
   "speakers": [
     "Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t"
-  ]
+  ],
+  "id":"#TUE-TC2-SE5"
 },
 {
   "title": " Don't hack the platform? ",
@@ -1088,6 +1089,20 @@ export const meetings = [{
     "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
   ],
   "id":"#TUE-TC1-SE4"
+},
+  {
+  "title": "Kotlin for Java Programmers",
+  "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it's capabilities mean on the Java eco system, and how and where we can benefit from it.",
+  "type": "talk",
+  "tags": [
+    "Java",
+    "Kotlin"
+  ],
+  "level": "middle",
+  "speakers": [
+    "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
+  ],
+  "id":"#TUE-TC1-SE5"
 },
 {
   "title": "Begin Event Sourcing with Lagom",
@@ -1383,7 +1398,8 @@ export const meetings = [{
   "level": "middle",
   "speakers": [
     "QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ=="
-  ]
+  ],
+  "id":"#TUE-TC4-SE5"
 },
 {
   "title": "Serverless Java with Kubernetes",
@@ -1559,7 +1575,8 @@ export const meetings = [{
   "level": "middle",
   "speakers": [
     "d7dd1e2cddb70f05ead609e37df9dbad160e8893"
-  ]
+  ],
+  "id":"#TUE-TC6-SE5"
 },
 {
   "title": "Groovy & GraphQL: The peace pipe between front and back devs?",
@@ -1573,7 +1590,6 @@ export const meetings = [{
   "level": "beginner",
   "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"],
   "id":"#TUE-TC6-SE3"
-
 },
 {
   "title": "Going Web Native",
@@ -1966,7 +1982,8 @@ export const meetings = [{
   "level": "middle",
   "speakers": [
     "eedfd3d651b222b6d6438ecd3432da6c84727956"
-  ]
+  ],
+  "id":"#TUE-TC3-SE5"
 },
 {
   "title": "Staying pure with Kotlin and Spring 5 ",
@@ -2017,7 +2034,8 @@ export const meetings = [{
   "speakers": [
     "c4ad5c2a04c432ed7489bc775d226e539c938665",
     "bed448adfd919b5b2e3f97102d656f1cd9afabfa"
-  ]
+  ],
+  "id":"#TUE-TC5-SE5"
 },
   {
     "abstract": "Many JVM languages promote \"less boilerplate code\" as one of their selling points. Even updates to Java in recent years have removed unnecessary syntax. While this is clearly meant to be a Good Thing, many of us - particularly if we've been writing Java for a long time - think \"so what?\". Our IDEs can generate code, and our brains get used to ignoring the stuff that doesn't matter. \n\nIs the removal of extraneous code from the syntax of a language necessary, or just a gimmick? How does it impact our ability to write and read code? \n\nIn this talk, Trisha will explore common coding scenarios using Java and Kotlin. We'll see what's important for developers to write (and, more importantly, read) and what can be removed. We'll also see how Java has evolved to improve our productivity as producers and consumers of code, and why understanding new languages and staying up to date with the features of Java can ultimately make your life easier.",
