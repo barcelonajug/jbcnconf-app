@@ -1,0 +1,49 @@
+// http://ionicframework.com/docs/v2/theming/
+
+<<<<<<< HEAD
+// Ionic Shared Functions
+// --------------------------------------------------
+// Makes Ionic Sass functions available to your App
+
+@import 'globals.core';
+=======
+>>>>>>> 5c03710b92e80f411f7a828fd0fba9dc75826b32
+
+// App Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files. Setting
+// variables before Ionic's Sass will use these variables rather than
+// Ionic's default Sass variable values. App Shared Sass imports belong
+// in the app.core.scss file and not this file. Sass variables specific
+<<<<<<< HEAD
+// to the mode belong in the app.ios.scss, app.md.scss, or app.wp.scss files.
+=======
+// to the mode belong in either the app.ios.scss or app.md.scss files.
+>>>>>>> 5c03710b92e80f411f7a828fd0fba9dc75826b32
+
+
+// App Shared Color Variables
+// --------------------------------------------------
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+// Both iOS and MD colors can be further customized if colors
+// are different per mode.
+
+$colors: (
+  primary:    #387ef5,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222,
+<<<<<<< HEAD
+  favorite:   #69BB7B,
+  twitter:    #53ACEB,
+  github:     #000000,
+  instagram:  #235D8D
+=======
+  favorite:   #69BB7B
+>>>>>>> 5c03710b92e80f411f7a828fd0fba9dc75826b32
+);
