@@ -915,7 +915,8 @@ export const meetings = [{
   "level": "middle",
   "speakers": [
     "SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20="
-  ]
+  ],
+  "id":"#TUE-TC4-SE3"
 },
 {
   "title": "Kotlin EE: Boost your Productivity",
@@ -995,7 +996,8 @@ export const meetings = [{
   "level": "beginner",
   "speakers": [
     "QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ=="
-  ]
+  ],
+  "id":"#TUE-TC6-SE4"
 },
 {
   "title": "Escaping Developer Nightmares",
@@ -1084,7 +1086,8 @@ export const meetings = [{
   "level": "middle",
   "speakers": [
     "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
-  ]
+  ],
+  "id":"#TUE-TC1-SE4"
 },
 {
   "title": "Begin Event Sourcing with Lagom",
@@ -1198,7 +1201,8 @@ export const meetings = [{
   "level": "advanced",
   "speakers": [
     "SW9udXRCYWxvc2luaW9udXRiYWxvc2luQHlhaG9vLmNvbQ=="
-  ]
+  ],
+  "id":"#TUE-TC5-SE3"
 },
 {
   "title": "Performance tests - it’s a trap.",
@@ -1335,7 +1339,8 @@ export const meetings = [{
   "type": "talk",
   "tags": ["Java", "Microservices", "Architecture"],
   "level": "beginner",
-  "speakers": ["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=", "U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"]
+  "speakers": ["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=", "U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"],
+  "id":"TUE-TC3-SE4"
 },
 {
   "title": "REPL Driven Development: immediate feedback for your server side code",
@@ -1348,7 +1353,8 @@ export const meetings = [{
   "level": "advanced",
   "speakers": [
     "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ=="
-  ]
+  ],
+  "id":"#TUE-TC4-SE4"
 },
 {
   "title": "Efficiently Tracking Object Allocations in Production Environments",
@@ -1418,7 +1424,8 @@ export const meetings = [{
   "type": "talk",
   "tags": ["Continuous Delivery", "Kubernetes", "Cloud Native Applications", "MicroServices", "awesomeness"],
   "level": "middle",
-  "speakers": ["SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t"]
+  "speakers": ["SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t"],
+  "id":"#TUE-TC1-SE3"
 },
 {
   "title": "From OO Java to FP Scala: epic wins and epic fails",
@@ -1537,7 +1544,8 @@ export const meetings = [{
   "level": "middle",
   "speakers": [
     "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
-  ]
+  ],
+  "id":"#TUE-TC2-SE3"
 },
 {
   "title": "Real Impact Testing Analysis for JVM Developers",
@@ -1563,7 +1571,9 @@ export const meetings = [{
     "Ratpack",
     "Grails"],
   "level": "beginner",
-  "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"]
+  "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"],
+  "id":"#TUE-TC6-SE3"
+
 },
 {
   "title": "Going Web Native",
@@ -1642,7 +1652,8 @@ export const meetings = [{
   "level": "middle",
   "speakers": [
     "dcf4d5f83bc2dab51fb90922055352668da14a18"
-  ]
+  ],
+  "id":"#TUE-TC5-SE4"
 },
 {
   "title": "7 Deadlier Sins of Craftsmanship",
@@ -1791,7 +1802,8 @@ export const meetings = [{
   "level": "beginner",
   "speakers": [
     "ab961367d4eccd998be5e65c43aec1ef0ca91e56"
-  ]
+  ],
+  "id":"#TUE-TC2-SE4"
 },
 {
   "title": "Let's do reactive web applications with Spring 5, Web Flux and Kafka",
