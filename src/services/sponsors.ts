@@ -134,6 +134,14 @@ export const sponsors = {
         "src": "assets/img/sponsors/newrelic-logo.png",
         "alt": "New Relic"
       }
+    },
+    {
+      "name": "ZARA",
+      "href": "https://www.zara.com",
+      "image": {
+        "src": "assets/img/sponsors/zara.jpg",
+        "alt": "ZARA"
+      }
     }
   ],
   "silver": [{
@@ -240,6 +248,14 @@ export const sponsors = {
       "image": {
         "src": "assets/img/sponsors/smart-catalonia.jpg",
         "alt": "SmartCatalonia"
+      }
+    },
+    {
+      "name": "JobFluent",
+      "href": "https://www.jobfluent.com/jobs-barcelona/java",
+      "image": {
+        "src": "assets/img/sponsors/jobfluent.png",
+        "alt": "JobFluent"
       }
     }
   ]
