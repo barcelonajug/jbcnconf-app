@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 
 node_modules/
-www/build/
+www/
 plugins/
 platforms/
 *.swp
