@@ -41,7 +41,9 @@ const seasonsTimes = {
     },
     'WED': {
         'SE1': { 'timeStart': '09:00', 'timeStop': '11:00' },
-        'SE2': { 'timeStart': '11:30', 'timeStop': '13:30' }
+        'SE2': { 'timeStart': '11:30', 'timeStop': '13:30' },
+        'SE3': { 'timeStart': '11:30', 'timeStop': '13:30' },
+        'SE4': { 'timeStart': '11:30', 'timeStop': '13:30' }
     }
 };
 
@@ -87,15 +89,15 @@ export class JbcnService {
         let processed = {};
         let days = {
             'MON': {
-                'date': Date.parse('2017-06-19'),
+                'date': Date.parse('2018-06-11'),
                 'meetings': []
             },
             'TUE': {
-                'date': Date.parse('2017-06-20'),
+                'date': Date.parse('2018-06-22'),
                 'meetings': []
             },
             'WED': {
-                'date': Date.parse('2017-06-21'),
+                'date': Date.parse('2018-06-23'),
                 'meetings': []
             }
         };
@@ -130,14 +132,6 @@ export class JbcnService {
 
             for(let tag of talk.tags) {
                 if(tagArray.indexOf(tag) == -1) this.tags.push(tag);
-            }
-
-            if (meeting.scheduleId === '#Sat-Keynote') {
-                meeting.id = '#SAT-TC0-SE7';
-            }
-
-            if (meeting.scheduleId === '#Fri-Keynote') {
-                meeting.id = '#FRI-TC0-SE0';
             }
 
             if (meeting.id && meeting.id !== '') {

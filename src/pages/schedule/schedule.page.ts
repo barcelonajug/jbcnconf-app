@@ -54,7 +54,6 @@ export class SchedulePage {
     }
 
     applyFilters() {
-        console.log('Calling applyFilters');
         let date = new Date();
         for (var i = 0; i < this.schedule.length; i++) {
             var day = this.schedule[i];
@@ -77,11 +76,9 @@ export class SchedulePage {
                 }
             }
         }
-        console.log('Ending applyFilters:'+(new Date().getTime() - date.getTime()));
     }
 
     filterByTag(evt: Event, tag) {
-        console.log('filterByTag');
         evt.preventDefault();
         evt.stopPropagation();
         this.search.day = '';
@@ -92,7 +89,6 @@ export class SchedulePage {
     }
 
     filterByTrack(evt: Event, track) {
-        console.log('filterByTrack');
         evt.preventDefault();
         evt.stopPropagation();
         this.search.day = '';

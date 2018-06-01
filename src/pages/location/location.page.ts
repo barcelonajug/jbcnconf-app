@@ -20,7 +20,6 @@ export class LocationPage  {
     }
 
     openLocation(address:string) {
-      console.log("Openint ", this.mapUrl+address);
       window.open(this.mapUrl + address, '_system');
     }
 

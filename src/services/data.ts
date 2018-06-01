@@ -902,7 +902,7 @@ export const meetings = [{
   "speakers": [
     "Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t"
   ],
-  "id":"#TUE-TC2-SE5"
+  "scheduleId":"#TUE-TC2-SE5"
 },
 {
   "title": " Don't hack the platform? ",
@@ -917,7 +917,7 @@ export const meetings = [{
   "speakers": [
     "SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20="
   ],
-  "id":"#TUE-TC4-SE3"
+  "scheduleId":"#TUE-TC4-SE3"
 },
 {
   "title": "Kotlin EE: Boost your Productivity",
@@ -935,7 +935,7 @@ export const meetings = [{
   "speakers": [
     "TWFyY3VzRmlobG9ubWFyY3VzQGZpaGxvbi5jaA=="
   ],
-  "id":"#MON-TC6-SE3"
+  "scheduleId":"#MON-TC6-SE3"
 },
 {
   "title": " Minimum Cloud Skills or why shoving everything in containers is not enough",
@@ -952,7 +952,7 @@ export const meetings = [{
   "speakers": [
     "TGF1cmVudERvZ3VpbmxhdXJlbnQuZG9ndWluQGNsZXZlci1jbG91ZC5jb20="
   ],
-  "id":"#MON-TC4-SE2"
+  "scheduleId":"#MON-TC4-SE2"
 },
 {
   "title": "Serverless in Deep",
@@ -968,7 +968,7 @@ export const meetings = [{
   "speakers": [
     "TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ=="
   ],
-  "id":"#MON-TC4-SE1"
+  "scheduleId":"#MON-TC4-SE1"
 },
 {
   "title": "Ten common mistake made in Functional Java",
@@ -982,7 +982,7 @@ export const meetings = [{
   "speakers": [
     "QnJpYW5WZXJtZWVyYnJpYW5AYnJpYW52ZXJtZWVyLm5s"
   ],
-  "id":"#MON-TC5-SE5"
+  "scheduleId":"#MON-TC5-SE5"
 },
 {
   "title": "3 common pitfalls in microservice integration and how to avoid them",
@@ -998,7 +998,7 @@ export const meetings = [{
   "speakers": [
     "QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ=="
   ],
-  "id":"#TUE-TC6-SE4"
+  "scheduleId":"#TUE-TC6-SE4"
 },
 {
   "title": "Escaping Developer Nightmares",
@@ -1013,7 +1013,7 @@ export const meetings = [{
   "speakers": [
     "UnVzdGFtTWVobWFuZGFyb3ZtZWhtYW5kYXJvdkBnbWFpbC5jb20="
   ],
-  "id":"#TUE-TC2-SE1"
+  "scheduleId":"#TUE-TC2-SE1"
 },
 {
   "title": "Let's build a blockchain in 50 minutes!",
@@ -1028,7 +1028,7 @@ export const meetings = [{
   "speakers": [
     "TWljaGVsU2NodWRlbG1pY2hlbC5zY2h1ZGVsQGdtYWlsLmNvbQ=="
   ],
-  "id":"#TUE-TC4-SE1"
+  "scheduleId":"#TUE-TC4-SE1"
 },
 {
   "title": "Distributed System explained (with Java Microservices)",
@@ -1046,7 +1046,7 @@ export const meetings = [{
     "QnJ1bm9Cb3Nzb2xhYmJvc3NvbGFAZ21haWwuY29t",
     "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
   ],
-  "id":"#MON-TC5-SE2"
+  "scheduleId":"#MON-TC5-SE2"
 },
 {
   "title": "Top 10 Vulnerabilities you wish your Java app didn't have!",
@@ -1060,7 +1060,7 @@ export const meetings = [{
   "speakers": [
     "U2ltb25NYXBsZXNqbWFwbGVAZ21haWwuY29t"
   ],
-  "id":"#MON-TC1-SE5"
+  "scheduleId":"#MON-TC1-SE5"
 },
 {
   "title": "Thinking in Functional Style 'Solving Commonly Recurring Code Problems using Java's Functional Capabilities.'",
@@ -1074,7 +1074,7 @@ export const meetings = [{
   "speakers": [
     "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
   ],
-  "id": "#WED-TC1-SE1"
+  "scheduleId": "#WED-TC1-SE1"
 },
 {
   "title": "Kotlin for Java Programmers",
@@ -1088,7 +1088,7 @@ export const meetings = [{
   "speakers": [
     "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
   ],
-  "id":"#TUE-TC1-SE4"
+  "scheduleId":"#TUE-TC1-SE4"
 },
   {
   "title": "Kotlin for Java Programmers",
@@ -1102,7 +1102,7 @@ export const meetings = [{
   "speakers": [
     "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
   ],
-  "id":"#TUE-TC1-SE5"
+  "scheduleId":"#TUE-TC1-SE5"
 },
 {
   "title": "Begin Event Sourcing with Lagom",
@@ -1119,7 +1119,7 @@ export const meetings = [{
   "speakers": [
     "T2xhUGV0ZXJzc29ubWFpbEBvbGFwZXRlcnNzb24uc2U="
   ],
-  "id":"#TUE-TC5-SE2"
+  "scheduleId":"#TUE-TC5-SE2"
 },
 {
   "title": "How to Leverage the Apache Kafka Ecosystem to Productionize Machine Learning",
@@ -1133,7 +1133,7 @@ export const meetings = [{
   "speakers": [
     "S2FpV2FlaG5lcm1lZ2FjaHVja3lAZ21haWwuY29t"
   ],
-  "id":"#MON-TC4-SE3"
+  "scheduleId":"#MON-TC4-SE3"
 },
 {
   "title": "A Craftsman’s Guide to Designing a Clean Architecture",
@@ -1154,7 +1154,7 @@ export const meetings = [{
   "speakers": [
     "TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ=="
   ],
-  "id":"#MON-TC2-SE1"
+  "scheduleId":"#MON-TC2-SE1"
 },
 {
   "title": "Long Live and Prosper to Monolith",
@@ -1170,7 +1170,7 @@ export const meetings = [{
   "speakers": [
     "QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ=="
   ],
-  "id":"#MON-TC2-SE3"
+  "scheduleId":"#MON-TC2-SE3"
 },
 {
   "title": "A Look Back at Enterprise Integration Patterns and Their Use into Today's Serverless Computing",
@@ -1187,7 +1187,7 @@ export const meetings = [{
   "speakers": [
     "QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t"
   ],
-  "id": "#MON-TC1-SE1"
+  "scheduleId": "#MON-TC1-SE1"
 },
 {
   "title": "A Case for Outside-In Design",
@@ -1201,7 +1201,7 @@ export const meetings = [{
   "speakers": [
     "U2FuZHJvTWFuY3Vzb2luZm9AYmFyY2Vsb25hanVnLm9yZw=="
   ],
-  "id": "#TUE-TC1-SE1"
+  "scheduleId": "#TUE-TC1-SE1"
 },
 {
   "title": "Demystifying modern significant Java language features",
@@ -1217,7 +1217,7 @@ export const meetings = [{
   "speakers": [
     "SW9udXRCYWxvc2luaW9udXRiYWxvc2luQHlhaG9vLmNvbQ=="
   ],
-  "id":"#TUE-TC5-SE3"
+  "scheduleId":"#TUE-TC5-SE3"
 },
 {
   "title": "Performance tests - it’s a trap.",
@@ -1227,7 +1227,7 @@ export const meetings = [{
     "performance tests"],
   "level": "beginner",
   "speakers": ["QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ=="],
-  "id":"#MON-TC5-SE4"
+  "scheduleId":"#MON-TC5-SE4"
 },
 {
   "title": "Supercharging User Experience with Machine Learning on the JVM",
@@ -1241,7 +1241,7 @@ export const meetings = [{
   "level": "middle",
   "speakers": ["Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
     "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ=="],
-  "id":"#TUE-TC3-SE1"
+  "scheduleId":"#TUE-TC3-SE1"
 },
 {
   "title": "Real Life Cloud Native Java in Kubernetes",
@@ -1260,7 +1260,7 @@ export const meetings = [{
     "TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
     "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
   ],
-  "id": "#WED-TC2-SE1"
+  "scheduleId": "#WED-TC2-SE1"
 },
 {
   "title": "GraphQL in Java World",
@@ -1276,7 +1276,7 @@ export const meetings = [{
   "speakers": [
     "vladimirdejanovic"
   ],
-  "id": "#WED-TC2-SE3"
+  "scheduleId": "#WED-TC2-SE3"
 },
 {
   "title": "Surfing through Spacetime - Science in the Movies",
@@ -1287,7 +1287,7 @@ export const meetings = [{
     "scify",
     "startwars"
   ],
-  "id": "#MON-TC0-SE0",
+  "scheduleId": "#MON-TC0-SE0",
   "level": "middle",
   "speakers": [
     "Sm9yZGlKb3Nlam9yZGkuam9zZUB1cGMuZWR1"
@@ -1307,7 +1307,7 @@ export const meetings = [{
   "speakers": [
     "UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t"
   ],
-  "id":"#MON-TC2-SE2"
+  "scheduleId":"#MON-TC2-SE2"
 },
 {
   "title": "Modular Java Development in Action",
@@ -1322,7 +1322,7 @@ export const meetings = [{
   "speakers": [
     "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1"
   ],
-  "id":"#TUE-TC1-SE2"
+  "scheduleId":"#TUE-TC1-SE2"
 },
 {
   "title": "Reactive Integrations - Caveats and bumps in the road explained",
@@ -1337,7 +1337,7 @@ export const meetings = [{
   "speakers": [
     "TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t"
   ],
-  "id":"#MON-TC1-SE3"
+  "scheduleId":"#MON-TC1-SE3"
 },
 {
   "title": "Stream Processing in Telco - lessons learned",
@@ -1346,7 +1346,7 @@ export const meetings = [{
   "tags": ["stream processing", "telco", "kafka", "flink"],
   "level": "middle",
   "speakers": ["TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t"],
-  "id":"#MON-TC4-SE4"
+  "scheduleId":"#MON-TC4-SE4"
 },
 {
   "title": "Eventing with Apache Kafka - Having data is better than needing data",
@@ -1355,7 +1355,7 @@ export const meetings = [{
   "tags": ["Java", "Microservices", "Architecture"],
   "level": "beginner",
   "speakers": ["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=", "U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"],
-  "id":"TUE-TC3-SE4"
+  "scheduleId":"#TUE-TC3-SE4"
 },
 {
   "title": "REPL Driven Development: immediate feedback for your server side code",
@@ -1369,7 +1369,7 @@ export const meetings = [{
   "speakers": [
     "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ=="
   ],
-  "id":"#TUE-TC4-SE4"
+  "scheduleId":"#TUE-TC4-SE4"
 },
 {
   "title": "Efficiently Tracking Object Allocations in Production Environments",
@@ -1384,7 +1384,7 @@ export const meetings = [{
   "speakers": [
     "RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t"
   ],
-  "id":"#TUE-TC4-SE2"
+  "scheduleId":"#TUE-TC4-SE2"
 },
 {
   "title": "A practical approach to Java Memory Model",
@@ -1399,7 +1399,7 @@ export const meetings = [{
   "speakers": [
     "QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ=="
   ],
-  "id":"#TUE-TC4-SE5"
+  "scheduleId":"#TUE-TC4-SE5"
 },
 {
   "title": "Serverless Java with Kubernetes",
@@ -1416,7 +1416,7 @@ export const meetings = [{
   "speakers": [
     "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t"
   ],
-  "id":"#MON-TC1-SE4"
+  "scheduleId":"#MON-TC1-SE4"
 },
 {
   "title": "Building continuous delivery for Microservices with Jenkins X",
@@ -1432,7 +1432,7 @@ export const meetings = [{
     "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
     "SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t"
   ],
-  "id": "#WED-TC4-SE2"
+  "scheduleId": "#WED-TC4-SE2"
 },  
 {
   "title": "Jenkins X: Continuous Delivery for Kubernetes",
@@ -1441,7 +1441,7 @@ export const meetings = [{
   "tags": ["Continuous Delivery", "Kubernetes", "Cloud Native Applications", "MicroServices", "awesomeness"],
   "level": "middle",
   "speakers": ["SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t"],
-  "id":"#TUE-TC1-SE3"
+  "scheduleId":"#TUE-TC1-SE3"
 },
 {
   "title": "From OO Java to FP Scala: epic wins and epic fails",
@@ -1450,7 +1450,7 @@ export const meetings = [{
   "tags": ["java", "scala", "functional programming", "testing"],
   "level": "beginner",
   "speakers": ["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"],
-  "id":"#MON-TC6-SE2"
+  "scheduleId":"#MON-TC6-SE2"
 },
 {
   "title": "Blockchain: more than bitcoin!",
@@ -1464,7 +1464,7 @@ export const meetings = [{
   "speakers": [
     "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
   ],
-  "id":"#MON-TC6-SE4"
+  "scheduleId":"#MON-TC6-SE4"
 },
 {
   "title": "JDK 9 and 10: Pitfalls For The Unwary",
@@ -1487,7 +1487,7 @@ export const meetings = [{
     "streaming"],
   "level": "middle",
   "speakers": ["SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t"],
-  "id": "#WED-TC3-SE1"
+  "scheduleId": "#WED-TC3-SE1"
 },
 {
   "abstract": "Cloud native applications are designed to anticipate failure, run and scale reliably even when the infrastructure it is running on is experiencing outages. To offer such capabilities, the cloud native platforms impose a set of contracts and constraints on the applications running on them. These contracts ensure that the applications conform to certain constraints and allow the platforms to automate the management of the containerized applications.\nDuring this talk we will take you on a journey exploring Kubernetes distributes primitives, the guiding container design principles, and the resulting patterns. Following these design guidelines will ensure that the applications you create are suitable for automation in cloud native platforms such as Kubernetes.\n\nThis talk is based on, and builds on top of a popular blog post I wrote for InfoQ:\nhttps://www.infoq.com/articles/kubernetes-effect",
@@ -1502,7 +1502,7 @@ export const meetings = [{
   ],
   "title": "The Kubernetes Effect",
   "type": "talk",
-  "id":"#MON-TC3-SE5"
+  "scheduleId":"#MON-TC3-SE5"
 },
 {
   "title": "RxJava Code Lab",
@@ -1511,7 +1511,7 @@ export const meetings = [{
   "tags": ["Reactive Programming", "Rx", "Java", "Mobile"],
   "level": "beginner",
   "speakers": ["1fb9cc741e1f562c74484fb0d5980ac5813501a2"],
-  "id": "#WED-TC2-SE2"
+  "scheduleId": "#WED-TC2-SE2"
 },
 {
   "title": "Docker In Anger for Java Developers",
@@ -1528,7 +1528,7 @@ export const meetings = [{
   "speakers": [
     "ef9952db4071b89e490eac6ffd546d3000a1b4ce"
   ],
-  "id": "#WED-TC4-SE1"
+  "scheduleId": "#WED-TC4-SE1"
 },
 {
   "title": "Fast prototyping of Enterprise Cross-Platform Mobile Applications with Java",
@@ -1546,7 +1546,7 @@ export const meetings = [{
   "speakers": [
     "e5a304daa5607a97ddf4a2ae2417bbeb93efa371"
   ],
-  "id":"#MON-TC3-SE3"
+  "scheduleId":"#MON-TC3-SE3"
 },
 {
   "title": "Revisiting Effective Java in 2018",
@@ -1561,7 +1561,7 @@ export const meetings = [{
   "speakers": [
     "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
   ],
-  "id":"#TUE-TC2-SE3"
+  "scheduleId":"#TUE-TC2-SE3"
 },
 {
   "title": "Real Impact Testing Analysis for JVM Developers",
@@ -1576,7 +1576,7 @@ export const meetings = [{
   "speakers": [
     "d7dd1e2cddb70f05ead609e37df9dbad160e8893"
   ],
-  "id":"#TUE-TC6-SE5"
+  "scheduleId":"#TUE-TC6-SE5"
 },
 {
   "title": "Groovy & GraphQL: The peace pipe between front and back devs?",
@@ -1589,7 +1589,7 @@ export const meetings = [{
     "Grails"],
   "level": "beginner",
   "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"],
-  "id":"#TUE-TC6-SE3"
+  "scheduleId":"#TUE-TC6-SE3"
 },
 {
   "title": "Going Web Native",
@@ -1603,7 +1603,7 @@ export const meetings = [{
     "Web app"],
   "level": "beginner",
   "speakers": ["QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20="],
-  "id":"#MON-TC3-SE1"
+  "scheduleId":"#MON-TC3-SE1"
 },
 {
   "title": "When Old Meets New: Turning Maven into a High Scalable, Resource Efficient, Cloud Ready Microservice",
@@ -1625,7 +1625,7 @@ export const meetings = [{
   "speakers": [
     "d0ad39041e641ff2cfc220a0f7ae315f826f59b8"
   ],
-  "id":"#TUE-TC3-SE2"
+  "scheduleId":"#TUE-TC3-SE2"
 },
 {
   "title": "Lightweight Enterprise Java with MicroProfile",
@@ -1640,7 +1640,7 @@ export const meetings = [{
   "speakers": [
     "1d2bc689a08a82df0bd09571219c937e658c5407"
   ],
-  "id":"#MON-TC3-SE2"
+  "scheduleId":"#MON-TC3-SE2"
 },
 {
   "title": "Apache Kafka from the trenches",
@@ -1655,7 +1655,7 @@ export const meetings = [{
   "speakers": [
     "f9735e896fb3811ae30aeec2330214dcf6f7ff40"
   ],
-  "id":"#MON-TC3-SE4"
+  "scheduleId":"#MON-TC3-SE4"
 },
 {
   "title": "The Dark Side of Java 8 - Lessons Learned",
@@ -1669,7 +1669,7 @@ export const meetings = [{
   "speakers": [
     "dcf4d5f83bc2dab51fb90922055352668da14a18"
   ],
-  "id":"#TUE-TC5-SE4"
+  "scheduleId":"#TUE-TC5-SE4"
 },
 {
   "title": "7 Deadlier Sins of Craftsmanship",
@@ -1685,7 +1685,7 @@ export const meetings = [{
   "speakers": [
     "1c9e35308c401793ad51011657e043b382416bef"
   ],
-  "id":"#TUE-TC6-SE2"
+  "scheduleId":"#TUE-TC6-SE2"
 },
 {
   "title": "Cirque du application development - containers, Kubernetes, and OpenShift",
@@ -1703,7 +1703,7 @@ export const meetings = [{
     "b33fa71d4efd0c60b13345115cb00f92c352394c",
     "ff55294f8464ef742da59a126c35e25670d377dc"
   ],
-  "id": "#WED-TC4-SE4"
+  "scheduleId": "#WED-TC4-SE4"
 },
 {
   "title": "The JVM concurrency toolbox: a treasure trove for the curious engineer",
@@ -1719,7 +1719,7 @@ export const meetings = [{
   "speakers": [
     "c45f58eb5100118866ec4bf9cf18ca42cff28e21"
   ],
-  "id":"#MON-TC5-SE3"
+  "scheduleId":"#MON-TC5-SE3"
 },
 {
   "title": "Clean Architecture the right way! Or almost…",
@@ -1734,7 +1734,7 @@ export const meetings = [{
   "speakers": [
     "4e685685878fa58b6313ce1646240bbfcc87801c"
   ],
-  "id":"#MON-TC5-SE5"
+  "scheduleId":"#MON-TC5-SE5"
 },
 {
   "title": "Asynchronous programming with Kotlin coroutines",
@@ -1750,7 +1750,7 @@ export const meetings = [{
   "speakers": [
     "beff468d22deac694476d7587dd84d6148af61cc"
   ],
-  "id":"#TUE-TC5-SE1"
+  "scheduleId":"#TUE-TC5-SE1"
 },
 {
   "title": "Make your own chess engine and change the world!",
@@ -1766,7 +1766,7 @@ export const meetings = [{
     "6216c13c3648212feee1ca1e6936e24361b014f8",
     "6008fec2ba23040fbac705898aff6a1af5b1be16"
   ],
-  "id": "#WED-TC1-SE4"
+  "scheduleId": "#WED-TC1-SE4"
 },
 {
   "title": "Fantastic Bytecodes and How To Interpret Them",
@@ -1781,7 +1781,7 @@ export const meetings = [{
   "speakers": [
     "a71020196a6877a18aa38df8e51e12fc6807d6c7"
   ],
-  "id":"#MON-TC2-SE4"
+  "scheduleId":"#MON-TC2-SE4"
 },
 {
   "title": "Java EE 8 finally final! And now Jakarta EE?",
@@ -1791,7 +1791,7 @@ export const meetings = [{
     "jakarta"],
   "level": "middle",
   "speakers": ["a744f52d967ebb543100a1215f9fe38080a664f0"],
-  "id":"#MON-TC5-SE1"
+  "scheduleId":"#MON-TC5-SE1"
 },
 {
   "title": "Functional DB access in Scala with Doobie",
@@ -1803,7 +1803,7 @@ export const meetings = [{
     "Databases"],
   "level": "beginner",
   "speakers": ["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"],
-  "id": "#WED-TC1-SE2"
+  "scheduleId": "#WED-TC1-SE2"
 },
 {
   "title": "From Legacy to Cloud",
@@ -1819,7 +1819,7 @@ export const meetings = [{
   "speakers": [
     "ab961367d4eccd998be5e65c43aec1ef0ca91e56"
   ],
-  "id":"#TUE-TC2-SE4"
+  "scheduleId":"#TUE-TC2-SE4"
 },
 {
   "title": "Let's do reactive web applications with Spring 5, Web Flux and Kafka",
@@ -1839,7 +1839,7 @@ export const meetings = [{
     "675c0972b5f59c5f97c123154394ff80bcdd8155",
     "259baea1670f31b1a7f52f274e2c610f52f43033"
   ],
-  "id": "#WED-TC3-SE4"
+  "scheduleId": "#WED-TC3-SE4"
 },
 {
   "title": "Android CI with Docker",
@@ -1848,7 +1848,7 @@ export const meetings = [{
   "tags": ["Java", "Android", "Docker", "Continuous Integration", "Build"],
   "level": "middle",
   "speakers": ["cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0", "63c6dde41b2aab6997cd9494336b6911c6195c68"],
-  "id": "#WED-TC2-SE4"
+  "scheduleId": "#WED-TC2-SE4"
 },
 {
   "title": "JVM in container die hard",
@@ -1863,7 +1863,7 @@ export const meetings = [{
   "speakers": [
     "af372ba246acd002092dc3287e2323c4736d744e"
   ],
-  "id": "#TUE-TC3-SE3"
+  "scheduleId": "#TUE-TC3-SE3"
 },
 {
   "title": "Integrating cloud services with Apache Camel",
@@ -1879,7 +1879,7 @@ export const meetings = [{
     "862790959f2faa83c9d58166b2c2b68652ce6bf9",
     "75723c4f2c8f7c6cb8c41fc9ca8bc9f4c926ca4e"
   ],
-  "id": "#WED-TC4-SE3"
+  "scheduleId": "#WED-TC4-SE3"
 },
 {
   "title": "Google Cloud Native with Spring Boot\t(Workshop)",
@@ -1890,7 +1890,7 @@ export const meetings = [{
   ],
   "level": "middle",
   "speakers": ["95465cac53a18f211964d0fe9a544ecd9c815521"],
-  "id": "#WED-TC3-SE2"
+  "scheduleId": "#WED-TC3-SE2"
 },
 {
   "title": "Docker Tips and Tricks for Java Developers",
@@ -1903,7 +1903,7 @@ export const meetings = [{
   "speakers": [
     "95465cac53a18f211964d0fe9a544ecd9c815521"
   ],
-  "id":"#MON-TC1-SE2"
+  "scheduleId":"#MON-TC1-SE2"
 },
 {
   "title": "Java 9, 10, 11 - What the future holds",
@@ -1925,7 +1925,7 @@ export const meetings = [{
   "speakers": [
     "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
   ],
-  "id":"#MON-TC2-SE5"
+  "scheduleId":"#MON-TC2-SE5"
 },
 {
   "title": "Build, Deploy, and Run Applications with Modern Automation",
@@ -1940,7 +1940,7 @@ export const meetings = [{
   "speakers": [
     "24b140b99b4e30e8d36bb642bec4ce154d12027f"
   ],
-  "id":"#MON-TC4-SE5"
+  "scheduleId":"#MON-TC4-SE5"
 },
 {
   "title": "Going beyond JVM with Kotlin",
@@ -1954,7 +1954,7 @@ export const meetings = [{
   "speakers": [
     "4b8deafb473f992c2cf9bd9055544607a1c3fb7f"
   ],
-  "id":"#MON-TC6-SE1"
+  "scheduleId":"#MON-TC6-SE1"
 },
 {
   "title": "Refactoring out of God Object class antipattern",
@@ -1969,7 +1969,7 @@ export const meetings = [{
   "speakers": [
     "34e64a4d88094a0c4231d49cc0305d61d7b854ee"
   ],
-  "id": "#WED-TC1-SE3"
+  "scheduleId": "#WED-TC1-SE3"
 },
 {
   "title": "Walking in CODE",
@@ -1984,7 +1984,7 @@ export const meetings = [{
   "speakers": [
     "eedfd3d651b222b6d6438ecd3432da6c84727956"
   ],
-  "id":"#TUE-TC3-SE5"
+  "scheduleId":"#TUE-TC3-SE5"
 },
 {
   "title": "Staying pure with Kotlin and Spring 5 ",
@@ -2001,7 +2001,7 @@ export const meetings = [{
   "speakers": [
     "eedfd3d651b222b6d6438ecd3432da6c84727956"
   ],
-  "id": "#WED-TC3-SE3"
+  "scheduleId": "#WED-TC3-SE3"
 },
 {
   "title": "Microservices Data Patterns: CQRS & Event Sourcing",
@@ -2016,7 +2016,7 @@ export const meetings = [{
   "speakers": [
     "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
   ],
-  "id":"#TUE-TC6-SE1"
+  "scheduleId":"#TUE-TC6-SE1"
 },
 {
   "title": "How we improved by 800% real time message processing with Kafka, Akka & Akka streams",
@@ -2036,7 +2036,7 @@ export const meetings = [{
     "c4ad5c2a04c432ed7489bc775d226e539c938665",
     "bed448adfd919b5b2e3f97102d656f1cd9afabfa"
   ],
-  "id":"#TUE-TC5-SE5"
+  "scheduleId":"#TUE-TC5-SE5"
 },
   {
     "abstract": "Many JVM languages promote \"less boilerplate code\" as one of their selling points. Even updates to Java in recent years have removed unnecessary syntax. While this is clearly meant to be a Good Thing, many of us - particularly if we've been writing Java for a long time - think \"so what?\". Our IDEs can generate code, and our brains get used to ignoring the stuff that doesn't matter. \n\nIs the removal of extraneous code from the syntax of a language necessary, or just a gimmick? How does it impact our ability to write and read code? \n\nIn this talk, Trisha will explore common coding scenarios using Java and Kotlin. We'll see what's important for developers to write (and, more importantly, read) and what can be removed. We'll also see how Java has evolved to improve our productivity as producers and consumers of code, and why understanding new languages and staying up to date with the features of Java can ultimately make your life easier.",
@@ -2050,6 +2050,6 @@ export const meetings = [{
     ],
     "title": "Is boilerplate code really so bad?",
     "type": "talk",
-    "id":"#TUE-TC2-SE2"
+    "scheduleId":"#TUE-TC2-SE2"
 }
 ];

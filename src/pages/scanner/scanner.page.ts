@@ -34,7 +34,6 @@ export class ScannerPage {
         this.jbcnService.addContact(contact);
         this.loadContacts();
       }
-      
     }, (err) => {
       console.log(err);
     });
@@ -68,7 +67,7 @@ export class ScannerPage {
       contactText = contactText + '\r\n\r\n';
     }
     console.log(contactText);
-    this.socialSharing.share(contactText, 'JBCNConf 2017 contacts',[],'').then((response) => {
+    this.socialSharing.share(contactText, 'JBCNConf 2018 contacts',[],'').then((response) => {
       console.log(response);
     }).catch((error) => {
       console.log(error);
