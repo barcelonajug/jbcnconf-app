@@ -2001,7 +2001,7 @@ export const meetings = [{
   "speakers": [
     "eedfd3d651b222b6d6438ecd3432da6c84727956"
   ],
-  "scheduleId": "#WED-TC3-SE3"
+  "scheduleId": "#WED-TC3-SE2"
 },
 {
   "title": "Microservices Data Patterns: CQRS & Event Sourcing",
