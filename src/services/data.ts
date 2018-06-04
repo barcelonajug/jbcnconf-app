@@ -1890,7 +1890,7 @@ export const meetings = [{
   ],
   "level": "middle",
   "speakers": ["95465cac53a18f211964d0fe9a544ecd9c815521"],
-  "scheduleId": "#WED-TC3-SE2"
+  "scheduleId": "#WED-TC3-SE3"
 },
 {
   "title": "Docker Tips and Tricks for Java Developers",
