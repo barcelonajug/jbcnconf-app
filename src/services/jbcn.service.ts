@@ -11,14 +11,14 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 const config = {
-    apiUrl: 'https://jbcnconf.joseguitart.pro'
-    //apiUrl: 'http://localhost:8080'
+    apiUrl: 'https://cfpapi.jbcnconf.com'
+    //apiUrl: 'http://localhost:8085'
 };
 
 const dayTimes = {
-    'MON': '2017/06/19',
-    'TUE': '2017/06/20',
-    'WED': '2017/06/21'
+    'MON': '2018/06/11',
+    'TUE': '2018/06/12',
+    'WED': '2018/06/13'
 };
 
 const seasonsTimes = {
@@ -40,10 +40,10 @@ const seasonsTimes = {
         'SE7': { 'timeStart': '17:20', 'timeStop': '17:50' } //Closing 
     },
     'WED': {
-        'SE1': { 'timeStart': '09:00', 'timeStop': '11:00' },
-        'SE2': { 'timeStart': '11:30', 'timeStop': '13:30' },
-        'SE3': { 'timeStart': '11:30', 'timeStop': '13:30' },
-        'SE4': { 'timeStart': '11:30', 'timeStop': '13:30' }
+        'SE1': { 'timeStart': '09:00', 'timeStop': '10:55' },
+        'SE2': { 'timeStart': '11:35', 'timeStop': '13:30' },
+        'SE3': { 'timeStart': '14:45', 'timeStop': '16:40' },
+        'SE4': { 'timeStart': '17:20', 'timeStop': '19:15' }
     }
 };
 
@@ -52,19 +52,23 @@ const locations = {
         '1': 'Room #1',
         '2': 'Room #2',
         '3': 'Room #3',
-        '4': 'Room #4'
+        '4': 'Room #4',
+        '5': 'Room #5',
+        '6': 'Room #6'
     },
     'TUE': {
         '1': 'Room #1',
         '2': 'Room #2',
         '3': 'Room #3',
-        '4': 'Room #4'
+        '4': 'Room #4',
+        '5': 'Room #5',
+        '6': 'Room #6'
     },
     'WED': {
-        '1': 'Room Paris',
-        '2': 'Room Barcelona',
-        '3': 'Room Amsterdam',
-        '4': 'Room Londres'
+        '1': 'Room Sitges',
+        '2': 'Room Llivia',
+        '3': 'Room Llavorsí',
+        '4': 'Room Cadaqués'
     }
 };
 
@@ -93,11 +97,11 @@ export class JbcnService {
                 'meetings': []
             },
             'TUE': {
-                'date': Date.parse('2018-06-22'),
+                'date': Date.parse('2018-06-12'),
                 'meetings': []
             },
             'WED': {
-                'date': Date.parse('2018-06-23'),
+                'date': Date.parse('2018-06-13'),
                 'meetings': []
             }
         };
@@ -288,7 +292,7 @@ export class JbcnService {
             this.http.get(`http://localhost:8080/jbcn/2017/talk/${id}/vote/${deviceId}/${vote}`, {})
                 .subscribe(response => {
                     let json = response.json();
-                    resolve(json['voteAverage']);
+                    resolve(json['data']['average']);
                 }, error => {
                 });
         });
@@ -355,6 +359,23 @@ export class JbcnService {
         });
     }
 
+    getAverageVote(meetingId: string) {
+        const id = meetingId.substring(1);
+        return new Promise((resolve, reject) => {
+            this.http.get(`${config.apiUrl}/public/api/vote/${id}`)
+            .map(response => response.json())
+            .subscribe(response => {
+                if (response['status']) {
+                    resolve(response.data.average);
+                } else {
+                    reject(response.error);
+                }
+            }, error => {
+                reject(error);
+            });
+        });
+    }
+
     storeComments(meetingId: string, comments: Array<any>) {
         localStorage.setItem('comments-'+meetingId, JSON.stringify(comments));
     }
@@ -387,9 +408,10 @@ export class JbcnService {
                 name: name,
                 text: comment
             };
-            this.http.post(config.apiUrl+'/jbcn/2017/talk/comment', params).subscribe(response => {
+            let scheduleId = meetingId.substring(1);
+            this.http.get(`${config.apiUrl}/public/api/vote/${scheduleId}/${deviceId}/${vote}`).subscribe(response => {
                 if(response['status']) {
-                    this.storeVote(meetingId, response.json().averageVote);
+                    this.storeVote(meetingId, response.json().data.average);
                     this.storeUserComment(meetingId, vote, name, comment);
                     resolve(response);
                 } else {

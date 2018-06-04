@@ -32,9 +32,8 @@ export class MeetingDetailPage {
                 this.speakers.push(speaker);
             }
         });
-        this.jbcnService.loadComments(this.meeting.id).then(comments => {
-            this.comments = comments;
-            this.calcAverage();
+        this.jbcnService.getAverageVote(this.meeting.id).then(average => {
+            this.vote = average;
         }, error => {
             this.comments = this.jbcnService.getComments(this.meeting.id);
             this.calcAverage();

@@ -23,6 +23,11 @@ export class SchedulePage {
         this.applyFilters();
     }
 
+    clearFilters() {
+        this.search = { day: '', track: -1, tag: '' };
+        this.applyFilters();
+    }
+
     countVisibleMeetings(day) {
         let counter = 0;
         for (var j = 0; j < day.meetings.length; j++) {
