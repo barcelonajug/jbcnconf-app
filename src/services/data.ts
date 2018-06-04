@@ -1260,7 +1260,7 @@ export const meetings = [{
     "TWF1cmljaW9TYWxhdGlub3NhbGFib3lAZ21haWwuY29t",
     "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
   ],
-  "scheduleId": "#WED-TC2-SE1"
+  "scheduleId": "#WED-TC2-SE2"
 },
 {
   "title": "GraphQL in Java World",
@@ -1432,8 +1432,8 @@ export const meetings = [{
     "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
     "SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t"
   ],
-  "scheduleId": "#WED-TC4-SE2"
-},  
+  "scheduleId": "#WED-TC2-SE1"
+},
 {
   "title": "Jenkins X: Continuous Delivery for Kubernetes",
   "abstract": "The last 5 years has seen a huge change in how we build, package, run and manage software with the rise of Kubernetes, Cloud Native, Microservices and Continuous Delivery. As a result we all need to get better at delivering business value to our customers faster and continuously with a cloud native strategy - but how?\n\nThis talk will introduce you to a new open source project, Jenkins X which is an open source CI / CD platform for Kubernetes based on Jenkins.\n\nAfter a couple of slides we'll spend most of talk demonstrating how to get stuff done with Jenkins X:\n\neasily setup your own Jenkins based CI / CD system on your cloud of choice\nquickly get started developing new microservices with automated CI / CD\nimport existing projects with automated CI / CD\nuse Pull Requests to trigger CI, Preview Environments, human approval then a full CD release\nuse automated provisioning to testing, staging, ephemeral and production environments via helm charts and GitOps\nAfter this talk you should be able to develop at full speed with CI / CD in a cloud native way in any language on any cloud or kubernetes cluster! Lets all go faster!",
@@ -1511,7 +1511,7 @@ export const meetings = [{
   "tags": ["Reactive Programming", "Rx", "Java", "Mobile"],
   "level": "beginner",
   "speakers": ["1fb9cc741e1f562c74484fb0d5980ac5813501a2"],
-  "scheduleId": "#WED-TC2-SE2"
+  "scheduleId": "#WED-TC4-SE2"
 },
 {
   "title": "Docker In Anger for Java Developers",
