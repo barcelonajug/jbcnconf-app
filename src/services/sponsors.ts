@@ -190,6 +190,14 @@ export const sponsors = {
       "image": {
         "src": "assets/img/sponsors/netcentric-logo.jpg",
         "alt": "Netcentric"
+      },
+    },
+    {
+      name: "Worldline",
+      href: "https://es.worldline.com/",
+      image: {
+        src: "assets/img/sponsors/worldline.jpg",
+        alt: "Worldline"
       }
     }],
   "bronze": [],
