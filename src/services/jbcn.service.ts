@@ -37,7 +37,7 @@ const seasonsTimes = {
         'SE4': { 'timeStart': '12:40', 'timeStop': '13:30' },
         'SE5': { 'timeStart': '14:55', 'timeStop': '15:45' },
         'SE6': { 'timeStart': '16:25', 'timeStop': '17:15' }, //Keynote
-        'SE7': { 'timeStart': '17:20', 'timeStop': '17:50' } //Closing 
+        'SE7': { 'timeStart': '17:20', 'timeStop': '17:50' } //Closing
     },
     'WED': {
         'SE1': { 'timeStart': '09:00', 'timeStop': '10:55' },
@@ -49,24 +49,24 @@ const seasonsTimes = {
 
 const locations = {
     'MON': {
-        '1': 'Room #1',
-        '2': 'Room #2',
-        '3': 'Room #3',
-        '4': 'Room #4',
-        '5': 'Room #5',
-        '6': 'Room #6'
+        '1': 'Room #5 Fatal 5',
+        '2': 'Room #13 Traci 13',
+        '3': 'Room #3 Warriors 3',
+        '4': 'Room #4 Fantastic 4',
+        '5': 'Room #10 Great 10',
+        '6': 'Room #16 Android 16'
     },
     'TUE': {
-        '1': 'Room #1',
-        '2': 'Room #2',
-        '3': 'Room #3',
-        '4': 'Room #4',
-        '5': 'Room #5',
-        '6': 'Room #6'
+      '1': 'Room #5 Fatal 5',
+      '2': 'Room #13 Traci 13',
+      '3': 'Room #3 Warriors 3',
+      '4': 'Room #4 Fantastic 4',
+      '5': 'Room #10 Great 10',
+      '6': 'Room #16 Android 16'
     },
     'WED': {
         '1': 'Room Sitges',
-        '2': 'Room Llivia',
+        '2': 'Room Livia',
         '3': 'Room Llavorsí',
         '4': 'Room Cadaqués'
     }
@@ -199,7 +199,7 @@ export class JbcnService {
                 }
             }
         }
-    }    
+    }
 
     switchFavorite(meeting: Meeting) {
         let favoriting = localStorage.getItem(meeting.id);
@@ -268,7 +268,7 @@ export class JbcnService {
             return Promise.resolve(this.jbcnData);
         }
 
-        /* 
+        /*
         if (localStorage.getItem('localData') !== null) {
             console.debug('Recovering from localStorage');
             this.jbcnData = JSON.parse(localStorage.getItem('localData'));
@@ -276,7 +276,7 @@ export class JbcnService {
         }
         */
 
-        
+
         this.jbcnData = this.processJson(speakers, meetings);
         //localStorage.setItem('localData', JSON.stringify(this.jbcnData));
         return Promise.resolve(this.jbcnData);
@@ -417,7 +417,7 @@ export class JbcnService {
                 } else {
                     reject(response['error']);
                 }
-                
+
             }, error => {
                 reject(error);
             });
@@ -490,7 +490,7 @@ export class JbcnService {
         contact.programLanguages = tokens[5];
         contact.email = tokens[6];
         return contact;
-        
+
     }
 
     encodeString(someString) {
@@ -502,7 +502,7 @@ export class JbcnService {
         }
         return encripted;
     }
-    
+
     decodeContact(someString: string): string {
         var decripted = "";
         for (let i = 0; i < someString.length; i++) {
