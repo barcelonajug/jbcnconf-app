@@ -193,11 +193,11 @@ export const sponsors = {
       },
     },
     {
-      name: "Worldline",
-      href: "https://es.worldline.com/",
-      image: {
-        src: "assets/img/sponsors/worldline.jpg",
-        alt: "Worldline"
+      "name": "Worldline",
+      "href": "https://es.worldline.com/",
+      "image": {
+        "src": "assets/img/sponsors/worldline.jpg",
+        "alt": "Worldline"
       }
     }],
   "bronze": [],
@@ -206,7 +206,7 @@ export const sponsors = {
       "name": "Barcelona JUG",
       "href": "http://www.barcelonajug.org/",
       "image": {
-        "src": "assets/img/logos/logo_bicolor_blog_barcelonajug.png",
+        "src": "assets/img/logo_bicolor_blog_barcelonajug.png",
         "alt": "Barcelona JUG"
       }
     },
