@@ -7,7 +7,7 @@ export const speakers = [
     "image": "assets/img/speakers/michel-schudel.jpg",
     "ref": "TWljaGVsU2NodWRlbG1pY2hlbC5zY2h1ZGVsQGdtYWlsLmNvbQ==",
     "url": "infoSpeaker.html?ref=TWljaGVsU2NodWRlbG1pY2hlbC5zY2h1ZGVsQGdtYWlsLmNvbQ==",
-    "twitter": "@michelschudel",
+    "twitter": "https://www.twitter.com/michelschudel",
     "homepage": "http://coding.michelschudel.nl/"
   },
   {
@@ -18,7 +18,7 @@ export const speakers = [
     "image": "assets/img/speakers/mercedes-wyss.jpg",
     "ref": "TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ==",
     "url": "infoSpeaker.html?ref=TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ==",
-    "twitter": "@itrjwyss",
+    "twitter": "https://www.twitter.com/itrjwyss",
     "homepage": "https://medium.com/@itrjwyss"
   },
   {
@@ -29,7 +29,7 @@ export const speakers = [
     "image": "assets/img/speakers/jan-ouwens.jpg",
     "ref": "SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=",
     "url": "infoSpeaker.html?ref=SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20=",
-    "twitter": "@jqno",
+    "twitter": "https://www.twitter.com/jqno",
     "homepage": "http://jqno.nl"
   },
   {
@@ -40,7 +40,7 @@ export const speakers = [
     "image": "assets/img/speakers/christian-posta.jpg",
     "ref": "Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t",
     "url": "infoSpeaker.html?ref=Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t",
-    "twitter": "@christianposta",
+    "twitter": "https://www.twitter.com/christianposta",
     "homepage": "http://blog.christianposta.com"
   },
   {
@@ -51,7 +51,7 @@ export const speakers = [
     "image": "assets/img/speakers/bruno-bossola.jpg",
     "ref": "QnJ1bm9Cb3Nzb2xhYmJvc3NvbGFAZ21haWwuY29t",
     "url": "infoSpeaker.html?ref=QnJ1bm9Cb3Nzb2xhYmJvc3NvbGFAZ21haWwuY29t",
-    "twitter": "@bbossola",
+    "twitter": "https://www.twitter.com/bbossola",
     "homepage": "https://bbossola.wordpress.com"
   },
   {
@@ -62,7 +62,7 @@ export const speakers = [
     "image": "assets/img/speakers/venkat-subramaniam.jpg",
     "ref": "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ==",
     "url": "infoSpeaker.html?ref=VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ==",
-    "twitter": "@venkat_s",
+    "twitter": "https://www.twitter.com/venkat_s",
     "homepage": "http://agiledeveloper.com"
   },
   {
@@ -73,7 +73,7 @@ export const speakers = [
     "image": "assets/img/speakers/simon-maple.jpg",
     "ref": "U2ltb25NYXBsZXNqbWFwbGVAZ21haWwuY29t",
     "url": "infoSpeaker.html?ref=U2ltb25NYXBsZXNqbWFwbGVAZ21haWwuY29t",
-    "twitter": "@sjmaple",
+    "twitter": "https://www.twitter.com/sjmaple",
     "homepage": null
   },
   {
@@ -84,7 +84,7 @@ export const speakers = [
     "image": "assets/img/speakers/marcus-biel.jpg",
     "ref": "TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ==",
     "url": "infoSpeaker.html?ref=TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ==",
-    "twitter": "@MarcusBiel",
+    "twitter": "https://www.twitter.com/MarcusBiel",
     "homepage": "https://cleancodeacademy.com/"
   },
   {
@@ -95,7 +95,7 @@ export const speakers = [
     "image": "assets/img/speakers/laurent-doguin.jpg",
     "ref": "TGF1cmVudERvZ3VpbmxhdXJlbnQuZG9ndWluQGNsZXZlci1jbG91ZC5jb20=",
     "url": "infoSpeaker.html?ref=TGF1cmVudERvZ3VpbmxhdXJlbnQuZG9ndWluQGNsZXZlci1jbG91ZC5jb20=",
-    "twitter": "@ldoguin",
+    "twitter": "https://www.twitter.com/ldoguin",
     "homepage": "http://clever-cloud.com/"
   },
   {
@@ -106,7 +106,7 @@ export const speakers = [
     "image": "assets/img/speakers/marcus-fihlon.jpg",
     "ref": "TWFyY3VzRmlobG9ubWFyY3VzQGZpaGxvbi5jaA==",
     "url": "infoSpeaker.html?ref=TWFyY3VzRmlobG9ubWFyY3VzQGZpaGxvbi5jaA==",
-    "twitter": "@McPringle",
+    "twitter": "https://www.twitter.com/McPringle",
     "homepage": "https://www.fihlon.ch/"
   },
   {
@@ -117,7 +117,7 @@ export const speakers = [
     "image": "assets/img/speakers/bernd.jpg",
     "ref": "QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ==",
     "url": "infoSpeaker.html?ref=QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ==",
-    "twitter": "@berndruecker",
+    "twitter": "https://www.twitter.com/berndruecker",
     "homepage": "https://bernd-ruecker.com/"
   },
   {
@@ -128,7 +128,7 @@ export const speakers = [
     "image": "assets/img/speakers/mario-romano.jpg",
     "ref": "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20=",
     "url": "infoSpeaker.html?ref=TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20=",
-    "twitter": "@MagemelloMario",
+    "twitter": "https://www.twitter.com/MagemelloMario",
     "homepage": "http://magemello.github.io/"
   },
   {
@@ -139,7 +139,7 @@ export const speakers = [
     "image": "assets/img/speakers/brian-vermeer.jpg",
     "ref": "QnJpYW5WZXJtZWVyYnJpYW5AYnJpYW52ZXJtZWVyLm5s",
     "url": "infoSpeaker.html?ref=QnJpYW5WZXJtZWVyYnJpYW5AYnJpYW52ZXJtZWVyLm5s",
-    "twitter": "@BrianVerm",
+    "twitter": "https://www.twitter.com/BrianVerm",
     "homepage": "Http://www.brianvermeer.nl"
   },
   {
@@ -150,7 +150,7 @@ export const speakers = [
     "image": "assets/img/speakers/rustam-mehmandarov.jpg",
     "ref": "UnVzdGFtTWVobWFuZGFyb3ZtZWhtYW5kYXJvdkBnbWFpbC5jb20=",
     "url": "infoSpeaker.html?ref=UnVzdGFtTWVobWFuZGFyb3ZtZWhtYW5kYXJvdkBnbWFpbC5jb20=",
-    "twitter": "@rmehmandarov",
+    "twitter": "https://www.twitter.com/rmehmandarov",
     "homepage": "https://mehmandarov.com"
   },
   {
@@ -172,7 +172,7 @@ export const speakers = [
     "image": "assets/img/speakers/bruno-borges.jpg",
     "ref": "QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t",
     "url": "infoSpeaker.html?ref=QnJ1bm9Cb3JnZXNicnVuby5ib3JnZXNAZ21haWwuY29t",
-    "twitter": "@brunoborges",
+    "twitter": "https://www.twitter.com/brunoborges",
     "homepage": "https://about.me/brunoborges"
   },
   {
@@ -183,7 +183,7 @@ export const speakers = [
     "image": "assets/img/speakers/kai-waehner.jpg",
     "ref": "S2FpV2FlaG5lcm1lZ2FjaHVja3lAZ21haWwuY29t",
     "url": "infoSpeaker.html?ref=S2FpV2FlaG5lcm1lZ2FjaHVja3lAZ21haWwuY29t",
-    "twitter": "@KaiWaehner",
+    "twitter": "https://www.twitter.com/KaiWaehner",
     "homepage": "http://www.kai-waehner.de"
   },
   {
@@ -194,7 +194,7 @@ export const speakers = [
     "image": "assets/img/speakers/ola-petersson.png",
     "ref": "T2xhUGV0ZXJzc29ubWFpbEBvbGFwZXRlcnNzb24uc2U=",
     "url": "infoSpeaker.html?ref=T2xhUGV0ZXJzc29ubWFpbEBvbGFwZXRlcnNzb24uc2U=",
-    "twitter": "@gotoOla",
+    "twitter": "https://www.twitter.com/gotoOla",
     "homepage": "http://olapetersson.se/"
   },
   {
@@ -205,7 +205,7 @@ export const speakers = [
     "image": "assets/img/speakers/alex-soto.jpg",
     "ref": "QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ==",
     "url": "infoSpeaker.html?ref=QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ==",
-    "twitter": "@alexsotob",
+    "twitter": "https://www.twitter.com/alexsotob",
     "homepage": "http://www.lordofthejars.com/"
   },
   {
@@ -226,7 +226,7 @@ export const speakers = [
     "image": "assets/img/speakers/andrzej-ludwikowski.jpg",
     "ref": "QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ==",
     "url": "infoSpeaker.html?ref=QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ==",
-    "twitter": "@aludwikowski",
+    "twitter": "https://www.twitter.com/aludwikowski",
     "homepage": "http://www.ludwikowski.info/"
   },
   {
@@ -237,7 +237,7 @@ export const speakers = [
     "image": "assets/img/speakers/cedric-reichenbach.jpg",
     "ref": "Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
     "url": "infoSpeaker.html?ref=Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
-    "twitter": "@Cedudidu"
+    "twitter": "https://www.twitter.com/Cedudidu"
   },
   {
     "enabled": "1",
@@ -247,7 +247,7 @@ export const speakers = [
     "image": "assets/img/speakers/ilgun-ilgun.jpg",
     "ref": "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ==",
     "url": "infoSpeaker.html?ref=SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ==",
-    "twitter": "@ilgun_ilgun"
+    "twitter": "https://www.twitter.com/ilgun_ilgun"
   },
   {
     "enabled": "1",
@@ -322,7 +322,7 @@ export const speakers = [
     "image": "assets/img/speakers/maciek_prochniak.png",
     "ref": "TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t",
     "url": "infoSpeaker.html?ref=TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t",
-    "twitter": "@mpproch",
+    "twitter": "https://www.twitter.com/mpproch",
     "homepage": "http://mproch.blogspot.com"
   },
   {
@@ -333,7 +333,7 @@ export const speakers = [
     "image": "assets/img/speakers/abrauner.jpg",
     "ref": "QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=",
     "url": "infoSpeaker.html?ref=QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=",
-    "twitter": "@a_brauner",
+    "twitter": "https://www.twitter.com/a_brauner",
     "homepage": "https://jugdo.de"
   },
   {
@@ -344,7 +344,7 @@ export const speakers = [
     "image": "assets/img/speakers/sgauder.png",
     "ref": "U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t",
     "url": "infoSpeaker.html?ref=U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t",
-    "twitter": "@rattakresch",
+    "twitter": "https://www.twitter.com/rattakresch",
     "homepage": ""
   },
   {
@@ -355,7 +355,7 @@ export const speakers = [
     "image": "assets/img/speakers/daniel-lebrero.jpg",
     "ref": "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ==",
     "url": "infoSpeaker.html?ref=RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ==",
-    "twitter": "@danlebrero",
+    "twitter": "https://www.twitter.com/danlebrero",
     "homepage": "http://danlebrero.com"
   },
   {
@@ -384,7 +384,7 @@ export const speakers = [
     "image": "assets/img/speakers/burr-sutter.png",
     "ref": "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t",
     "url": "infoSpeaker.html?ref=QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t",
-    "twitter": "@burrsutter",
+    "twitter": "https://www.twitter.com/burrsutter",
     "homepage": "https://burrsutter.com"
   },
   {
@@ -395,7 +395,7 @@ export const speakers = [
     "image": "assets/img/speakers/robert-davies.jpg",
     "ref": "Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
     "url": "infoSpeaker.html?ref=Um9iZXJ0RGF2aWVzcmRhdmllc0BjbG91ZGJlZXMuY29t",
-    "twitter": "@rajdavies",
+    "twitter": "https://www.twitter.com/rajdavies",
     "homepage": "http://www.rajdavies.today/"
   },
   {
@@ -406,7 +406,7 @@ export const speakers = [
     "image": "assets/img/speakers/james-rawlings.jpg",
     "ref": "SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t",
     "url": "infoSpeaker.html?ref=SnNtZXNSYXdsaW5nc2pyYXdsaW5nc0BjbG91ZGJlZXMuY29t",
-    "twitter": "@jdrawlings",
+    "twitter": "https://www.twitter.com/jdrawlings",
     "homepage": "https://medium.com/@jdrawlings"
   },
   {
@@ -417,7 +417,7 @@ export const speakers = [
     "image": "assets/img/speakers/james-strachan.jpg",
     "ref": "SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t",
     "url": "infoSpeaker.html?ref=SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t",
-    "twitter": "@jstrachan",
+    "twitter": "https://www.twitter.com/jstrachan",
     "homepage": "https://medium.com/@jstrachan"
   },
   {
@@ -461,7 +461,7 @@ export const speakers = [
     "image": "assets/img/speakers/jeroen-resoort.jpg",
     "ref": "SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t",
     "url": "infoSpeaker.html?ref=SmVyb2VuUmVzb29ydGplcm9lbi5yZXNvb3J0QGpkaXJ2ZW4uY29t",
-    "twitter": "@JeroenResoort",
+    "twitter": "https://www.twitter.com/JeroenResoort",
     "homepage": ""
   },
   {
@@ -472,7 +472,7 @@ export const speakers = [
     "image": "assets/img/speakers/bilgin-ibryam.jpg",
     "name": "Bilgin Ibryam",
     "ref": "QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20=",
-    "twitter": "@bibryam",
+    "twitter": "https://www.twitter.com/bibryam",
     "url": "infoSpeaker.html?ref=QmlsZ2luSWJyeWFtYmlicnlhbUBnbWFpbC5jb20="
   },
   {
@@ -494,7 +494,7 @@ export const speakers = [
     "image": "assets/img/speakers/edson-yanaga.png",
     "ref": "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
     "url": "infoSpeaker.html?ref=685b66117e9c79a1e0aa54ca3f490d0e71fbc09d",
-    "twitter": "@yanaga",
+    "twitter": "https://www.twitter.com/yanaga",
     "homepage": "https://yanaga.io"
   },
   {
@@ -505,7 +505,7 @@ export const speakers = [
     "image": "assets/img/speakers/anton-yuste.png",
     "ref": "ef9952db4071b89e490eac6ffd546d3000a1b4ce",
     "url": "infoSpeaker.html?ref=ef9952db4071b89e490eac6ffd546d3000a1b4ce",
-    "twitter": "@antonmry",
+    "twitter": "https://www.twitter.com/antonmry",
     "homepage": "http://www.galiglobal.com"
   },
   {
@@ -516,7 +516,7 @@ export const speakers = [
     "image": "assets/img/speakers/jose-pereda.jpeg",
     "ref": "e5a304daa5607a97ddf4a2ae2417bbeb93efa371",
     "url": "infoSpeaker.html?ref=e5a304daa5607a97ddf4a2ae2417bbeb93efa371",
-    "twitter": "@JPeredaDnr"
+    "twitter": "https://www.twitter.com/JPeredaDnr"
   },
   {
     "enabled": "1",
@@ -526,7 +526,7 @@ export const speakers = [
     "image": "assets/img/speakers/raquel-pau.jpeg",
     "ref": "d7dd1e2cddb70f05ead609e37df9dbad160e8893",
     "url": "infoSpeaker.html?ref=d7dd1e2cddb70f05ead609e37df9dbad160e8893",
-    "twitter": "@raquelpau",
+    "twitter": "https://www.twitter.com/raquelpau",
     "homepage": ""
   },
   {
@@ -537,7 +537,7 @@ export const speakers = [
     "image": "assets/img/speakers/mario-garcia.jpg",
     "ref": "TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0",
     "url": "infoSpeaker.html?ref=TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0",
-    "twitter": "@marioggar",
+    "twitter": "https://www.twitter.com/marioggar",
     "homepage": ""
   },
   {
@@ -548,7 +548,7 @@ export const speakers = [
     "image": "assets/img/speakers/amahdy-abdelaziz.jpg",
     "ref": "QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20=",
     "url": "infoSpeaker.html?ref=QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20=",
-    "twitter": "@amahdy7",
+    "twitter": "https://www.twitter.com/amahdy7",
     "homepage": "http://amahdy.net"
   },
   {
@@ -569,7 +569,7 @@ export const speakers = [
     "image": "assets/img/speakers/roberto-cortez.jpg",
     "ref": "1d2bc689a08a82df0bd09571219c937e658c5407",
     "url": "infoSpeaker.html?ref=1d2bc689a08a82df0bd09571219c937e658c5407",
-    "twitter": "@radcortez",
+    "twitter": "https://www.twitter.com/radcortez",
     "homepage": "https://radcortez.com"
   },
   {
@@ -580,7 +580,7 @@ export const speakers = [
     "image": "assets/img/speakers/jaap-coomans.jpg",
     "ref": "f9735e896fb3811ae30aeec2330214dcf6f7ff40",
     "url": "infoSpeaker.html?ref=f9735e896fb3811ae30aeec2330214dcf6f7ff40",
-    "twitter": "@JaapCoomans",
+    "twitter": "https://www.twitter.com/JaapCoomans",
     "homepage": "https://www.jstack.eu"
   },
   {
@@ -591,7 +591,7 @@ export const speakers = [
     "image": "assets/img/speakers/grzegorz-piwowarek.jpg",
     "ref": "dcf4d5f83bc2dab51fb90922055352668da14a18",
     "url": "infoSpeaker.html?ref=dcf4d5f83bc2dab51fb90922055352668da14a18",
-    "twitter": "@pivovarit",
+    "twitter": "https://www.twitter.com/pivovarit",
     "homepage": "http://4comprehension.com"
   },
   {
@@ -602,7 +602,7 @@ export const speakers = [
     "image": "assets/img/speakers/tomasz-dubikowsky.png",
     "ref": "1c9e35308c401793ad51011657e043b382416bef",
     "url": "infoSpeaker.html?ref=1c9e35308c401793ad51011657e043b382416bef",
-    "twitter": "@tdubikowski",
+    "twitter": "https://www.twitter.com/tdubikowski",
     "homepage": ""
   },
   {
@@ -633,7 +633,7 @@ export const speakers = [
     "image": "assets/img/speakers/galo-navarro.jpg",
     "ref": "c45f58eb5100118866ec4bf9cf18ca42cff28e21",
     "url": "infoSpeaker.html?ref=c45f58eb5100118866ec4bf9cf18ca42cff28e21",
-    "twitter": "@srvaroa",
+    "twitter": "https://www.twitter.com/srvaroa",
     "homepage": "https://srvaroa.github.io/"
   },
   {
@@ -644,7 +644,7 @@ export const speakers = [
     "image": "assets/img/speakers/ruben-serrano.png",
     "ref": "4e685685878fa58b6313ce1646240bbfcc87801c",
     "url": "infoSpeaker.html?ref=4e685685878fa58b6313ce1646240bbfcc87801c",
-    "twitter": "@Akelael",
+    "twitter": "https://www.twitter.com/Akelael",
     "homepage": ""
   },
   {
@@ -666,7 +666,7 @@ export const speakers = [
     "image": "assets/img/speakers/teodor-elstad.jpg",
     "ref": "6216c13c3648212feee1ca1e6936e24361b014f8",
     "url": "infoSpeaker.html?ref=6216c13c3648212feee1ca1e6936e24361b014f8",
-    "twitter": "@_teodoran",
+    "twitter": "https://www.twitter.com/_teodoran",
     "homepage": "https://teodoran.github.io/"
   },
   {
@@ -677,7 +677,7 @@ export const speakers = [
     "image": "assets/img/speakers/simen-granlund.jpg",
     "ref": "6008fec2ba23040fbac705898aff6a1af5b1be16",
     "url": "infoSpeaker.html?ref=6008fec2ba23040fbac705898aff6a1af5b1be16",
-    "twitter": "@_hgranlund",
+    "twitter": "https://www.twitter.com/_hgranlund",
     "homepage": ""
   },
   {
@@ -688,7 +688,7 @@ export const speakers = [
     "image": "assets/img/speakers/ben-evans.jpg",
     "ref": "a71020196a6877a18aa38df8e51e12fc6807d6c7",
     "url": "infoSpeaker.html?ref=a71020196a6877a18aa38df8e51e12fc6807d6c7",
-    "twitter": "@kittylyst",
+    "twitter": "https://www.twitter.com/kittylyst",
     "homepage": ""
   },
   {
@@ -710,7 +710,7 @@ export const speakers = [
     "image": "assets/img/speakers/roland-huss.jpg",
     "ref": "ab961367d4eccd998be5e65c43aec1ef0ca91e56",
     "url": "infoSpeaker.html?ref=ab961367d4eccd998be5e65c43aec1ef0ca91e56",
-    "twitter": "@ro14nd",
+    "twitter": "https://www.twitter.com/ro14nd",
     "homepage": "https://ro14nd.de"
   },
   {
@@ -721,7 +721,7 @@ export const speakers = [
     "image": "assets/img/speakers/carlos-rubio.jpg",
     "ref": "675c0972b5f59c5f97c123154394ff80bcdd8155",
     "url": "infoSpeaker.html?ref=675c0972b5f59c5f97c123154394ff80bcdd8155",
-    "twitter": "@_carlos_rubio"
+    "twitter": "https://www.twitter.com/_carlos_rubio"
   },
   {
     "enabled": "1",
@@ -731,7 +731,7 @@ export const speakers = [
     "image": "assets/img/speakers/marcelo-colomer.jpg",
     "ref": "259baea1670f31b1a7f52f274e2c610f52f43033",
     "url": "infoSpeaker.html?ref=259baea1670f31b1a7f52f274e2c610f52f43033",
-    "twitter": "@mcolomer",
+    "twitter": "https://www.twitter.com/mcolomer",
     "homepage": ""
   },
   {
@@ -742,7 +742,7 @@ export const speakers = [
     "image": "assets/img/speakers/jung_lee.jpeg",
     "ref": "cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0",
     "url": "infoSpeaker.html?ref=cc1c3f223e8ee77c2f47bc4de7b30e9c378aceb0",
-    "twitter": "@thyrlian",
+    "twitter": "https://www.twitter.com/thyrlian",
     "homepage": ""
   },
   {
@@ -753,7 +753,7 @@ export const speakers = [
     "image": "assets/img/speakers/miguel-angel-gomez.jpg",
     "ref": "63c6dde41b2aab6997cd9494336b6911c6195c68",
     "url": "infoSpeaker.html?ref=63c6dde41b2aab6997cd9494336b6911c6195c68",
-    "twitter": "@zoidtrox",
+    "twitter": "https://www.twitter.com/zoidtrox",
     "homepage": ""
   },
   {
@@ -764,7 +764,7 @@ export const speakers = [
     "image": "assets/img/speakers/antonin-stefanutti.png",
     "ref": "af372ba246acd002092dc3287e2323c4736d744e",
     "url": "infoSpeaker.html?ref=af372ba246acd002092dc3287e2323c4736d744e",
-    "twitter": "@astefanut",
+    "twitter": "https://www.twitter.com/astefanut",
     "homepage": "https://github.com/astefanutti"
   },
   {
@@ -775,7 +775,7 @@ export const speakers = [
     "image": "assets/img/speakers/claus-ibsen.jpg",
     "ref": "862790959f2faa83c9d58166b2c2b68652ce6bf9",
     "url": "infoSpeaker.html?ref=862790959f2faa83c9d58166b2c2b68652ce6bf9",
-    "twitter": "@davsclaus",
+    "twitter": "https://www.twitter.com/davsclaus",
     "homepage": "http://www.davsclaus.com/"
   },
   {
@@ -786,7 +786,7 @@ export const speakers = [
     "image": "assets/img/speakers/nicola-ferraro.jpg",
     "ref": "75723c4f2c8f7c6cb8c41fc9ca8bc9f4c926ca4e",
     "url": "infoSpeaker.html?ref=75723c4f2c8f7c6cb8c41fc9ca8bc9f4c926ca4e",
-    "twitter": "@ni_ferraro",
+    "twitter": "https://www.twitter.com/ni_ferraro",
     "homepage": null
   },
   {
@@ -808,7 +808,7 @@ export const speakers = [
     "image": "assets/img/speakers/mala-gupta.png",
     "ref": "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f",
     "url": "infoSpeaker.html?ref=388f6f9ee4eb169ce6d936f7ce3952f6aadd211f",
-    "twitter": "@eMalaGupta",
+    "twitter": "https://www.twitter.com/eMalaGupta",
     "homepage": "http://www.eJavaGuru.com"
   },
   {
@@ -819,7 +819,7 @@ export const speakers = [
     "image": "assets/img/speakers/victor-kropp.jpg",
     "ref": "4b8deafb473f992c2cf9bd9055544607a1c3fb7f",
     "url": "infoSpeaker.html?ref=4b8deafb473f992c2cf9bd9055544607a1c3fb7f",
-    "twitter": "@kropp",
+    "twitter": "https://www.twitter.com/kropp",
     "homepage": "https://victor.kropp.name/"
   },
   {
@@ -830,7 +830,7 @@ export const speakers = [
     "image": "assets/img/speakers/mandi-walls.jpg",
     "ref": "24b140b99b4e30e8d36bb642bec4ce154d12027f",
     "url": "infoSpeaker.html?ref=24b140b99b4e30e8d36bb642bec4ce154d12027f",
-    "twitter": "@lnxchk",
+    "twitter": "https://www.twitter.com/lnxchk",
     "homepage": "https://chef.io"
   },
   {
@@ -841,7 +841,7 @@ export const speakers = [
     "image": "assets/img/speakers/wlodek.jpg",
     "ref": "34e64a4d88094a0c4231d49cc0305d61d7b854ee",
     "url": "infoSpeaker.html?ref=34e64a4d88094a0c4231d49cc0305d61d7b854ee",
-    "twitter": "@wlodekkr",
+    "twitter": "https://www.twitter.com/wlodekkr",
     "homepage": "http://www.refactoring.pl"
   },
   {
@@ -852,7 +852,7 @@ export const speakers = [
     "image": "assets/img/speakers/jarek-ratajski.jpg",
     "ref": "eedfd3d651b222b6d6438ecd3432da6c84727956",
     "url": "infoSpeaker.html?ref=eedfd3d651b222b6d6438ecd3432da6c84727956",
-    "twitter": "@jarek000000",
+    "twitter": "https://www.twitter.com/jarek000000",
     "homepage": null
   },
   {
@@ -863,7 +863,7 @@ export const speakers = [
     "image": "assets/img/speakers/david-gomez.png",
     "ref": "bed448adfd919b5b2e3f97102d656f1cd9afabfa",
     "url": "infoSpeaker.html?ref=bed448adfd919b5b2e3f97102d656f1cd9afabfa",
-    "twitter": "@dgomezg"
+    "twitter": "https://www.twitter.com/dgomezg"
   },
   {
     "enabled": "1",
@@ -873,7 +873,7 @@ export const speakers = [
     "image": "assets/img/speakers/david-vaquero.jpeg",
     "ref": "c4ad5c2a04c432ed7489bc775d226e539c938665",
     "url": "infoSpeaker.html?ref=c4ad5c2a04c432ed7489bc775d226e539c938665",
-    "twitter": "@davidvaquero"
+    "twitter": "https://www.twitter.com/davidvaquero"
   },
   {
     "biography": "Trisha has developed Java applications for a range of industries, including finance, manufacturing, software and non-profit, for companies of all sizes. She has expertise in Java high performance systems, is passionate about enabling developer productivity, and dabbles with Open Source development. Trisha is a leader of the Sevilla Java User Group, a MongoDB Master and a Java Champion. She believes we shouldn't all have to make the same mistakes again and again. She’s a Developer Advocate for JetBrains so she can share all the cool stuff she's discovered so far. Blog: http://www.trishagee.com",
@@ -883,7 +883,7 @@ export const speakers = [
     "image": "assets/img/speakers/trisha-gee.jpeg",
     "name": "Trisha Gee",
     "ref": "5778ef29f1bfba305f2684b45f585d6655728e10",
-    "twitter": "@trisha_gee",
+    "twitter": "https://www.twitter.com/trisha_gee",
     "url": "infoSpeaker.html?ref=5778ef29f1bfba305f2684b45f585d6655728e10"
   },
 ];
@@ -902,7 +902,7 @@ export const meetings = [{
   "speakers": [
     "Q2hyaXN0aWFuUG9zdGFjaHJpc3RpYW4ucG9zdGFAZ21haWwuY29t"
   ],
-  "scheduleId":"#TUE-TC2-SE5"
+  "scheduleId": "#TUE-TC2-SE5"
 },
 {
   "title": " Don't hack the platform? ",
@@ -917,7 +917,7 @@ export const meetings = [{
   "speakers": [
     "SmFuT3V3ZW5zamFuLm91d2Vuc0BnbWFpbC5jb20="
   ],
-  "scheduleId":"#TUE-TC4-SE3"
+  "scheduleId": "#TUE-TC4-SE3"
 },
 {
   "title": "Kotlin EE: Boost your Productivity",
@@ -935,7 +935,7 @@ export const meetings = [{
   "speakers": [
     "TWFyY3VzRmlobG9ubWFyY3VzQGZpaGxvbi5jaA=="
   ],
-  "scheduleId":"#MON-TC6-SE3"
+  "scheduleId": "#MON-TC6-SE3"
 },
 {
   "title": " Minimum Cloud Skills or why shoving everything in containers is not enough",
@@ -952,7 +952,7 @@ export const meetings = [{
   "speakers": [
     "TGF1cmVudERvZ3VpbmxhdXJlbnQuZG9ndWluQGNsZXZlci1jbG91ZC5jb20="
   ],
-  "scheduleId":"#MON-TC4-SE2"
+  "scheduleId": "#MON-TC4-SE2"
 },
 {
   "title": "Serverless in Deep",
@@ -968,7 +968,7 @@ export const meetings = [{
   "speakers": [
     "TWVyY2VkZXNXeXNzbWVyY2VkZXMud3lzc0Bwb3dlcnd0ZWNobm9sb2d5LmNvbQ=="
   ],
-  "scheduleId":"#MON-TC4-SE1"
+  "scheduleId": "#MON-TC4-SE1"
 },
 {
   "title": "Ten common mistake made in Functional Java",
@@ -982,7 +982,7 @@ export const meetings = [{
   "speakers": [
     "QnJpYW5WZXJtZWVyYnJpYW5AYnJpYW52ZXJtZWVyLm5s"
   ],
-  "scheduleId":"#MON-TC5-SE5"
+  "scheduleId": "#MON-TC5-SE5"
 },
 {
   "title": "3 common pitfalls in microservice integration and how to avoid them",
@@ -998,7 +998,7 @@ export const meetings = [{
   "speakers": [
     "QmVybmRSdWVja2VyYmVybmQucnVlY2tlckBjYW11bmRhLmNvbQ=="
   ],
-  "scheduleId":"#TUE-TC6-SE4"
+  "scheduleId": "#TUE-TC6-SE4"
 },
 {
   "title": "Escaping Developer Nightmares",
@@ -1013,7 +1013,7 @@ export const meetings = [{
   "speakers": [
     "UnVzdGFtTWVobWFuZGFyb3ZtZWhtYW5kYXJvdkBnbWFpbC5jb20="
   ],
-  "scheduleId":"#TUE-TC2-SE1"
+  "scheduleId": "#TUE-TC2-SE1"
 },
 {
   "title": "Let's build a blockchain in 50 minutes!",
@@ -1028,7 +1028,7 @@ export const meetings = [{
   "speakers": [
     "TWljaGVsU2NodWRlbG1pY2hlbC5zY2h1ZGVsQGdtYWlsLmNvbQ=="
   ],
-  "scheduleId":"#TUE-TC4-SE1"
+  "scheduleId": "#TUE-TC4-SE1"
 },
 {
   "title": "Distributed System explained (with Java Microservices)",
@@ -1046,7 +1046,7 @@ export const meetings = [{
     "QnJ1bm9Cb3Nzb2xhYmJvc3NvbGFAZ21haWwuY29t",
     "TWFyaW9Sb21hbm9tYXJpby5yb21hbm84M0BnbWFpbC5jb20="
   ],
-  "scheduleId":"#MON-TC5-SE2"
+  "scheduleId": "#MON-TC5-SE2"
 },
 {
   "title": "Top 10 Vulnerabilities you wish your Java app didn't have!",
@@ -1060,7 +1060,7 @@ export const meetings = [{
   "speakers": [
     "U2ltb25NYXBsZXNqbWFwbGVAZ21haWwuY29t"
   ],
-  "scheduleId":"#MON-TC1-SE5"
+  "scheduleId": "#MON-TC1-SE5"
 },
 {
   "title": "Thinking in Functional Style 'Solving Commonly Recurring Code Problems using Java's Functional Capabilities.'",
@@ -1088,9 +1088,9 @@ export const meetings = [{
   "speakers": [
     "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
   ],
-  "scheduleId":"#TUE-TC1-SE4"
+  "scheduleId": "#TUE-TC1-SE4"
 },
-  {
+{
   "title": "Kotlin for Java Programmers",
   "abstract": "Kotlin is that dark horse of JVM languages. It has gained prominence in the recent times for various good reasons. But, what does Kotlin really mean to Java programmers? In this presentation we will explore the language, learn about its key strengths and capabilities, take a peek under the hood to what it's capabilities mean on the Java eco system, and how and where we can benefit from it.",
   "type": "talk",
@@ -1102,7 +1102,7 @@ export const meetings = [{
   "speakers": [
     "VmVua2F0U3VicmFtYW5pYW12ZW5rYXRzQGFnaWxlZGV2ZWxvcGVyLmNvbQ=="
   ],
-  "scheduleId":"#TUE-TC1-SE5"
+  "scheduleId": "#TUE-TC1-SE5"
 },
 {
   "title": "Begin Event Sourcing with Lagom",
@@ -1119,7 +1119,7 @@ export const meetings = [{
   "speakers": [
     "T2xhUGV0ZXJzc29ubWFpbEBvbGFwZXRlcnNzb24uc2U="
   ],
-  "scheduleId":"#TUE-TC5-SE2"
+  "scheduleId": "#TUE-TC5-SE2"
 },
 {
   "title": "How to Leverage the Apache Kafka Ecosystem to Productionize Machine Learning",
@@ -1133,7 +1133,7 @@ export const meetings = [{
   "speakers": [
     "S2FpV2FlaG5lcm1lZ2FjaHVja3lAZ21haWwuY29t"
   ],
-  "scheduleId":"#MON-TC4-SE3"
+  "scheduleId": "#MON-TC4-SE3"
 },
 {
   "title": "A Craftsman’s Guide to Designing a Clean Architecture",
@@ -1154,7 +1154,7 @@ export const meetings = [{
   "speakers": [
     "TWFyY3VzQmllbG1hcmN1c0BjbGVhbmNvZGVhY2FkZW15LmNvbQ=="
   ],
-  "scheduleId":"#MON-TC2-SE1"
+  "scheduleId": "#MON-TC2-SE1"
 },
 {
   "title": "Long Live and Prosper to Monolith",
@@ -1170,7 +1170,7 @@ export const meetings = [{
   "speakers": [
     "QWxleFNvdG9hc290b2J1QGdtYWlsLmNvbQ=="
   ],
-  "scheduleId":"#MON-TC2-SE3"
+  "scheduleId": "#MON-TC2-SE3"
 },
 {
   "title": "A Look Back at Enterprise Integration Patterns and Their Use into Today's Serverless Computing",
@@ -1217,7 +1217,7 @@ export const meetings = [{
   "speakers": [
     "SW9udXRCYWxvc2luaW9udXRiYWxvc2luQHlhaG9vLmNvbQ=="
   ],
-  "scheduleId":"#TUE-TC5-SE3"
+  "scheduleId": "#TUE-TC5-SE3"
 },
 {
   "title": "Performance tests - it’s a trap.",
@@ -1227,7 +1227,7 @@ export const meetings = [{
     "performance tests"],
   "level": "beginner",
   "speakers": ["QW5kcnplakx1ZHdpa293c2tpYW5kcnplamx1ZHdpa293c2tpQGdtYWlsLmNvbQ=="],
-  "scheduleId":"#MON-TC5-SE4"
+  "scheduleId": "#MON-TC5-SE4"
 },
 {
   "title": "Supercharging User Experience with Machine Learning on the JVM",
@@ -1241,7 +1241,7 @@ export const meetings = [{
   "level": "middle",
   "speakers": ["Q2VkcmljUmVpY2hlbmJhY2hjZWRyaWMucmVpY2hlbmJhY2hAbWFnbm9saWEtY21zLmNvbQ==",
     "SWxnw7xuSWxnw7xuaWxndW4uaWxndW5AbWFnbm9saWEtY21zLmNvbQ=="],
-  "scheduleId":"#TUE-TC3-SE1"
+  "scheduleId": "#TUE-TC3-SE1"
 },
 {
   "title": "Real Life Cloud Native Java in Kubernetes",
@@ -1307,7 +1307,7 @@ export const meetings = [{
   "speakers": [
     "UmljaGFyZFdhcmJ1cnRvbnJpY2hhcmQud2FyYnVydG9uK2piY25AZ21haWwuY29t"
   ],
-  "scheduleId":"#MON-TC2-SE2"
+  "scheduleId": "#MON-TC2-SE2"
 },
 {
   "title": "Modular Java Development in Action",
@@ -1322,7 +1322,7 @@ export const meetings = [{
   "speakers": [
     "U2FuZGVyTWFrc2FuZGVyLm1ha0BsdW1pbmlzLmV1"
   ],
-  "scheduleId":"#TUE-TC1-SE2"
+  "scheduleId": "#TUE-TC1-SE2"
 },
 {
   "title": "Reactive Integrations - Caveats and bumps in the road explained",
@@ -1337,7 +1337,7 @@ export const meetings = [{
   "speakers": [
     "TWFya3VzRWlzZWxlbUBsaWdodGJlbmQuY29t"
   ],
-  "scheduleId":"#MON-TC1-SE3"
+  "scheduleId": "#MON-TC1-SE3"
 },
 {
   "title": "Stream Processing in Telco - lessons learned",
@@ -1346,7 +1346,7 @@ export const meetings = [{
   "tags": ["stream processing", "telco", "kafka", "flink"],
   "level": "middle",
   "speakers": ["TWFjaWVrUHLDs2Nobmlha21hY2llay5wcm9jaG5pYWtAZ21haWwuY29t"],
-  "scheduleId":"#MON-TC4-SE4"
+  "scheduleId": "#MON-TC4-SE4"
 },
 {
   "title": "Eventing with Apache Kafka - Having data is better than needing data",
@@ -1355,7 +1355,7 @@ export const meetings = [{
   "tags": ["Java", "Microservices", "Architecture"],
   "level": "beginner",
   "speakers": ["QW5zZ2FyQnJhdW5lcmFAanVnZG8uZGU=", "U2ViYXN0aWFuR2F1ZGVyc2ViYXN0aWFuLmdhdWRlckByZXdlLWRpZ2l0YWwuY29t"],
-  "scheduleId":"#TUE-TC3-SE4"
+  "scheduleId": "#TUE-TC3-SE4"
 },
 {
   "title": "REPL Driven Development: immediate feedback for your server side code",
@@ -1369,7 +1369,7 @@ export const meetings = [{
   "speakers": [
     "RGFuaWVsTGVicmVyb2RsZWJyZXJvQGdtYWlsLmNvbQ=="
   ],
-  "scheduleId":"#TUE-TC4-SE4"
+  "scheduleId": "#TUE-TC4-SE4"
 },
 {
   "title": "Efficiently Tracking Object Allocations in Production Environments",
@@ -1384,7 +1384,7 @@ export const meetings = [{
   "speakers": [
     "RHIuUGhpbGlwcExlbmdhdWVycGhpbGlwcC5sZW5nYXVlckBkeW5hdHJhY2UuY29t"
   ],
-  "scheduleId":"#TUE-TC4-SE2"
+  "scheduleId": "#TUE-TC4-SE2"
 },
 {
   "title": "A practical approach to Java Memory Model",
@@ -1399,7 +1399,7 @@ export const meetings = [{
   "speakers": [
     "QW5kcnplakN6YXJueWFtY3phcm55QGdtYWlsLmNvbQ=="
   ],
-  "scheduleId":"#TUE-TC4-SE5"
+  "scheduleId": "#TUE-TC4-SE5"
 },
 {
   "title": "Serverless Java with Kubernetes",
@@ -1416,7 +1416,7 @@ export const meetings = [{
   "speakers": [
     "QnVyclN1dHRlcmJ1cnJzdXR0ZXJAZ21haWwuY29t"
   ],
-  "scheduleId":"#MON-TC1-SE4"
+  "scheduleId": "#MON-TC1-SE4"
 },
 {
   "title": "Building continuous delivery for Microservices with Jenkins X",
@@ -1441,7 +1441,7 @@ export const meetings = [{
   "tags": ["Continuous Delivery", "Kubernetes", "Cloud Native Applications", "MicroServices", "awesomeness"],
   "level": "middle",
   "speakers": ["SmFtZXNTdHJhY2hhbmpzdHJhY2hhbkBjbG91ZGJlZXMuY29t"],
-  "scheduleId":"#TUE-TC1-SE3"
+  "scheduleId": "#TUE-TC1-SE3"
 },
 {
   "title": "From OO Java to FP Scala: epic wins and epic fails",
@@ -1450,7 +1450,7 @@ export const meetings = [{
   "tags": ["java", "scala", "functional programming", "testing"],
   "level": "beginner",
   "speakers": ["QWxiZXJ0UGFzdHJhbmFhbGJlcnQucGFzdHJhbmFAZ21haWwuY29t"],
-  "scheduleId":"#MON-TC6-SE2"
+  "scheduleId": "#MON-TC6-SE2"
 },
 {
   "title": "Blockchain: more than bitcoin!",
@@ -1464,7 +1464,7 @@ export const meetings = [{
   "speakers": [
     "QW5kcnplakdyemVzaWthbmRyemVqLmdyemVzaWtAZ21haWwuY29t"
   ],
-  "scheduleId":"#MON-TC6-SE4"
+  "scheduleId": "#MON-TC6-SE4"
 },
 {
   "title": "JDK 9 and 10: Pitfalls For The Unwary",
@@ -1502,7 +1502,7 @@ export const meetings = [{
   ],
   "title": "The Kubernetes Effect",
   "type": "talk",
-  "scheduleId":"#MON-TC3-SE5"
+  "scheduleId": "#MON-TC3-SE5"
 },
 {
   "title": "RxJava Code Lab",
@@ -1546,7 +1546,7 @@ export const meetings = [{
   "speakers": [
     "e5a304daa5607a97ddf4a2ae2417bbeb93efa371"
   ],
-  "scheduleId":"#MON-TC3-SE3"
+  "scheduleId": "#MON-TC3-SE3"
 },
 {
   "title": "Revisiting Effective Java in 2018",
@@ -1561,7 +1561,7 @@ export const meetings = [{
   "speakers": [
     "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
   ],
-  "scheduleId":"#TUE-TC2-SE3"
+  "scheduleId": "#TUE-TC2-SE3"
 },
 {
   "title": "Real Impact Testing Analysis for JVM Developers",
@@ -1576,7 +1576,7 @@ export const meetings = [{
   "speakers": [
     "d7dd1e2cddb70f05ead609e37df9dbad160e8893"
   ],
-  "scheduleId":"#TUE-TC6-SE5"
+  "scheduleId": "#TUE-TC6-SE5"
 },
 {
   "title": "Groovy & GraphQL: The peace pipe between front and back devs?",
@@ -1589,7 +1589,7 @@ export const meetings = [{
     "Grails"],
   "level": "beginner",
   "speakers": ["TWFyaW9HYXJjaWFtYXJpby5nYXJjaWFAa2FsZWlkb3MubmV0"],
-  "scheduleId":"#TUE-TC6-SE3"
+  "scheduleId": "#TUE-TC6-SE3"
 },
 {
   "title": "Going Web Native",
@@ -1603,7 +1603,7 @@ export const meetings = [{
     "Web app"],
   "level": "beginner",
   "speakers": ["QU1haGR5QWJkZWxheml6YW1haGR5N0BnbWFpbC5jb20="],
-  "scheduleId":"#MON-TC3-SE1"
+  "scheduleId": "#MON-TC3-SE1"
 },
 {
   "title": "When Old Meets New: Turning Maven into a High Scalable, Resource Efficient, Cloud Ready Microservice",
@@ -1625,7 +1625,7 @@ export const meetings = [{
   "speakers": [
     "d0ad39041e641ff2cfc220a0f7ae315f826f59b8"
   ],
-  "scheduleId":"#TUE-TC3-SE2"
+  "scheduleId": "#TUE-TC3-SE2"
 },
 {
   "title": "Lightweight Enterprise Java with MicroProfile",
@@ -1640,7 +1640,7 @@ export const meetings = [{
   "speakers": [
     "1d2bc689a08a82df0bd09571219c937e658c5407"
   ],
-  "scheduleId":"#MON-TC3-SE2"
+  "scheduleId": "#MON-TC3-SE2"
 },
 {
   "title": "Apache Kafka from the trenches",
@@ -1655,7 +1655,7 @@ export const meetings = [{
   "speakers": [
     "f9735e896fb3811ae30aeec2330214dcf6f7ff40"
   ],
-  "scheduleId":"#MON-TC3-SE4"
+  "scheduleId": "#MON-TC3-SE4"
 },
 {
   "title": "The Dark Side of Java 8 - Lessons Learned",
@@ -1669,7 +1669,7 @@ export const meetings = [{
   "speakers": [
     "dcf4d5f83bc2dab51fb90922055352668da14a18"
   ],
-  "scheduleId":"#TUE-TC5-SE4"
+  "scheduleId": "#TUE-TC5-SE4"
 },
 {
   "title": "7 Deadlier Sins of Craftsmanship",
@@ -1685,7 +1685,7 @@ export const meetings = [{
   "speakers": [
     "1c9e35308c401793ad51011657e043b382416bef"
   ],
-  "scheduleId":"#TUE-TC6-SE2"
+  "scheduleId": "#TUE-TC6-SE2"
 },
 {
   "title": "Cirque du application development - containers, Kubernetes, and OpenShift",
@@ -1719,7 +1719,7 @@ export const meetings = [{
   "speakers": [
     "c45f58eb5100118866ec4bf9cf18ca42cff28e21"
   ],
-  "scheduleId":"#MON-TC5-SE3"
+  "scheduleId": "#MON-TC5-SE3"
 },
 {
   "title": "Clean Architecture the right way! Or almost…",
@@ -1734,7 +1734,7 @@ export const meetings = [{
   "speakers": [
     "4e685685878fa58b6313ce1646240bbfcc87801c"
   ],
-  "scheduleId":"#MON-TC5-SE5"
+  "scheduleId": "#MON-TC5-SE5"
 },
 {
   "title": "Asynchronous programming with Kotlin coroutines",
@@ -1750,7 +1750,7 @@ export const meetings = [{
   "speakers": [
     "beff468d22deac694476d7587dd84d6148af61cc"
   ],
-  "scheduleId":"#TUE-TC5-SE1"
+  "scheduleId": "#TUE-TC5-SE1"
 },
 {
   "title": "Make your own chess engine and change the world!",
@@ -1781,7 +1781,7 @@ export const meetings = [{
   "speakers": [
     "a71020196a6877a18aa38df8e51e12fc6807d6c7"
   ],
-  "scheduleId":"#MON-TC2-SE4"
+  "scheduleId": "#MON-TC2-SE4"
 },
 {
   "title": "Java EE 8 finally final! And now Jakarta EE?",
@@ -1791,7 +1791,7 @@ export const meetings = [{
     "jakarta"],
   "level": "middle",
   "speakers": ["a744f52d967ebb543100a1215f9fe38080a664f0"],
-  "scheduleId":"#MON-TC5-SE1"
+  "scheduleId": "#MON-TC5-SE1"
 },
 {
   "title": "Functional DB access in Scala with Doobie",
@@ -1819,7 +1819,7 @@ export const meetings = [{
   "speakers": [
     "ab961367d4eccd998be5e65c43aec1ef0ca91e56"
   ],
-  "scheduleId":"#TUE-TC2-SE4"
+  "scheduleId": "#TUE-TC2-SE4"
 },
 {
   "title": "Let's do reactive web applications with Spring 5, Web Flux and Kafka",
@@ -1903,7 +1903,7 @@ export const meetings = [{
   "speakers": [
     "95465cac53a18f211964d0fe9a544ecd9c815521"
   ],
-  "scheduleId":"#MON-TC1-SE2"
+  "scheduleId": "#MON-TC1-SE2"
 },
 {
   "title": "Java 9, 10, 11 - What the future holds",
@@ -1925,7 +1925,7 @@ export const meetings = [{
   "speakers": [
     "388f6f9ee4eb169ce6d936f7ce3952f6aadd211f"
   ],
-  "scheduleId":"#MON-TC2-SE5"
+  "scheduleId": "#MON-TC2-SE5"
 },
 {
   "title": "Build, Deploy, and Run Applications with Modern Automation",
@@ -1940,7 +1940,7 @@ export const meetings = [{
   "speakers": [
     "24b140b99b4e30e8d36bb642bec4ce154d12027f"
   ],
-  "scheduleId":"#MON-TC4-SE5"
+  "scheduleId": "#MON-TC4-SE5"
 },
 {
   "title": "Going beyond JVM with Kotlin",
@@ -1954,7 +1954,7 @@ export const meetings = [{
   "speakers": [
     "4b8deafb473f992c2cf9bd9055544607a1c3fb7f"
   ],
-  "scheduleId":"#MON-TC6-SE1"
+  "scheduleId": "#MON-TC6-SE1"
 },
 {
   "title": "Refactoring out of God Object class antipattern",
@@ -1984,7 +1984,7 @@ export const meetings = [{
   "speakers": [
     "eedfd3d651b222b6d6438ecd3432da6c84727956"
   ],
-  "scheduleId":"#TUE-TC3-SE5"
+  "scheduleId": "#TUE-TC3-SE5"
 },
 {
   "title": "Staying pure with Kotlin and Spring 5 ",
@@ -2016,7 +2016,7 @@ export const meetings = [{
   "speakers": [
     "685b66117e9c79a1e0aa54ca3f490d0e71fbc09d"
   ],
-  "scheduleId":"#TUE-TC6-SE1"
+  "scheduleId": "#TUE-TC6-SE1"
 },
 {
   "title": "How we improved by 800% real time message processing with Kafka, Akka & Akka streams",
@@ -2036,20 +2036,20 @@ export const meetings = [{
     "c4ad5c2a04c432ed7489bc775d226e539c938665",
     "bed448adfd919b5b2e3f97102d656f1cd9afabfa"
   ],
-  "scheduleId":"#TUE-TC5-SE5"
+  "scheduleId": "#TUE-TC5-SE5"
 },
-  {
-    "abstract": "Many JVM languages promote \"less boilerplate code\" as one of their selling points. Even updates to Java in recent years have removed unnecessary syntax. While this is clearly meant to be a Good Thing, many of us - particularly if we've been writing Java for a long time - think \"so what?\". Our IDEs can generate code, and our brains get used to ignoring the stuff that doesn't matter. \n\nIs the removal of extraneous code from the syntax of a language necessary, or just a gimmick? How does it impact our ability to write and read code? \n\nIn this talk, Trisha will explore common coding scenarios using Java and Kotlin. We'll see what's important for developers to write (and, more importantly, read) and what can be removed. We'll also see how Java has evolved to improve our productivity as producers and consumers of code, and why understanding new languages and staying up to date with the features of Java can ultimately make your life easier.",
-    "level": "middle",
-    "speakers": [
-      "5778ef29f1bfba305f2684b45f585d6655728e10"
-    ],
-    "tags": [
-      "Java",
-      "Kotlin"
-    ],
-    "title": "Is boilerplate code really so bad?",
-    "type": "talk",
-    "scheduleId":"#TUE-TC2-SE2"
+{
+  "abstract": "Many JVM languages promote \"less boilerplate code\" as one of their selling points. Even updates to Java in recent years have removed unnecessary syntax. While this is clearly meant to be a Good Thing, many of us - particularly if we've been writing Java for a long time - think \"so what?\". Our IDEs can generate code, and our brains get used to ignoring the stuff that doesn't matter. \n\nIs the removal of extraneous code from the syntax of a language necessary, or just a gimmick? How does it impact our ability to write and read code? \n\nIn this talk, Trisha will explore common coding scenarios using Java and Kotlin. We'll see what's important for developers to write (and, more importantly, read) and what can be removed. We'll also see how Java has evolved to improve our productivity as producers and consumers of code, and why understanding new languages and staying up to date with the features of Java can ultimately make your life easier.",
+  "level": "middle",
+  "speakers": [
+    "5778ef29f1bfba305f2684b45f585d6655728e10"
+  ],
+  "tags": [
+    "Java",
+    "Kotlin"
+  ],
+  "title": "Is boilerplate code really so bad?",
+  "type": "talk",
+  "scheduleId": "#TUE-TC2-SE2"
 }
 ];

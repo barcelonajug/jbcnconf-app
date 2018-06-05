@@ -42,7 +42,7 @@
     <ion-grid *ngIf="sponsors.supporters.length>0">
         <ion-row *ngFor="let row of getSupporters()">
             <ion-col *ngFor="let supporter of row" width-30 class="sponsor-image">
-                <img *ngIf="supporter.name" [src]="supporter.image.src" [alt]="supporter.image.alt" (tap)="opensupporter(supporter.href)" class="bronze-supporter" />
+                <img *ngIf="supporter.name" [src]="supporter.image.src" [alt]="supporter.image.alt" (tap)="openSponsor(supporter.href)" class="bronze-supporter" />
             </ion-col>
         </ion-row>
     </ion-grid>

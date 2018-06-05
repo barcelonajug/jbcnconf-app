@@ -425,19 +425,17 @@ export class JbcnService {
     }
 
     addContact(contact: Contact) {
+        console.log("Adding contact:"+contact.name+" "+contact.company);
         let contacts = this.getContacts();
         let b = false;
-        for(const contact of contacts) {
-            b = contact.name === contact.name &&
-                contact.country === contact.country &&
-                contact.city === contact.city &&
-                contact.company === contact.company &&
-                contact.level === contact.level &&
-                contact.programLanguages === contact.programLanguages &&
-                contact.email === contact.email;
+        for(const item of contacts) {
+            b = contact.name === item.name &&
+                contact.company === item.company &&
+                contact.email === item.email;
             if(b) break;
         }
         if(!b) {
+            console.log('Contact not stored, saving contact');
             contacts.push(contact);
             this.saveContacts(contacts);
         }
@@ -458,6 +456,7 @@ export class JbcnService {
 
     saveContacts(contacts: Array<Contact>) {
         this.contacts = contacts;
+        console.log(JSON.stringify(this.contacts));
         localStorage.setItem('contacts', JSON.stringify(this.contacts));
     }
 
@@ -480,6 +479,7 @@ export class JbcnService {
 //  6 Email:jonathan@barcelonajug.org
 
         const csv = this.decodeContact(line);
+        console.log('Decoded contact:'+csv);
         const tokens = csv.split(';');
         let contact = new Contact();
         contact.name = tokens[0];

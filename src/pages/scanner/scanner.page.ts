@@ -66,7 +66,6 @@ export class ScannerPage {
       contactText = contactText + 'Email:'+contact.email +'\r\n';
       contactText = contactText + '\r\n\r\n';
     }
-    console.log(contactText);
     this.socialSharing.share(contactText, 'JBCNConf 2018 contacts',[],'').then((response) => {
       console.log(response);
     }).catch((error) => {
