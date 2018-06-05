@@ -47,18 +47,6 @@ export const team = [
       }
     },
     {
-      "name": "Christian Sisti",
-      "position": "Software Development Manager",
-      "role": "Team Member Barcelona JUG.",
-      "bio": "Software Development Manager in love for clean code, agile best practices and table soccer",
-      "linkedin": "https://www.linkedin.com/in/christiansisti",
-      "twitter": "https://twitter.com/ciscox83",
-      "image": {
-        "url": "assets/img/team/christian.jpg",
-        "alt": "Christian Sisti"
-      }
-    },
-    {
       "name": "Miklós Csere",
       "position": "Software Craftsman",
       "role": "Team Member Barcelona JUG.",
@@ -68,18 +56,6 @@ export const team = [
       "image": {
         "url": "assets/img/team/miklos.jpg",
         "alt": "Miklos Java Lover"
-      }
-    },
-    {
-      "name": "Xavi Rodríguez",
-      "position": "Software Engineer",
-      "role": "Team Member Barcelona JUG.",
-      "bio": "I am a Java developer trying to keep learning every day. Clean code enthusiast, interested in Agile practices and cloud architectures.",
-      "linkedin": "https://www.linkedin.com/in/xrodriguezmo",
-      "twitter": "https://twitter.com/xeeevi",
-      "image": {
-        "url": "assets/img/team/xavi.jpg",
-        "alt": "Xavi Rodríguez, Java Lover"
       }
     },
     {
@@ -95,15 +71,39 @@ export const team = [
       }
     },
     {
-    "name": "Tetiana Borys",
-    "position": "Software Engineer",
-    "role": "Barcelona JUG Conference contributor",
-    "bio": "I am a software developer specialized in Java. Passionate about innovations in coding, love working with open source technology.",
-    "linkedin": "https://www.linkedin.com/in/tetianaborys",
-    "twitter": "https://twitter.com/TetianaBorys",
-    "image": {
-      "url": "assets/img/team/tetiana.jpg",
-      "alt": "Tetiana Borys"
-    }
+      "name": "Christian Sisti",
+      "position": "Team Leader",
+      "role": "Team Member Barcelona JUG.",
+      "bio": "Software Development Manager in love for clean code, agile best practices and table soccer",
+      "linkedin": "https://www.linkedin.com/in/christiansisti",
+      "twitter": "https://twitter.com/ciscox83",
+      "image": {
+        "url": "assets/img/team/christian.jpg",
+        "alt": "Christian Sisti"
+      }
+    },
+    {
+      "name": "Tetiana Borys",
+      "position": "Software Engineer",
+      "role": "Barcelona JUG Conference contributor",
+      "bio": "I am a software developer specialized in Java. Passionate about innovations in coding, love working with open source technology.",
+      "linkedin": "https://www.linkedin.com/in/tetianaborys",
+      "twitter": "https://twitter.com/TetianaBorys",
+      "image": {
+        "url": "assets/img/team/tetiana.jpg",
+        "alt": "Tetiana Borys"
+      }
+    },
+    {
+      "name": "Anna Kurman",
+      "position": "Senior Software Sorceress",
+      "role": "Team Member Barcelona JUG Conference",
+      "bio": "A sorceress with black cat, a volleyball passionist and the sun lover",
+      "linkedin": "https://www.linkedin.com/in/anna-kurman-98894415/",
+      "twitter": "https://twitter.com/freyliis",
+      "image": {
+        "url": "assets/img/team/anna-kurman.jpg",
+        "alt": "Anna Kurman"
+      }
     }
   ]
