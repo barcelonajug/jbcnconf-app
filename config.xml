@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="200" id="com.ionicframework.jbcnconf599927" version="1.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="10010" id="com.ionicframework.jbcnconf599927" version="1.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>JBCNConf 2018</name>
     <description>JBCNConf 2018 schedule application</description>
     <author email="info@barcelonajug.org" href="http://jbcnconf.com/">JBCNConf 2018</author>
