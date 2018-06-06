@@ -265,6 +265,14 @@ export const sponsors = {
         "src": "assets/img/sponsors/jobfluent.png",
         "alt": "JobFluent"
       }
+    },
+    {
+      "name": "Barcelona Activa",
+      "href": "https://empreses.barcelonactiva.cat/en_GB/web/es/home",
+      "image": {
+        "src": "/assets/img/sponsors/aj_bactiva-logo.png",
+        "alt": "Barcelona Activa"
+      }
     }
   ]
 }

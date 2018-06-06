@@ -53,7 +53,7 @@ const locations = {
         '2': 'Room #13 Traci 13',
         '3': 'Room #3 Warriors 3',
         '4': 'Room #4 Fantastic 4',
-        '5': 'Room #10 Great 10',
+        '5': 'Room #11 Jane \'11\' Ives',
         '6': 'Room #16 Android 16'
     },
     'TUE': {
@@ -61,7 +61,7 @@ const locations = {
       '2': 'Room #13 Traci 13',
       '3': 'Room #3 Warriors 3',
       '4': 'Room #4 Fantastic 4',
-      '5': 'Room #10 Great 10',
+      '5': 'Room #11 Jane \'11\' Ives',
       '6': 'Room #16 Android 16'
     },
     'WED': {
