@@ -1734,7 +1734,7 @@ export const meetings = [{
   "speakers": [
     "4e685685878fa58b6313ce1646240bbfcc87801c"
   ],
-  "scheduleId": "#MON-TC5-SE5"
+  "scheduleId": "#MON-TC6-SE5"
 },
 {
   "title": "Asynchronous programming with Kotlin coroutines",
