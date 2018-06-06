@@ -24,7 +24,7 @@
     "@ionic-native/local-notifications": "^3.4.4",
     "@ionic-native/social-sharing": "^3.12.1",
     "@ionic/storage": "2.0.0",
-    "cordova-android": "~6.4.0",
+    "cordova-android": "^6.4.0",
     "cordova-android-support-gradle-release": "^1.4.2",
     "cordova-ios": "^4.4.0",
     "cordova-plugin-compat": "^1.2.0",
@@ -83,8 +83,8 @@
       "cordova-plugin-compat": {}
     },
     "platforms": [
-      "ios",
-      "android"
+      "android",
+      "ios"
     ]
   }
 }

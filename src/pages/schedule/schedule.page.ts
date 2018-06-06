@@ -59,7 +59,6 @@ export class SchedulePage {
     }
 
     applyFilters() {
-        let date = new Date();
         for (var i = 0; i < this.schedule.length; i++) {
             var day = this.schedule[i];
             for (var j = 0; j < day.meetings.length; j++) {

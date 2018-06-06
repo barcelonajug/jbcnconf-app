@@ -401,13 +401,6 @@ export class JbcnService {
     sendComment(meetingId: string, vote: number, name: string, comment: string) {
         const deviceId = this.getDeviceId();
         return new Promise((resolve, reject) => {
-            const params = {
-                talkId: meetingId,
-                deviceId: deviceId,
-                vote: vote,
-                name: name,
-                text: comment
-            };
             let scheduleId = meetingId.substring(1);
             this.http.get(`${config.apiUrl}/public/api/vote/${scheduleId}/${deviceId}/${vote}`).subscribe(response => {
                 if(response['status']) {
