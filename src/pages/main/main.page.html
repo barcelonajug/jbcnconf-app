@@ -1,4 +1,3 @@
-
 <ion-header>
   <ion-navbar>
     <ion-grid>
@@ -7,12 +6,14 @@
           <div class="text-header">JBCNConf 2018</div>
         </ion-col>
         <ion-col>
-          <div class="text-header" (click)="gotoTwitterTag($event)">#JBCN18</div> 
+          <div class="text-header" (click)="gotoTwitterTag($event)">#JBCN18</div>
         </ion-col>
-        <ion-col><img src="assets/img/jbcnconf-logo.png"></ion-col>
+        <ion-col>
+          <img src="assets/img/jbcnconf-logo.png">
+        </ion-col>
       </ion-row>
     </ion-grid>
-</ion-navbar>
+  </ion-navbar>
 </ion-header>
 
 <!--
@@ -24,12 +25,35 @@
 </ion-toolbar>
 -->
 <ion-content>
-<ion-tabs animation="no-animation" tappable>
-  <ion-tab [root]="schedule" tabTitle="" tabIcon="calendar"></ion-tab>
-  <ion-tab [root]="speakers" tabTitle="" tabIcon="contacts"></ion-tab>
-  <ion-tab [root]="location" tabTitle="" tabIcon="pin"></ion-tab>
-  <ion-tab [root]="sponsors" tabTitle="" tabIcon="logo-bitcoin"></ion-tab>
-  <ion-tab [root]="scanner" tabTitle="" tabIcon="qr-scanner"></ion-tab>
-  <ion-tab [root]="about" tabTitle="" tabIcon="information-circle"></ion-tab>
-</ion-tabs>
+  <ion-tabs animation="no-animation" tappable *ngIf="gdprAccepted">
+    <ion-tab [root]="schedule" tabTitle="" tabIcon="calendar"></ion-tab>
+    <ion-tab [root]="speakers" tabTitle="" tabIcon="contacts"></ion-tab>
+    <ion-tab [root]="location" tabTitle="" tabIcon="pin"></ion-tab>
+    <ion-tab [root]="sponsors" tabTitle="" tabIcon="logo-bitcoin"></ion-tab>
+    <ion-tab [root]="scanner" tabTitle="" tabIcon="qr-scanner"></ion-tab>
+    <ion-tab [root]="about" tabTitle="" tabIcon="information-circle"></ion-tab>
+  </ion-tabs>
+  <ion-card *ngIf="!gdprAccepted">
+    <ion-card-header>
+      <h2><strong>Information about your private data</strong></h2>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item color="danger" *ngIf="showError">You must accept these terms and conditions.</ion-item>
+      <ion-list>
+        <ion-item><p>This application can read contact data from you assistant's QRCode badge.</p></ion-item>
+        <ion-item> 
+            <p>Some sponsors would get your contact data throught this application with your permission. If you will
+            let to a sponsor's staff member to read your QRCode you will consent to the private data policy of this sponsor.</p>
+        </ion-item>
+        <ion-item> 
+            <p>If you don't know what private data is, ask for it to the sponsor.</p>
+        </ion-item>
+        <ion-item>
+          <ion-label>I have read and accept these terms and conditions</ion-label>
+          <ion-checkbox [(ngModel)]="acceptedConditions"></ion-checkbox>
+        </ion-item>
+      </ion-list>
+      <button ion-button full (click)="acceptConditions()">Accept</button>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

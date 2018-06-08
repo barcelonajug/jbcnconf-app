@@ -18,9 +18,14 @@ export class MainPage {
   sponsors: any = SponsorsPage;
   scanner: any = ScannerPage;
   about: any= AboutPage;
+  gdprAccepted = false;
+  acceptedConditions = false;
+  showError=false;
 
 
   constructor() {
+
+    this.gdprAccepted = localStorage.getItem('gdprAccepted') === 'true';
 
   }
 
@@ -28,6 +33,14 @@ export class MainPage {
       evt.preventDefault();
       evt.stopPropagation();
       window.open("https://twitter.com/hashtag/jbcn18?src=hash","_system");
+  }
+
+  acceptConditions() {
+    this.showError = !this.acceptedConditions;
+    if(this.acceptedConditions) {
+      localStorage.setItem('gdprAccepted', 'true');
+      this.gdprAccepted = true;
+    }
   }
 
 }
